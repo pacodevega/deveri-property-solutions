@@ -117,7 +117,7 @@ const Index = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
             Empresas que ya confían en <span className="text-accent">DEVERI</span>
           </h2>
-          <p className="text-muted-foreground mb-10">Gestionamos propiedades para empresas y propietarios exigentes.</p>
+          <p className="text-muted-foreground mb-10">Empresas y negocios que confían en nuestros servicios.</p>
           <ClientGrid />
         </div>
       </section>
