@@ -28,9 +28,9 @@ export const clients: Client[] = [
   { name: "Panadería La Especial", logo: panaderiaLaEspecial },
   { name: "Playa Hermosa", logo: playaHermosa },
   { name: "Nieves Guero Guero", logo: gueroGuero },
-  { name: "Plaza Hípico" },
+  { name: "Plaza Hípico", logo: plazaHipico },
   { name: "AT&T", logo: att },
-  { name: "Gigios" },
+  { name: "Gigios", logo: gigios },
   { name: "Ramada", logo: ramada },
   { name: "Six", logo: six },
 ];
