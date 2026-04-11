@@ -35,4 +35,5 @@ export const clients: Client[] = [
   { name: "Gigios", logo: gigios, large: true },
   { name: "Ramada", logo: ramada, large: true },
   { name: "Six", logo: six },
+  { name: "Vander AI", logo: vanderai, large: true },
 ];
