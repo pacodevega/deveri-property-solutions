@@ -9,6 +9,9 @@ import att from "@/assets/clients/att.png";
 import atlas from "@/assets/clients/atlas.png";
 import heineken from "@/assets/clients/heineken.png";
 import status from "@/assets/clients/status.png";
+import casaTenorio from "@/assets/clients/casa-tenorio.png";
+import gigios from "@/assets/clients/gigios.png";
+import plazaHipico from "@/assets/clients/plaza-hipico.png";
 
 export interface Client {
   name: string;
@@ -19,15 +22,15 @@ export const clients: Client[] = [
   { name: "Heineken", logo: heineken },
   { name: "Banco Azteca", logo: bancoAzteca },
   { name: "Atlas", logo: atlas },
-  { name: "Casa Tenorio" },
+  { name: "Casa Tenorio", logo: casaTenorio },
   { name: "Status", logo: status },
   { name: "Super Carranza", logo: superCarranza },
   { name: "Panadería La Especial", logo: panaderiaLaEspecial },
   { name: "Playa Hermosa", logo: playaHermosa },
   { name: "Nieves Guero Guero", logo: gueroGuero },
-  { name: "Plaza Hípico" },
+  { name: "Plaza Hípico", logo: plazaHipico },
   { name: "AT&T", logo: att },
-  { name: "Gigios" },
+  { name: "Gigios", logo: gigios },
   { name: "Ramada", logo: ramada },
   { name: "Six", logo: six },
 ];
