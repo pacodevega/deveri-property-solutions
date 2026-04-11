@@ -12,6 +12,7 @@ import status from "@/assets/clients/status.png";
 import casaTenorio from "@/assets/clients/casa-tenorio.png";
 import gigios from "@/assets/clients/gigios.png";
 import plazaHipico from "@/assets/clients/plaza-hipico.png";
+import vanderai from "@/assets/clients/vanderai.png";
 
 export interface Client {
   name: string;
