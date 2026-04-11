@@ -22,7 +22,7 @@ export const clients: Client[] = [
   { name: "Heineken", logo: heineken },
   { name: "Banco Azteca", logo: bancoAzteca },
   { name: "Atlas", logo: atlas },
-  { name: "Casa Tenorio" },
+  { name: "Casa Tenorio", logo: casaTenorio },
   { name: "Status", logo: status },
   { name: "Super Carranza", logo: superCarranza },
   { name: "Panadería La Especial", logo: panaderiaLaEspecial },
