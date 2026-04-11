@@ -26,7 +26,7 @@ export default function Clientes() {
           </div>
           <h2 className="text-2xl font-bold text-foreground mb-6 text-center">Clientes</h2>
           <div className="flex flex-wrap justify-center gap-6 mb-12">
-            {["Heineken", "Banco Azteca", "AT&T", "Plaza Hípico"].map((name) => (
+            {["Heineken", "Banco Azteca", "Atlas", "Casa Tenorio", "Status", "Super Carranza", "Panadería La Especial", "Playa Hermosa", "Nieves Guero Guero", "Plaza Hípico", "AT&T", "Gigios", "Ramada"].map((name) => (
               <div key={name} className="bg-card border rounded-lg px-8 py-4 font-semibold text-foreground/60 text-lg">{name}</div>
             ))}
           </div>
