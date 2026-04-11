@@ -9,6 +9,9 @@ import att from "@/assets/clients/att.png";
 import atlas from "@/assets/clients/atlas.png";
 import heineken from "@/assets/clients/heineken.png";
 import status from "@/assets/clients/status.png";
+import casaTenorio from "@/assets/clients/casa-tenorio.png";
+import gigios from "@/assets/clients/gigios.png";
+import plazaHipico from "@/assets/clients/plaza-hipico.png";
 
 export interface Client {
   name: string;
