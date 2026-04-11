@@ -16,10 +16,11 @@ import plazaHipico from "@/assets/clients/plaza-hipico.png";
 export interface Client {
   name: string;
   logo?: string;
+  large?: boolean;
 }
 
 export const clients: Client[] = [
-  { name: "Heineken", logo: heineken },
+  { name: "Heineken", logo: heineken, large: true },
   { name: "Banco Azteca", logo: bancoAzteca },
   { name: "Atlas", logo: atlas },
   { name: "Casa Tenorio", logo: casaTenorio },
