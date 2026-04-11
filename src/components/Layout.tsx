@@ -87,7 +87,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <div className="container-narrow">
           <div className="grid md:grid-cols-3 gap-8">
             <div>
-              <h3 className="text-xl font-bold mb-3">DEVERI</h3>
+              <img src={deveriLogo} alt="DEVERI" className="h-8 brightness-0 invert mb-2" />
               <p className="text-primary-foreground/70 text-sm">
                 Más de 25 años administrando propiedades en Veracruz, Boca del Río y Riviera Veracruzana.
               </p>
