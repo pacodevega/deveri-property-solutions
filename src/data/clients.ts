@@ -15,6 +15,7 @@ import plazaHipico from "@/assets/clients/plaza-hipico.png";
 import vanderai from "@/assets/clients/vanderai.png";
 import gingaGroup from "@/assets/clients/ginga-group.png";
 import aguaInmaculada from "@/assets/clients/agua-inmaculada.png";
+import elektra from "@/assets/clients/elektra.png";
 
 export interface Client {
   name: string;
@@ -40,4 +41,5 @@ export const clients: Client[] = [
   { name: "Vander AI", logo: vanderai, large: true },
   { name: "Ginga Group", logo: gingaGroup, large: true },
   { name: "Agua Inmaculada", logo: aguaInmaculada, large: true },
+  { name: "Elektra", logo: elektra, large: true },
 ];
