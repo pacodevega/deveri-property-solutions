@@ -13,6 +13,7 @@ import casaTenorio from "@/assets/clients/casa-tenorio.png";
 import gigios from "@/assets/clients/gigios.png";
 import plazaHipico from "@/assets/clients/plaza-hipico.png";
 import vanderai from "@/assets/clients/vanderai.png";
+import gingaGroup from "@/assets/clients/ginga-group.png";
 
 export interface Client {
   name: string;
@@ -36,4 +37,5 @@ export const clients: Client[] = [
   { name: "Ramada", logo: ramada, large: true },
   { name: "Six", logo: six },
   { name: "Vander AI", logo: vanderai, large: true },
+  { name: "Ginga Group", logo: gingaGroup, large: true },
 ];
