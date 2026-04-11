@@ -15,7 +15,7 @@ export default function ComoFunciona() {
     <>
       <section className="section-padding" style={{ background: "var(--hero-gradient)" }}>
         <div className="container-narrow text-primary-foreground">
-          <h1 className="text-4xl md:text-5xl font-extrabold mb-4">Así funciona Deveri</h1>
+          <h1 className="text-4xl md:text-5xl font-extrabold mb-4">Así funciona DEVERI</h1>
           <p className="text-lg text-primary-foreground/80">Un proceso simple para que tú no te preocupes por nada.</p>
         </div>
       </section>
