@@ -68,7 +68,7 @@ const Index = () => {
               Nosotros nos encargamos por completo
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-              En Deveri gestionamos tu propiedad como si fuera nuestra. Tú solo recibes resultados.
+              En <span className="font-extrabold text-accent">DEVERI</span> gestionamos tu propiedad como si fuera nuestra. Tú solo recibes resultados.
             </p>
             <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
               <Button variant="cta" size="lg">
@@ -77,7 +77,7 @@ const Index = () => {
               </Button>
             </a>
           </div>
-          <img src={teamImg} alt="Equipo Deveri trabajando" width={1280} height={720} loading="lazy" className="rounded-xl shadow-xl" />
+          <img src={teamImg} alt="Equipo DEVERI trabajando" width={1280} height={720} loading="lazy" className="rounded-xl shadow-xl" />
         </div>
       </section>
 
@@ -115,7 +115,7 @@ const Index = () => {
       <section className="section-padding">
         <div className="container-narrow text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Empresas que ya confían en Deveri
+            Empresas que ya confían en <span className="text-accent">DEVERI</span>
           </h2>
           <p className="text-muted-foreground mb-10">Gestionamos propiedades para empresas y propietarios exigentes.</p>
           <ClientGrid />

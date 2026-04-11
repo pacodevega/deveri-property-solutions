@@ -24,7 +24,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       <header className="sticky top-0 z-50 bg-background/95 backdrop-blur-md border-b">
         <div className="container-narrow flex items-center justify-between h-16 px-4">
           <Link to="/" className="text-2xl font-extrabold text-primary tracking-tight">
-            Deveri
+            DEVERI
           </Link>
 
           {/* Desktop Nav */}
@@ -86,7 +86,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <div className="container-narrow">
           <div className="grid md:grid-cols-3 gap-8">
             <div>
-              <h3 className="text-xl font-bold mb-3">Deveri</h3>
+              <h3 className="text-xl font-bold mb-3">DEVERI</h3>
               <p className="text-primary-foreground/70 text-sm">
                 Más de 25 años administrando propiedades en Veracruz, Boca del Río y Riviera Veracruzana.
               </p>
@@ -107,7 +107,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             </div>
           </div>
           <div className="mt-12 pt-6 border-t border-primary-foreground/20 text-center text-sm text-primary-foreground/50">
-            © {new Date().getFullYear()} Deveri. Todos los derechos reservados.
+            © {new Date().getFullYear()} DEVERI. Todos los derechos reservados.
           </div>
         </div>
       </footer>
