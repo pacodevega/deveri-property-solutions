@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import deveriLogo from "@/assets/deveri-logo.png";
 
 const WHATSAPP_URL = "https://wa.me/529211234567?text=Hola%2C%20quiero%20información%20sobre%20administración%20de%20propiedades";
 
@@ -23,8 +24,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       {/* Sticky Header */}
       <header className="sticky top-0 z-50 bg-background/95 backdrop-blur-md border-b">
         <div className="container-narrow flex items-center justify-between h-16 px-4">
-          <Link to="/" className="text-2xl font-extrabold text-primary tracking-tight">
-            DEVERI
+          <Link to="/" className="flex items-center">
+            <img src={deveriLogo} alt="DEVERI" className="h-8" />
           </Link>
 
           {/* Desktop Nav */}
@@ -86,7 +87,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <div className="container-narrow">
           <div className="grid md:grid-cols-3 gap-8">
             <div>
-              <h3 className="text-xl font-bold mb-3">DEVERI</h3>
+              <img src={deveriLogo} alt="DEVERI" className="h-8 brightness-0 invert mb-2" />
               <p className="text-primary-foreground/70 text-sm">
                 Más de 25 años administrando propiedades en Veracruz, Boca del Río y Riviera Veracruzana.
               </p>
