@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
-import { MessageCircle, CheckCircle2 } from "lucide-react";
+import { MessageCircle } from "lucide-react";
+import ClientGrid from "@/components/ClientGrid";
 
 const WHATSAPP_URL = "https://wa.me/529211234567?text=Hola%2C%20quiero%20información";
 
@@ -25,10 +26,8 @@ export default function Clientes() {
             </div>
           </div>
           <h2 className="text-2xl font-bold text-foreground mb-6 text-center">Clientes</h2>
-          <div className="flex flex-wrap justify-center gap-6 mb-12">
-            {["Heineken", "Banco Azteca", "Atlas", "Casa Tenorio", "Status", "Super Carranza", "Panadería La Especial", "Playa Hermosa", "Nieves Guero Guero", "Plaza Hípico", "AT&T", "Gigios", "Ramada"].map((name) => (
-              <div key={name} className="bg-card border rounded-lg px-8 py-4 font-semibold text-foreground/60 text-lg">{name}</div>
-            ))}
+          <div className="mb-12">
+            <ClientGrid />
           </div>
           <div className="text-center">
             <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">

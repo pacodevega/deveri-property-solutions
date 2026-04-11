@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { MessageCircle, Building2, Key, Wrench, Clock, DollarSign, Shield, Users, CheckCircle2 } from "lucide-react";
 import heroImg from "@/assets/hero-properties.jpg";
 import teamImg from "@/assets/team-working.jpg";
+import ClientGrid from "@/components/ClientGrid";
 
 const WHATSAPP_URL = "https://wa.me/529211234567?text=Hola%2C%20quiero%20información%20sobre%20administración%20de%20propiedades";
 
@@ -117,13 +118,7 @@ const Index = () => {
             Empresas que ya confían en Deveri
           </h2>
           <p className="text-muted-foreground mb-10">Gestionamos propiedades para empresas y propietarios exigentes.</p>
-          <div className="flex flex-wrap justify-center gap-8 md:gap-12">
-            {["Heineken", "Banco Azteca", "Atlas", "Casa Tenorio", "Status", "Super Carranza", "Panadería La Especial", "Playa Hermosa", "Nieves Guero Guero", "Plaza Hípico", "AT&T", "Gigios", "Ramada"].map((name) => (
-              <div key={name} className="bg-card border rounded-lg px-8 py-4 font-semibold text-foreground/60 text-lg">
-                {name}
-              </div>
-            ))}
-          </div>
+          <ClientGrid />
         </div>
       </section>
 
