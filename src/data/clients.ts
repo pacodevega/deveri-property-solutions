@@ -21,17 +21,17 @@ export interface Client {
 
 export const clients: Client[] = [
   { name: "Heineken", logo: heineken, large: true },
-  { name: "Banco Azteca", logo: bancoAzteca },
+  { name: "Banco Azteca", logo: bancoAzteca, large: true },
   { name: "Atlas", logo: atlas },
-  { name: "Casa Tenorio", logo: casaTenorio },
+  { name: "Casa Tenorio", logo: casaTenorio, large: true },
   { name: "Status", logo: status },
   { name: "Super Carranza", logo: superCarranza },
   { name: "Panadería La Especial", logo: panaderiaLaEspecial },
   { name: "Playa Hermosa", logo: playaHermosa },
-  { name: "Nieves Guero Guero", logo: gueroGuero },
+  { name: "Nieves Guero Guero", logo: gueroGuero, large: true },
   { name: "Plaza Hípico", logo: plazaHipico },
-  { name: "AT&T", logo: att },
-  { name: "Gigios", logo: gigios },
-  { name: "Ramada", logo: ramada },
+  { name: "AT&T", logo: att, large: true },
+  { name: "Gigios", logo: gigios, large: true },
+  { name: "Ramada", logo: ramada, large: true },
   { name: "Six", logo: six },
 ];
