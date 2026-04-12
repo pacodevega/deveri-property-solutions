@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { MessageCircle, Building2, Key, Wrench, Clock, DollarSign, Shield, Users, CheckCircle2 } from "lucide-react";
+import { MessageCircle, Building2, Key, Wrench, Clock, DollarSign, Shield, Users, CheckCircle2, ArrowRight } from "lucide-react";
 import heroImg from "@/assets/hero-properties.jpg";
 import teamImg from "@/assets/team-working.jpg";
 import ClientGrid from "@/components/ClientGrid";
@@ -96,7 +96,10 @@ const Index = () => {
               <Link key={s.title} to={s.link} className="group bg-card rounded-xl p-8 shadow-sm border hover:shadow-lg hover:border-accent/30 transition-all duration-300">
                 <s.icon className="w-10 h-10 text-accent mb-4" />
                 <h3 className="text-xl font-bold text-foreground mb-2">{s.title}</h3>
-                <p className="text-muted-foreground">{s.desc}</p>
+                <p className="text-muted-foreground mb-4">{s.desc}</p>
+                <span className="text-accent font-semibold inline-flex items-center gap-1 group-hover:gap-2 transition-all">
+                  Ver más <ArrowRight className="w-4 h-4" />
+                </span>
               </Link>
             ))}
           </div>

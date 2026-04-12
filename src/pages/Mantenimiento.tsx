@@ -1,8 +1,6 @@
-import { Button } from "@/components/ui/button";
-import { MessageCircle, CheckCircle2, Wrench, Users, Building, Zap, PaintBucket, Droplets } from "lucide-react";
+import { CheckCircle2, Wrench, Users, Building, Zap, PaintBucket, Droplets } from "lucide-react";
 import maintenanceImg from "@/assets/maintenance.jpg";
-
-const WHATSAPP_URL = "https://wa.me/529211234567?text=Hola%2C%20estoy%20interesado%20en%20su%20servicio%20de%20mantenimiento%20de%20propiedades";
+import WhatsAppContactForm from "@/components/WhatsAppContactForm";
 
 const servicios = [
   { icon: Zap, title: "Electricidad", desc: "Instalaciones, reparaciones y revisiones eléctricas." },
@@ -63,22 +61,15 @@ export default function Mantenimiento() {
                 </li>
               ))}
             </ul>
-            <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
-              <Button variant="cta" size="lg"><MessageCircle className="w-5 h-5" /> Cotizar mantenimiento</Button>
-            </a>
           </div>
           <img src={maintenanceImg} alt="Mantenimiento de propiedades" width={1280} height={720} loading="lazy" className="rounded-xl shadow-xl" />
         </div>
       </section>
 
-      {/* CTA Final */}
-      <section className="section-padding" style={{ background: "var(--hero-gradient)" }}>
-        <div className="container-narrow text-center text-primary-foreground">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">¿Necesitas mantenimiento para tu propiedad?</h2>
-          <p className="text-primary-foreground/80 mb-8 text-lg">Solicita una cotización sin compromiso. Respondemos rápido.</p>
-          <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
-            <Button variant="hero"><MessageCircle className="w-5 h-5" /> Cotizar por WhatsApp</Button>
-          </a>
+      {/* Formulario CTA */}
+      <section className="section-padding">
+        <div className="container-narrow max-w-xl mx-auto">
+          <WhatsAppContactForm service="mantenimiento de propiedades" />
         </div>
       </section>
     </>
