@@ -1,10 +1,10 @@
-import { Zap, Eye, ShieldCheck, CheckCircle2 } from "lucide-react";
+import { Zap, Eye, Wrench, CheckCircle2 } from "lucide-react";
 
 const points = [
-  { icon: Zap, text: "Atención rápida" },
-  { icon: Eye, text: "Supervisión directa" },
-  { icon: ShieldCheck, text: "Atendemos fugas, plomería, electricidad, pintura, impermeabilización, limpieza de tinacos y cisternas" },
-  { icon: CheckCircle2, text: "Resolución eficiente" },
+  { icon: Zap, text: "Atención rápida y oportuna" },
+  { icon: Eye, text: "Supervisión directa en cada servicio" },
+  { icon: Wrench, text: "Solución completa de mantenimiento: plomería, electricidad, pintura, impermeabilización y limpieza de tinacos y cisternas" },
+  { icon: CheckCircle2, text: "Resolución eficiente y sin fricciones" },
 ];
 
 export default function MaintenanceHighlight() {
