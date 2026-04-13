@@ -4,7 +4,7 @@ const points = [
   "No dependes de terceros",
   "Resolvemos mantenimiento directamente",
   "Supervisamos activamente",
-  "Operamos múltiples propiedades propias y de terceros",
+  "Experiencia operando múltiples propiedades propias y de terceros",
 ];
 
 export default function DifferentiatorSection() {
