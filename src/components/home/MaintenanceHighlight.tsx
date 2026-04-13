@@ -3,7 +3,7 @@ import { Zap, Eye, ShieldCheck, CheckCircle2 } from "lucide-react";
 const points = [
   { icon: Zap, text: "Atención rápida" },
   { icon: Eye, text: "Supervisión directa" },
-  { icon: ShieldCheck, text: "Sin depender de proveedores externos" },
+  { icon: ShieldCheck, text: "Atendemos fugas, plomería, electricidad, pintura, impermeabilización, limpieza de tinacos y cisternas" },
   { icon: CheckCircle2, text: "Resolución eficiente" },
 ];
 
