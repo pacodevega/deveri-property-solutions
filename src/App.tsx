@@ -9,12 +9,27 @@ import Servicios from "./pages/Servicios";
 import Administracion from "./pages/Administracion";
 import Renta from "./pages/Renta";
 import Mantenimiento from "./pages/Mantenimiento";
+import AdministracionSEO from "./pages/AdministracionSEO";
+import RentaSEO from "./pages/RentaSEO";
+import MantenimientoSEO from "./pages/MantenimientoSEO";
 import ComoFunciona from "./pages/ComoFunciona";
 import Clientes from "./pages/Clientes";
 import Blog from "./pages/Blog";
 import Contacto from "./pages/Contacto";
 import NotFound from "./pages/NotFound";
 import ScrollToTop from "@/components/ScrollToTop";
+
+// Blog posts
+import ComoAdministrar from "./pages/blog/ComoAdministrar";
+import ErroresRentarLocal from "./pages/blog/ErroresRentarLocal";
+import CuantoCobrarRenta from "./pages/blog/CuantoCobrarRenta";
+import InquilinosConfiables from "./pages/blog/InquilinosConfiables";
+import ValeLaPena from "./pages/blog/ValeLaPena";
+import ProblemasInquilinos from "./pages/blog/ProblemasInquilinos";
+import MantenimientoPreventivo from "./pages/blog/MantenimientoPreventivo";
+import RentarSinVivirEnVeracruz from "./pages/blog/RentarSinVivirEnVeracruz";
+import TiempoParaRentar from "./pages/blog/TiempoParaRentar";
+import AumentarValorPropiedad from "./pages/blog/AumentarValorPropiedad";
 
 const queryClient = new QueryClient();
 
@@ -32,9 +47,22 @@ const App = () => (
             <Route path="/servicios/administracion" element={<Administracion />} />
             <Route path="/servicios/renta" element={<Renta />} />
             <Route path="/servicios/mantenimiento" element={<Mantenimiento />} />
+            <Route path="/administracion-de-propiedades-veracruz" element={<AdministracionSEO />} />
+            <Route path="/renta-de-propiedades-veracruz" element={<RentaSEO />} />
+            <Route path="/mantenimiento-de-propiedades-veracruz" element={<MantenimientoSEO />} />
             <Route path="/como-funciona" element={<ComoFunciona />} />
             <Route path="/clientes" element={<Clientes />} />
             <Route path="/blog" element={<Blog />} />
+            <Route path="/blog/como-administrar-una-propiedad-en-veracruz" element={<ComoAdministrar />} />
+            <Route path="/blog/errores-al-rentar-un-local-comercial-veracruz" element={<ErroresRentarLocal />} />
+            <Route path="/blog/cuanto-cobrar-de-renta-en-veracruz" element={<CuantoCobrarRenta />} />
+            <Route path="/blog/como-encontrar-inquilinos-confiables" element={<InquilinosConfiables />} />
+            <Route path="/blog/administracion-de-propiedades-vale-la-pena" element={<ValeLaPena />} />
+            <Route path="/blog/problemas-comunes-con-inquilinos" element={<ProblemasInquilinos />} />
+            <Route path="/blog/mantenimiento-preventivo-propiedades" element={<MantenimientoPreventivo />} />
+            <Route path="/blog/como-rentar-si-no-vives-en-veracruz" element={<RentarSinVivirEnVeracruz />} />
+            <Route path="/blog/tiempo-promedio-para-rentar-propiedad" element={<TiempoParaRentar />} />
+            <Route path="/blog/como-aumentar-el-valor-de-una-propiedad-en-renta" element={<AumentarValorPropiedad />} />
             <Route path="/contacto" element={<Contacto />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
