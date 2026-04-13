@@ -17,8 +17,8 @@ export default function Clientes() {
         <div className="container-narrow">
           <div className="grid sm:grid-cols-2 gap-8 mb-12">
             <div className="bg-card border rounded-xl p-8 text-center">
-              <p className="text-5xl font-extrabold text-accent mb-2">+100</p>
-              <p className="text-muted-foreground font-medium">Propiedades administradas</p>
+              <p className="text-5xl font-extrabold text-accent mb-2">+500</p>
+              <p className="text-muted-foreground font-medium">Contratos gestionados</p>
             </div>
             <div className="bg-card border rounded-xl p-8 text-center">
               <p className="text-5xl font-extrabold text-accent mb-2">+25</p>
