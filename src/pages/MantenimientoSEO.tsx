@@ -2,6 +2,7 @@ import { CheckCircle2, Wrench, Zap, Droplets, PaintBucket, Building, Eye, Shield
 import { Button } from "@/components/ui/button";
 import { MessageCircle } from "lucide-react";
 import SEOHead from "@/components/SEOHead";
+import heroImg from "@/assets/service-mantenimiento.jpg";
 
 const WHATSAPP_URL = "https://wa.me/529211234567?text=Hola%2C%20quiero%20información%20sobre%20mantenimiento%20de%20propiedades%20en%20Veracruz";
 
@@ -24,19 +25,24 @@ export default function MantenimientoSEO() {
       />
 
       {/* Hero */}
-      <section className="section-padding" style={{ background: "var(--hero-gradient)" }}>
-        <div className="container-narrow text-primary-foreground">
-          <h1 className="text-3xl md:text-5xl font-extrabold mb-4 leading-tight">
-            Mantenimiento de propiedades en Veracruz sin complicaciones
-          </h1>
-          <p className="text-lg text-primary-foreground/80 max-w-2xl mb-6">
-            Resolvemos el mantenimiento de tu propiedad de forma rápida y eficiente sin que tengas que intervenir.
-          </p>
-          <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
-            <Button variant="hero">
-              <MessageCircle className="w-5 h-5" /> Quiero apoyo con mantenimiento
-            </Button>
-          </a>
+      <section className="section-padding relative overflow-hidden" style={{ background: "var(--hero-gradient)" }}>
+        <div className="container-narrow grid md:grid-cols-2 gap-8 items-center">
+          <div className="text-primary-foreground">
+            <h1 className="text-3xl md:text-5xl font-extrabold mb-4 leading-tight">
+              Mantenimiento de propiedades en Veracruz sin complicaciones
+            </h1>
+            <p className="text-lg text-primary-foreground/80 max-w-2xl mb-6">
+              Resolvemos el mantenimiento de tu propiedad de forma rápida y eficiente sin que tengas que intervenir.
+            </p>
+            <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
+              <Button variant="hero">
+                <MessageCircle className="w-5 h-5" /> Quiero apoyo con mantenimiento
+              </Button>
+            </a>
+          </div>
+          <div className="hidden md:block">
+            <img src={heroImg} alt="Mantenimiento de propiedades en Veracruz" width={1280} height={720} className="rounded-xl shadow-2xl" />
+          </div>
         </div>
       </section>
 

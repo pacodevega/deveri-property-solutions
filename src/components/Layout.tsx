@@ -95,9 +95,9 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <div>
               <h4 className="font-semibold mb-3">Servicios</h4>
               <ul className="space-y-2 text-sm text-primary-foreground/70">
-                <li><Link to="/servicios/administracion" className="hover:text-accent transition-colors">Administración</Link></li>
-                <li><Link to="/servicios/renta" className="hover:text-accent transition-colors">Renta</Link></li>
-                <li><Link to="/servicios/mantenimiento" className="hover:text-accent transition-colors">Mantenimiento</Link></li>
+                <li><Link to="/administracion-de-propiedades-veracruz" className="hover:text-accent transition-colors">Administración</Link></li>
+                <li><Link to="/renta-de-propiedades-veracruz" className="hover:text-accent transition-colors">Renta</Link></li>
+                <li><Link to="/mantenimiento-de-propiedades-veracruz" className="hover:text-accent transition-colors">Mantenimiento</Link></li>
               </ul>
             </div>
             <div>
