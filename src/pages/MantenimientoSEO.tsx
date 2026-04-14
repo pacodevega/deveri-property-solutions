@@ -66,8 +66,8 @@ export default function MantenimientoSEO() {
               { icon: Zap, title: "Electricidad", desc: "Instalaciones, reparaciones y revisiones eléctricas." },
               { icon: PaintBucket, title: "Pintura", desc: "Renovación de espacios interiores y exteriores." },
               { icon: Building, title: "Impermeabilización", desc: "Protección contra humedad y filtraciones." },
-              { icon: Wrench, title: "Mantenimiento general", desc: "Carpintería, cerrajería, herrería y más." },
-              { icon: CheckCircle2, title: "Limpieza", desc: "Limpieza profunda de espacios, tinacos y cisternas." },
+              { icon: Wrench, title: "Mantenimiento correctivo", desc: "Reparaciones y soluciones ante fallas o deterioro." },
+              { icon: CheckCircle2, title: "Limpieza", desc: "Limpieza de áreas comunes y espacios compartidos." },
             ].map((s) => (
               <div key={s.title} className="bg-card border rounded-xl p-6 hover:shadow-lg hover:border-accent/30 transition-all">
                 <s.icon className="w-8 h-8 text-accent mb-3" />

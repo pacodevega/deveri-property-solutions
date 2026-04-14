@@ -7,8 +7,8 @@ const servicios = [
   { icon: Droplets, title: "Plomería", desc: "Reparación de fugas, instalación de tuberías y más." },
   { icon: PaintBucket, title: "Pintura y acabados", desc: "Renovación de espacios interiores y exteriores." },
   { icon: Building, title: "Obra civil", desc: "Remodelaciones, impermeabilización y trabajos estructurales." },
-  { icon: Wrench, title: "Mantenimiento general", desc: "Carpintería, cerrajería, herrería y más." },
-  { icon: Users, title: "Limpieza y jardinería", desc: "Mantenimiento de áreas comunes y jardines." },
+  { icon: Wrench, title: "Mantenimiento correctivo", desc: "Reparaciones y soluciones ante fallas o deterioro." },
+  { icon: Users, title: "Limpieza", desc: "Limpieza de áreas comunes y espacios compartidos." },
 ];
 
 export default function Mantenimiento() {
