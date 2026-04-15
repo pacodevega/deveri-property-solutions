@@ -70,7 +70,7 @@ export default function RentaSEO() {
           <div className="grid sm:grid-cols-2 gap-6 mt-8">
             {[
               { icon: Megaphone, title: "Publicación", desc: "Promocionamos tu propiedad en los canales correctos para máxima visibilidad." },
-              { icon: Search, title: "Filtrado", desc: "Verificamos referencias, historial y estabilidad de cada candidato." },
+              { icon: Search, title: "Filtrado", desc: "Investigamos a los candidatos y gestionamos el checklist completo para verificarlos." },
               { icon: Users, title: "Selección", desc: "Elegimos al mejor inquilino con base en criterios rigurosos." },
               { icon: FileText, title: "Formalización", desc: "Gestionamos contratos y documentación legal completa." },
             ].map((s) => (
