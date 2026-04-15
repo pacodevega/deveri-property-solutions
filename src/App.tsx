@@ -13,7 +13,7 @@ import AdministracionSEO from "./pages/AdministracionSEO";
 import RentaSEO from "./pages/RentaSEO";
 import MantenimientoSEO from "./pages/MantenimientoSEO";
 import ComoFunciona from "./pages/ComoFunciona";
-import Clientes from "./pages/Clientes";
+
 import Blog from "./pages/Blog";
 import Contacto from "./pages/Contacto";
 import NotFound from "./pages/NotFound";
@@ -51,7 +51,7 @@ const App = () => (
             <Route path="/renta-de-propiedades-veracruz" element={<RentaSEO />} />
             <Route path="/mantenimiento-de-propiedades-veracruz" element={<MantenimientoSEO />} />
             <Route path="/como-funciona" element={<ComoFunciona />} />
-            <Route path="/clientes" element={<Clientes />} />
+            
             <Route path="/blog" element={<Blog />} />
             <Route path="/blog/como-administrar-una-propiedad-en-veracruz" element={<ComoAdministrar />} />
             <Route path="/blog/errores-al-rentar-un-local-comercial-veracruz" element={<ErroresRentarLocal />} />
