@@ -3,7 +3,9 @@ import { MessageCircle } from "lucide-react";
 import { Link } from "react-router-dom";
 import SEOHead from "@/components/SEOHead";
 
-const WHATSAPP_URL = "https://wa.me/529211234567?text=Hola%2C%20quiero%20información%20sobre%20administración%20de%20propiedades";
+const buildWhatsAppUrl = (service: string) =>
+  `https://wa.me/529211234567?text=${encodeURIComponent(`Hola, leí su artículo sobre ${service} y quiero más información`)}`;
+
 
 interface BlogPostProps {
   title: string;
@@ -14,6 +16,8 @@ interface BlogPostProps {
 }
 
 export default function BlogPost({ title, metaTitle, metaDescription, children, ctaText = "Quiero más información" }: BlogPostProps) {
+  const whatsappUrl = buildWhatsAppUrl(title);
+
   return (
     <>
       <SEOHead title={metaTitle} description={metaDescription} />
@@ -33,7 +37,7 @@ export default function BlogPost({ title, metaTitle, metaDescription, children, 
           <div className="mt-12 bg-card border rounded-xl p-8 text-center">
             <h2 className="text-xl font-bold text-foreground mb-2">¿Te interesa saber más?</h2>
             <p className="text-muted-foreground mb-4">Escríbenos por WhatsApp y resolvemos tus dudas sin compromiso.</p>
-            <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
+            <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
               <Button variant="cta" size="lg">
                 <MessageCircle className="w-5 h-5" /> {ctaText}
               </Button>
