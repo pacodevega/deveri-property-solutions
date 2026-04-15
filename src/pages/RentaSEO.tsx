@@ -71,7 +71,7 @@ export default function RentaSEO() {
             {[
               { icon: Megaphone, title: "Publicación", desc: "Promocionamos tu propiedad en los canales correctos para máxima visibilidad." },
               { icon: Search, title: "Filtrado", desc: "Investigamos a los candidatos y gestionamos el checklist completo para verificarlos." },
-              { icon: Users, title: "Selección", desc: "Elegimos al mejor inquilino con base en criterios rigurosos." },
+              { icon: Users, title: "Selección", desc: "Te presentamos la lista de candidatos con nuestra calificación de cada uno, para que tú tomes la decisión final." },
               { icon: FileText, title: "Formalización", desc: "Gestionamos contratos y documentación legal completa." },
             ].map((s) => (
               <div key={s.title} className="bg-card border rounded-xl p-6 hover:shadow-lg hover:border-accent/30 transition-all">
