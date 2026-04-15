@@ -19,7 +19,7 @@ const CTA = ({ text = "Quiero rentar mi propiedad" }: { text?: string }) => (
 
 const faqs = [
   { q: "¿Cuánto tardan en encontrar inquilino?", a: "Depende del tipo de propiedad, pero nuestro proceso optimizado reduce significativamente los tiempos de vacancia en Veracruz y Boca del Río." },
-  { q: "¿Cómo filtran a los inquilinos?", a: "Realizamos verificación de referencias, historial de pago, estabilidad laboral y entrevistas para garantizar inquilinos confiables." },
+  { q: "¿Cómo filtran a los inquilinos?", a: "Realizamos una investigación completa del candidato, verificamos referencias, estabilidad laboral y hacemos entrevistas para garantizar inquilinos confiables." },
   { q: "¿Qué pasa si el inquilino no funciona?", a: "Contamos con procesos de seguimiento y, de ser necesario, gestionamos el cambio de inquilino de forma eficiente." },
 ];
 
