@@ -3,7 +3,9 @@ import { MessageCircle } from "lucide-react";
 import { Link } from "react-router-dom";
 import SEOHead from "@/components/SEOHead";
 
-const WHATSAPP_URL = "https://wa.me/529211234567?text=Hola%2C%20quiero%20información%20sobre%20administración%20de%20propiedades";
+const buildWhatsAppUrl = (service: string) =>
+  `https://wa.me/529211234567?text=${encodeURIComponent(`Hola, leí su artículo sobre ${service} y quiero más información`)}`;
+
 
 interface BlogPostProps {
   title: string;

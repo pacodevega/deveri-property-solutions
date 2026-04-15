@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { MessageCircle } from "lucide-react";
 
-const WHATSAPP_URL = "https://wa.me/529211234567?text=Hola%2C%20quiero%20información";
+const WHATSAPP_URL = "https://wa.me/529211234567?text=Hola%2C%20quiero%20información%20sobre%20cómo%20funciona%20su%20servicio%20de%20administración%20de%20propiedades";
 
 const steps = [
   { num: "01", title: "Evaluamos tu propiedad", desc: "Analizamos el estado, ubicación y potencial de tu inmueble." },
