@@ -5,7 +5,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import SEOHead from "@/components/SEOHead";
 import heroImg from "@/assets/service-admin.jpg";
 
-const WHATSAPP_URL = "https://wa.me/529211234567?text=Hola%2C%20quiero%20información%20sobre%20administración%20de%20propiedades%20en%20Veracruz";
+const WHATSAPP_URL = "https://wa.me/522296840727?text=Hola%2C%20quiero%20información%20sobre%20administración%20de%20propiedades%20en%20Veracruz";
 
 const CTA = ({ text = "Quiero delegar mi propiedad" }: { text?: string }) => (
   <div className="text-center py-4">

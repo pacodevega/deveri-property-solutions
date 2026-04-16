@@ -9,7 +9,7 @@ interface WhatsAppContactFormProps {
   phone?: string;
 }
 
-export default function WhatsAppContactForm({ service, phone = "529211234567" }: WhatsAppContactFormProps) {
+export default function WhatsAppContactForm({ service, phone = "522296840727" }: WhatsAppContactFormProps) {
   const [name, setName] = useState("");
   const [message, setMessage] = useState("");
 

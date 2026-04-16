@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { MessageCircle, Users, FileText, Wrench, Eye } from "lucide-react";
 import teamImg from "@/assets/team-working.jpg";
 
-const WHATSAPP_URL = "https://wa.me/529211234567?text=Hola%2C%20quiero%20que%20ustedes%20gestionen%20mi%20propiedad";
+const WHATSAPP_URL = "https://wa.me/522296840727?text=Hola%2C%20quiero%20que%20ustedes%20gestionen%20mi%20propiedad";
 
 const points = [
   { icon: Users, text: "Conseguimos inquilinos confiables" },

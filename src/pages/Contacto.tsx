@@ -4,7 +4,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { MessageCircle, Send } from "lucide-react";
 
-const WHATSAPP_URL = "https://wa.me/529211234567?text=Hola%2C%20quiero%20información%20sobre%20sus%20servicios%20de%20administración%20de%20propiedades";
+const WHATSAPP_URL = "https://wa.me/522296840727?text=Hola%2C%20quiero%20información%20sobre%20sus%20servicios%20de%20administración%20de%20propiedades";
 
 export default function Contacto() {
   const [submitted, setSubmitted] = useState(false);
