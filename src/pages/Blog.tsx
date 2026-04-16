@@ -12,6 +12,7 @@ import imgMantenimiento from "@/assets/blog/mantenimiento-preventivo.jpg";
 import imgSinVivir from "@/assets/blog/rentar-sin-vivir.jpg";
 import imgTiempo from "@/assets/blog/tiempo-rentar.jpg";
 import imgAumentar from "@/assets/blog/aumentar-valor.jpg";
+import imgTerrenos from "@/assets/blog/terrenos-caros-veracruz.jpg";
 
 const articles = [
   {
@@ -93,6 +94,14 @@ const articles = [
     tag: "Inversión",
     image: imgAumentar,
     readTime: "5 min",
+  },
+  {
+    slug: "/blog/terrenos-mas-caros-veracruz-boca-del-rio",
+    title: "Los terrenos más caros de Veracruz, Boca del Río, Medellín y Riviera Veracruzana",
+    description: "Ranking actualizado de precios por m² en las zonas más exclusivas de la conurbación. Datos reales para invertir.",
+    tag: "Inversión",
+    image: imgTerrenos,
+    readTime: "7 min",
   },
 ];
 
