@@ -37,6 +37,7 @@ export default function Post8() {
         { title: "Emergencias lentas", description: "Una fuga de agua, un corto eléctrico o un problema de seguridad necesitan atención inmediata que tú no puedes dar desde otra ciudad" },
         { title: "Cobro complicado", description: "Dar seguimiento a inquilinos morosos a distancia es difícil y desgastante. Sin presencia local, pierdes poder de negociación" },
         { title: "Mantenimiento postergado", description: "Sin ojos locales, los problemas crecen sin ser detectados. Lo que hoy es una grieta menor, mañana es una reparación mayor" },
+        { title: "Fugas y uso ilícito de servicios", description: "Una fuga de agua no detectada puede inflar recibos y causar daños estructurales. Un uso ilícito de la conexión eléctrica (diablitos) genera cobros enormes de CFE y riesgo de incendio. Sin supervisión presencial, estos problemas pasan desapercibidos durante meses" },
         { title: "Trámites presenciales", description: "Firmas, entregas de llaves, inspecciones y gestiones que requieren presencia física en Veracruz" },
       ]} />
 
