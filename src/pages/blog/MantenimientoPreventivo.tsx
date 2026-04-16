@@ -93,6 +93,10 @@ export default function Post7() {
         Una filtración no detectada durante temporada de lluvias puede causar daño estructural en cuestión de semanas. El costo de reparar un techo colapsado supera los $100,000 — mientras que una impermeabilización preventiva cuesta menos de $15,000.
       </Callout>
 
+      <Callout type="tip" title="Ahorro real con detección temprana">
+        Detectar una fuga de agua a tiempo puede ahorrarte decenas de miles de pesos en daños estructurales y recibos inflados. De igual forma, identificar un uso ilícito de la conexión eléctrica (diablitos o derivaciones no autorizadas) evita recargos enormes en la factura de CFE y riesgos de incendio. La supervisión periódica es clave para detectar ambas situaciones antes de que escalen.
+      </Callout>
+
       <h2>Checklist de mantenimiento por frecuencia</h2>
       <FeatureList items={[
         { title: "Mensual", description: "Revisión visual de paredes y techos, limpieza de filtros de A/C, revisión de llaves y grifería, limpieza de áreas comunes" },
