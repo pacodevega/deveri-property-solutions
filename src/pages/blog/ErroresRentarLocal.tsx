@@ -1,8 +1,11 @@
 import BlogPost from "@/components/BlogPost";
+import heroImage from "@/assets/blog/errores-rentar-local.jpg";
 
 export default function Post2() {
   return (
     <BlogPost
+      heroImage={heroImage}
+      heroAlt="Local comercial moderno en renta en Veracruz"
       title="Errores al rentar un local comercial en Veracruz"
       metaTitle="Errores al rentar un local comercial en Veracruz | DEVERI"
       metaDescription="Evita los errores más comunes al rentar un local comercial en Veracruz. Aprende a proteger tu inversión con estos consejos."

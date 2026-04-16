@@ -1,8 +1,11 @@
 import BlogPost from "@/components/BlogPost";
+import heroImage from "@/assets/blog/mantenimiento-preventivo.jpg";
 
 export default function Post7() {
   return (
     <BlogPost
+      heroImage={heroImage}
+      heroAlt="Técnico realizando mantenimiento preventivo en una propiedad"
       title="Mantenimiento preventivo para propiedades: lo que debes saber"
       metaTitle="Mantenimiento preventivo para propiedades: lo que debes saber | DEVERI"
       metaDescription="Guía de mantenimiento preventivo para propiedades en Veracruz. Ahorra dinero y conserva tu inmueble con estos consejos."

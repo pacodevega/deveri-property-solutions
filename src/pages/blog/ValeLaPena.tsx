@@ -1,8 +1,11 @@
 import BlogPost from "@/components/BlogPost";
+import heroImage from "@/assets/blog/vale-la-pena.jpg";
 
 export default function Post5() {
   return (
     <BlogPost
+      heroImage={heroImage}
+      heroAlt="Propietario revisando reportes financieros de su propiedad"
       title="¿Vale la pena contratar administración de propiedades?"
       metaTitle="¿Vale la pena contratar administración de propiedades? | DEVERI"
       metaDescription="Descubre si contratar administración de propiedades en Veracruz vale la pena. Análisis de costos, beneficios y cuándo conviene."

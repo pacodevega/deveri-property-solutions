@@ -1,8 +1,11 @@
 import BlogPost from "@/components/BlogPost";
+import heroImage from "@/assets/blog/problemas-inquilinos.jpg";
 
 export default function Post6() {
   return (
     <BlogPost
+      heroImage={heroImage}
+      heroAlt="Propietario revisando daños en una propiedad"
       title="Problemas comunes con inquilinos y cómo evitarlos"
       metaTitle="Problemas comunes con inquilinos y cómo evitarlos | DEVERI"
       metaDescription="Conoce los problemas más comunes con inquilinos en Veracruz y cómo prevenirlos con una gestión profesional."

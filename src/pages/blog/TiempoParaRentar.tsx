@@ -1,8 +1,11 @@
 import BlogPost from "@/components/BlogPost";
+import heroImage from "@/assets/blog/tiempo-rentar.jpg";
 
 export default function Post9() {
   return (
     <BlogPost
+      heroImage={heroImage}
+      heroAlt="Reloj frente a un apartamento moderno representando tiempo de renta"
       title="Cuánto tiempo tarda en rentarse una propiedad en Veracruz"
       metaTitle="Cuánto tiempo tarda en rentarse una propiedad en Veracruz | DEVERI"
       metaDescription="Descubre cuánto tarda en rentarse una propiedad en Veracruz y qué factores influyen. Consejos para reducir el tiempo de vacancia."

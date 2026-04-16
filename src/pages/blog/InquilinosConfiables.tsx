@@ -1,8 +1,11 @@
 import BlogPost from "@/components/BlogPost";
+import heroImage from "@/assets/blog/inquilinos-confiables.jpg";
 
 export default function Post4() {
   return (
     <BlogPost
+      heroImage={heroImage}
+      heroAlt="Apretón de manos entre propietario e inquilino"
       title="Cómo encontrar inquilinos confiables para tu propiedad"
       metaTitle="Cómo encontrar inquilinos confiables para tu propiedad | DEVERI"
       metaDescription="Aprende a encontrar inquilinos confiables en Veracruz. Proceso de filtrado, verificación y selección para proteger tu inversión."
