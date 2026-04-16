@@ -1,4 +1,5 @@
 import BlogPost from "@/components/BlogPost";
+import heroImage from "@/assets/blog/vale-la-pena.jpg";
 
 export default function Post5() {
   return (

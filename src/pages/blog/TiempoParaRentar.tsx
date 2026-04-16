@@ -1,4 +1,5 @@
 import BlogPost from "@/components/BlogPost";
+import heroImage from "@/assets/blog/tiempo-rentar.jpg";
 
 export default function Post9() {
   return (

@@ -1,4 +1,5 @@
 import BlogPost from "@/components/BlogPost";
+import heroImage from "@/assets/blog/aumentar-valor.jpg";
 
 export default function Post10() {
   return (

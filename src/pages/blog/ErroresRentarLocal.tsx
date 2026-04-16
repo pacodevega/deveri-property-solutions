@@ -1,4 +1,5 @@
 import BlogPost from "@/components/BlogPost";
+import heroImage from "@/assets/blog/errores-rentar-local.jpg";
 
 export default function Post2() {
   return (

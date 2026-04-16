@@ -1,4 +1,5 @@
 import BlogPost from "@/components/BlogPost";
+import heroImage from "@/assets/blog/problemas-inquilinos.jpg";
 
 export default function Post6() {
   return (

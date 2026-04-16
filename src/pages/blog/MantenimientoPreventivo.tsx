@@ -1,4 +1,5 @@
 import BlogPost from "@/components/BlogPost";
+import heroImage from "@/assets/blog/mantenimiento-preventivo.jpg";
 
 export default function Post7() {
   return (

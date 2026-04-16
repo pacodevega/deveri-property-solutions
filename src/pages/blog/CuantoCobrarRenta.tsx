@@ -1,4 +1,5 @@
 import BlogPost from "@/components/BlogPost";
+import heroImage from "@/assets/blog/cuanto-cobrar-renta.jpg";
 
 export default function Post3() {
   return (

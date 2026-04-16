@@ -1,4 +1,5 @@
 import BlogPost from "@/components/BlogPost";
+import heroImage from "@/assets/blog/rentar-sin-vivir.jpg";
 
 export default function Post8() {
   return (

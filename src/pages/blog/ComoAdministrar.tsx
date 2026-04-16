@@ -1,4 +1,5 @@
 import BlogPost from "@/components/BlogPost";
+import heroImage from "@/assets/blog/administrar-propiedad.jpg";
 
 export default function Post1() {
   return (
