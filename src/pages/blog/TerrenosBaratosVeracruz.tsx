@@ -55,7 +55,7 @@ export default function TerrenosBaratosVeracruz() {
         Un terreno de 1,000 m² en Rancho Los Pinos cuesta aproximadamente <strong>$125,000 MXN</strong> — el equivalente a unos meses de renta en Boca del Río. Conforme la mancha urbana se expande y la infraestructura mejora, estos terrenos pueden multiplicar su valor varias veces en 5 a 10 años.
       </Callout>
 
-      <h2>Alvarado / Riviera Veracruzana: costa accesible</h2>
+      <h2>Alvarado / Riviera Veracruzana: costo accesible en algunas zonas</h2>
 
       <p>
         Alvarado ofrece terrenos desde <strong>$400/m²</strong> en zonas de carretera hacia Antón Lizardo, hasta <strong>$3,150/m²</strong> en áreas con acceso a playa. Para inversionistas, la Riviera Veracruzana combina precios todavía bajos con un boom de desarrollos turísticos y residenciales que impulsa la plusvalía constantemente.
