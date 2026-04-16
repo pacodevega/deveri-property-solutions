@@ -33,6 +33,7 @@ export default function Post6() {
         { title: "Impago de renta", description: "El problema más común y más costoso. Comienza con un retraso \"por esta vez\" y puede escalar a meses de renta perdida. Se previene con un proceso riguroso de selección y contratos con cláusulas claras de penalización." },
         { title: "Daños a la propiedad", description: "Desde desgaste excesivo hasta daños intencionales. Supervisión periódica y un inventario detallado con fotos al inicio del contrato son clave para prevenir y documentar cualquier daño." },
         { title: "Conflictos de convivencia", description: "En propiedades con múltiples inquilinos o condominios, las quejas por ruido, mascotas, estacionamiento y espacios comunes son frecuentes. Reglas claras y un administrador como intermediario neutral evitan conflictos directos." },
+        { title: "Inquilinos que no pagan y no se van", description: "Uno de los escenarios más frustrantes: el inquilino deja de pagar pero se niega a desocupar. Sin un contrato sólido y asesoría legal, el proceso de desalojo puede tomar de 6 a 18 meses, acumulando pérdidas enormes mientras la propiedad sigue ocupada sin generar ingresos." },
         { title: "Abandono del inmueble", description: "El inquilino desaparece sin avisar, dejando pertenencias, adeudos o daños. El seguimiento constante y la comunicación regular previenen situaciones de abandono inesperado." },
       ]} />
 
