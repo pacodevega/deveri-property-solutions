@@ -89,7 +89,7 @@ export function Highlight({ children }: { children: React.ReactNode }) {
 }
 
 /* ── Comparison table ── */
-export function ComparisonTable({ headers, rows }: { headers: [string, string, string]; rows: [string, string, string][] }) {
+export function ComparisonTable({ headers, rows }: { headers: string[]; rows: string[][] }) {
   return (
     <div className="my-8 overflow-x-auto rounded-2xl border border-border/50">
       <table className="w-full text-sm">
