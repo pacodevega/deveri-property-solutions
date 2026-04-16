@@ -4,6 +4,8 @@ import heroImage from "@/assets/blog/cuanto-cobrar-renta.jpg";
 export default function Post3() {
   return (
     <BlogPost
+      heroImage={heroImage}
+      heroAlt="Llaves de propiedad frente a edificio de apartamentos en Veracruz"
       title="Cuánto cobrar de renta en Veracruz (guía 2026)"
       metaTitle="Cuánto cobrar de renta en Veracruz (guía 2026) | DEVERI"
       metaDescription="Descubre cuánto cobrar de renta en Veracruz, Boca del Río y Riviera Veracruzana en 2026. Factores clave y recomendaciones."

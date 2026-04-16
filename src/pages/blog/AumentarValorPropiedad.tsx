@@ -4,6 +4,8 @@ import heroImage from "@/assets/blog/aumentar-valor.jpg";
 export default function Post10() {
   return (
     <BlogPost
+      heroImage={heroImage}
+      heroAlt="Interior moderno de apartamento renovado con acabados de calidad"
       title="Cómo aumentar el valor de tu propiedad en renta"
       metaTitle="Cómo aumentar el valor de tu propiedad en renta | DEVERI"
       metaDescription="Estrategias para aumentar el valor de renta de tu propiedad en Veracruz. Mejoras, mantenimiento y gestión profesional."

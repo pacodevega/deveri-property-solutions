@@ -4,6 +4,8 @@ import heroImage from "@/assets/blog/rentar-sin-vivir.jpg";
 export default function Post8() {
   return (
     <BlogPost
+      heroImage={heroImage}
+      heroAlt="Persona administrando propiedad a distancia desde su computadora"
       title="Cómo rentar tu propiedad si no vives en Veracruz"
       metaTitle="Cómo rentar tu propiedad si no vives en Veracruz | DEVERI"
       metaDescription="¿Tienes una propiedad en Veracruz pero no vives ahí? Descubre cómo rentarla y administrarla a distancia sin complicaciones."

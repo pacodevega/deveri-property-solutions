@@ -4,6 +4,8 @@ import heroImage from "@/assets/blog/administrar-propiedad.jpg";
 export default function Post1() {
   return (
     <BlogPost
+      heroImage={heroImage}
+      heroAlt="Edificio moderno de apartamentos en Veracruz con palmeras"
       title="Cómo administrar una propiedad en Veracruz sin complicaciones"
       metaTitle="Cómo administrar una propiedad en Veracruz sin complicaciones | DEVERI"
       metaDescription="Guía completa para administrar tu propiedad en Veracruz, Boca del Río o Riviera Veracruzana sin estrés ni complicaciones."
