@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { MessageCircle, Users, FileText, Wrench, Eye } from "lucide-react";
-import teamImg from "@/assets/team-working.jpg";
+import teamImg from "@/assets/team-working.webp";
 
 const WHATSAPP_URL = "https://wa.me/522296840727?text=Hola%2C%20quiero%20que%20ustedes%20gestionen%20mi%20propiedad";
 

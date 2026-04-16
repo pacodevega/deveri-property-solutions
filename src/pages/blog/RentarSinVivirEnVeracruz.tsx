@@ -1,6 +1,6 @@
 import BlogPost from "@/components/BlogPost";
 import { Callout, StepCards, FeatureList, Highlight, StatRow, ComparisonTable } from "@/components/blog/BlogElements";
-import heroImage from "@/assets/blog/rentar-sin-vivir.jpg";
+import heroImage from "@/assets/blog/rentar-sin-vivir.webp";
 
 export default function Post8() {
   return (

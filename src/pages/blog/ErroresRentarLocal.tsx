@@ -1,6 +1,6 @@
 import BlogPost from "@/components/BlogPost";
 import { Callout, StepCards, Highlight, ComparisonTable, StatRow, FeatureList } from "@/components/blog/BlogElements";
-import heroImage from "@/assets/blog/errores-rentar-local.jpg";
+import heroImage from "@/assets/blog/errores-rentar-local.webp";
 
 export default function Post2() {
   return (

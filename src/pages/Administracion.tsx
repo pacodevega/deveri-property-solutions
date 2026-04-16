@@ -1,5 +1,5 @@
 import { CheckCircle2, BarChart3, FileText, Phone, Clock } from "lucide-react";
-import adminImg from "@/assets/admin-service.jpg";
+import adminImg from "@/assets/admin-service.webp";
 import WhatsAppContactForm from "@/components/WhatsAppContactForm";
 
 const proceso = [

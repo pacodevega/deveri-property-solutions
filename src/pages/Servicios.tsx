@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 import { Building2, Key, Wrench, ArrowRight } from "lucide-react";
 import SEOHead from "@/components/SEOHead";
-import serviceAdmin from "@/assets/service-admin.jpg";
-import serviceRenta from "@/assets/service-renta.jpg";
-import serviceMantenimiento from "@/assets/service-mantenimiento.jpg";
+import serviceAdmin from "@/assets/service-admin.webp";
+import serviceRenta from "@/assets/service-renta.webp";
+import serviceMantenimiento from "@/assets/service-mantenimiento.webp";
 
 const services = [
   { icon: Building2, title: "Administración completa", desc: "Supervisión total, cobros, reportes y control de tu propiedad.", link: "/administracion-de-propiedades-veracruz", img: serviceAdmin },

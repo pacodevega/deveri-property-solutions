@@ -1,5 +1,5 @@
 import { CheckCircle2, Wrench, Users, Building, Zap, PaintBucket, Droplets } from "lucide-react";
-import maintenanceImg from "@/assets/maintenance.jpg";
+import maintenanceImg from "@/assets/maintenance.webp";
 import WhatsAppContactForm from "@/components/WhatsAppContactForm";
 
 const servicios = [

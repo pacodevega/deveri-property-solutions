@@ -1,6 +1,6 @@
 import BlogPost from "@/components/BlogPost";
 import { Callout, StepCards, FeatureList, Highlight, StatRow, ComparisonTable } from "@/components/blog/BlogElements";
-import heroImage from "@/assets/blog/administrar-propiedad.jpg";
+import heroImage from "@/assets/blog/administrar-propiedad.webp";
 
 export default function Post1() {
   return (

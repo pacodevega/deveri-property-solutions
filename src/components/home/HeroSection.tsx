@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { MessageCircle, CheckCircle2 } from "lucide-react";
-import heroImg from "@/assets/hero-properties.jpg";
+import heroImg from "@/assets/hero-properties.webp";
 
 const WHATSAPP_URL = "https://wa.me/522296840727?text=Hola%2C%20tengo%20una%20propiedad%20en%20Veracruz%20y%20quiero%20delegar%20la%20administraci%C3%B3n";
 

@@ -1,6 +1,6 @@
 import BlogPost from "@/components/BlogPost";
 import { Callout, Highlight, StatRow, ComparisonTable, StepCards, FeatureList } from "@/components/blog/BlogElements";
-import heroImage from "@/assets/blog/renta-buena-inversion.jpg";
+import heroImage from "@/assets/blog/renta-buena-inversion.webp";
 
 export default function RentaBuenaInversion() {
   return (
