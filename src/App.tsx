@@ -65,6 +65,7 @@ const App = () => (
             <Route path="/blog/como-rentar-si-no-vives-en-veracruz" element={<RentarSinVivirEnVeracruz />} />
             <Route path="/blog/tiempo-promedio-para-rentar-propiedad" element={<TiempoParaRentar />} />
             <Route path="/blog/como-aumentar-el-valor-de-una-propiedad-en-renta" element={<AumentarValorPropiedad />} />
+            <Route path="/blog/terrenos-mas-caros-veracruz-boca-del-rio" element={<TerrenosCarosVeracruz />} />
             <Route path="/contacto" element={<Contacto />} />
             <Route path="/terminos-y-condiciones" element={<TerminosCondiciones />} />
             <Route path="/aviso-de-privacidad" element={<PoliticasPrivacidad />} />
