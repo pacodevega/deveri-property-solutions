@@ -16,6 +16,8 @@ import ComoFunciona from "./pages/ComoFunciona";
 
 import Blog from "./pages/Blog";
 import Contacto from "./pages/Contacto";
+import TerminosCondiciones from "./pages/TerminosCondiciones";
+import PoliticasPrivacidad from "./pages/PoliticasPrivacidad";
 import NotFound from "./pages/NotFound";
 import ScrollToTop from "@/components/ScrollToTop";
 
@@ -64,6 +66,8 @@ const App = () => (
             <Route path="/blog/tiempo-promedio-para-rentar-propiedad" element={<TiempoParaRentar />} />
             <Route path="/blog/como-aumentar-el-valor-de-una-propiedad-en-renta" element={<AumentarValorPropiedad />} />
             <Route path="/contacto" element={<Contacto />} />
+            <Route path="/terminos-y-condiciones" element={<TerminosCondiciones />} />
+            <Route path="/aviso-de-privacidad" element={<PoliticasPrivacidad />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </Layout>
