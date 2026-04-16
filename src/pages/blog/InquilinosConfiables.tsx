@@ -42,13 +42,14 @@ export default function Post4() {
 
       <h2>Proceso de filtrado recomendado</h2>
       <p>
-        En DEVERI hemos perfeccionado un proceso de 5 pasos que nos permite seleccionar a los mejores inquilinos con una tasa de éxito del 95%:
+        En DEVERI hemos perfeccionado un proceso de 6 pasos que nos permite seleccionar a los mejores inquilinos con una tasa de éxito del 95%:
       </p>
       <StepCards steps={[
         { title: "Entrevista inicial", description: "Conocemos las necesidades, expectativas y situación del candidato de forma directa. Evaluamos compatibilidad con la propiedad y las condiciones del arrendamiento." },
         { title: "Verificación de ingresos", description: "Solicitamos comprobantes de nómina, estados de cuenta o declaraciones fiscales que respalden su capacidad de pago. Verificamos que el ingreso sea al menos 3 veces la renta." },
         { title: "Referencias de propietarios", description: "Contacto directo con arrendadores anteriores para confirmar historial de pago, comportamiento, estado en que entregaron el inmueble y razón de salida." },
         { title: "Opinión de cumplimiento SAT e IMSS", description: "Para empresas, verificamos su opinión de cumplimiento fiscal ante el SAT y su estatus ante el IMSS para confirmar que operan de forma legal y solvente." },
+        { title: "Revisión de propiedad en garantía", description: "Verificamos la existencia, valor y situación legal de la propiedad que el candidato ofrece como garantía, asegurándonos de que esté libre de gravámenes y respalde el contrato." },
         { title: "Presentación al propietario", description: "Te mostramos los candidatos con nuestra calificación detallada de cada uno, incluyendo pros, contras y recomendación. Tú tomas la decisión final." },
       ]} />
 
