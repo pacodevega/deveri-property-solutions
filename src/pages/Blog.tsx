@@ -2,19 +2,19 @@ import { Link } from "react-router-dom";
 import SEOHead from "@/components/SEOHead";
 import { Clock, ArrowRight } from "lucide-react";
 
-import imgAdministrar from "@/assets/blog/administrar-propiedad.jpg";
-import imgErrores from "@/assets/blog/errores-rentar-local.jpg";
-import imgCobrar from "@/assets/blog/cuanto-cobrar-renta.jpg";
-import imgInquilinos from "@/assets/blog/inquilinos-confiables.jpg";
-import imgVale from "@/assets/blog/vale-la-pena.jpg";
-import imgProblemas from "@/assets/blog/problemas-inquilinos.jpg";
-import imgMantenimiento from "@/assets/blog/mantenimiento-preventivo.jpg";
-import imgSinVivir from "@/assets/blog/rentar-sin-vivir.jpg";
-import imgTiempo from "@/assets/blog/tiempo-rentar.jpg";
-import imgAumentar from "@/assets/blog/aumentar-valor.jpg";
-import imgTerrenos from "@/assets/blog/terrenos-caros-veracruz.jpg";
-import imgTerrenosBaratos from "@/assets/blog/terrenos-baratos-veracruz.jpg";
-import imgRentaInversion from "@/assets/blog/renta-buena-inversion.jpg";
+import imgAdministrar from "@/assets/blog/administrar-propiedad.webp";
+import imgErrores from "@/assets/blog/errores-rentar-local.webp";
+import imgCobrar from "@/assets/blog/cuanto-cobrar-renta.webp";
+import imgInquilinos from "@/assets/blog/inquilinos-confiables.webp";
+import imgVale from "@/assets/blog/vale-la-pena.webp";
+import imgProblemas from "@/assets/blog/problemas-inquilinos.webp";
+import imgMantenimiento from "@/assets/blog/mantenimiento-preventivo.webp";
+import imgSinVivir from "@/assets/blog/rentar-sin-vivir.webp";
+import imgTiempo from "@/assets/blog/tiempo-rentar.webp";
+import imgAumentar from "@/assets/blog/aumentar-valor.webp";
+import imgTerrenos from "@/assets/blog/terrenos-caros-veracruz.webp";
+import imgTerrenosBaratos from "@/assets/blog/terrenos-baratos-veracruz.webp";
+import imgRentaInversion from "@/assets/blog/renta-buena-inversion.webp";
 
 const articles = [
   {

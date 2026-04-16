@@ -1,6 +1,6 @@
 import BlogPost from "@/components/BlogPost";
 import { Callout, Highlight, StatRow, ComparisonTable } from "@/components/blog/BlogElements";
-import heroImage from "@/assets/blog/terrenos-caros-veracruz.jpg";
+import heroImage from "@/assets/blog/terrenos-caros-veracruz.webp";
 
 export default function TerrenosCarosVeracruz() {
   return (

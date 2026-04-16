@@ -1,6 +1,6 @@
 import BlogPost from "@/components/BlogPost";
 import { Callout, FeatureList, Highlight, ComparisonTable, StatRow, StepCards } from "@/components/blog/BlogElements";
-import heroImage from "@/assets/blog/cuanto-cobrar-renta.jpg";
+import heroImage from "@/assets/blog/cuanto-cobrar-renta.webp";
 
 export default function Post3() {
   return (

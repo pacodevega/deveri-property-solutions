@@ -1,5 +1,5 @@
 import { CheckCircle2, Shield, Search, FileSignature, Home, Users } from "lucide-react";
-import rentaImg from "@/assets/renta-service.jpg";
+import rentaImg from "@/assets/renta-service.webp";
 import WhatsAppContactForm from "@/components/WhatsAppContactForm";
 
 const pasos = [

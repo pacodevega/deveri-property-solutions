@@ -9,12 +9,12 @@ import att from "@/assets/clients/att.png";
 import atlas from "@/assets/clients/atlas.png";
 import heineken from "@/assets/clients/heineken.png";
 import status from "@/assets/clients/status.png";
-import casaTenorio from "@/assets/clients/casa-tenorio.png";
-import gigios from "@/assets/clients/gigios.png";
+import casaTenorio from "@/assets/clients/casa-tenorio.webp";
+import gigios from "@/assets/clients/gigios.webp";
 import plazaHipico from "@/assets/clients/plaza-hipico.png";
 import vanderai from "@/assets/clients/vanderai.png";
 import gingaGroup from "@/assets/clients/ginga-group.png";
-import aguaInmaculada from "@/assets/clients/agua-inmaculada.png";
+import aguaInmaculada from "@/assets/clients/agua-inmaculada.webp";
 import elektra from "@/assets/clients/elektra.png";
 
 export interface Client {
