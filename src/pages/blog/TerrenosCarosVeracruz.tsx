@@ -23,10 +23,10 @@ export default function TerrenosCarosVeracruz() {
       </p>
 
       <StatRow stats={[
-        { value: "$27,500", label: "Máximo por m² (Costa de Oro)" },
-        { value: "$2,750", label: "Mínimo por m² (Medellín)" },
-        { value: "10x", label: "Diferencia de precio" },
-        { value: "4", label: "Municipios analizados" },
+        { value: "$27,500", label: "Boca del Río" },
+        { value: "$20,500", label: "Veracruz" },
+        { value: "$9,150", label: "Alvarado (Riviera)" },
+        { value: "$5,900", label: "Medellín" },
       ]} />
 
       <h2>Boca del Río: la zona más exclusiva</h2>
