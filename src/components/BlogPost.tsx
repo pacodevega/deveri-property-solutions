@@ -90,9 +90,6 @@ export default function BlogPost({
           </h1>
           <div className="flex items-center gap-5 mt-6 text-sm text-primary-foreground/60">
             <span className="flex items-center gap-2 backdrop-blur-sm bg-primary-foreground/5 px-3 py-1.5 rounded-full">
-              <Calendar className="w-4 h-4" /> {date}
-            </span>
-            <span className="flex items-center gap-2 backdrop-blur-sm bg-primary-foreground/5 px-3 py-1.5 rounded-full">
               <Clock className="w-4 h-4" /> {readTime} de lectura
             </span>
           </div>
