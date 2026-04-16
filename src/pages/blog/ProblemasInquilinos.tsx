@@ -1,4 +1,5 @@
 import BlogPost from "@/components/BlogPost";
+import { Callout, StepCards, FeatureList, Highlight, StatRow } from "@/components/blog/BlogElements";
 import heroImage from "@/assets/blog/problemas-inquilinos.jpg";
 
 export default function Post6() {
@@ -10,27 +11,42 @@ export default function Post6() {
       metaTitle="Problemas comunes con inquilinos y cómo evitarlos | DEVERI"
       metaDescription="Conoce los problemas más comunes con inquilinos en Veracruz y cómo prevenirlos con una gestión profesional."
       ctaText="Quiero evitar problemas"
+      category="Renta"
     >
-      <p className="text-muted-foreground text-lg mb-6">
-        Los problemas con inquilinos son una de las principales razones por las que los propietarios en Veracruz buscan ayuda profesional.
+      <p>
+        Los problemas con inquilinos son una de las principales razones por las que los propietarios en Veracruz buscan ayuda profesional. La buena noticia: la mayoría son completamente prevenibles.
       </p>
 
-      <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">Impago de renta</h2>
-      <p className="text-muted-foreground mb-4">El problema más común. Se previene con un proceso riguroso de selección y contratos bien elaborados con cláusulas claras.</p>
+      <StatRow stats={[
+        { value: "4 de 10", label: "Propietarios enfrentan problemas" },
+        { value: "85%", label: "Son prevenibles" },
+        { value: "$30K+", label: "Costo promedio de un conflicto" },
+        { value: "6 meses", label: "Duración promedio de un proceso" },
+      ]} />
 
-      <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">Daños a la propiedad</h2>
-      <p className="text-muted-foreground mb-4">Supervisión periódica y un inventario detallado al inicio del contrato son clave para prevenir y documentar daños.</p>
+      <h2>Los problemas más frecuentes</h2>
+      <StepCards steps={[
+        { title: "Impago de renta", description: "El problema más común. Se previene con un proceso riguroso de selección y contratos bien elaborados con cláusulas claras de penalización." },
+        { title: "Daños a la propiedad", description: "Supervisión periódica y un inventario detallado con fotos al inicio del contrato son clave para prevenir y documentar cualquier daño." },
+        { title: "Conflictos de convivencia", description: "En propiedades con múltiples inquilinos, reglas claras y un administrador como intermediario neutral evitan conflictos directos." },
+        { title: "Abandono del inmueble", description: "El seguimiento constante y la comunicación regular previenen situaciones de abandono inesperado que afectan tu inversión." },
+      ]} />
 
-      <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">Conflictos de convivencia</h2>
-      <p className="text-muted-foreground mb-4">En propiedades con múltiples inquilinos, establecer reglas claras y tener un administrador como intermediario evita conflictos directos.</p>
+      <Callout type="warning" title="Señal de alerta">
+        Si un inquilino comienza a retrasar pagos, evitar la comunicación o incumplir reglas menores, son señales tempranas de problemas mayores. Actuar rápido marca la diferencia.
+      </Callout>
 
-      <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">Abandono del inmueble</h2>
-      <p className="text-muted-foreground mb-4">El seguimiento constante y la comunicación regular previenen situaciones de abandono inesperado.</p>
+      <h2>Estrategia de prevención</h2>
+      <FeatureList items={[
+        { title: "Selección rigurosa", description: "Filtrar candidatos elimina la mayoría de problemas antes de que empiecen" },
+        { title: "Contratos sólidos", description: "Cláusulas claras que protejan ambas partes y definan consecuencias" },
+        { title: "Supervisión constante", description: "Visitas programadas y comunicación regular con los inquilinos" },
+        { title: "Respuesta rápida", description: "Atender problemas menores antes de que escalen a conflictos mayores" },
+      ]} />
 
-      <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">¿Cómo prevenirlos todos?</h2>
-      <p className="text-muted-foreground mb-4">
-        La mejor prevención es un sistema de administración profesional que incluya selección rigurosa, contratos sólidos y supervisión constante.
-      </p>
+      <Highlight>
+        La mejor prevención es un sistema de administración profesional que combine selección rigurosa, contratos sólidos y supervisión constante. En DEVERI, ese es nuestro estándar.
+      </Highlight>
     </BlogPost>
   );
 }

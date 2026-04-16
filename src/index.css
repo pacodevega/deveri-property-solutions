@@ -92,6 +92,29 @@
   }
 }
 
+/* Blog prose styles */
+.blog-prose {
+  @apply text-base md:text-lg leading-relaxed;
+}
+.blog-prose > p {
+  @apply text-muted-foreground mb-6 leading-[1.8];
+}
+.blog-prose > h2 {
+  @apply text-2xl md:text-3xl font-extrabold text-foreground mt-14 mb-5 tracking-tight;
+}
+.blog-prose > h3 {
+  @apply text-xl md:text-2xl font-bold text-foreground mt-10 mb-4;
+}
+.blog-prose > ul, .blog-prose > ol {
+  @apply space-y-3 text-muted-foreground mb-8 pl-0;
+}
+.blog-prose > ul > li, .blog-prose > ol > li {
+  @apply flex items-start gap-3;
+}
+.blog-prose > blockquote {
+  @apply border-l-4 border-accent pl-6 py-1 my-8 italic text-muted-foreground bg-accent/5 rounded-r-lg pr-6;
+}
+
 @keyframes fade-up {
   from {
     opacity: 0;

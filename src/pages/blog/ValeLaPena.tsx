@@ -1,4 +1,5 @@
 import BlogPost from "@/components/BlogPost";
+import { Callout, FeatureList, Highlight, ComparisonTable, StatRow } from "@/components/blog/BlogElements";
 import heroImage from "@/assets/blog/vale-la-pena.jpg";
 
 export default function Post5() {
@@ -10,36 +11,52 @@ export default function Post5() {
       metaTitle="¿Vale la pena contratar administración de propiedades? | DEVERI"
       metaDescription="Descubre si contratar administración de propiedades en Veracruz vale la pena. Análisis de costos, beneficios y cuándo conviene."
       ctaText="Quiero más información"
+      category="Administración"
     >
-      <p className="text-muted-foreground text-lg mb-6">
-        Muchos propietarios en Veracruz se preguntan si vale la pena pagar por administración profesional. La respuesta depende de tu situación, pero en la mayoría de los casos, sí.
+      <p>
+        Muchos propietarios en Veracruz se preguntan si vale la pena pagar por administración profesional. La respuesta corta: en la mayoría de los casos, sí — y por un margen amplio.
       </p>
 
-      <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">Costos de autogestión vs administración profesional</h2>
-      <p className="text-muted-foreground mb-4">
-        Aunque la autogestión parece más económica, los costos ocultos (tiempo, errores, vacancia prolongada, mantenimiento mal gestionado) suelen superar el costo de la administración profesional.
+      <StatRow stats={[
+        { value: "10%", label: "Costo mensual promedio" },
+        { value: "25%", label: "Ahorro en gastos ocultos" },
+        { value: "0", label: "Horas de tu tiempo" },
+        { value: "3x", label: "Retorno sobre inversión" },
+      ]} />
+
+      <h2>Costos de autogestión vs. administración profesional</h2>
+      <p>
+        Aunque la autogestión parece más económica, los costos ocultos — tiempo, errores, vacancia prolongada, mantenimiento mal gestionado — suelen superar el costo de la administración profesional.
       </p>
 
-      <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">Beneficios tangibles</h2>
-      <ul className="list-disc pl-6 space-y-2 text-muted-foreground mb-6">
-        <li>Menor vacancia gracias a procesos de colocación eficientes</li>
-        <li>Cobros puntuales y seguimiento de morosidad</li>
-        <li>Mantenimiento preventivo que reduce gastos mayores</li>
-        <li>Tranquilidad y tiempo libre para ti</li>
-      </ul>
+      <ComparisonTable
+        headers={["Concepto", "Autogestión", "Administración profesional"]}
+        rows={[
+          ["Costo directo", "$0/mes", "~10% de la renta"],
+          ["Tiempo invertido", "5-15 hrs/semana", "0 hrs/semana"],
+          ["Vacancia promedio", "2-4 meses", "2-4 semanas"],
+          ["Mantenimiento", "Reactivo y costoso", "Preventivo y programado"],
+          ["Riesgo legal", "Alto sin asesoría", "Mínimo con respaldo"],
+          ["Estrés", "Alto", "Cero"],
+        ]}
+      />
 
-      <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">¿Cuándo conviene especialmente?</h2>
-      <ul className="list-disc pl-6 space-y-2 text-muted-foreground mb-6">
-        <li>Cuando no vives en Veracruz o Boca del Río</li>
-        <li>Si tienes múltiples propiedades</li>
-        <li>Cuando has tenido problemas con inquilinos</li>
-        <li>Si prefieres enfocarte en otras actividades</li>
-      </ul>
+      <h2>Beneficios tangibles</h2>
+      <FeatureList items={[
+        { title: "Menor vacancia", description: "Procesos de colocación eficientes que reducen tiempos de vacancia" },
+        { title: "Cobros puntuales", description: "Seguimiento sistemático de pagos y gestión de morosidad" },
+        { title: "Mantenimiento preventivo", description: "Programas que reducen gastos mayores hasta un 40%" },
+        { title: "Tranquilidad total", description: "Tiempo libre para ti mientras tu inversión trabaja" },
+      ]} />
 
-      <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">Conclusión</h2>
-      <p className="text-muted-foreground mb-4">
+      <h2>¿Cuándo conviene especialmente?</h2>
+      <Callout type="tip" title="Perfil ideal para administración">
+        Si no vives en Veracruz, tienes múltiples propiedades, has tenido problemas con inquilinos o simplemente prefieres enfocarte en lo tuyo, la administración profesional es tu mejor aliado.
+      </Callout>
+
+      <Highlight>
         Para la mayoría de los propietarios, la administración profesional no es un gasto sino una inversión que protege y maximiza el rendimiento de su propiedad.
-      </p>
+      </Highlight>
     </BlogPost>
   );
 }
