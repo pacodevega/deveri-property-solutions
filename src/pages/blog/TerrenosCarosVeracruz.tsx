@@ -107,10 +107,10 @@ export default function TerrenosCarosVeracruz() {
         Los terrenos en la Riviera Veracruzana todavía tienen un precio accesible comparado con Boca del Río, pero la plusvalía crece año con año conforme avanzan los desarrollos residenciales y comerciales en la zona. Invertir ahora puede significar un retorno importante a mediano plazo.
       </Callout>
 
-      <h2>Medellín: la opción más accesible</h2>
+      <h2>Medellín: mayor rendimiento por peso invertido</h2>
 
       <p>
-        Medellín ofrece los precios más competitivos de los cuatro municipios, con terrenos desde <strong>$2,750/m²</strong> en colonias populares hasta <strong>$5,900/m²</strong> en fraccionamientos residenciales como <strong>Residencial Marino</strong>. Es la opción ideal para quien busca desarrollar vivienda a un costo menor con buena conectividad a Boca del Río.
+        Medellín ofrece los precios más competitivos de los cuatro municipios, con terrenos desde <strong>$2,750/m²</strong> hasta <strong>$5,900/m²</strong> en fraccionamientos como <strong>Residencial Marino</strong>. Para inversionistas, esto significa adquirir más metros cuadrados por el mismo capital — ideal para desarrollar proyectos de renta residencial, bodegas, locales o terrenos de reserva patrimonial con alta expectativa de plusvalía.
       </p>
 
       <ComparisonTable
@@ -136,12 +136,12 @@ export default function TerrenosCarosVeracruz() {
       </p>
 
       <ComparisonTable
-        headers={["Municipio", "Rango de precio/m²", "Perfil ideal"]}
+        headers={["Municipio", "Rango de precio/m²", "Perfil de inversión"]}
         rows={[
-          ["Boca del Río", "$11,250 – $27,500", "Inversión premium, alta plusvalía, renta de lujo"],
-          ["Veracruz", "$11,250 – $20,500", "Comercio, locales, zonas con alta actividad económica"],
-          ["Alvarado (Riviera)", "$6,750 – $9,150", "Plusvalía en crecimiento, desarrollos residenciales"],
-          ["Medellín", "$2,750 – $5,900", "Vivienda accesible, mayor m² por tu inversión"],
+          ["Boca del Río", "$11,250 – $27,500", "Plusvalía máxima, renta premium, comercio de alto nivel"],
+          ["Veracruz", "$11,250 – $20,500", "Locales comerciales, oficinas, alta actividad económica"],
+          ["Alvarado (Riviera)", "$6,750 – $9,150", "Plusvalía en crecimiento, desarrollos turísticos y residenciales"],
+          ["Medellín", "$2,750 – $5,900", "Mayor rendimiento por peso, bodegas, renta residencial masiva"],
         ]}
       />
 
@@ -149,14 +149,14 @@ export default function TerrenosCarosVeracruz() {
         <strong>Dato clave:</strong> Un terreno en Costa de Oro (Boca del Río) cuesta en promedio <strong>10 veces más</strong> que uno en la colonia 18 de Marzo (Medellín). Sin embargo, ambas zonas tienen demanda de renta — la diferencia está en el tipo de inquilino y el retorno esperado. En DEVERI te ayudamos a sacar el máximo provecho de tu inversión sin importar la zona.
       </Highlight>
 
-      <h2>¿Cómo afecta el precio del terreno a tu inversión en renta?</h2>
+      <h2>¿Cómo afecta el precio del terreno a tu retorno de inversión?</h2>
 
       <p>
-        El precio del terreno impacta directamente en tu retorno de inversión. Una propiedad en zona premium tendrá rentas más altas, pero el capital inicial es mayor. En cambio, una propiedad en Medellín puede ofrecer un <strong>mejor porcentaje de retorno</strong> sobre la inversión inicial, aunque el monto de renta sea menor en términos absolutos.
+        El precio del suelo impacta directamente en tu estrategia de inversión. Un terreno premium en Boca del Río genera rentas altas pero requiere más capital; en cambio, un terreno en Medellín o Alvarado puede ofrecer un <strong>mejor porcentaje de retorno</strong> sobre la inversión inicial — ya sea para renta residencial, comercial, bodegas o desarrollos turísticos.
       </p>
 
       <p>
-        Lo importante es que, sin importar la ubicación, <strong>la administración profesional protege tu inversión</strong>: filtrado de inquilinos, contratos sólidos, cobro puntual y mantenimiento preventivo. Un terreno caro mal administrado pierde valor igual que uno económico.
+        Sin importar la zona, <strong>la administración profesional es lo que protege y multiplica tu inversión</strong>: filtrado riguroso de inquilinos, contratos sólidos, cobro puntual, mantenimiento preventivo y detección temprana de problemas como fugas o uso ilícito de servicios.
       </p>
 
       <Callout type="insight" title="El factor administración">
