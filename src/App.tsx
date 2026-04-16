@@ -34,6 +34,7 @@ import TiempoParaRentar from "./pages/blog/TiempoParaRentar";
 import AumentarValorPropiedad from "./pages/blog/AumentarValorPropiedad";
 import TerrenosCarosVeracruz from "./pages/blog/TerrenosCarosVeracruz";
 import TerrenosBaratosVeracruz from "./pages/blog/TerrenosBaratosVeracruz";
+import RentaBuenaInversion from "./pages/blog/RentaBuenaInversion";
 
 const queryClient = new QueryClient();
 
@@ -69,6 +70,7 @@ const App = () => (
             <Route path="/blog/como-aumentar-el-valor-de-una-propiedad-en-renta" element={<AumentarValorPropiedad />} />
             <Route path="/blog/terrenos-mas-caros-veracruz-boca-del-rio" element={<TerrenosCarosVeracruz />} />
             <Route path="/blog/terrenos-mas-baratos-veracruz-boca-del-rio" element={<TerrenosBaratosVeracruz />} />
+            <Route path="/blog/renta-buena-inversion" element={<RentaBuenaInversion />} />
             <Route path="/contacto" element={<Contacto />} />
             <Route path="/terminos-y-condiciones" element={<TerminosCondiciones />} />
             <Route path="/aviso-de-privacidad" element={<PoliticasPrivacidad />} />
