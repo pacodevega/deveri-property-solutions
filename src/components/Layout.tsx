@@ -108,6 +108,11 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             </div>
           </div>
           <div className="mt-12 pt-6 border-t border-primary-foreground/20 text-center text-sm text-primary-foreground/50">
+            <div className="flex justify-center gap-4 mb-2">
+              <Link to="/terminos-y-condiciones" className="hover:text-accent transition-colors">Términos y Condiciones</Link>
+              <span>·</span>
+              <Link to="/aviso-de-privacidad" className="hover:text-accent transition-colors">Aviso de Privacidad</Link>
+            </div>
             © {new Date().getFullYear()} DEVERI. Todos los derechos reservados.
           </div>
         </div>
