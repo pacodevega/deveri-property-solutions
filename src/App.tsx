@@ -32,6 +32,7 @@ import MantenimientoPreventivo from "./pages/blog/MantenimientoPreventivo";
 import RentarSinVivirEnVeracruz from "./pages/blog/RentarSinVivirEnVeracruz";
 import TiempoParaRentar from "./pages/blog/TiempoParaRentar";
 import AumentarValorPropiedad from "./pages/blog/AumentarValorPropiedad";
+import TerrenosCarosVeracruz from "./pages/blog/TerrenosCarosVeracruz";
 
 const queryClient = new QueryClient();
 
