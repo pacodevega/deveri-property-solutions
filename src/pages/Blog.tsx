@@ -14,6 +14,7 @@ import imgTiempo from "@/assets/blog/tiempo-rentar.jpg";
 import imgAumentar from "@/assets/blog/aumentar-valor.jpg";
 import imgTerrenos from "@/assets/blog/terrenos-caros-veracruz.jpg";
 import imgTerrenosBaratos from "@/assets/blog/terrenos-baratos-veracruz.jpg";
+import imgRentaInversion from "@/assets/blog/renta-buena-inversion.jpg";
 
 const articles = [
   {
@@ -111,6 +112,14 @@ const articles = [
     tag: "Inversión",
     image: imgTerrenosBaratos,
     readTime: "7 min",
+  },
+  {
+    slug: "/blog/renta-buena-inversion",
+    title: "¿Cuánto debes ganar por renta para que sea buena inversión?",
+    description: "Aprende a calcular tu retorno real, analizar el mercado y decidir si te conviene rentar o vender.",
+    tag: "Inversión",
+    image: imgRentaInversion,
+    readTime: "8 min",
   },
 ];
 
