@@ -1,4 +1,5 @@
 import BlogPost from "@/components/BlogPost";
+import { Callout, FeatureList, Highlight, ComparisonTable, StatRow } from "@/components/blog/BlogElements";
 import heroImage from "@/assets/blog/cuanto-cobrar-renta.jpg";
 
 export default function Post3() {
@@ -10,32 +11,48 @@ export default function Post3() {
       metaTitle="Cuánto cobrar de renta en Veracruz (guía 2026) | DEVERI"
       metaDescription="Descubre cuánto cobrar de renta en Veracruz, Boca del Río y Riviera Veracruzana en 2026. Factores clave y recomendaciones."
       ctaText="Quiero evaluar mi propiedad"
+      category="Renta"
     >
-      <p className="text-muted-foreground text-lg mb-6">
-        Definir el precio correcto de renta en Veracruz es clave para maximizar ingresos y reducir vacancia. Esta guía te ayuda a entender los factores que influyen.
+      <p>
+        Definir el precio correcto de renta en Veracruz es clave para maximizar ingresos y reducir vacancia. Cobrar de más aleja prospectos; cobrar de menos sacrifica rentabilidad. Esta guía te ayuda a encontrar el punto óptimo.
       </p>
 
-      <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">Factores que determinan el precio de renta</h2>
-      <ul className="list-disc pl-6 space-y-2 text-muted-foreground mb-6">
-        <li>Ubicación: Veracruz centro, Boca del Río, Riviera Veracruzana</li>
-        <li>Tipo de propiedad: residencial, comercial, vacacional</li>
-        <li>Estado del inmueble y amenidades</li>
-        <li>Oferta y demanda en la zona</li>
-        <li>Temporada y contexto económico</li>
-      </ul>
+      <StatRow stats={[
+        { value: "30", label: "Días máx. para rentar bien" },
+        { value: "8-12%", label: "Retorno anual esperado" },
+        { value: "15%", label: "Diferencia zona premium" },
+        { value: "2x", label: "Más rápido con precio justo" },
+      ]} />
 
-      <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">Rangos de referencia en 2026</h2>
-      <p className="text-muted-foreground mb-4">Los precios varían significativamente según la zona y tipo de propiedad. Un análisis profesional del mercado local es la mejor forma de definir el precio óptimo.</p>
+      <h2>Factores que determinan el precio</h2>
+      <FeatureList columns={2} items={[
+        { title: "Ubicación", description: "Veracruz centro, Boca del Río, Riviera Veracruzana" },
+        { title: "Tipo de propiedad", description: "Residencial, comercial o vacacional" },
+        { title: "Estado del inmueble", description: "Acabados, amenidades y mantenimiento" },
+        { title: "Oferta y demanda", description: "Competencia y disponibilidad en la zona" },
+        { title: "Temporada", description: "Ciertos meses tienen mayor demanda" },
+        { title: "Contexto económico", description: "Inflación, crecimiento y tendencias" },
+      ]} />
 
-      <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">¿Cómo saber si tu precio es correcto?</h2>
-      <p className="text-muted-foreground mb-4">
+      <h2>Rangos de referencia en 2026</h2>
+      <ComparisonTable
+        headers={["Tipo", "Zona estándar", "Zona premium"]}
+        rows={[
+          ["Depto. 2 recámaras", "$8,000 - $12,000", "$14,000 - $20,000"],
+          ["Casa 3 recámaras", "$12,000 - $18,000", "$20,000 - $35,000"],
+          ["Local comercial", "$10,000 - $25,000", "$25,000 - $60,000"],
+          ["Oficina", "$6,000 - $15,000", "$15,000 - $30,000"],
+        ]}
+      />
+
+      <Callout type="tip" title="Regla rápida">
         Si tu propiedad lleva más de 30 días sin rentarse, es probable que el precio esté por encima del mercado. Si se renta en menos de una semana, podrías estar cobrando por debajo.
-      </p>
+      </Callout>
 
-      <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">La importancia de una evaluación profesional</h2>
-      <p className="text-muted-foreground mb-4">
-        En DEVERI evaluamos tu propiedad considerando todos los factores del mercado en Veracruz para definir el precio óptimo de renta.
-      </p>
+      <h2>La importancia de una evaluación profesional</h2>
+      <Highlight>
+        En DEVERI evaluamos tu propiedad considerando todos los factores del mercado en Veracruz para definir el precio óptimo de renta — ni un peso más, ni un peso menos.
+      </Highlight>
     </BlogPost>
   );
 }
