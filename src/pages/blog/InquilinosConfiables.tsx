@@ -48,7 +48,7 @@ export default function Post4() {
         { title: "Entrevista inicial", description: "Conocemos las necesidades, expectativas y situación del candidato de forma directa. Evaluamos compatibilidad con la propiedad y las condiciones del arrendamiento." },
         { title: "Verificación de ingresos", description: "Solicitamos comprobantes de nómina, estados de cuenta o declaraciones fiscales que respalden su capacidad de pago. Verificamos que el ingreso sea al menos 3 veces la renta." },
         { title: "Referencias de propietarios", description: "Contacto directo con arrendadores anteriores para confirmar historial de pago, comportamiento, estado en que entregaron el inmueble y razón de salida." },
-        { title: "Revisión crediticia", description: "Consulta en buró de crédito para detectar patrones de incumplimiento financiero, deudas vigentes y nivel de riesgo general del candidato." },
+        { title: "Opinión de cumplimiento SAT e IMSS", description: "Para empresas, verificamos su opinión de cumplimiento fiscal ante el SAT y su estatus ante el IMSS para confirmar que operan de forma legal y solvente." },
         { title: "Presentación al propietario", description: "Te mostramos los candidatos con nuestra calificación detallada de cada uno, incluyendo pros, contras y recomendación. Tú tomas la decisión final." },
       ]} />
 
