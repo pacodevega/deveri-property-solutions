@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { MessageCircle } from "lucide-react";
 import ClientGrid from "@/components/ClientGrid";
 
-const WHATSAPP_URL = "https://wa.me/529211234567?text=Hola%2C%20quiero%20información";
+const WHATSAPP_URL = "https://wa.me/522296840727?text=Hola%2C%20quiero%20información";
 
 export default function Clientes() {
   return (

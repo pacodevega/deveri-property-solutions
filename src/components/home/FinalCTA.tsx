@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { MessageCircle } from "lucide-react";
 
-const WHATSAPP_URL = "https://wa.me/529211234567?text=Hola%2C%20tengo%20una%20propiedad%20en%20Veracruz%20y%20quiero%20delegar%20la%20administraci%C3%B3n";
+const WHATSAPP_URL = "https://wa.me/522296840727?text=Hola%2C%20tengo%20una%20propiedad%20en%20Veracruz%20y%20quiero%20delegar%20la%20administraci%C3%B3n";
 
 export default function FinalCTA() {
   return (

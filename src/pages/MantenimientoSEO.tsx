@@ -4,7 +4,7 @@ import { MessageCircle } from "lucide-react";
 import SEOHead from "@/components/SEOHead";
 import heroImg from "@/assets/service-mantenimiento.jpg";
 
-const WHATSAPP_URL = "https://wa.me/529211234567?text=Hola%2C%20quiero%20información%20sobre%20mantenimiento%20de%20propiedades%20en%20Veracruz";
+const WHATSAPP_URL = "https://wa.me/522296840727?text=Hola%2C%20quiero%20información%20sobre%20mantenimiento%20de%20propiedades%20en%20Veracruz";
 
 const CTA = ({ text = "Quiero apoyo con mantenimiento" }: { text?: string }) => (
   <div className="text-center py-4">

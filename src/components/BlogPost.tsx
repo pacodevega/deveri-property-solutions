@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import SEOHead from "@/components/SEOHead";
 
 const buildWhatsAppUrl = (service: string) =>
-  `https://wa.me/529211234567?text=${encodeURIComponent(`Hola, leí su artículo sobre ${service} y quiero más información`)}`;
+  `https://wa.me/522296840727?text=${encodeURIComponent(`Hola, leí su artículo sobre ${service} y quiero más información`)}`;
 
 
 interface BlogPostProps {

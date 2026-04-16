@@ -4,7 +4,7 @@ import { Menu, X, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import deveriLogo from "@/assets/deveri-logo.png";
 
-const WHATSAPP_URL = "https://wa.me/529211234567?text=Hola%2C%20quiero%20información%20sobre%20administración%20de%20propiedades";
+const WHATSAPP_URL = "https://wa.me/522296840727?text=Hola%2C%20quiero%20información%20sobre%20administración%20de%20propiedades";
 
 const navItems = [
   { label: "Inicio", path: "/" },
