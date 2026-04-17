@@ -42,6 +42,8 @@ import InstalacionesElectricas from "./pages/blog/InstalacionesElectricas";
 import AdministracionCondominios from "./pages/blog/AdministracionCondominios";
 import MantenimientoCorrectivo from "./pages/blog/MantenimientoCorrectivo";
 import SalitrePrevencion from "./pages/blog/SalitrePrevencion";
+import AirbnbVsRentaLargoPlazo from "./pages/blog/AirbnbVsRentaLargoPlazo";
+import RentarACadenasNacionales from "./pages/blog/RentarACadenasNacionales";
 
 const queryClient = new QueryClient();
 
@@ -85,6 +87,8 @@ const App = () => (
             <Route path="/blog/administracion-de-condominios-areas-comunes" element={<AdministracionCondominios />} />
             <Route path="/blog/mantenimiento-correctivo-propiedades" element={<MantenimientoCorrectivo />} />
             <Route path="/blog/como-eliminar-y-prevenir-salitre" element={<SalitrePrevencion />} />
+            <Route path="/blog/airbnb-vs-renta-largo-plazo-veracruz" element={<AirbnbVsRentaLargoPlazo />} />
+            <Route path="/blog/rentar-propiedad-a-oxxo-six-cadenas-nacionales" element={<RentarACadenasNacionales />} />
             <Route path="/contacto" element={<Contacto />} />
             <Route path="/terminos-y-condiciones" element={<TerminosCondiciones />} />
             <Route path="/aviso-de-privacidad" element={<PoliticasPrivacidad />} />
