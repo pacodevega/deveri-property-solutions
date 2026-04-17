@@ -15,6 +15,13 @@ import imgAumentar from "@/assets/blog/aumentar-valor.webp";
 import imgTerrenos from "@/assets/blog/terrenos-caros-veracruz.webp";
 import imgTerrenosBaratos from "@/assets/blog/terrenos-baratos-veracruz.webp";
 import imgRentaInversion from "@/assets/blog/renta-buena-inversion.webp";
+import imgCisternas from "@/assets/blog/limpieza-cisternas-tinacos.webp";
+import imgImper from "@/assets/blog/impermeabilizacion.webp";
+import imgPlomeria from "@/assets/blog/problemas-plomeria.webp";
+import imgElectricas from "@/assets/blog/instalaciones-electricas.webp";
+import imgCondominios from "@/assets/blog/administracion-condominios.webp";
+import imgCorrectivo from "@/assets/blog/mantenimiento-correctivo.webp";
+import imgSalitre from "@/assets/blog/salitre-prevencion.webp";
 
 const articles = [
   {
@@ -120,6 +127,62 @@ const articles = [
     tag: "Inversión",
     image: imgRentaInversion,
     readTime: "8 min",
+  },
+  {
+    slug: "/blog/limpieza-de-cisternas-y-tinacos-veracruz",
+    title: "Limpieza de cisternas y tinacos en Veracruz: guía completa",
+    description: "Frecuencia, costos y proceso profesional. Protege la salud de tus inquilinos y la calidad del agua.",
+    tag: "Mantenimiento",
+    image: imgCisternas,
+    readTime: "5 min",
+  },
+  {
+    slug: "/blog/impermeabilizacion-en-veracruz",
+    title: "Impermeabilización en Veracruz: guía 2026 para proteger tu propiedad",
+    description: "Tipos de impermeabilizante, costos por m², frecuencia y errores comunes en el clima de Veracruz.",
+    tag: "Mantenimiento",
+    image: imgImper,
+    readTime: "6 min",
+  },
+  {
+    slug: "/blog/problemas-de-plomeria-mas-comunes",
+    title: "Problemas de plomería más comunes en propiedades de Veracruz",
+    description: "Las 8 fallas que más afectan propiedades en Veracruz, costos reales y cómo prevenirlas.",
+    tag: "Mantenimiento",
+    image: imgPlomeria,
+    readTime: "6 min",
+  },
+  {
+    slug: "/blog/renovar-instalaciones-electricas-viejas",
+    title: "Renovar instalaciones eléctricas viejas en Veracruz: guía completa",
+    description: "Cuándo renovar, costos, riesgos y cómo cumplir con la NOM-001-SEDE para proteger tu inmueble.",
+    tag: "Mantenimiento",
+    image: imgElectricas,
+    readTime: "6 min",
+  },
+  {
+    slug: "/blog/administracion-de-condominios-areas-comunes",
+    title: "Administración de condominios y mantenimiento de áreas comunes",
+    description: "Cómo administrar un condominio en Veracruz: cuotas, asambleas, áreas comunes y proveedores.",
+    tag: "Administración",
+    image: imgCondominios,
+    readTime: "7 min",
+  },
+  {
+    slug: "/blog/mantenimiento-correctivo-propiedades",
+    title: "Mantenimiento correctivo: cuándo aplicarlo y cómo evitar que se repita",
+    description: "Tipos de correctivo, costos típicos en Veracruz y cómo gestionarlo sin que se vuelva recurrente.",
+    tag: "Mantenimiento",
+    image: imgCorrectivo,
+    readTime: "6 min",
+  },
+  {
+    slug: "/blog/como-eliminar-y-prevenir-salitre",
+    title: "Salitre en propiedades de Veracruz: cómo eliminarlo y prevenirlo",
+    description: "El salitre destruye propiedades en la costa. Causas, tratamiento profesional y prevención efectiva.",
+    tag: "Mantenimiento",
+    image: imgSalitre,
+    readTime: "7 min",
   },
 ];
 

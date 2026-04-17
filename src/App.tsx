@@ -35,6 +35,13 @@ import AumentarValorPropiedad from "./pages/blog/AumentarValorPropiedad";
 import TerrenosCarosVeracruz from "./pages/blog/TerrenosCarosVeracruz";
 import TerrenosBaratosVeracruz from "./pages/blog/TerrenosBaratosVeracruz";
 import RentaBuenaInversion from "./pages/blog/RentaBuenaInversion";
+import LimpiezaCisternasTinacos from "./pages/blog/LimpiezaCisternasTinacos";
+import Impermeabilizacion from "./pages/blog/Impermeabilizacion";
+import ProblemasPlomeria from "./pages/blog/ProblemasPlomeria";
+import InstalacionesElectricas from "./pages/blog/InstalacionesElectricas";
+import AdministracionCondominios from "./pages/blog/AdministracionCondominios";
+import MantenimientoCorrectivo from "./pages/blog/MantenimientoCorrectivo";
+import SalitrePrevencion from "./pages/blog/SalitrePrevencion";
 
 const queryClient = new QueryClient();
 
@@ -71,6 +78,13 @@ const App = () => (
             <Route path="/blog/terrenos-mas-caros-veracruz-boca-del-rio" element={<TerrenosCarosVeracruz />} />
             <Route path="/blog/terrenos-mas-baratos-veracruz-boca-del-rio" element={<TerrenosBaratosVeracruz />} />
             <Route path="/blog/renta-buena-inversion" element={<RentaBuenaInversion />} />
+            <Route path="/blog/limpieza-de-cisternas-y-tinacos-veracruz" element={<LimpiezaCisternasTinacos />} />
+            <Route path="/blog/impermeabilizacion-en-veracruz" element={<Impermeabilizacion />} />
+            <Route path="/blog/problemas-de-plomeria-mas-comunes" element={<ProblemasPlomeria />} />
+            <Route path="/blog/renovar-instalaciones-electricas-viejas" element={<InstalacionesElectricas />} />
+            <Route path="/blog/administracion-de-condominios-areas-comunes" element={<AdministracionCondominios />} />
+            <Route path="/blog/mantenimiento-correctivo-propiedades" element={<MantenimientoCorrectivo />} />
+            <Route path="/blog/como-eliminar-y-prevenir-salitre" element={<SalitrePrevencion />} />
             <Route path="/contacto" element={<Contacto />} />
             <Route path="/terminos-y-condiciones" element={<TerminosCondiciones />} />
             <Route path="/aviso-de-privacidad" element={<PoliticasPrivacidad />} />
