@@ -18,7 +18,7 @@ export default function Post7() {
       </p>
 
       <p>
-        El calor, la humedad, la brisa salina y las lluvias intensas hacen que las propiedades en Veracruz, Boca del Río y la Riviera Veracruzana requieran más atención que en otras regiones del país. Un programa de mantenimiento preventivo bien ejecutado es la diferencia entre una propiedad que se aprecia y una que se deteriora.
+        El calor, la humedad, la brisa salina y las lluvias intensas hacen que las propiedades en Veracruz, Boca del Río, Medellín y la Riviera Veracruzana requieran más atención que en otras regiones del país. Un programa de mantenimiento preventivo bien ejecutado es la diferencia entre una propiedad que se aprecia y una que se deteriora.
       </p>
 
       <StatRow stats={[

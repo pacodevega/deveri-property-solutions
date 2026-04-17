@@ -29,7 +29,7 @@ export default function Post1() {
       ]} />
 
       <h2>¿Qué implica administrar una propiedad?</h2>
-      <p>La administración de propiedades en Veracruz, Boca del Río y la Riviera Veracruzana incluye múltiples responsabilidades que requieren atención constante:</p>
+      <p>La administración de propiedades en Veracruz, Boca del Río, Medellín y la Riviera Veracruzana incluye múltiples responsabilidades que requieren atención constante:</p>
 
       <FeatureList columns={2} items={[
         { title: "Cobro de rentas", description: "Seguimiento puntual y gestión de pagos cada mes" },

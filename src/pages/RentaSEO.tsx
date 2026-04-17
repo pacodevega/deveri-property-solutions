@@ -58,7 +58,7 @@ export default function RentaSEO() {
         <div className="container-narrow max-w-3xl">
           <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-4">Rentar tu propiedad no debería ser un dolor de cabeza</h2>
           <p className="text-muted-foreground leading-relaxed text-lg">
-            Publicar, filtrar y negociar con inquilinos toma tiempo y puede generar riesgos. En Veracruz, Boca del Río y la Riviera Veracruzana, encontrar al inquilino correcto es clave para proteger tu inversión.
+            Publicar, filtrar y negociar con inquilinos toma tiempo y puede generar riesgos. En Veracruz, Boca del Río, Medellín y la Riviera Veracruzana, encontrar al inquilino correcto es clave para proteger tu inversión.
           </p>
         </div>
       </section>

@@ -194,7 +194,7 @@ export default function Blog() {
     <>
       <SEOHead
         title="Blog | Guías para propietarios en Veracruz | DEVERI"
-        description="Consejos y guías sobre administración de propiedades, renta e inversión inmobiliaria en Veracruz, Boca del Río y Riviera Veracruzana."
+        description="Consejos y guías sobre administración de propiedades, renta e inversión inmobiliaria en Veracruz, Boca del Río, Medellín y Riviera Veracruzana."
       />
 
       {/* Hero */}

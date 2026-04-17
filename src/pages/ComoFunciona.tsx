@@ -51,7 +51,7 @@ const steps = [
 ];
 
 const diferenciadores = [
-  { icon: ShieldCheck, title: "Confianza de más de 25 años", desc: "Operamos propiedades en Veracruz, Boca del Río y la Riviera Veracruzana desde hace más de dos décadas." },
+  { icon: ShieldCheck, title: "Confianza de más de 25 años", desc: "Operamos propiedades en Veracruz, Boca del Río, Medellín y la Riviera Veracruzana desde hace más de dos décadas." },
   { icon: Users, title: "Un equipo dedicado a tu propiedad", desc: "No eres un número. Asignamos un gestor que conoce tu inmueble y se encarga de todo personalmente." },
   { icon: Wrench, title: "Mantenimiento con equipo propio", desc: "Contamos con personal de mantenimiento para resolver cualquier situación sin depender de terceros." },
   { icon: BarChart3, title: "Transparencia total", desc: "Reportes claros, comunicación constante y cero sorpresas. Siempre sabes lo que pasa con tu propiedad." },

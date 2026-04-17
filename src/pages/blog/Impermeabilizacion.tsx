@@ -9,7 +9,7 @@ export default function Impermeabilizacion() {
       heroAlt="Aplicación de impermeabilizante en azotea de propiedad en Veracruz"
       title="Impermeabilización en Veracruz: guía 2026 para proteger tu propiedad"
       metaTitle="Impermeabilización en Veracruz: guía 2026 | DEVERI"
-      metaDescription="Tipos de impermeabilizante, costos, frecuencia y errores comunes al impermeabilizar propiedades en Veracruz, Boca del Río y Riviera Veracruzana."
+      metaDescription="Tipos de impermeabilizante, costos, frecuencia y errores comunes al impermeabilizar propiedades en Veracruz, Boca del Río, Medellín y Riviera Veracruzana."
       ctaText="Quiero impermeabilizar"
       category="Mantenimiento"
     >

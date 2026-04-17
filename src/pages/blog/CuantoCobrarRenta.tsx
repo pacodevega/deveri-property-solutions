@@ -9,7 +9,7 @@ export default function Post3() {
       heroAlt="Llaves de propiedad frente a edificio de apartamentos en Veracruz"
       title="Cuánto cobrar de renta en Veracruz (guía 2026)"
       metaTitle="Cuánto cobrar de renta en Veracruz (guía 2026) | DEVERI"
-      metaDescription="Descubre cuánto cobrar de renta en Veracruz, Boca del Río y Riviera Veracruzana en 2026. Factores clave y recomendaciones."
+      metaDescription="Descubre cuánto cobrar de renta en Veracruz, Boca del Río, Medellín y Riviera Veracruzana en 2026. Factores clave y recomendaciones."
       ctaText="Quiero evaluar mi propiedad"
       category="Renta"
     >

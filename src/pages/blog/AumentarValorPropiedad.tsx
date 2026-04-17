@@ -105,7 +105,7 @@ export default function Post10() {
       />
 
       <Callout type="insight" title="Gestión profesional = mayor valor">
-        Una administración profesional mantiene tu propiedad en óptimas condiciones, atrae mejores inquilinos y maximiza tus ingresos en Veracruz, Boca del Río y la Riviera Veracruzana. Además, identifica oportunidades de mejora que tú podrías pasar por alto.
+        Una administración profesional mantiene tu propiedad en óptimas condiciones, atrae mejores inquilinos y maximiza tus ingresos en Veracruz, Boca del Río, Medellín y la Riviera Veracruzana. Además, identifica oportunidades de mejora que tú podrías pasar por alto.
       </Callout>
 
       <h2>El papel de la ubicación</h2>

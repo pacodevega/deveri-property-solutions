@@ -89,7 +89,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <div>
               <img src={deveriLogo} alt="DEVERI" className="h-8 brightness-0 invert mb-2" />
               <p className="text-primary-foreground/70 text-sm">
-                Más de 25 años administrando propiedades en Veracruz, Boca del Río y Riviera Veracruzana.
+                Más de 25 años administrando propiedades en Veracruz, Boca del Río, Medellín y Riviera Veracruzana.
               </p>
             </div>
             <div>
