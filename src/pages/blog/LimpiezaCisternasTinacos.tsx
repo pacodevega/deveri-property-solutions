@@ -73,12 +73,12 @@ export default function LimpiezaCisternasTinacos() {
       <ComparisonTable
         headers={["Servicio", "Rango aproximado"]}
         rows={[
-          ["Tinaco rotoplas 1,100 L", "$450 - $750"],
-          ["Tinaco 2,500 L", "$700 - $1,100"],
-          ["Cisterna hasta 5,000 L", "$1,200 - $2,000"],
-          ["Cisterna 5,000 - 10,000 L", "$2,000 - $3,500"],
+          ["Tinaco rotoplas 1,100 L", "$700 - $1,100"],
+          ["Tinaco 2,500 L", "$1,000 - $1,600"],
+          ["Cisterna hasta 5,000 L", "$1,800 - $2,800"],
+          ["Cisterna 5,000 - 10,000 L", "$2,800 - $4,800"],
           ["Cisterna comercial >10,000 L", "Cotización en sitio"],
-          ["Combo tinaco + cisterna casa", "$1,500 - $2,500"],
+          ["Combo tinaco + cisterna casa", "$2,200 - $3,500"],
         ]}
       />
 
