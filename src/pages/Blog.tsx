@@ -22,6 +22,8 @@ import imgElectricas from "@/assets/blog/instalaciones-electricas.webp";
 import imgCondominios from "@/assets/blog/administracion-condominios.webp";
 import imgCorrectivo from "@/assets/blog/mantenimiento-correctivo.webp";
 import imgSalitre from "@/assets/blog/salitre-prevencion.webp";
+import imgAirbnb from "@/assets/blog/airbnb-vs-renta-largo-plazo.webp";
+import imgCadenas from "@/assets/blog/rentar-a-cadenas-nacionales.webp";
 
 const articles = [
   {
@@ -183,6 +185,22 @@ const articles = [
     tag: "Mantenimiento",
     image: imgSalitre,
     readTime: "7 min",
+  },
+  {
+    slug: "/blog/airbnb-vs-renta-largo-plazo-veracruz",
+    title: "Airbnb vs renta a largo plazo en Veracruz: ¿cuál conviene más?",
+    description: "Comparativa real de ingresos, ocupación y carga operativa. Por qué la renta tradicional gana en Veracruz.",
+    tag: "Renta",
+    image: imgAirbnb,
+    readTime: "7 min",
+  },
+  {
+    slug: "/blog/rentar-propiedad-a-oxxo-six-cadenas-nacionales",
+    title: "Cómo rentar tu propiedad a OXXO, Six o cadenas nacionales en Veracruz",
+    description: "Qué buscan las cadenas nacionales, requisitos del inmueble y cómo cerrar contratos a 10-15 años.",
+    tag: "Renta",
+    image: imgCadenas,
+    readTime: "8 min",
   },
 ];
 
