@@ -70,7 +70,7 @@ export default function RentarACadenasNacionales() {
         headers={["Cadena", "Terreno mínimo", "Construcción típica", "Cajones de estacionamiento"]}
         rows={[
           ["OXXO", "300-450 m²", "120-180 m²", "4-8"],
-          ["Tiendas Six", "250-400 m²", "100-160 m²", "3-6"],
+          ["Tiendas Six", "150-300 m²", "80-140 m²", "No requiere"],
           ["7-Eleven", "300-500 m²", "150-200 m²", "5-10"],
           ["Farmacias Guadalajara", "400-700 m²", "250-450 m²", "8-15"],
           ["Farmacias del Ahorro", "200-350 m²", "120-180 m²", "4-8"],
