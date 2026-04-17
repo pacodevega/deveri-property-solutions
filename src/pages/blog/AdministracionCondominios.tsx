@@ -109,7 +109,7 @@ export default function AdministracionCondominios() {
       </Highlight>
 
       <p>
-        En DEVERI ofrecemos administración profesional de condominios en Veracruz, Boca del Río y Riviera Veracruzana. Manejamos cobranza, mantenimiento, asambleas y reportes con total transparencia financiera. Tu condominio en orden, sin que ningún vecino tenga que cargar con la responsabilidad.
+        En DEVERI ofrecemos administración profesional de condominios en Veracruz, Boca del Río, Medellín y Riviera Veracruzana. Manejamos cobranza, mantenimiento, asambleas y reportes con total transparencia financiera. Tu condominio en orden, sin que ningún vecino tenga que cargar con la responsabilidad.
       </p>
     </BlogPost>
   );

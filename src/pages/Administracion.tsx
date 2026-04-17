@@ -28,7 +28,7 @@ export default function Administracion() {
           <div>
             <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-4">Tu propiedad en las mejores manos</h2>
             <p className="text-muted-foreground leading-relaxed mb-6">
-              Con más de 25 años de experiencia, administramos propiedades residenciales y comerciales en Veracruz, Boca del Río y la Riviera Veracruzana. Nuestro enfoque integral te permite despreocuparte por completo.
+              Con más de 25 años de experiencia, administramos propiedades residenciales y comerciales en Veracruz, Boca del Río, Medellín y la Riviera Veracruzana. Nuestro enfoque integral te permite despreocuparte por completo.
             </p>
             <ul className="space-y-3">
               {["Propietarios fuera de la ciudad", "Inversionistas con múltiples propiedades", "Empresas con inmuebles en la zona"].map((i) => (

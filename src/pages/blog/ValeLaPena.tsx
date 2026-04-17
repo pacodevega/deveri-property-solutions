@@ -18,7 +18,7 @@ export default function Post5() {
       </p>
 
       <p>
-        En este artículo desglosamos los costos reales, los beneficios tangibles y los escenarios específicos donde la administración profesional genera el mayor retorno para propietarios en Veracruz, Boca del Río y la Riviera Veracruzana.
+        En este artículo desglosamos los costos reales, los beneficios tangibles y los escenarios específicos donde la administración profesional genera el mayor retorno para propietarios en Veracruz, Boca del Río, Medellín y la Riviera Veracruzana.
       </p>
 
       <StatRow stats={[

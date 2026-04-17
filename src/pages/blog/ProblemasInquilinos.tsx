@@ -18,7 +18,7 @@ export default function Post6() {
       </p>
 
       <p>
-        En este artículo analizamos los problemas más frecuentes, sus causas raíz y las estrategias concretas para evitarlos — basados en nuestra experiencia gestionando propiedades en Veracruz, Boca del Río y la Riviera Veracruzana.
+        En este artículo analizamos los problemas más frecuentes, sus causas raíz y las estrategias concretas para evitarlos — basados en nuestra experiencia gestionando propiedades en Veracruz, Boca del Río, Medellín y la Riviera Veracruzana.
       </p>
 
       <StatRow stats={[
