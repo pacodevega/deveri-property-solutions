@@ -16,6 +16,7 @@ import vanderai from "@/assets/clients/vanderai.png";
 import gingaGroup from "@/assets/clients/ginga-group.png";
 import aguaInmaculada from "@/assets/clients/agua-inmaculada.webp";
 import elektra from "@/assets/clients/elektra.png";
+import florYAzucar from "@/assets/clients/flor-y-azucar.png";
 
 export interface Client {
   name: string;
