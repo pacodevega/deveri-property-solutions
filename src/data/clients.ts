@@ -17,6 +17,7 @@ import gingaGroup from "@/assets/clients/ginga-group.png";
 import aguaInmaculada from "@/assets/clients/agua-inmaculada.webp";
 import elektra from "@/assets/clients/elektra.png";
 import florYAzucar from "@/assets/clients/flor-y-azucar.png";
+import ultraToys from "@/assets/clients/ultra-toys.png";
 
 export interface Client {
   name: string;
@@ -44,4 +45,5 @@ export const clients: Client[] = [
   { name: "Agua Inmaculada", logo: aguaInmaculada, large: true },
   { name: "Elektra", logo: elektra, large: true },
   { name: "Flor y Azúcar", logo: florYAzucar, large: true },
+  { name: "Ultra Toys", logo: ultraToys, large: true },
 ];
