@@ -1,7 +1,7 @@
 export default function PricingSection() {
   const plans = [
     { title: "Colocación", price: "1 mes de renta", desc: "Encontramos al inquilino ideal." },
-    { title: "Administración", price: "10% mensual", desc: "Gestión completa de tu propiedad." },
+    { title: "Administración", price: "15% mensual", desc: "Gestión completa de tu propiedad." },
     { title: "Mantenimiento", price: "Según necesidades", desc: "Cotización transparente por servicio." },
   ];
 
