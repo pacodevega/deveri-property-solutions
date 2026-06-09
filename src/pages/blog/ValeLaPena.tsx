@@ -120,7 +120,7 @@ export default function Post5() {
       </Highlight>
 
       <p>
-        En DEVERI ofrecemos administración profesional al 10% mensual sin cobro durante vacancia. Tu éxito es nuestro éxito. Evalúa tu propiedad sin compromiso y descubre cuánto más podría estar generando.
+        En DEVERI ofrecemos administración profesional al 15% mensual sin cobro durante vacancia. Tu éxito es nuestro éxito. Evalúa tu propiedad sin compromiso y descubre cuánto más podría estar generando.
       </p>
     </BlogPost>
   );
