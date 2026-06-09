@@ -84,7 +84,7 @@ export default function Post8() {
           ["Viajes periódicos", "$40,000 - $80,000", "Baja (solo ves foto puntual)"],
           ["Familiar/amigo", "$0 (pero cobro en favores)", "Media (sin experiencia)"],
           ["Autogestión remota", "$0 (pero alto costo oculto)", "Baja (sin supervisión)"],
-          ["Administración profesional", "10% de la renta", "Alta (cobertura completa)"],
+          ["Administración profesional", "15% de la renta", "Alta (cobertura completa)"],
         ]}
       />
 

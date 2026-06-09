@@ -66,7 +66,7 @@ export default function Administracion() {
         <div className="container-narrow max-w-xl mx-auto text-center">
           <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-4">Modelo transparente</h2>
           <div className="bg-card border rounded-xl p-8">
-            <p className="text-4xl font-extrabold text-accent mb-2">10% mensual</p>
+            <p className="text-4xl font-extrabold text-accent mb-2">15% mensual</p>
             <p className="text-muted-foreground">del ingreso de renta. Sin costos ocultos ni sorpresas.</p>
           </div>
         </div>

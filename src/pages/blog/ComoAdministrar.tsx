@@ -130,7 +130,7 @@ export default function Post1() {
 
       <h2>El costo real de no delegar</h2>
       <p>
-        La administración profesional no es un gasto, es una inversión que se paga sola. Consideremos los números: una propiedad que renta $15,000 al mes con administración profesional al 10% genera $13,500 netos mensuales de forma consistente.
+        La administración profesional no es un gasto, es una inversión que se paga sola. Consideremos los números: una propiedad que renta $15,000 al mes con administración profesional al 15% genera $12,750 netos mensuales de forma consistente.
       </p>
       <p>
         La misma propiedad sin administración puede enfrentar un mes de vacancia ($15,000 perdidos), una reparación de emergencia ($8,000-$15,000) o un proceso legal contra un mal inquilino ($20,000+). Un solo evento de estos supera el costo anual de la administración.

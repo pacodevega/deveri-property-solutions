@@ -22,7 +22,7 @@ export default function Post5() {
       </p>
 
       <StatRow stats={[
-        { value: "10%", label: "Costo mensual promedio" },
+        { value: "15%", label: "Costo mensual promedio" },
         { value: "25%", label: "Ahorro en gastos ocultos" },
         { value: "0", label: "Horas de tu tiempo" },
         { value: "3x", label: "Retorno sobre inversión" },
@@ -39,7 +39,7 @@ export default function Post5() {
       <ComparisonTable
         headers={["Concepto", "Autogestión", "Administración profesional"]}
         rows={[
-          ["Costo directo", "$0/mes", "~10% de la renta"],
+          ["Costo directo", "$0/mes", "~15% de la renta"],
           ["Tiempo invertido", "5-15 hrs/semana", "0 hrs/semana"],
           ["Vacancia promedio", "2-4 meses", "2-4 semanas"],
           ["Mantenimiento", "Reactivo y costoso", "Preventivo y programado"],
@@ -59,17 +59,17 @@ export default function Post5() {
         headers={["Escenario", "Sin administración", "Con administración"]}
         rows={[
           ["Renta mensual bruta", "$15,000", "$15,000"],
-          ["Comisión administración", "$0", "-$1,500 (10%)"],
+          ["Comisión administración", "$0", "-$2,250 (15%)"],
           ["Vacancia anual estimada", "2 meses = -$30,000", "2 semanas = -$7,500"],
           ["Reparaciones de emergencia", "-$12,000/año", "-$5,000/año (preventivo)"],
           ["Morosidad promedio", "-$7,500/año", "-$0 (seguimiento activo)"],
-          ["Ingreso neto anual", "$130,500", "$155,500"],
+          ["Ingreso neto anual", "$130,500", "$146,500"],
           ["Horas invertidas al año", "260-780 hrs", "0 hrs"],
         ]}
       />
 
       <Callout type="insight" title="Resultado sorprendente">
-        En este ejemplo, la administración profesional genera $25,000 MÁS al año que la autogestión — incluso después de descontar la comisión. Y eso sin contar el valor de tu tiempo libre.
+        En este ejemplo, la administración profesional genera $16,000 MÁS al año que la autogestión — incluso después de descontar la comisión. Y eso sin contar el valor de tu tiempo libre.
       </Callout>
 
       <h2>Beneficios tangibles</h2>
@@ -120,7 +120,7 @@ export default function Post5() {
       </Highlight>
 
       <p>
-        En DEVERI ofrecemos administración profesional al 10% mensual sin cobro durante vacancia. Tu éxito es nuestro éxito. Evalúa tu propiedad sin compromiso y descubre cuánto más podría estar generando.
+        En DEVERI ofrecemos administración profesional al 15% mensual sin cobro durante vacancia. Tu éxito es nuestro éxito. Evalúa tu propiedad sin compromiso y descubre cuánto más podría estar generando.
       </p>
     </BlogPost>
   );
