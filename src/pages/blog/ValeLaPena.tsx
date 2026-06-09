@@ -39,7 +39,7 @@ export default function Post5() {
       <ComparisonTable
         headers={["Concepto", "Autogestión", "Administración profesional"]}
         rows={[
-          ["Costo directo", "$0/mes", "~10% de la renta"],
+          ["Costo directo", "$0/mes", "~15% de la renta"],
           ["Tiempo invertido", "5-15 hrs/semana", "0 hrs/semana"],
           ["Vacancia promedio", "2-4 meses", "2-4 semanas"],
           ["Mantenimiento", "Reactivo y costoso", "Preventivo y programado"],
