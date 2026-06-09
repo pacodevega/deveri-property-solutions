@@ -22,7 +22,7 @@ export default function Post5() {
       </p>
 
       <StatRow stats={[
-        { value: "10%", label: "Costo mensual promedio" },
+        { value: "15%", label: "Costo mensual promedio" },
         { value: "25%", label: "Ahorro en gastos ocultos" },
         { value: "0", label: "Horas de tu tiempo" },
         { value: "3x", label: "Retorno sobre inversión" },
