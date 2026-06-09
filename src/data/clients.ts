@@ -17,6 +17,7 @@ import gingaGroup from "@/assets/clients/ginga-group.png";
 import aguaInmaculada from "@/assets/clients/agua-inmaculada.webp";
 import elektra from "@/assets/clients/elektra.png";
 import florYAzucar from "@/assets/clients/flor-y-azucar.png";
+import ultraToys from "@/assets/clients/ultra-toys.png";
 
 export interface Client {
   name: string;
