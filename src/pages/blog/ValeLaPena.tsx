@@ -69,7 +69,7 @@ export default function Post5() {
       />
 
       <Callout type="insight" title="Resultado sorprendente">
-        En este ejemplo, la administración profesional genera $25,000 MÁS al año que la autogestión — incluso después de descontar la comisión. Y eso sin contar el valor de tu tiempo libre.
+        En este ejemplo, la administración profesional genera $16,000 MÁS al año que la autogestión — incluso después de descontar la comisión. Y eso sin contar el valor de tu tiempo libre.
       </Callout>
 
       <h2>Beneficios tangibles</h2>
