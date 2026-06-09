@@ -59,11 +59,11 @@ export default function Post5() {
         headers={["Escenario", "Sin administración", "Con administración"]}
         rows={[
           ["Renta mensual bruta", "$15,000", "$15,000"],
-          ["Comisión administración", "$0", "-$1,500 (10%)"],
+          ["Comisión administración", "$0", "-$2,250 (15%)"],
           ["Vacancia anual estimada", "2 meses = -$30,000", "2 semanas = -$7,500"],
           ["Reparaciones de emergencia", "-$12,000/año", "-$5,000/año (preventivo)"],
           ["Morosidad promedio", "-$7,500/año", "-$0 (seguimiento activo)"],
-          ["Ingreso neto anual", "$130,500", "$155,500"],
+          ["Ingreso neto anual", "$130,500", "$146,500"],
           ["Horas invertidas al año", "260-780 hrs", "0 hrs"],
         ]}
       />
