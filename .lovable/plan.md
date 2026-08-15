@@ -1,61 +1,30 @@
+# Arreglar `npm run build` (no se genera `dist/`)
 
-El usuario pregunta qué descripción ponerle al WhatsApp Business de DEVERI. Esto no es una tarea de código, es una consulta de copywriting/marketing. No necesito plan de implementación, solo dar la respuesta directa.
+## Qué está pasando
 
-Voy a proponer varias opciones basadas en lo que sé del negocio:
-- DEVERI (siempre mayúsculas)
-- Administración premium de propiedades en Veracruz, Boca del Río y Riviera Veracruzana
-- +25 años de experiencia, +2,000 contratos gestionados
-- Servicios: administración, renta, mantenimiento
-- Propuesta de valor: "tú solo recibes ingresos / cero involucramiento"
-- NO mencionar software
-- Tono: profesional, confiable, premium
+`package.json` tiene un hook `prebuild` que corre antes de `vite build`:
 
-WhatsApp Business tiene varios campos: descripción del negocio (256 caracteres), categoría, dirección, horario, email, sitio web, "acerca de" (139 caracteres). Voy a dar opciones para los principales.
+```
+"prebuild": "bunx tsx scripts/generate-sitemap.ts"
+```
 
----
+Con `npm run build`, npm ejecuta primero ese `prebuild`. Depende de `bunx` y del paquete `tsx`, que no están instalados como dependencia del proyecto (no aparecen en `package.json`). Si ese comando falla, npm aborta toda la cadena y `vite build` nunca se ejecuta — por eso no aparece la carpeta `dist/`.
 
-## Sugerencias para tu WhatsApp Business
+Además, en `scripts/generate-sitemap.ts` la constante `BASE_URL` está vacía, así que el sitemap se generaría con URLs sin dominio.
 
-### Opción 1 — Descripción del negocio (recomendada, ~250 caracteres)
+## Cambios propuestos
 
-> En DEVERI administramos, rentamos y damos mantenimiento a tu propiedad en Veracruz, Boca del Río y Riviera Veracruzana. Tú no te involucras en nada: nosotros conseguimos inquilinos, cobramos rentas y resolvemos cualquier problema. Más de 25 años de experiencia.
+1. **Quitar la dependencia de `bunx tsx`** en los hooks: ejecutar el generador de sitemap con el runtime disponible, o convertir el script a `.mjs` (Node puro) para que corra con `node scripts/generate-sitemap.mjs` sin herramientas extra.
+2. **Hacer que el hook no rompa el build**: si la generación del sitemap falla, que avise pero deje continuar a `vite build`.
+3. **Definir `BASE_URL`** con el dominio real del sitio para que `sitemap.xml` tenga URLs absolutas.
+4. **Verificar** corriendo el build y confirmando que se crea `dist/` con `index.html`, assets, `sitemap.xml`, `robots.txt` y `llms.txt`.
 
-### Opción 2 — Más directa y con beneficio
+## Detalles técnicos
 
-> DEVERI · Administración premium de propiedades en Veracruz. Conseguimos inquilinos confiables, gestionamos cobros, contratos y mantenimiento para que tú solo recibas tus ingresos. +25 años y +2,000 contratos gestionados respaldan nuestro trabajo.
+- `predev`/`prebuild` pasan de `bunx tsx scripts/generate-sitemap.ts` a un comando con Node y script `.mjs` (o `.js` con `type: module`, que ya está activo).
+- El script mantiene la misma lista de rutas y escribe `public/sitemap.xml` igual que ahora.
+- No se toca el código de la app ni el diseño.
 
-### Opción 3 — Enfoque al cliente que vive fuera
+## Pendiente de tu parte
 
-> ¿Tienes una propiedad en Veracruz pero vives fuera o no tienes tiempo? En DEVERI nos encargamos de todo: renta, administración y mantenimiento. Tú solo recibes tus ingresos cada mes, sin inquilinos, sin llamadas, sin complicaciones.
-
----
-
-### Campo "Acerca de" (máx. 139 caracteres)
-
-- **Opción A:** Administramos tu propiedad en Veracruz para que tú solo recibas ingresos. +25 años de experiencia.
-- **Opción B:** DEVERI · Renta, administración y mantenimiento de propiedades en Veracruz, Boca del Río y Riviera Veracruzana.
-- **Opción C:** Tu propiedad en Veracruz, sin que tengas que ocuparte de nada. Renta, administración y mantenimiento.
-
----
-
-### Otros campos sugeridos
-
-| Campo | Sugerencia |
-|---|---|
-| **Nombre del negocio** | DEVERI |
-| **Categoría** | Servicios inmobiliarios / Bienes raíces |
-| **Horario** | Lun–Vie 9:00–18:00 · Sáb 10:00–14:00 (ajusta al real) |
-| **Sitio web** | tu dominio cuando publiques |
-| **Dirección** | Tu oficina en Veracruz/Boca del Río |
-
----
-
-### Mensaje de bienvenida automático sugerido
-
-> ¡Hola! Gracias por escribir a DEVERI 👋 En breve uno de nuestros asesores te atenderá. Mientras tanto, cuéntanos: ¿tu propiedad es para renta, administración o mantenimiento? ¿En qué zona se encuentra?
-
-### Mensaje de ausencia sugerido
-
-> Gracias por contactar a DEVERI. En este momento estamos fuera de horario, pero tu mensaje es importante. Te responderemos en cuanto abramos (Lun–Vie 9:00–18:00). Mientras tanto, déjanos los datos de tu propiedad y el servicio que necesitas.
-
-Mi recomendación: **Opción 1** para la descripción larga + **Opción A** para el "Acerca de", porque combinan ubicación (SEO local), servicios y la propuesta de valor de "no involucrarte".
+¿Qué dominio uso en `BASE_URL`? Si aún no hay dominio propio, uso la URL `.lovable.app` al publicar.
