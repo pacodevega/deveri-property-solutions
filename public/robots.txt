@@ -1,4 +1,4 @@
-> # DEVERI — Inmobiliaria Deveri S.A. de C.V.
+# DEVERI — Inmobiliaria Deveri S.A. de C.V.
 # Buscadores tradicionales
 User-agent: Googlebot
 Allow: /
