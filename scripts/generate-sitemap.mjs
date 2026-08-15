@@ -1,4 +1,5 @@
 // Runs before `vite dev` and `vite build` (predev/prebuild hooks); writes public/sitemap.xml.
+// Plain Node ESM: no extra tooling (tsx/bunx) required.
 
 import { writeFileSync } from "fs"
 import { resolve } from "path"
@@ -6,16 +7,13 @@ import { resolve } from "path"
 // TODO: replace with your project URL once a project name or custom domain is set.
 const BASE_URL = ""
 
-interface SitemapEntry {
-  path: string
-  changefreq?: "always" | "hourly" | "daily" | "weekly" | "monthly" | "yearly" | "never"
-  priority?: string
-}
-
-const entries: SitemapEntry[] = [
+const entries = [
   { path: "/", changefreq: "weekly", priority: "1.0" },
   { path: "/mcp", changefreq: "monthly", priority: "0.9" },
   { path: "/servicios", changefreq: "monthly", priority: "0.9" },
+  { path: "/servicios/administracion", changefreq: "monthly", priority: "0.8" },
+  { path: "/servicios/renta", changefreq: "monthly", priority: "0.8" },
+  { path: "/servicios/mantenimiento", changefreq: "monthly", priority: "0.8" },
   { path: "/administracion-de-propiedades-veracruz", changefreq: "monthly", priority: "0.9" },
   { path: "/renta-de-propiedades-veracruz", changefreq: "monthly", priority: "0.9" },
   { path: "/mantenimiento-de-propiedades-veracruz", changefreq: "monthly", priority: "0.9" },
@@ -47,10 +45,10 @@ const entries: SitemapEntry[] = [
     "como-eliminar-y-prevenir-salitre",
     "airbnb-vs-renta-largo-plazo-veracruz",
     "rentar-propiedad-a-oxxo-six-cadenas-nacionales",
-  ].map((slug): SitemapEntry => ({ path: `/blog/${slug}`, changefreq: "monthly", priority: "0.6" })),
+  ].map((slug) => ({ path: `/blog/${slug}`, changefreq: "monthly", priority: "0.6" })),
 ]
 
-function generateSitemap(entries: SitemapEntry[]) {
+function generateSitemap(entries) {
   const urls = entries.map((e) =>
     [
       `  <url>`,
