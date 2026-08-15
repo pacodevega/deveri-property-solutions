@@ -1,0 +1,63 @@
+# DEVERI — Administración, renta y mantenimiento de propiedades en Veracruz
+
+> DEVERI (Inmobiliaria Deveri S.A. de C.V.) es una empresa con más de 25 años de
+> experiencia en administración integral, renta y mantenimiento de propiedades en
+> Veracruz, Boca del Río, Medellín y la Riviera Veracruzana. Más de 2,000 contratos
+> gestionados. El propietario no se involucra en la operación: DEVERI busca inquilinos,
+> los investiga, cobra la renta, atiende el mantenimiento y entrega reportes.
+
+Datos clave:
+- Empresa: Inmobiliaria Deveri S.A. de C.V., Boca del Río, Veracruz, México.
+- Contacto principal: WhatsApp +52 229 684 0727.
+- Zonas atendidas: Veracruz, Boca del Río, Medellín y Riviera Veracruzana.
+- Precios: colocación en renta = 1 mes de renta; administración = 15% mensual;
+  mantenimiento = por cotización.
+- Servicios de mantenimiento: plomería, electricidad, pintura, impermeabilización,
+  limpieza de áreas comunes, limpieza de tinacos y cisternas, mantenimiento correctivo.
+  No se ofrece carpintería, cerrajería ni herrería.
+
+## Páginas principales
+
+- [Inicio](/): qué hace DEVERI, problema que resuelve, proceso, precios y preguntas frecuentes.
+- [Para agentes de IA (/mcp)](/mcp): resumen estructurado de la empresa, servicios, cobertura, precios y contacto.
+- [Servicios](/servicios): índice de los tres servicios principales.
+- [Administración de propiedades en Veracruz](/administracion-de-propiedades-veracruz): administración integral, cobranza, reportes, tarifa 15%.
+- [Renta de propiedades en Veracruz](/renta-de-propiedades-veracruz): comercialización, investigación y selección de inquilinos, contratos.
+- [Mantenimiento de propiedades en Veracruz](/mantenimiento-de-propiedades-veracruz): mantenimiento preventivo y correctivo con equipo propio.
+- [Cómo funciona](/como-funciona): proceso paso a paso de trabajo con DEVERI.
+- [Contacto](/contacto): formulario que envía la solicitud por WhatsApp.
+
+## Blog (contenido informativo para propietarios e inversionistas)
+
+- [Cómo administrar una propiedad en Veracruz](/blog/como-administrar-una-propiedad-en-veracruz)
+- [Errores al rentar un local comercial](/blog/errores-al-rentar-un-local-comercial-veracruz)
+- [Cuánto cobrar de renta en Veracruz](/blog/cuanto-cobrar-de-renta-en-veracruz)
+- [Cómo encontrar inquilinos confiables](/blog/como-encontrar-inquilinos-confiables)
+- [¿Vale la pena la administración de propiedades?](/blog/administracion-de-propiedades-vale-la-pena)
+- [Problemas comunes con inquilinos](/blog/problemas-comunes-con-inquilinos)
+- [Mantenimiento preventivo de propiedades](/blog/mantenimiento-preventivo-propiedades)
+- [Cómo rentar si no vives en Veracruz](/blog/como-rentar-si-no-vives-en-veracruz)
+- [Tiempo promedio para rentar una propiedad](/blog/tiempo-promedio-para-rentar-propiedad)
+- [Cómo aumentar el valor de una propiedad en renta](/blog/como-aumentar-el-valor-de-una-propiedad-en-renta)
+- [Terrenos más caros de Veracruz y Boca del Río](/blog/terrenos-mas-caros-veracruz-boca-del-rio)
+- [Terrenos más baratos de Veracruz y Boca del Río](/blog/terrenos-mas-baratos-veracruz-boca-del-rio)
+- [¿Es la renta una buena inversión?](/blog/renta-buena-inversion)
+- [Limpieza de cisternas y tinacos](/blog/limpieza-de-cisternas-y-tinacos-veracruz)
+- [Impermeabilización en Veracruz](/blog/impermeabilizacion-en-veracruz)
+- [Problemas de plomería más comunes](/blog/problemas-de-plomeria-mas-comunes)
+- [Renovar instalaciones eléctricas viejas](/blog/renovar-instalaciones-electricas-viejas)
+- [Administración de condominios y áreas comunes](/blog/administracion-de-condominios-areas-comunes)
+- [Mantenimiento correctivo de propiedades](/blog/mantenimiento-correctivo-propiedades)
+- [Cómo eliminar y prevenir el salitre](/blog/como-eliminar-y-prevenir-salitre)
+- [Airbnb vs. renta a largo plazo en Veracruz](/blog/airbnb-vs-renta-largo-plazo-veracruz)
+- [Rentar una propiedad a OXXO, Six o cadenas nacionales](/blog/rentar-propiedad-a-oxxo-six-cadenas-nacionales)
+
+## Legal
+
+- [Términos y condiciones](/terminos-y-condiciones)
+- [Aviso de privacidad](/aviso-de-privacidad)
+
+## Notas
+
+- Todas las páginas están disponibles en HTML en su URL canónica; este archivo es un índice, no un reemplazo.
+- Sitemap: /sitemap.xml
