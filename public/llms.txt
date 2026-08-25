@@ -24,6 +24,7 @@ Datos clave:
 - [Administración de propiedades en Veracruz](/administracion-de-propiedades-veracruz): administración integral, cobranza, reportes, tarifa 15%.
 - [Renta de propiedades en Veracruz](/renta-de-propiedades-veracruz): comercialización, investigación y selección de inquilinos, contratos.
 - [Mantenimiento de propiedades en Veracruz](/mantenimiento-de-propiedades-veracruz): mantenimiento preventivo y correctivo con equipo propio.
+- [DEVERI Match](/deveri-match): herramienta gratuita que evalúa un local, terreno o bodega y devuelve qué cadenas nacionales y franquicias en expansión hacen match con la propiedad.
 - [Cómo funciona](/como-funciona): proceso paso a paso de trabajo con DEVERI.
 - [Contacto](/contacto): formulario que envía la solicitud por WhatsApp.
 

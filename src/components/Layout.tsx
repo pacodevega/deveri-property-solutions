@@ -10,6 +10,7 @@ const navItems = [
   { label: "Inicio", path: "/" },
   { label: "Servicios", path: "/servicios" },
   { label: "Cómo funciona", path: "/como-funciona" },
+  { label: "DEVERI Match", path: "/deveri-match" },
   
   { label: "Blog", path: "/blog" },
   { label: "Contacto", path: "/contacto" },
