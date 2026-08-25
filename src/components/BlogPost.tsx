@@ -1,8 +1,9 @@
 import { Button } from "@/components/ui/button";
-import { MessageCircle, Clock, Calendar, ArrowLeft, ChevronUp } from "lucide-react";
+import { MessageCircle, Clock, Calendar, ArrowLeft, ChevronUp, ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import SEOHead from "@/components/SEOHead";
+
 
 const buildWhatsAppUrl = (service: string) =>
   `https://wa.me/522296840727?text=${encodeURIComponent(`Hola, leí su artículo sobre ${service} y quiero más información`)}`;
