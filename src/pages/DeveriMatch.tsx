@@ -744,6 +744,24 @@ export default function DeveriMatch() {
               </>
             )}
 
+            <section className="rounded-2xl bg-primary p-8 text-center text-primary-foreground">
+              <h2 className="text-xl font-extrabold">
+                ¿Quieres que <span className="text-accent">DEVERI</span> lo haga por ti?
+              </h2>
+              <p className="mx-auto mt-3 max-w-xl text-sm leading-relaxed opacity-90">
+                Delega tu propiedad con nosotros: cargamos tu inmueble en los portales verificados, preparamos el dossier
+                profesional, contactamos a las cadenas compatibles y negociamos para conseguirte la mejor renta posible.
+              </p>
+              <a href={whatsappHref} target="_blank" rel="noopener noreferrer" className="mt-5 inline-block">
+                <Button variant="cta" size="lg">
+                  <MessageCircle className="h-5 w-5" /> Delegar mi propiedad con DEVERI
+                </Button>
+              </a>
+              <p className="mt-3 text-xs opacity-75">
+                Se abrirá WhatsApp con toda la información de tu propiedad lista para enviar al equipo DEVERI.
+              </p>
+            </section>
+
             {excluded.length > 0 && (
               <>
                 <h2 className="mb-3.5 mt-7 text-lg font-bold text-primary">🚫 Descartados para tu inmueble — y por qué</h2>
@@ -762,23 +780,6 @@ export default function DeveriMatch() {
               Benavides y Elektra (maduras o en ajuste de red, sin expansión documentada).
             </p>
 
-            <section className="mt-8 rounded-2xl bg-primary p-8 text-center text-primary-foreground">
-              <h2 className="text-xl font-extrabold">
-                ¿Quieres que <span className="text-accent">DEVERI</span> lo haga por ti?
-              </h2>
-              <p className="mx-auto mt-3 max-w-xl text-sm leading-relaxed opacity-90">
-                Delega tu propiedad con nosotros: cargamos tu inmueble en los portales verificados, preparamos el dossier
-                profesional, contactamos a las cadenas compatibles y negociamos para conseguirte la mejor renta posible.
-              </p>
-              <a href={whatsappHref} target="_blank" rel="noopener noreferrer" className="mt-5 inline-block">
-                <Button variant="cta" size="lg">
-                  <MessageCircle className="h-5 w-5" /> Delegar mi propiedad con DEVERI
-                </Button>
-              </a>
-              <p className="mt-3 text-xs opacity-75">
-                Se abrirá WhatsApp con toda la información de tu propiedad lista para enviar al equipo DEVERI.
-              </p>
-            </section>
 
             <div className="mt-6 flex flex-wrap gap-3">
               <Button variant="outline" onClick={restart}>
