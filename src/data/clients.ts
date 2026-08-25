@@ -18,6 +18,7 @@ import aguaInmaculada from "@/assets/clients/agua-inmaculada.webp";
 import elektra from "@/assets/clients/elektra.png";
 
 import ultraToys from "@/assets/clients/ultra-toys.png";
+import cosi from "@/assets/clients/cosi.png";
 
 export interface Client {
   name: string;
