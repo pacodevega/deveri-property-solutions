@@ -33,10 +33,16 @@ export default function BlogPost({
   date = "Abril 2026",
   children,
   ctaText = "Quiero más información",
+  ctaUrl,
+  ctaSubtext,
   category,
 }: BlogPostProps) {
   const whatsappUrl = buildWhatsAppUrl(title);
+  const finalCtaUrl = ctaUrl ?? whatsappUrl;
+  const finalCtaSubtext = ctaSubtext ?? "Escríbenos por WhatsApp y resolvemos tus dudas sin compromiso.";
+  const isInternal = finalCtaUrl.startsWith("/");
   const [progress, setProgress] = useState(0);
+
   const [showTop, setShowTop] = useState(false);
 
   useEffect(() => {
