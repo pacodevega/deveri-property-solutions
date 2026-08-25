@@ -17,8 +17,11 @@ interface BlogPostProps {
   date?: string;
   children: React.ReactNode;
   ctaText?: string;
+  ctaUrl?: string;
+  ctaSubtext?: string;
   category?: string;
 }
+
 
 export default function BlogPost({
   title,
