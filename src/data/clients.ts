@@ -46,4 +46,5 @@ export const clients: Client[] = [
   { name: "Agua Inmaculada", logo: aguaInmaculada, large: true },
   { name: "Elektra", logo: elektra, large: true },
   { name: "Ultra Toys", logo: ultraToys, large: true },
+  { name: "COSI Computadoras y Sistemas Digitales", logo: cosi, large: true },
 ];
