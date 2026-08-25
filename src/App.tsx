@@ -14,6 +14,7 @@ import RentaSEO from "./pages/RentaSEO";
 import MantenimientoSEO from "./pages/MantenimientoSEO";
 import ComoFunciona from "./pages/ComoFunciona";
 import MCP from "./pages/MCP";
+import DeveriMatch from "./pages/DeveriMatch";
 
 import Blog from "./pages/Blog";
 import Contacto from "./pages/Contacto";
@@ -66,6 +67,7 @@ const App = () => (
             <Route path="/renta-de-propiedades-veracruz" element={<RentaSEO />} />
             <Route path="/mantenimiento-de-propiedades-veracruz" element={<MantenimientoSEO />} />
             <Route path="/como-funciona" element={<ComoFunciona />} />
+            <Route path="/deveri-match" element={<DeveriMatch />} />
             <Route path="/mcp" element={<MCP />} />
             
             <Route path="/blog" element={<Blog />} />
