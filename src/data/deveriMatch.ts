@@ -320,7 +320,7 @@ export function evalEmp(e: any, state: MatchState): MatchResult {
   if(state.uso==="no") return {out:"Sin uso de suelo comercial"};
   if(!e.tipos.includes(state.tipo)) return {out:`No toma inmuebles tipo «${({local:"local",plaza:"local en plaza",terreno:"terreno",bodega:"bodega"})[state.tipo]}»`};
   if(e.estados && !e.estados.includes(state.estado)) return {out:"Aún no opera en tu estado"};
-  const rango = e.m2[state.tipo] || e.m2.local || Object.values(e.m2)[0];
+  const rango: number[] = e.m2[state.tipo] || e.m2.local || Object.values(e.m2)[0];
   const [mn,i0,i1,mx] = rango;
   if(state.m2 < mn*0.92) return {out:`Pide mínimo ~${mn.toLocaleString()} m² y tu inmueble tiene ${state.m2.toLocaleString()}`};
   if(state.m2 > mx*1.6) return {out:`Tu superficie (${state.m2.toLocaleString()} m²) excede mucho su formato (~${mx.toLocaleString()} m² máx.)`};
@@ -412,3 +412,37 @@ export function evalEmp(e: any, state: MatchState): MatchResult {
   return { pct, pros:pros.slice(0,4), cons:cons.slice(0,3) };
 }
 
+
+export const LABELS = {
+  tipo: { local: "Local a pie de calle", plaza: "Local en plaza", terreno: "Terreno", bodega: "Bodega/nave" } as Record<string, string>,
+  zona: {
+    avenida: "Avenida principal",
+    colonia: "Calle comercial de colonia",
+    centro: "Centro de la ciudad",
+    residencial: "Zona residencial",
+    endesarrollo: "Zona en desarrollo (pocas casas construidas)",
+    carretera: "Carretera / salida",
+    turistica: "Zona turística",
+  } as Record<string, string>,
+  city: {
+    zm: "Gran zona metropolitana",
+    grande: "Ciudad grande (>500 mil hab)",
+    media: "Ciudad media (100–500 mil)",
+    pequena: "Ciudad pequeña (20–100 mil)",
+    micro: "Localidad chica (<20 mil)",
+  } as Record<string, string>,
+  caj: { "0": "Sin cajones", "1": "1 a 5", "6": "6 a 14", "15": "15 o más" } as Record<string, string>,
+  fl: { alto: "Alto", medio: "Medio", bajo: "Bajo" } as Record<string, string>,
+  gen: {
+    mercado: "Mercado / tianguis",
+    escuela: "Escuelas",
+    hospital: "Hospital / clínicas",
+    transporte: "Transporte público",
+    oficinas: "Oficinas / industria",
+    ninguno: "Ninguno",
+  } as Record<string, string>,
+  uso: { si: "Vigente", tramite: "En trámite / factible", no: "No" } as Record<string, string>,
+  pap: { si: "En regla", pend: "Con pendientes" } as Record<string, string>,
+};
+
+export const CITY_SIZE_FROM_METRO = "zm";
