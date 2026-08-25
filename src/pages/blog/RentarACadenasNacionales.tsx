@@ -1,6 +1,10 @@
 import BlogPost from "@/components/BlogPost";
 import { Callout, StatRow, ComparisonTable, StepCards, FeatureList } from "@/components/blog/BlogElements";
+import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
+import { ArrowRight } from "lucide-react";
 import heroImage from "@/assets/blog/rentar-a-cadenas-nacionales.webp";
+
 
 export default function RentarACadenasNacionales() {
   return (
@@ -10,10 +14,13 @@ export default function RentarACadenasNacionales() {
       title="Cómo rentar tu propiedad a OXXO, Six o cadenas nacionales en Veracruz"
       metaTitle="Cómo rentar tu propiedad a OXXO, Six o cadenas nacionales | DEVERI"
       metaDescription="Guía completa para rentar tu local comercial a OXXO, Six, Farmacias del Ahorro y otras cadenas en Veracruz. Qué buscan, requisitos y cómo lograr el contrato."
-      ctaText="Quiero rentar mi local a una cadena nacional"
+      ctaText="Evaluar mi propiedad con DEVERI Match"
+      ctaUrl="/deveri-match"
+      ctaSubtext="Responde 6 preguntas y descubre qué cadenas nacionales y franquicias en expansión hacen match con tu local o terreno."
       category="Renta"
       readTime="8 min"
     >
+
       <p>
         Rentarle a una cadena nacional como <strong>OXXO, Tiendas Six, Farmacias Guadalajara, Farmacias del Ahorro, 7-Eleven, Coppel o Elektra</strong> es uno de los contratos más codiciados del mercado inmobiliario comercial. Significa rentas puntuales por años, contratos blindados, inquilino solvente y prácticamente cero mantenimiento por parte del propietario.
       </p>
@@ -29,7 +36,20 @@ export default function RentarACadenasNacionales() {
         { value: "0%", label: "Mantenimiento a cargo del propietario" },
       ]} />
 
+      <Callout type="insight" title="Encuentra tu cadena ideal en 2 minutos">
+        <p>
+          Usa <strong>DEVERI Match</strong>: responde 6 preguntas y cruza tu propiedad con los requisitos reales de más de 30
+          cadenas nacionales y franquicias en expansión. Sabrás quién puede rentar tu inmueble y con qué probabilidad.
+        </p>
+        <Link to="/deveri-match" className="inline-block mt-3">
+          <Button variant="cta" size="sm">
+            <ArrowRight className="h-4 w-4" /> Ir a DEVERI Match
+          </Button>
+        </Link>
+      </Callout>
+
       <h2>¿Por qué es tan atractivo rentar a una cadena nacional?</h2>
+
 
       <FeatureList items={[
         { title: "Contratos a largo plazo", description: "10 a 15 años con renovaciones automáticas. Olvídate de buscar inquilinos cada año" },

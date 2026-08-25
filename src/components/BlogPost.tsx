@@ -1,8 +1,9 @@
 import { Button } from "@/components/ui/button";
-import { MessageCircle, Clock, Calendar, ArrowLeft, ChevronUp } from "lucide-react";
+import { MessageCircle, Clock, Calendar, ArrowLeft, ChevronUp, ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import SEOHead from "@/components/SEOHead";
+
 
 const buildWhatsAppUrl = (service: string) =>
   `https://wa.me/522296840727?text=${encodeURIComponent(`Hola, leí su artículo sobre ${service} y quiero más información`)}`;
@@ -17,8 +18,11 @@ interface BlogPostProps {
   date?: string;
   children: React.ReactNode;
   ctaText?: string;
+  ctaUrl?: string;
+  ctaSubtext?: string;
   category?: string;
 }
+
 
 export default function BlogPost({
   title,
@@ -30,10 +34,16 @@ export default function BlogPost({
   date = "Abril 2026",
   children,
   ctaText = "Quiero más información",
+  ctaUrl,
+  ctaSubtext,
   category,
 }: BlogPostProps) {
   const whatsappUrl = buildWhatsAppUrl(title);
+  const finalCtaUrl = ctaUrl ?? whatsappUrl;
+  const finalCtaSubtext = ctaSubtext ?? "Escríbenos por WhatsApp y resolvemos tus dudas sin compromiso.";
+  const isInternal = finalCtaUrl.startsWith("/");
   const [progress, setProgress] = useState(0);
+
   const [showTop, setShowTop] = useState(false);
 
   useEffect(() => {
@@ -112,13 +122,23 @@ export default function BlogPost({
                 ¿Te interesa saber más?
               </h2>
               <p className="text-muted-foreground mb-8 max-w-md mx-auto text-lg">
-                Escríbenos por WhatsApp y resolvemos tus dudas sin compromiso.
+                {finalCtaSubtext}
               </p>
-              <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
-                <Button variant="cta" size="lg" className="shadow-lg text-base px-8 py-6">
-                  <MessageCircle className="w-5 h-5" /> {ctaText}
-                </Button>
-              </a>
+              {isInternal ? (
+                <Link to={finalCtaUrl}>
+                  <Button variant="cta" size="lg" className="shadow-lg text-base px-8 py-6">
+                    <ArrowRight className="w-5 h-5" /> {ctaText}
+                  </Button>
+                </Link>
+              ) : (
+                <a href={finalCtaUrl} target="_blank" rel="noopener noreferrer">
+                  <Button variant="cta" size="lg" className="shadow-lg text-base px-8 py-6">
+                    <MessageCircle className="w-5 h-5" /> {ctaText}
+                  </Button>
+                </a>
+              )}
+
+
             </div>
           </div>
         </div>
