@@ -36,7 +36,20 @@ export default function RentarACadenasNacionales() {
         { value: "0%", label: "Mantenimiento a cargo del propietario" },
       ]} />
 
+      <Callout type="insight" title="Encuentra tu cadena ideal en 2 minutos">
+        <p>
+          Usa <strong>DEVERI Match</strong>: responde 6 preguntas y cruza tu propiedad con los requisitos reales de más de 30
+          cadenas nacionales y franquicias en expansión. Sabrás quién puede rentar tu inmueble y con qué probabilidad.
+        </p>
+        <Link to="/deveri-match" className="inline-block mt-3">
+          <Button variant="cta" size="sm">
+            <ArrowRight className="h-4 w-4" /> Ir a DEVERI Match
+          </Button>
+        </Link>
+      </Callout>
+
       <h2>¿Por qué es tan atractivo rentar a una cadena nacional?</h2>
+
 
       <FeatureList items={[
         { title: "Contratos a largo plazo", description: "10 a 15 años con renovaciones automáticas. Olvídate de buscar inquilinos cada año" },
