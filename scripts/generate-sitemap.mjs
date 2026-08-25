@@ -9,6 +9,7 @@ const BASE_URL = ""
 
 const entries = [
   { path: "/", changefreq: "weekly", priority: "1.0" },
+  { path: "/deveri-match", changefreq: "monthly", priority: "0.9" },
   { path: "/mcp", changefreq: "monthly", priority: "0.9" },
   { path: "/servicios", changefreq: "monthly", priority: "0.9" },
   { path: "/servicios/administracion", changefreq: "monthly", priority: "0.8" },
