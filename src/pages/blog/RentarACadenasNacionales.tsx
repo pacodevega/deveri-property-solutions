@@ -14,10 +14,13 @@ export default function RentarACadenasNacionales() {
       title="Cómo rentar tu propiedad a OXXO, Six o cadenas nacionales en Veracruz"
       metaTitle="Cómo rentar tu propiedad a OXXO, Six o cadenas nacionales | DEVERI"
       metaDescription="Guía completa para rentar tu local comercial a OXXO, Six, Farmacias del Ahorro y otras cadenas en Veracruz. Qué buscan, requisitos y cómo lograr el contrato."
-      ctaText="Quiero rentar mi local a una cadena nacional"
+      ctaText="Evaluar mi propiedad con DEVERI Match"
+      ctaUrl="/deveri-match"
+      ctaSubtext="Responde 6 preguntas y descubre qué cadenas nacionales y franquicias en expansión hacen match con tu local o terreno."
       category="Renta"
       readTime="8 min"
     >
+
       <p>
         Rentarle a una cadena nacional como <strong>OXXO, Tiendas Six, Farmacias Guadalajara, Farmacias del Ahorro, 7-Eleven, Coppel o Elektra</strong> es uno de los contratos más codiciados del mercado inmobiliario comercial. Significa rentas puntuales por años, contratos blindados, inquilino solvente y prácticamente cero mantenimiento por parte del propietario.
       </p>
