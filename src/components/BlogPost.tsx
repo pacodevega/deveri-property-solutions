@@ -127,7 +127,7 @@ export default function BlogPost({
               {isInternal ? (
                 <Link to={finalCtaUrl}>
                   <Button variant="cta" size="lg" className="shadow-lg text-base px-8 py-6">
-                    <MessageCircle className="w-5 h-5" /> {ctaText}
+                    <ArrowRight className="w-5 h-5" /> {ctaText}
                   </Button>
                 </Link>
               ) : (
@@ -137,6 +137,7 @@ export default function BlogPost({
                   </Button>
                 </a>
               )}
+
 
             </div>
           </div>
