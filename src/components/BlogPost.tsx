@@ -121,13 +121,22 @@ export default function BlogPost({
                 ¿Te interesa saber más?
               </h2>
               <p className="text-muted-foreground mb-8 max-w-md mx-auto text-lg">
-                Escríbenos por WhatsApp y resolvemos tus dudas sin compromiso.
+                {finalCtaSubtext}
               </p>
-              <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
-                <Button variant="cta" size="lg" className="shadow-lg text-base px-8 py-6">
-                  <MessageCircle className="w-5 h-5" /> {ctaText}
-                </Button>
-              </a>
+              {isInternal ? (
+                <Link to={finalCtaUrl}>
+                  <Button variant="cta" size="lg" className="shadow-lg text-base px-8 py-6">
+                    <MessageCircle className="w-5 h-5" /> {ctaText}
+                  </Button>
+                </Link>
+              ) : (
+                <a href={finalCtaUrl} target="_blank" rel="noopener noreferrer">
+                  <Button variant="cta" size="lg" className="shadow-lg text-base px-8 py-6">
+                    <MessageCircle className="w-5 h-5" /> {ctaText}
+                  </Button>
+                </a>
+              )}
+
             </div>
           </div>
         </div>
