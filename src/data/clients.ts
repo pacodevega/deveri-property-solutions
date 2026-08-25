@@ -18,6 +18,7 @@ import aguaInmaculada from "@/assets/clients/agua-inmaculada.webp";
 import elektra from "@/assets/clients/elektra.png";
 
 import ultraToys from "@/assets/clients/ultra-toys.png";
+import cosi from "@/assets/clients/cosi.png";
 
 export interface Client {
   name: string;
@@ -45,4 +46,5 @@ export const clients: Client[] = [
   { name: "Agua Inmaculada", logo: aguaInmaculada, large: true },
   { name: "Elektra", logo: elektra, large: true },
   { name: "Ultra Toys", logo: ultraToys, large: true },
+  { name: "COSI Computadoras y Sistemas Digitales", logo: cosi, large: true },
 ];
