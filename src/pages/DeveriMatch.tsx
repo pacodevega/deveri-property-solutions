@@ -813,7 +813,6 @@ export default function DeveriMatch() {
       <SEOHead
         title="DEVERI Match | ¿Qué cadena puede rentar tu local o terreno?"
         description="Evalúa gratis tu local, terreno o bodega y descubre qué cadenas nacionales y franquicias en expansión hacen match con tu propiedad. Resultado inmediato y contacto directo."
-        canonical="/deveri-match"
         jsonLd={jsonLd}
       />
 
