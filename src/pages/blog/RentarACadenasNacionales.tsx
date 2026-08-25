@@ -1,6 +1,10 @@
 import BlogPost from "@/components/BlogPost";
 import { Callout, StatRow, ComparisonTable, StepCards, FeatureList } from "@/components/blog/BlogElements";
+import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
+import { ArrowRight } from "lucide-react";
 import heroImage from "@/assets/blog/rentar-a-cadenas-nacionales.webp";
+
 
 export default function RentarACadenasNacionales() {
   return (
