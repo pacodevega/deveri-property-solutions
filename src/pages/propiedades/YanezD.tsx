@@ -169,6 +169,18 @@ export default function YanezD() {
             {/* Gallery */}
             <PropertyRequirements />
 
+            <h2 className="mt-14 text-2xl md:text-3xl font-extrabold text-foreground">Video del local</h2>
+            <div className="mt-5 relative w-full overflow-hidden rounded-xl border bg-muted aspect-video">
+              <iframe
+                src="https://www.youtube.com/embed/MUzk6DimO00"
+                title="Video del local comercial en Avenida Yáñez, Veracruz"
+                loading="lazy"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+                className="absolute inset-0 w-full h-full"
+              />
+            </div>
+
             <h2 className="mt-14 text-2xl md:text-3xl font-extrabold text-foreground">Fotos</h2>
             <div className="mt-5 grid grid-cols-2 md:grid-cols-3 gap-3">
               {photos.map((p, idx) => (
