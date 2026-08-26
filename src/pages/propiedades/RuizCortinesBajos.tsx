@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import SEOHead from "@/components/SEOHead";
+import PropertyRequirements from "@/components/PropertyRequirements";
 import SharePropertyButton from "@/components/SharePropertyButton";
 import { Button } from "@/components/ui/button";
 import {
@@ -273,6 +274,8 @@ export default function RuizCortinesBajos() {
                 </Link>
               </div>
             </div>
+
+            <PropertyRequirements />
 
             {/* Video */}
             <h2 className="mt-14 text-2xl md:text-3xl font-extrabold text-foreground">Video del local</h2>
