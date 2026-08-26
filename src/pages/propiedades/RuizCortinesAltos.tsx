@@ -80,7 +80,8 @@ const includes = [
   "180 m² en planta alta con amplios espacios",
   "Baño de hombres con mingitorio",
   "Baño de mujeres",
-  "Privado y cuarto bodega",
+  "1 privado",
+  "1 cuarto bodega",
   "Terraza",
   "Distribución funcional y adaptable a distintos giros",
 ];
@@ -193,8 +194,8 @@ export default function RuizCortinesAltos() {
               tu negocio.
             </p>
             <p className="mt-4 text-muted-foreground leading-relaxed">
-              Cuenta con amplios espacios, baño de hombres con mingitorio, baño de mujeres, privado,
-              cuarto bodega y terraza. Su distribución es funcional y adaptable a diferentes giros
+              Cuenta con amplios espacios, baño de hombres con mingitorio, baño de mujeres, un privado,
+              un cuarto bodega y terraza. Su distribución es funcional y adaptable a diferentes giros
               comerciales.
             </p>
 
@@ -326,7 +327,7 @@ export default function RuizCortinesAltos() {
                 <div className="flex justify-between gap-3">
                   <span>Extras</span>
                   <span className="font-medium text-foreground text-right">
-                    Terraza, privado y bodega
+                    Terraza, 1 privado y 1 bodega
                   </span>
                 </div>
               </div>
