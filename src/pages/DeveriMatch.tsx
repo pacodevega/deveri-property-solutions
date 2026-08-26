@@ -317,7 +317,7 @@ export default function DeveriMatch() {
     switch (step.id) {
       case "intro":
         return (
-          <div className="rounded-2xl border bg-card p-7 shadow-sm md:p-10">
+          <div className="rounded-2xl border bg-card p-5 shadow-sm sm:p-7 md:p-10">
             <p className="mb-2 text-xs font-extrabold uppercase tracking-[0.14em] text-accent">
               DEVERI · Inteligencia inmobiliaria
             </p>
@@ -381,7 +381,7 @@ export default function DeveriMatch() {
                   id="estado"
                   value={state.estado}
                   onChange={(e) => set({ estado: e.target.value })}
-                  className={`mt-1.5 h-11 w-full rounded-lg border bg-background px-3 text-sm ${invalid.estado ? "border-destructive" : "border-input"}`}
+                  className={`mt-1.5 h-11 w-full rounded-lg border bg-background px-3 text-base md:text-sm ${invalid.estado ? "border-destructive" : "border-input"}`}
                 >
                   <option value="">Selecciona…</option>
                   {ESTADOS.map((e) => (
@@ -689,7 +689,7 @@ export default function DeveriMatch() {
         const { fuertes, posibles, bajos, excluded } = evaluation;
         return (
           <div>
-            <div className="mb-6 flex flex-wrap gap-x-6 gap-y-2 rounded-2xl bg-primary px-6 py-5 text-sm text-primary-foreground">
+            <div className="mb-6 flex flex-wrap gap-x-6 gap-y-2 rounded-2xl bg-primary px-4 py-4 text-sm sm:px-6 sm:py-5 text-primary-foreground">
               <span className="flex items-center gap-2">
                 <MapPin className="h-4 w-4 text-accent" />
                 <strong>{state.calle}</strong> — {state.ciudad}, {eN}
@@ -744,7 +744,7 @@ export default function DeveriMatch() {
               </>
             )}
 
-            <section className="rounded-2xl bg-primary p-8 text-center text-primary-foreground">
+            <section className="rounded-2xl bg-primary p-6 text-center sm:p-8 text-primary-foreground">
               <h2 className="text-xl font-extrabold">
                 ¿Quieres que <span className="text-accent">DEVERI</span> lo haga por ti?
               </h2>
@@ -862,7 +862,7 @@ export default function DeveriMatch() {
 
 function StepCard({ num, title, sub, children }: { num: string; title: string; sub: string; children: React.ReactNode }) {
   return (
-    <section className="rounded-2xl border bg-card p-6 shadow-sm md:p-9">
+    <section className="rounded-2xl border bg-card p-5 shadow-sm sm:p-6 md:p-9">
       <p className="mb-1.5 text-xs font-extrabold uppercase tracking-[0.14em] text-accent">{num}</p>
       <h1 className="text-2xl font-extrabold leading-tight text-primary">{title}</h1>
       <p className="mb-6 mt-2 text-sm leading-relaxed text-muted-foreground">{sub}</p>
