@@ -100,9 +100,9 @@ export default function YanezD() {
                 <SharePropertyButton
                   title="Local comercial en renta — Avenida Yáñez | DEVERI"
                   text="Mira este local comercial en renta sobre Avenida Yáñez, Veracruz."
-                  variant="outline"
+                  variant="outline-light"
                   size="sm"
-                  className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground ml-auto md:ml-0"
+                  className="ml-auto md:ml-0"
                 />
               </div>
             </div>
