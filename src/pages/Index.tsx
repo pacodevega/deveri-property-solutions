@@ -40,6 +40,7 @@ const Index = () => (
       jsonLd={jsonLd}
     />
     <HeroSection />
+    <FeaturedProperties />
     <ClientIdentification />
     <ProblemSection />
     <SolutionSection />
@@ -51,6 +52,7 @@ const Index = () => (
     <PricingSection />
     <FAQSection />
     <FinalCTA />
+
   </>
 );
 
