@@ -18,11 +18,15 @@ import {
   Sun,
 } from "lucide-react";
 
-import fachada from "@/assets/propiedades/ruiz-cortines-fachada.jpg";
-import avenida from "@/assets/propiedades/ruiz-cortines-avenida.jpg";
-import interior1 from "@/assets/propiedades/ruiz-cortines-interior-1.jpg";
-import interior2 from "@/assets/propiedades/ruiz-cortines-interior-2.jpg";
-import interior3 from "@/assets/propiedades/ruiz-cortines-interior-3.jpg";
+import fachada from "@/assets/propiedades/bajos-fachada.jpg";
+import avenida from "@/assets/propiedades/bajos-avenida.jpg";
+import interior1 from "@/assets/propiedades/bajos-interior-1.jpg";
+import interior2 from "@/assets/propiedades/bajos-interior-2.jpg";
+import interior3 from "@/assets/propiedades/bajos-interior-3.jpg";
+import bodega from "@/assets/propiedades/bajos-bodega.jpg";
+import banoHombres from "@/assets/propiedades/bajos-bano-hombres.jpg";
+import banoMujeres from "@/assets/propiedades/bajos-bano-mujeres.jpg";
+import bano2 from "@/assets/propiedades/bajos-bano-2.jpg";
 
 const PHONE = "522296840727";
 const wa = (text: string) => `https://wa.me/${PHONE}?text=${encodeURIComponent(text)}`;
@@ -38,9 +42,13 @@ const MAPS_URL = "https://maps.app.goo.gl/dFTJ4uaSY8tGbQX99?g_st=ac";
 const photos = [
   { src: fachada, alt: "Fachada del local comercial en planta baja sobre Av. Ruiz Cortines, Boca del Río" },
   { src: avenida, alt: "Vista del inmueble sobre Avenida Ruiz Cortines con alto flujo vehicular" },
-  { src: interior1, alt: "Interior amplio de la planta baja con acabados en buen estado" },
-  { src: interior2, alt: "Espacio interior diáfano de la planta baja, 200 m²" },
-  { src: interior3, alt: "Distribución interior adaptable de la planta baja" },
+  { src: interior1, alt: "Salón principal de la planta baja con barra y amplios espacios" },
+  { src: interior2, alt: "Barra interior con acabados en mosaico dentro de la planta baja" },
+  { src: interior3, alt: "Área interior con acceso a espacios privados de la planta baja" },
+  { src: bodega, alt: "Cuarto bodega de la planta baja con aire acondicionado" },
+  { src: banoHombres, alt: "Baño de hombres con mingitorios en la planta baja" },
+  { src: banoMujeres, alt: "Baño de mujeres con lavabos y sanitarios en la planta baja" },
+  { src: bano2, alt: "Área de sanitarios adicional de la planta baja" },
 ];
 
 const specs = [
