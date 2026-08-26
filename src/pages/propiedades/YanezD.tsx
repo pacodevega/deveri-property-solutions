@@ -1,5 +1,6 @@
 import { useState } from "react";
 import SEOHead from "@/components/SEOHead";
+import SharePropertyButton from "@/components/SharePropertyButton";
 import { Button } from "@/components/ui/button";
 import {
   MessageCircle,
