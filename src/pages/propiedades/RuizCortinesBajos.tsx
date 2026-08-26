@@ -130,7 +130,7 @@ export default function RuizCortinesBajos() {
 
       {/* Hero */}
       <section className="relative">
-        <div className="relative h-[52vh] min-h-[320px] md:h-[68vh] overflow-hidden">
+        <div className="relative h-[58vh] min-h-[400px] md:h-[68vh] overflow-hidden">
           <img src={fachada} alt={photos[0].alt} className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-t from-primary/95 via-primary/50 to-primary/20" />
           <div className="absolute inset-x-0 bottom-0">
@@ -138,14 +138,14 @@ export default function RuizCortinesBajos() {
               <span className="inline-flex items-center gap-2 rounded-full bg-accent px-3 py-1 text-xs font-semibold uppercase tracking-wide text-accent-foreground">
                 En renta
               </span>
-              <h1 className="mt-4 text-3xl md:text-5xl font-extrabold leading-tight max-w-3xl">
+              <h1 className="mt-4 text-2xl sm:text-3xl md:text-5xl font-extrabold leading-tight max-w-3xl">
                 Ruiz Cortines Bajos — Local comercial en Boca del Río
               </h1>
               <p className="mt-3 flex items-center gap-2 text-primary-foreground/85 text-sm md:text-base">
                 <MapPin className="w-4 h-4 shrink-0" /> Av. Ruiz Cortines, Boca del Río, Veracruz
               </p>
               <div className="mt-5 flex flex-wrap items-end gap-x-3 gap-y-1">
-                <span className="text-2xl md:text-3xl font-extrabold text-accent">
+                <span className="text-xl sm:text-2xl md:text-3xl font-extrabold text-accent">
                   200 m² · planta baja
                 </span>
                 <span className="text-primary-foreground/80 text-sm md:text-base pb-1">
