@@ -36,7 +36,7 @@ const PHONE = "522296840727";
 const wa = (text: string) => `https://wa.me/${PHONE}?text=${encodeURIComponent(text)}`;
 
 const WHATSAPP_BAJOS = wa(
-  "Hola, estoy interesado en el local comercial en renta Ruiz Cortines Bajos (planta baja, 200 m²) sobre Av. Ruiz Cortines, Boca del Río. ¿Me pueden dar más información?"
+  "Hola, estoy interesado en el local comercial en renta Ruiz Cortines Bajos (planta baja, 200 m², $55,000 MXN mensuales) sobre Av. Ruiz Cortines, Boca del Río. ¿Me pueden dar más información?"
 );
 const WHATSAPP_JUNTOS = wa(
   "Hola, me interesa rentar Ruiz Cortines Bajos y Ruiz Cortines Altos juntos (planta baja de 200 m² + planta alta de 180 m² = 380 m², precio especial de $76,000 MXN mensuales) en Av. Ruiz Cortines, Boca del Río. ¿Me pueden dar más información?"
@@ -110,13 +110,13 @@ export default function RuizCortinesBajos() {
     <>
       <SEOHead
         title="Local comercial en renta planta baja Av. Ruiz Cortines, Boca del Río | 200 m² | DEVERI"
-        description="Local comercial en renta en planta baja sobre Av. Ruiz Cortines, Boca del Río. 200 m², baños, bodega y acceso a pie de calle. Opción de 380 m² con la planta alta por $76,000 MXN."
+        description="Local comercial en renta en planta baja sobre Av. Ruiz Cortines, Boca del Río. 200 m² por $55,000 MXN mensuales, baños, bodega y acceso a pie de calle. Opción de 380 m² con la planta alta por $76,000 MXN."
         jsonLd={{
           "@context": "https://schema.org",
           "@type": "RealEstateListing",
           name: "Ruiz Cortines Bajos — Local comercial en renta",
           description:
-            "Local comercial de 200 m² en planta baja sobre Avenida Ruiz Cortines, Boca del Río. Baños, bodega y acceso a pie de calle.",
+            "Local comercial de 200 m² en planta baja sobre Avenida Ruiz Cortines, Boca del Río. Renta $55,000 MXN mensuales. Baños, bodega y acceso a pie de calle.",
           floorSize: { "@type": "QuantitativeValue", value: 200, unitCode: "MTK" },
           address: {
             "@type": "PostalAddress",
@@ -149,7 +149,7 @@ export default function RuizCortinesBajos() {
                   200 m² · planta baja
                 </span>
                 <span className="text-primary-foreground/80 text-sm md:text-base pb-1">
-                  Renta: consultar · ambas plantas $76,000 MXN / mes
+                  Renta: $55,000 MXN / mes · ambas plantas $76,000
                 </span>
                 <SharePropertyButton
                   title="Ruiz Cortines Bajos — Local comercial en renta | DEVERI"
@@ -313,7 +313,7 @@ export default function RuizCortinesBajos() {
             <div className="rounded-2xl border bg-card p-6 shadow-lg">
               <p className="text-sm text-muted-foreground">Renta mensual (planta baja)</p>
               <p className="text-3xl font-extrabold text-foreground">
-                Consultar <span className="text-base font-medium text-muted-foreground">precio</span>
+                $55,000 <span className="text-base font-medium text-muted-foreground">MXN / mes</span>
               </p>
               <p className="mt-1 text-sm text-muted-foreground">
                 Ambas plantas (380 m²): $76,000 MXN / mes
