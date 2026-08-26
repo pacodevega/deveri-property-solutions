@@ -814,6 +814,10 @@ export default function DeveriMatch() {
     return () => document.body.classList.remove("has-bottom-bar");
   }, [showNav]);
 
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, [step.id]);
+
   return (
     <>
       <SEOHead
