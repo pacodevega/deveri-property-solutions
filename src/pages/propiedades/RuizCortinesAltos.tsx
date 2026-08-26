@@ -297,8 +297,8 @@ export default function RuizCortinesAltos() {
               Sobre Avenida Ruiz Cortines, Boca del Río, Veracruz. Zona comercial consolidada con
               alto tránsito vehicular y peatonal.
             </p>
-            <a href={MAPS_URL} target="_blank" rel="noopener noreferrer" className="inline-block mt-4">
-              <Button variant="outline" size="lg">
+            <a href={MAPS_URL} target="_blank" rel="noopener noreferrer" className="block sm:inline-block mt-4">
+              <Button variant="outline" size="lg" className="w-full sm:w-auto h-auto min-h-12 whitespace-normal py-3">
                 <MapPin className="w-5 h-5" /> Ver en Google Maps <ArrowUpRight className="w-4 h-4" />
               </Button>
             </a>
@@ -366,8 +366,8 @@ export default function RuizCortinesAltos() {
             Escríbenos y te damos disponibilidad, condiciones de contrato y todos los detalles del
             local.
           </p>
-          <a href={WHATSAPP_ALTOS} target="_blank" rel="noopener noreferrer" className="inline-block mt-7">
-            <Button variant="cta" size="lg">
+          <a href={WHATSAPP_ALTOS} target="_blank" rel="noopener noreferrer" className="block sm:inline-block mt-7">
+            <Button variant="cta" size="lg" className="w-full sm:w-auto h-auto min-h-12 whitespace-normal py-3">
               <MessageCircle className="w-5 h-5" /> Me interesa esta propiedad
             </Button>
           </a>

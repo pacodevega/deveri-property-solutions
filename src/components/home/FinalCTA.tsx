@@ -13,8 +13,8 @@ export default function FinalCTA() {
         <p className="text-primary-foreground/80 mb-8 text-lg">
           Entre más tiempo pasa, más problemas puedes evitar delegando.
         </p>
-        <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
-          <Button variant="hero">
+        <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="block sm:inline-block">
+          <Button variant="hero" className="w-full sm:w-auto h-auto min-h-12 whitespace-normal py-3 text-center">
             <MessageCircle className="w-5 h-5" />
             Quiero delegar mi propiedad ahora
           </Button>
