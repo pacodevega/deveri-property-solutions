@@ -129,7 +129,7 @@ export default function YanezD() {
 
       {/* Main content */}
       <section className="section-padding">
-        <div className="container-narrow grid lg:grid-cols-[1fr_360px] gap-10 lg:gap-12 items-start">
+        <div className="container-narrow grid lg:grid-cols-[minmax(0,1fr)_360px] gap-10 lg:gap-12 items-start">
           <div className="min-w-0">
             <h2 className="text-2xl md:text-3xl font-extrabold text-foreground">Sobre esta propiedad</h2>
             <p className="mt-4 text-muted-foreground leading-relaxed">
@@ -203,7 +203,7 @@ export default function YanezD() {
           </div>
 
           {/* Sticky CTA card */}
-          <aside className="lg:sticky lg:top-24 w-full">
+          <aside className="lg:sticky lg:top-24 w-full min-w-0">
             <div className="rounded-2xl border bg-card p-6 shadow-lg">
               <p className="text-sm text-muted-foreground">Renta mensual</p>
               <p className="text-3xl font-extrabold text-foreground">
