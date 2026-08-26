@@ -54,5 +54,5 @@ export const clients: Client[] = [
   { name: "COSI", logo: cosi },
   { name: "Panissimo", logo: panissimo, large: true },
   { name: "Movistar", logo: movistar },
-  { name: "AXA", logo: axa, large: true },
+  { name: "AXA", logo: axa },
 ];
