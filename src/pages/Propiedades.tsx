@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import SEOHead from "@/components/SEOHead";
+import SharePropertyButton from "@/components/SharePropertyButton";
 import { Button } from "@/components/ui/button";
 import { MessageCircle, MapPin, Ruler, ArrowRight, Building2 } from "lucide-react";
 import { propiedades } from "@/data/propiedades";
