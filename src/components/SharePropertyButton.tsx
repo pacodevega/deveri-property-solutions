@@ -11,7 +11,7 @@ interface SharePropertyButtonProps {
   /** Text passed to the native share dialog. */
   text?: string;
   /** Visual variant. */
-  variant?: "outline" | "secondary" | "ghost" | "cta";
+  variant?: "outline" | "outline-light" | "secondary" | "ghost" | "cta";
   /** Button size. */
   size?: "sm" | "default" | "lg";
   /** Full width on mobile. */
