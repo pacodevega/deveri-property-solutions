@@ -781,11 +781,11 @@ export default function DeveriMatch() {
             </p>
 
 
-            <div className="mt-6 flex flex-wrap gap-3">
-              <Button variant="outline" onClick={restart}>
+            <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+              <Button variant="outline" onClick={restart} className="w-full sm:w-auto">
                 <RotateCcw className="h-4 w-4" /> Evaluar otro inmueble
               </Button>
-              <Button variant="outline" onClick={() => window.print()}>
+              <Button variant="outline" onClick={() => window.print()} className="w-full sm:w-auto">
                 <Printer className="h-4 w-4" /> Imprimir / guardar PDF
               </Button>
             </div>
