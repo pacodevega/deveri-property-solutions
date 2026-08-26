@@ -333,12 +333,12 @@ export default function RuizCortinesAltos() {
               </div>
 
               <a href={WHATSAPP_ALTOS} target="_blank" rel="noopener noreferrer" className="block mt-6">
-                <Button variant="cta" size="lg" className="w-full">
+                <Button variant="cta" size="lg" className="w-full h-auto min-h-12 whitespace-normal py-3">
                   <MessageCircle className="w-5 h-5" /> Me interesa esta propiedad
                 </Button>
               </a>
               <a href={WHATSAPP_JUNTOS} target="_blank" rel="noopener noreferrer" className="block mt-3">
-                <Button variant="outline" size="lg" className="w-full">
+                <Button variant="outline" size="lg" className="w-full h-auto min-h-12 whitespace-normal py-3">
                   <Sun className="w-5 h-5" /> Rentar ambas plantas
                 </Button>
               </a>
