@@ -25,7 +25,7 @@ const PHONE = "522296840727";
 const WHATSAPP_URL = `https://wa.me/${PHONE}?text=${encodeURIComponent(
   "Hola, estoy interesado en el Local 3 de Plaza Hípico (50 m², $11,400 MXN + $600 de agua). ¿Me pueden dar más información?"
 )}`;
-const MAPS_URL = "https://maps.app.goo.gl/?q=Plaza+Hipico+Veracruz";
+const MAPS_URL = "https://maps.app.goo.gl/qqBjPFQHyDFdWEj46?g_st=ac";
 
 const photos = [
   { src: fachada, alt: "Fachada del local comercial en renta en Plaza Hípico, junto al Súper Carranza" },
