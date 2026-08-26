@@ -1,4 +1,6 @@
 import fachada from "@/assets/propiedades/yanez-fachada.jpg";
+import ruizCortines from "@/assets/propiedades/ruiz-cortines-fachada.jpg";
+
 
 export type Propiedad = {
   slug: string;
@@ -35,4 +37,23 @@ export const propiedades: Propiedad[] = [
     imagenAlt: "Fachada del local comercial en renta sobre Avenida Yáñez, Veracruz",
     disponible: true,
   },
+  {
+    slug: "ruiz-cortines-altos",
+    nombre: "Ruiz Cortines Altos — Local comercial",
+    tipo: "Local comercial",
+    operacion: "Renta",
+    precio: "$32,000 MXN",
+    precioNota: "mensuales · ambas plantas $76,000",
+    superficie: "180 m²",
+    ubicacion: "Av. Ruiz Cortines",
+    ciudad: "Boca del Río",
+    resumen:
+      "Planta alta de 180 m² sobre la principal avenida comercial de Boca del Río. Amplios espacios, baños, privado, bodega y terraza. Opción de rentar 380 m² con la planta baja.",
+    destacados: ["Planta alta", "Terraza", "Alto flujo vehicular"],
+    imagen: ruizCortines,
+    imagenAlt:
+      "Fachada del local comercial en renta sobre Avenida Ruiz Cortines, Boca del Río",
+    disponible: true,
+  },
 ];
+
