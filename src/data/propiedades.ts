@@ -28,7 +28,7 @@ export const propiedades: Propiedad[] = [
     tipo: "Local comercial",
     operacion: "Renta",
     precio: "$7,500 MXN",
-    precioNota: "mensuales + $400 de agua",
+    precioNota: "mensuales + $400 de agua · total $7,900",
     superficie: "40 m²",
     ubicacion: "Esquina sobre Avenida Yáñez",
     ciudad: "Veracruz",
