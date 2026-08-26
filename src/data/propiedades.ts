@@ -1,4 +1,6 @@
 import fachada from "@/assets/propiedades/yanez-fachada.jpg";
+import ruizCortines from "@/assets/propiedades/ruiz-cortines-fachada.jpg";
+
 
 export type Propiedad = {
   slug: string;
