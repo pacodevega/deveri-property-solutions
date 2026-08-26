@@ -19,6 +19,7 @@ import Propiedades from "./pages/Propiedades";
 import YanezD from "./pages/propiedades/YanezD";
 import RuizCortinesAltos from "./pages/propiedades/RuizCortinesAltos";
 import RuizCortinesBajos from "./pages/propiedades/RuizCortinesBajos";
+import HipicoLocal3 from "./pages/propiedades/HipicoLocal3";
 
 import Blog from "./pages/Blog";
 import Contacto from "./pages/Contacto";
@@ -77,6 +78,7 @@ const App = () => (
             <Route path="/propiedades/yanez-d" element={<YanezD />} />
             <Route path="/propiedades/ruiz-cortines-altos" element={<RuizCortinesAltos />} />
             <Route path="/propiedades/ruiz-cortines-bajos" element={<RuizCortinesBajos />} />
+            <Route path="/propiedades/hipico-local-3" element={<HipicoLocal3 />} />
 
             
             <Route path="/blog" element={<Blog />} />

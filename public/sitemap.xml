@@ -56,6 +56,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>/propiedades/hipico-local-3</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>/administracion-de-propiedades-veracruz</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
