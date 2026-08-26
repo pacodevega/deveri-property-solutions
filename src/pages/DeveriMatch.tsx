@@ -844,7 +844,7 @@ export default function DeveriMatch() {
             className="fixed bottom-0 left-0 right-0 z-40 border-t bg-background"
             style={{ paddingBottom: "env(safe-area-inset-bottom)" }}
           >
-            <div className="mx-auto flex max-w-3xl items-center justify-between gap-3 px-4 py-3 pr-20 sm:pr-4">
+            <div className="mx-auto flex max-w-3xl items-center justify-between gap-3 px-4 py-3">
               <Button variant="outline" onClick={back} className={cur <= 1 ? "invisible" : ""}>
                 <ArrowLeft className="h-4 w-4" /> Atrás
               </Button>
