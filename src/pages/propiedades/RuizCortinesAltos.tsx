@@ -182,7 +182,7 @@ export default function RuizCortinesAltos() {
 
       {/* Main content */}
       <section className="section-padding">
-        <div className="container-narrow grid lg:grid-cols-[1fr_360px] gap-10 lg:gap-12 items-start">
+        <div className="container-narrow grid lg:grid-cols-[minmax(0,1fr)_360px] gap-10 lg:gap-12 items-start">
           <div className="min-w-0">
             <h2 className="text-2xl md:text-3xl font-extrabold text-foreground">
               Sobre esta propiedad
@@ -297,15 +297,15 @@ export default function RuizCortinesAltos() {
               Sobre Avenida Ruiz Cortines, Boca del Río, Veracruz. Zona comercial consolidada con
               alto tránsito vehicular y peatonal.
             </p>
-            <a href={MAPS_URL} target="_blank" rel="noopener noreferrer" className="inline-block mt-4">
-              <Button variant="outline" size="lg">
+            <a href={MAPS_URL} target="_blank" rel="noopener noreferrer" className="block sm:inline-block mt-4">
+              <Button variant="outline" size="lg" className="w-full sm:w-auto h-auto min-h-12 whitespace-normal py-3">
                 <MapPin className="w-5 h-5" /> Ver en Google Maps <ArrowUpRight className="w-4 h-4" />
               </Button>
             </a>
           </div>
 
           {/* Sticky CTA card */}
-          <aside className="lg:sticky lg:top-24 w-full">
+          <aside className="lg:sticky lg:top-24 w-full min-w-0">
             <div className="rounded-2xl border bg-card p-6 shadow-lg">
               <p className="text-sm text-muted-foreground">Renta mensual (planta alta)</p>
               <p className="text-3xl font-extrabold text-foreground">
@@ -333,12 +333,12 @@ export default function RuizCortinesAltos() {
               </div>
 
               <a href={WHATSAPP_ALTOS} target="_blank" rel="noopener noreferrer" className="block mt-6">
-                <Button variant="cta" size="lg" className="w-full">
+                <Button variant="cta" size="lg" className="w-full h-auto min-h-12 whitespace-normal py-3">
                   <MessageCircle className="w-5 h-5" /> Me interesa esta propiedad
                 </Button>
               </a>
               <a href={WHATSAPP_JUNTOS} target="_blank" rel="noopener noreferrer" className="block mt-3">
-                <Button variant="outline" size="lg" className="w-full">
+                <Button variant="outline" size="lg" className="w-full h-auto min-h-12 whitespace-normal py-3">
                   <Sun className="w-5 h-5" /> Rentar ambas plantas
                 </Button>
               </a>
@@ -366,8 +366,8 @@ export default function RuizCortinesAltos() {
             Escríbenos y te damos disponibilidad, condiciones de contrato y todos los detalles del
             local.
           </p>
-          <a href={WHATSAPP_ALTOS} target="_blank" rel="noopener noreferrer" className="inline-block mt-7">
-            <Button variant="cta" size="lg">
+          <a href={WHATSAPP_ALTOS} target="_blank" rel="noopener noreferrer" className="block sm:inline-block mt-7">
+            <Button variant="cta" size="lg" className="w-full sm:w-auto h-auto min-h-12 whitespace-normal py-3">
               <MessageCircle className="w-5 h-5" /> Me interesa esta propiedad
             </Button>
           </a>
