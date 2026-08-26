@@ -27,6 +27,10 @@ import bodega from "@/assets/propiedades/bajos-bodega.jpg";
 import banoHombres from "@/assets/propiedades/bajos-bano-hombres.jpg";
 import banoMujeres from "@/assets/propiedades/bajos-bano-mujeres.jpg";
 import bano2 from "@/assets/propiedades/bajos-bano-2.jpg";
+import interior4 from "@/assets/propiedades/bajos-interior-4.jpg";
+import interior5 from "@/assets/propiedades/bajos-interior-5.jpg";
+import interior6 from "@/assets/propiedades/bajos-interior-6.jpg";
+import interior7 from "@/assets/propiedades/bajos-interior-7.jpg";
 
 const PHONE = "522296840727";
 const wa = (text: string) => `https://wa.me/${PHONE}?text=${encodeURIComponent(text)}`;
@@ -45,6 +49,10 @@ const photos = [
   { src: interior1, alt: "Salón principal de la planta baja con barra y amplios espacios" },
   { src: interior2, alt: "Barra interior con acabados en mosaico dentro de la planta baja" },
   { src: interior3, alt: "Área interior con acceso a espacios privados de la planta baja" },
+  { src: interior4, alt: "Amplio salón de la planta baja con barra y acceso a privados" },
+  { src: interior5, alt: "Vista del salón hacia el acceso a pie de calle sobre la avenida" },
+  { src: interior6, alt: "Espacio diáfano de la planta baja con columnas y muro verde" },
+  { src: interior7, alt: "Área posterior de la planta baja con desnivel y espacio de servicio" },
   { src: bodega, alt: "Cuarto bodega de la planta baja con aire acondicionado" },
   { src: banoHombres, alt: "Baño de hombres con mingitorios en la planta baja" },
   { src: banoMujeres, alt: "Baño de mujeres con lavabos y sanitarios en la planta baja" },
