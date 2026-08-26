@@ -138,3 +138,11 @@
 .animate-float {
   animation: float 3s ease-in-out infinite;
 }
+
+/* Floating WhatsApp button: respect iOS safe area and move above sticky bars */
+.floating-whatsapp {
+  bottom: calc(1.5rem + env(safe-area-inset-bottom));
+}
+body.has-bottom-bar .floating-whatsapp {
+  bottom: calc(5.75rem + env(safe-area-inset-bottom));
+}

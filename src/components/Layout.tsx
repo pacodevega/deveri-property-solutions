@@ -126,7 +126,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         href={WHATSAPP_URL}
         target="_blank"
         rel="noopener noreferrer"
-        className="fixed bottom-6 right-6 z-50 bg-accent hover:bg-accent-hover text-accent-foreground rounded-full p-4 shadow-xl transition-all duration-300 hover:scale-110"
+        className="floating-whatsapp fixed bottom-6 right-4 sm:right-6 z-50 bg-accent hover:bg-accent-hover text-accent-foreground rounded-full p-4 shadow-xl transition-all duration-300 hover:scale-110"
         aria-label="Contactar por WhatsApp"
       >
         <MessageCircle className="w-6 h-6" />

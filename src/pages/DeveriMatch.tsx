@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { MessageCircle, Printer, RotateCcw, ArrowRight, ArrowLeft, Check, X, MapPin, Ruler, Building2, Coins } from "lucide-react";
 import { toast } from "sonner";
 import { Button } from "@/components/ui/button";
@@ -260,15 +260,15 @@ export default function DeveriMatch() {
     const c = r.e.canal;
     const href = c.href || (c.mail ? `mailto:${c.mail}` : null);
     return (
-      <article className="mb-3.5 rounded-2xl border bg-card p-5 shadow-sm">
-        <div className="flex flex-wrap items-start justify-between gap-3">
-          <div>
+      <article className="mb-3.5 rounded-2xl border bg-card p-4 shadow-sm sm:p-5">
+        <div className="flex items-start justify-between gap-3">
+          <div className="min-w-0">
             <h4 className="text-base font-bold text-primary">
               {i + 1}. {r.e.n}
             </h4>
             <p className="mt-0.5 text-[11px] font-semibold uppercase tracking-wider text-muted-foreground">{r.e.sec}</p>
           </div>
-          <div className="text-right">
+          <div className="shrink-0 text-right">
             <div className="text-2xl font-extrabold leading-none text-primary">{r.pct}%</div>
             <div className="mt-1 text-[10px] font-semibold uppercase tracking-wider text-muted-foreground">Probabilidad</div>
           </div>
@@ -291,20 +291,20 @@ export default function DeveriMatch() {
           ))}
         </div>
 
-        <div className="mt-4 flex flex-wrap items-center gap-3 border-t border-dashed pt-3.5">
+        <div className="mt-4 flex flex-wrap items-center gap-2.5 border-t border-dashed pt-3.5 sm:gap-3">
           <span className="rounded-md bg-primary px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider text-primary-foreground">
             {c.lbl}
           </span>
-          {c.mail && <span className="text-xs font-semibold text-muted-foreground">✉ {c.mail}</span>}
+          {c.mail && <span className="max-w-full break-all text-xs font-semibold text-muted-foreground">✉ {c.mail}</span>}
           {c.tel && <span className="text-xs font-semibold text-muted-foreground">📞 {c.tel}</span>}
           {href ? (
-            <a href={href} target="_blank" rel="noopener noreferrer" className="ml-auto">
-              <Button variant="cta" size="sm">
+            <a href={href} target="_blank" rel="noopener noreferrer" className="w-full sm:ml-auto sm:w-auto">
+              <Button variant="cta" size="sm" className="w-full sm:w-auto">
                 {c.go} <ArrowRight className="h-4 w-4" />
               </Button>
             </a>
           ) : (
-            <span className="ml-auto rounded-lg bg-secondary px-3 py-2 text-xs font-bold text-primary">{c.go}</span>
+            <span className="w-full rounded-lg bg-secondary px-3 py-2 text-center text-xs font-bold text-primary sm:ml-auto sm:w-auto">{c.go}</span>
           )}
           <p className="w-full text-xs leading-relaxed text-muted-foreground">{r.e.acc}</p>
         </div>
@@ -317,7 +317,7 @@ export default function DeveriMatch() {
     switch (step.id) {
       case "intro":
         return (
-          <div className="rounded-2xl border bg-card p-7 shadow-sm md:p-10">
+          <div className="rounded-2xl border bg-card p-5 shadow-sm sm:p-7 md:p-10">
             <p className="mb-2 text-xs font-extrabold uppercase tracking-[0.14em] text-accent">
               DEVERI · Inteligencia inmobiliaria
             </p>
@@ -381,7 +381,7 @@ export default function DeveriMatch() {
                   id="estado"
                   value={state.estado}
                   onChange={(e) => set({ estado: e.target.value })}
-                  className={`mt-1.5 h-11 w-full rounded-lg border bg-background px-3 text-sm ${invalid.estado ? "border-destructive" : "border-input"}`}
+                  className={`mt-1.5 h-11 w-full rounded-lg border bg-background px-3 text-base md:text-sm ${invalid.estado ? "border-destructive" : "border-input"}`}
                 >
                   <option value="">Selecciona…</option>
                   {ESTADOS.map((e) => (
@@ -689,7 +689,7 @@ export default function DeveriMatch() {
         const { fuertes, posibles, bajos, excluded } = evaluation;
         return (
           <div>
-            <div className="mb-6 flex flex-wrap gap-x-6 gap-y-2 rounded-2xl bg-primary px-6 py-5 text-sm text-primary-foreground">
+            <div className="mb-6 flex flex-wrap gap-x-6 gap-y-2 rounded-2xl bg-primary px-4 py-4 text-sm sm:px-6 sm:py-5 text-primary-foreground">
               <span className="flex items-center gap-2">
                 <MapPin className="h-4 w-4 text-accent" />
                 <strong>{state.calle}</strong> — {state.ciudad}, {eN}
@@ -744,7 +744,7 @@ export default function DeveriMatch() {
               </>
             )}
 
-            <section className="rounded-2xl bg-primary p-8 text-center text-primary-foreground">
+            <section className="rounded-2xl bg-primary p-6 text-center sm:p-8 text-primary-foreground">
               <h2 className="text-xl font-extrabold">
                 ¿Quieres que <span className="text-accent">DEVERI</span> lo haga por ti?
               </h2>
@@ -781,11 +781,11 @@ export default function DeveriMatch() {
             </p>
 
 
-            <div className="mt-6 flex flex-wrap gap-3">
-              <Button variant="outline" onClick={restart}>
+            <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+              <Button variant="outline" onClick={restart} className="w-full sm:w-auto">
                 <RotateCcw className="h-4 w-4" /> Evaluar otro inmueble
               </Button>
-              <Button variant="outline" onClick={() => window.print()}>
+              <Button variant="outline" onClick={() => window.print()} className="w-full sm:w-auto">
                 <Printer className="h-4 w-4" /> Imprimir / guardar PDF
               </Button>
             </div>
@@ -809,6 +809,15 @@ export default function DeveriMatch() {
   const showNav = step.id !== "intro" && step.id !== "result";
   const progress = ((Math.max(0, cur - 1)) / (steps.length - 2)) * 100;
 
+  useEffect(() => {
+    document.body.classList.toggle("has-bottom-bar", showNav);
+    return () => document.body.classList.remove("has-bottom-bar");
+  }, [showNav]);
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, [step.id]);
+
   return (
     <>
       <SEOHead
@@ -817,13 +826,13 @@ export default function DeveriMatch() {
         jsonLd={jsonLd}
       />
 
-      <div className="min-h-screen bg-[hsl(var(--section-light))] pb-28">
+      <div className="min-h-screen overflow-x-hidden bg-[hsl(var(--section-light))] pb-32 sm:pb-28">
         {showRail && (
           <div className="sticky top-16 z-30 border-b bg-background/95 backdrop-blur">
             <div className="mx-auto max-w-3xl px-4 py-3">
-              <div className="mb-2 flex justify-between text-[11px] font-bold uppercase tracking-wider text-muted-foreground">
-                <span>{step.name}</span>
-                <span>{cur < steps.length - 1 ? `Paso ${cur} de 6` : "Resultados"}</span>
+              <div className="mb-2 flex items-baseline justify-between gap-2 text-[10px] font-bold uppercase tracking-wider text-muted-foreground sm:text-[11px]">
+                <span className="truncate">{step.name}</span>
+                <span className="shrink-0">{cur < steps.length - 1 ? `Paso ${cur} de 6` : "Resultados"}</span>
               </div>
               <div className="h-1.5 w-full overflow-hidden rounded-full bg-muted">
                 <div className="h-1.5 rounded-full bg-primary transition-all duration-500" style={{ width: `${progress}%` }} />
@@ -832,17 +841,21 @@ export default function DeveriMatch() {
           </div>
         )}
 
-        <main className="mx-auto max-w-3xl px-4 py-8">{renderStep()}</main>
+        <main className="mx-auto max-w-3xl px-4 py-6 sm:py-8">{renderStep()}</main>
 
         {showNav && (
-          <div className="fixed bottom-0 left-0 right-0 z-40 border-t bg-background">
-            <div className="mx-auto flex max-w-3xl justify-between gap-3 px-4 py-3">
+          <div
+            className="fixed bottom-0 left-0 right-0 z-40 border-t bg-background"
+            style={{ paddingBottom: "env(safe-area-inset-bottom)" }}
+          >
+            <div className="mx-auto flex max-w-3xl items-center justify-between gap-3 px-4 py-3">
               <Button variant="outline" onClick={back} className={cur <= 1 ? "invisible" : ""}>
                 <ArrowLeft className="h-4 w-4" /> Atrás
               </Button>
-              <Button variant="cta" onClick={next}>
-                {cur === steps.length - 2 ? "Ver mis prospectos" : "Siguiente"} <ArrowRight className="h-4 w-4" />
+              <Button variant="cta" onClick={next} className="min-w-0">
+                <span className="truncate">{cur === steps.length - 2 ? "Ver mis prospectos" : "Siguiente"}</span> <ArrowRight className="h-4 w-4 shrink-0" />
               </Button>
+
             </div>
           </div>
         )}
@@ -853,7 +866,7 @@ export default function DeveriMatch() {
 
 function StepCard({ num, title, sub, children }: { num: string; title: string; sub: string; children: React.ReactNode }) {
   return (
-    <section className="rounded-2xl border bg-card p-6 shadow-sm md:p-9">
+    <section className="rounded-2xl border bg-card p-5 shadow-sm sm:p-6 md:p-9">
       <p className="mb-1.5 text-xs font-extrabold uppercase tracking-[0.14em] text-accent">{num}</p>
       <h1 className="text-2xl font-extrabold leading-tight text-primary">{title}</h1>
       <p className="mb-6 mt-2 text-sm leading-relaxed text-muted-foreground">{sub}</p>
