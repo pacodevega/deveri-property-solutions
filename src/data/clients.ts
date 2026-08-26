@@ -20,6 +20,8 @@ import elektra from "@/assets/clients/elektra.png";
 import ultraToys from "@/assets/clients/ultra-toys.png";
 import starpanel from "@/assets/clients/starpanel.png";
 import cosi from "@/assets/clients/cosi.png";
+import panissimo from "@/assets/clients/panissimo.webp";
+import movistar from "@/assets/clients/movistar.png";
 
 export interface Client {
   name: string;
