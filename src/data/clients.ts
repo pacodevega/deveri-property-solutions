@@ -22,6 +22,7 @@ import starpanel from "@/assets/clients/starpanel.png";
 import cosi from "@/assets/clients/cosi.png";
 import panissimo from "@/assets/clients/panissimo.webp";
 import movistar from "@/assets/clients/movistar.png";
+import axa from "@/assets/clients/axa.png";
 
 export interface Client {
   name: string;
@@ -53,4 +54,5 @@ export const clients: Client[] = [
   { name: "COSI", logo: cosi },
   { name: "Panissimo", logo: panissimo, large: true },
   { name: "Movistar", logo: movistar },
+  { name: "AXA", logo: axa, large: true },
 ];
