@@ -51,4 +51,6 @@ export const clients: Client[] = [
   { name: "Ultra Toys", logo: ultraToys, large: true },
   { name: "Starpanel", logo: starpanel, large: true },
   { name: "COSI", logo: cosi },
+  { name: "Panissimo", logo: panissimo, large: true },
+  { name: "Movistar", logo: movistar, large: true },
 ];
