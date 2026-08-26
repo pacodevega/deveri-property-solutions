@@ -63,7 +63,7 @@ const specs = [
   { icon: Ruler, label: "Superficie", value: "200 m²" },
   { icon: Layers, label: "Nivel", value: "Planta baja" },
   { icon: Bath, label: "Baños", value: "Hombres y mujeres" },
-  { icon: Building2, label: "Privado", value: "Climatizado" },
+  { icon: Building2, label: "Clima", value: "4 aires acondicionados" },
   { icon: MapPin, label: "Ubicación", value: "Av. Ruiz Cortines" },
 ];
 
@@ -92,6 +92,7 @@ const includes = [
   "Baño de mujeres",
   "Zona de caja",
   "Privado climatizado",
+  "4 aires acondicionados",
   "1 cuarto bodega",
   "Distribución funcional y adaptable a distintos giros",
 ];
@@ -113,13 +114,13 @@ export default function RuizCortinesBajos() {
     <>
       <SEOHead
         title="Local comercial en renta planta baja Av. Ruiz Cortines, Boca del Río | 200 m² | DEVERI"
-        description="Local comercial en renta en planta baja sobre Av. Ruiz Cortines, Boca del Río. 200 m² por $55,000 MXN mensuales, baños de hombres y mujeres, zona de caja, privado climatizado y bodega, con acceso a pie de calle. Opción de 380 m² con la planta alta por $76,000 MXN."
+        description="Local comercial en renta en planta baja sobre Av. Ruiz Cortines, Boca del Río. 200 m² por $55,000 MXN mensuales, baños de hombres y mujeres, zona de caja, privado climatizado, 4 aires acondicionados y bodega, con acceso a pie de calle. Opción de 380 m² con la planta alta por $76,000 MXN."
         jsonLd={{
           "@context": "https://schema.org",
           "@type": "RealEstateListing",
           name: "Ruiz Cortines Bajos — Local comercial en renta",
           description:
-            "Local comercial de 200 m² en planta baja sobre Avenida Ruiz Cortines, Boca del Río. Renta $55,000 MXN mensuales. Baño de hombres con mingitorios, baño de mujeres, zona de caja, privado climatizado y cuarto bodega, con acceso a pie de calle.",
+            "Local comercial de 200 m² en planta baja sobre Avenida Ruiz Cortines, Boca del Río. Renta $55,000 MXN mensuales. Baño de hombres con mingitorios, baño de mujeres, zona de caja, privado climatizado, 4 aires acondicionados y cuarto bodega, con acceso a pie de calle.",
           floorSize: { "@type": "QuantitativeValue", value: 200, unitCode: "MTK" },
           address: {
             "@type": "PostalAddress",
