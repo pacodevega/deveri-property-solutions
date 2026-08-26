@@ -291,20 +291,20 @@ export default function DeveriMatch() {
           ))}
         </div>
 
-        <div className="mt-4 flex flex-wrap items-center gap-3 border-t border-dashed pt-3.5">
+        <div className="mt-4 flex flex-wrap items-center gap-2.5 border-t border-dashed pt-3.5 sm:gap-3">
           <span className="rounded-md bg-primary px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider text-primary-foreground">
             {c.lbl}
           </span>
-          {c.mail && <span className="text-xs font-semibold text-muted-foreground">✉ {c.mail}</span>}
+          {c.mail && <span className="max-w-full break-all text-xs font-semibold text-muted-foreground">✉ {c.mail}</span>}
           {c.tel && <span className="text-xs font-semibold text-muted-foreground">📞 {c.tel}</span>}
           {href ? (
-            <a href={href} target="_blank" rel="noopener noreferrer" className="ml-auto">
-              <Button variant="cta" size="sm">
+            <a href={href} target="_blank" rel="noopener noreferrer" className="w-full sm:ml-auto sm:w-auto">
+              <Button variant="cta" size="sm" className="w-full sm:w-auto">
                 {c.go} <ArrowRight className="h-4 w-4" />
               </Button>
             </a>
           ) : (
-            <span className="ml-auto rounded-lg bg-secondary px-3 py-2 text-xs font-bold text-primary">{c.go}</span>
+            <span className="w-full rounded-lg bg-secondary px-3 py-2 text-center text-xs font-bold text-primary sm:ml-auto sm:w-auto">{c.go}</span>
           )}
           <p className="w-full text-xs leading-relaxed text-muted-foreground">{r.e.acc}</p>
         </div>
