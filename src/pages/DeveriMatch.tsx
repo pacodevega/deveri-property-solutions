@@ -822,13 +822,13 @@ export default function DeveriMatch() {
         jsonLd={jsonLd}
       />
 
-      <div className="min-h-screen bg-[hsl(var(--section-light))] pb-28">
+      <div className="min-h-screen overflow-x-hidden bg-[hsl(var(--section-light))] pb-32 sm:pb-28">
         {showRail && (
           <div className="sticky top-16 z-30 border-b bg-background/95 backdrop-blur">
             <div className="mx-auto max-w-3xl px-4 py-3">
-              <div className="mb-2 flex justify-between text-[11px] font-bold uppercase tracking-wider text-muted-foreground">
-                <span>{step.name}</span>
-                <span>{cur < steps.length - 1 ? `Paso ${cur} de 6` : "Resultados"}</span>
+              <div className="mb-2 flex items-baseline justify-between gap-2 text-[10px] font-bold uppercase tracking-wider text-muted-foreground sm:text-[11px]">
+                <span className="truncate">{step.name}</span>
+                <span className="shrink-0">{cur < steps.length - 1 ? `Paso ${cur} de 6` : "Resultados"}</span>
               </div>
               <div className="h-1.5 w-full overflow-hidden rounded-full bg-muted">
                 <div className="h-1.5 rounded-full bg-primary transition-all duration-500" style={{ width: `${progress}%` }} />
@@ -837,17 +837,21 @@ export default function DeveriMatch() {
           </div>
         )}
 
-        <main className="mx-auto max-w-3xl px-4 py-8">{renderStep()}</main>
+        <main className="mx-auto max-w-3xl px-4 py-6 sm:py-8">{renderStep()}</main>
 
         {showNav && (
-          <div className="fixed bottom-0 left-0 right-0 z-40 border-t bg-background">
-            <div className="mx-auto flex max-w-3xl justify-between gap-3 px-4 py-3">
+          <div
+            className="fixed bottom-0 left-0 right-0 z-40 border-t bg-background"
+            style={{ paddingBottom: "env(safe-area-inset-bottom)" }}
+          >
+            <div className="mx-auto flex max-w-3xl items-center justify-between gap-3 px-4 py-3 pr-20 sm:pr-4">
               <Button variant="outline" onClick={back} className={cur <= 1 ? "invisible" : ""}>
                 <ArrowLeft className="h-4 w-4" /> Atrás
               </Button>
-              <Button variant="cta" onClick={next}>
-                {cur === steps.length - 2 ? "Ver mis prospectos" : "Siguiente"} <ArrowRight className="h-4 w-4" />
+              <Button variant="cta" onClick={next} className="min-w-0">
+                <span className="truncate">{cur === steps.length - 2 ? "Ver mis prospectos" : "Siguiente"}</span> <ArrowRight className="h-4 w-4 shrink-0" />
               </Button>
+
             </div>
           </div>
         )}
