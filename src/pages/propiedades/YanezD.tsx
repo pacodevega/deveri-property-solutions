@@ -97,6 +97,13 @@ export default function YanezD() {
               <div className="mt-5 flex flex-wrap items-end gap-x-3 gap-y-1">
                 <span className="text-3xl md:text-4xl font-extrabold text-accent">$7,500</span>
                 <span className="text-primary-foreground/80 text-sm md:text-base pb-1">MXN / mes · 40 m²</span>
+                <SharePropertyButton
+                  title="Local comercial en renta — Avenida Yáñez | DEVERI"
+                  text="Mira este local comercial en renta sobre Avenida Yáñez, Veracruz."
+                  variant="outline"
+                  size="sm"
+                  className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground ml-auto md:ml-0"
+                />
               </div>
             </div>
           </div>
