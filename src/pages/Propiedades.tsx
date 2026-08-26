@@ -17,7 +17,7 @@ export default function Propiedades() {
       <SEOHead
         title="Propiedades en renta en Veracruz y Boca del Río | DEVERI"
         description="Locales comerciales y propiedades disponibles en renta en Veracruz, Boca del Río, Medellín y Riviera Veracruzana. Administradas por DEVERI."
-        canonical="/propiedades"
+        
       />
 
       <section className="section-padding" style={{ background: "var(--hero-gradient)" }}>
