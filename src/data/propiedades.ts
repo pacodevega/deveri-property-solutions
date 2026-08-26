@@ -55,5 +55,23 @@ export const propiedades: Propiedad[] = [
       "Fachada del local comercial en renta sobre Avenida Ruiz Cortines, Boca del Río",
     disponible: true,
   },
+  {
+    slug: "ruiz-cortines-bajos",
+    nombre: "Ruiz Cortines Bajos — Local comercial",
+    tipo: "Local comercial",
+    operacion: "Renta",
+    precio: "Consultar",
+    precioNota: "ambas plantas $76,000 MXN / mes",
+    superficie: "200 m²",
+    ubicacion: "Av. Ruiz Cortines",
+    ciudad: "Boca del Río",
+    resumen:
+      "Planta baja de 200 m² con acceso a pie de calle sobre la principal avenida comercial de Boca del Río. Baños de hombres y mujeres y cuarto bodega. Opción de rentar 380 m² con la planta alta.",
+    destacados: ["Planta baja", "Pie de calle", "Alto flujo vehicular"],
+    imagen: ruizCortines,
+    imagenAlt:
+      "Fachada del local comercial en planta baja en renta sobre Avenida Ruiz Cortines, Boca del Río",
+    disponible: true,
+  },
 ];
 
