@@ -1,4 +1,5 @@
 import HeroSection from "@/components/home/HeroSection";
+import FeaturedProperties from "@/components/home/FeaturedProperties";
 import ClientIdentification from "@/components/home/ClientIdentification";
 import ProblemSection from "@/components/home/ProblemSection";
 import SolutionSection from "@/components/home/SolutionSection";
@@ -11,6 +12,7 @@ import PricingSection from "@/components/home/PricingSection";
 import FAQSection from "@/components/home/FAQSection";
 import FinalCTA from "@/components/home/FinalCTA";
 import SEOHead from "@/components/SEOHead";
+
 
 const jsonLd = {
   "@context": "https://schema.org",
