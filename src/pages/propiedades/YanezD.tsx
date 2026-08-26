@@ -1,5 +1,6 @@
 import { useState } from "react";
 import SEOHead from "@/components/SEOHead";
+import SharePropertyButton from "@/components/SharePropertyButton";
 import { Button } from "@/components/ui/button";
 import {
   MessageCircle,
@@ -96,6 +97,13 @@ export default function YanezD() {
               <div className="mt-5 flex flex-wrap items-end gap-x-3 gap-y-1">
                 <span className="text-3xl md:text-4xl font-extrabold text-accent">$7,500</span>
                 <span className="text-primary-foreground/80 text-sm md:text-base pb-1">MXN / mes · 40 m²</span>
+                <SharePropertyButton
+                  title="Local comercial en renta — Avenida Yáñez | DEVERI"
+                  text="Mira este local comercial en renta sobre Avenida Yáñez, Veracruz."
+                  variant="outline-light"
+                  size="sm"
+                  className="ml-auto md:ml-0"
+                />
               </div>
             </div>
           </div>
@@ -214,6 +222,14 @@ export default function YanezD() {
                   <MessageCircle className="w-5 h-5" /> Me interesa esta propiedad
                 </Button>
               </a>
+              <SharePropertyButton
+                title="Local comercial en renta — Avenida Yáñez | DEVERI"
+                text="Mira este local comercial en renta sobre Avenida Yáñez, Veracruz."
+                variant="outline"
+                size="lg"
+                className="w-full mt-3"
+                label="Compartir propiedad"
+              />
               <p className="mt-3 text-xs text-muted-foreground text-center">
                 Te respondemos por WhatsApp y agendamos tu visita.
               </p>
