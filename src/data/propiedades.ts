@@ -67,7 +67,7 @@ export const propiedades: Propiedad[] = [
     ubicacion: "Av. Ruiz Cortines",
     ciudad: "Boca del Río",
     resumen:
-      "Planta baja de 200 m² con acceso a pie de calle sobre la principal avenida comercial de Boca del Río. Baños de hombres y mujeres y cuarto bodega. Opción de rentar 380 m² con la planta alta.",
+      "Planta baja de 200 m² con acceso a pie de calle sobre la principal avenida comercial de Boca del Río. Baño de hombres con mingitorios, baño de mujeres, zona de caja, privado climatizado y cuarto bodega. Opción de rentar 380 m² con la planta alta.",
     destacados: ["Planta baja", "Pie de calle", "Alto flujo vehicular"],
     imagen: ruizCortinesBajos,
     imagenAlt:
