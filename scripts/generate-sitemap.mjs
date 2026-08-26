@@ -19,6 +19,7 @@ const entries = [
   { path: "/propiedades/yanez-d", changefreq: "weekly", priority: "0.7" },
   { path: "/propiedades/ruiz-cortines-altos", changefreq: "weekly", priority: "0.7" },
   { path: "/propiedades/ruiz-cortines-bajos", changefreq: "weekly", priority: "0.7" },
+  { path: "/propiedades/hipico-local-3", changefreq: "weekly", priority: "0.7" },
   { path: "/administracion-de-propiedades-veracruz", changefreq: "monthly", priority: "0.9" },
   { path: "/renta-de-propiedades-veracruz", changefreq: "monthly", priority: "0.9" },
   { path: "/mantenimiento-de-propiedades-veracruz", changefreq: "monthly", priority: "0.9" },
