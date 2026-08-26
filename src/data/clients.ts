@@ -18,7 +18,6 @@ import aguaInmaculada from "@/assets/clients/agua-inmaculada.webp";
 import elektra from "@/assets/clients/elektra.png";
 
 import ultraToys from "@/assets/clients/ultra-toys.png";
-import starpanel from "@/assets/clients/starpanel.png";
 import cosi from "@/assets/clients/cosi.png";
 import panissimo from "@/assets/clients/panissimo.webp";
 import movistar from "@/assets/clients/movistar.png";
@@ -50,7 +49,6 @@ export const clients: Client[] = [
   { name: "Agua Inmaculada", logo: aguaInmaculada, large: true },
   { name: "Elektra", logo: elektra, large: true },
   { name: "Ultra Toys", logo: ultraToys, large: true },
-  { name: "Starpanel", logo: starpanel, large: true },
   { name: "COSI", logo: cosi },
   { name: "Panissimo", logo: panissimo, large: true },
   { name: "Movistar", logo: movistar },
