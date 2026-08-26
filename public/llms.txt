@@ -21,6 +21,7 @@ Datos clave:
 - [Inicio](/): qué hace DEVERI, problema que resuelve, proceso, precios y preguntas frecuentes.
 - [Para agentes de IA (/mcp)](/mcp): resumen estructurado de la empresa, servicios, cobertura, precios y contacto.
 - [Servicios](/servicios): índice de los tres servicios principales.
+- [Propiedades disponibles en renta](/propiedades): listado de locales y espacios disponibles.
 - [Administración de propiedades en Veracruz](/administracion-de-propiedades-veracruz): administración integral, cobranza, reportes, tarifa 15%.
 - [Renta de propiedades en Veracruz](/renta-de-propiedades-veracruz): comercialización, investigación y selección de inquilinos, contratos.
 - [Mantenimiento de propiedades en Veracruz](/mantenimiento-de-propiedades-veracruz): mantenimiento preventivo y correctivo con equipo propio.
