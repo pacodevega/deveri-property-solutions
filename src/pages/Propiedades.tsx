@@ -61,12 +61,14 @@ export default function Propiedades() {
 
               <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
                 {disponibles.map((p) => (
-                  <Link
+                  <div
                     key={p.slug}
-                    to={`/propiedades/${p.slug}`}
-                    className="group bg-card border rounded-2xl overflow-hidden flex flex-col transition-all duration-300 hover:shadow-xl hover:-translate-y-1 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+                    className="group bg-card border rounded-2xl overflow-hidden flex flex-col transition-all duration-300 hover:shadow-xl hover:-translate-y-1 focus-within:ring-2 focus-within:ring-accent"
                   >
-                    <div className="relative aspect-[4/3] overflow-hidden bg-muted">
+                    <Link
+                      to={`/propiedades/${p.slug}`}
+                      className="relative aspect-[4/3] overflow-hidden bg-muted block"
+                    >
                       <img
                         src={p.imagen}
                         alt={p.imagenAlt}
@@ -76,15 +78,17 @@ export default function Propiedades() {
                       <span className="absolute top-3 left-3 bg-accent text-accent-foreground text-xs font-semibold px-3 py-1 rounded-full">
                         {p.operacion}
                       </span>
-                    </div>
+                    </Link>
 
                     <div className="p-6 flex flex-col flex-1">
                       <p className="text-xs uppercase tracking-wide text-muted-foreground mb-1">
                         {p.tipo} · {p.ciudad}
                       </p>
-                      <h3 className="text-lg font-bold mb-2 group-hover:text-accent transition-colors">
-                        {p.nombre}
-                      </h3>
+                      <Link to={`/propiedades/${p.slug}`}>
+                        <h3 className="text-lg font-bold mb-2 group-hover:text-accent transition-colors">
+                          {p.nombre}
+                        </h3>
+                      </Link>
 
                       <div className="flex flex-wrap gap-x-4 gap-y-1 text-sm text-muted-foreground mb-3">
                         <span className="inline-flex items-center gap-1">
@@ -117,13 +121,26 @@ export default function Propiedades() {
                             <p className="text-xs text-muted-foreground mt-1">{p.precioNota}</p>
                           )}
                         </div>
-                        <span className="inline-flex items-center gap-1 text-sm font-semibold text-accent">
+                        <Link
+                          to={`/propiedades/${p.slug}`}
+                          className="inline-flex items-center gap-1 text-sm font-semibold text-accent"
+                        >
                           Ver detalles
                           <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
-                        </span>
+                        </Link>
                       </div>
+
+                      <SharePropertyButton
+                        url={`${typeof window !== "undefined" ? window.location.origin : ""}/propiedades/${p.slug}`}
+                        title={`${p.nombre} en ${p.operacion.toLowerCase()} | DEVERI`}
+                        text={`Mira esta propiedad en ${p.ciudad}: ${p.nombre}`}
+                        variant="outline"
+                        size="sm"
+                        className="w-full mt-4"
+                        label="Compartir propiedad"
+                      />
                     </div>
-                  </Link>
+                  </div>
                 ))}
               </div>
             </>
