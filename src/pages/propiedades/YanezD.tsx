@@ -222,6 +222,14 @@ export default function YanezD() {
                   <MessageCircle className="w-5 h-5" /> Me interesa esta propiedad
                 </Button>
               </a>
+              <SharePropertyButton
+                title="Local comercial en renta — Avenida Yáñez | DEVERI"
+                text="Mira este local comercial en renta sobre Avenida Yáñez, Veracruz."
+                variant="outline"
+                size="lg"
+                className="w-full mt-3"
+                label="Compartir propiedad"
+              />
               <p className="mt-3 text-xs text-muted-foreground text-center">
                 Te respondemos por WhatsApp y agendamos tu visita.
               </p>
