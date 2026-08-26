@@ -294,6 +294,42 @@ export default function RuizCortinesBajos() {
                 <MapPin className="w-5 h-5" /> Ver en Google Maps <ArrowUpRight className="w-4 h-4" />
               </Button>
             </a>
+
+            {/* Combo */}
+            <div className="mt-14 rounded-2xl border-2 border-accent/40 bg-accent/5 p-6 md:p-8">
+              <p className="text-xs font-semibold uppercase tracking-wide text-accent">
+                Opción recomendada
+              </p>
+              <h2 className="mt-2 text-2xl md:text-3xl font-extrabold text-foreground">
+                Rentar junto con Ruiz Cortines Altos
+              </h2>
+              <p className="mt-3 text-muted-foreground leading-relaxed">
+                Esta planta baja también puede rentarse en conjunto con la planta alta de{" "}
+                <strong className="text-foreground">180 m²</strong>, sumando un total de{" "}
+                <strong className="text-foreground">380 m²</strong>. Ideal para negocios que
+                requieren mayor espacio y presencia comercial sobre la principal avenida de Boca del
+                Río.
+              </p>
+              <p className="mt-4 text-3xl font-extrabold text-foreground">
+                $76,000{" "}
+                <span className="text-base font-medium text-muted-foreground">
+                  MXN / mes por ambas plantas
+                </span>
+              </p>
+              <div className="mt-6 flex flex-col sm:flex-row gap-3">
+                <a href={WHATSAPP_JUNTOS} target="_blank" rel="noopener noreferrer">
+                  <Button variant="cta" size="lg" className="w-full sm:w-auto h-auto min-h-12 whitespace-normal py-3">
+                    <MessageCircle className="w-5 h-5" /> Me interesan ambas plantas (380 m²)
+                  </Button>
+                </a>
+                <Link to="/propiedades/ruiz-cortines-altos">
+                  <Button variant="outline" size="lg" className="w-full sm:w-auto h-auto min-h-12 whitespace-normal py-3">
+                    Ver Ruiz Cortines Altos <ArrowUpRight className="w-4 h-4" />
+                  </Button>
+                </Link>
+              </div>
+            </div>
+
           </div>
 
           {/* Sticky CTA card */}
