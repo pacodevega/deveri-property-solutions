@@ -258,11 +258,11 @@ export default function RuizCortinesAltos() {
                     <MessageCircle className="w-5 h-5" /> Me interesan ambas plantas (380 m²)
                   </Button>
                 </a>
-                <a href={WHATSAPP_BAJOS} target="_blank" rel="noopener noreferrer">
-                  <Button variant="outline" size="lg" className="w-full sm:w-auto">
+                <Link to="/propiedades/ruiz-cortines-bajos">
+                  <Button variant="outline" size="lg" className="w-full sm:w-auto h-auto min-h-12 whitespace-normal py-3">
                     Ver Ruiz Cortines Bajos <ArrowUpRight className="w-4 h-4" />
                   </Button>
-                </a>
+                </Link>
               </div>
             </div>
 
