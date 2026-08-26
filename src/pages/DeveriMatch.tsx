@@ -809,6 +809,11 @@ export default function DeveriMatch() {
   const showNav = step.id !== "intro" && step.id !== "result";
   const progress = ((Math.max(0, cur - 1)) / (steps.length - 2)) * 100;
 
+  useEffect(() => {
+    document.body.classList.toggle("has-bottom-bar", showNav);
+    return () => document.body.classList.remove("has-bottom-bar");
+  }, [showNav]);
+
   return (
     <>
       <SEOHead
