@@ -201,7 +201,7 @@ export default function RuizCortinesBajos() {
               pie de calle, gran visibilidad y alto flujo vehicular y peatonal.
             </p>
             <p className="mt-4 text-muted-foreground leading-relaxed">
-              Cuenta con amplios espacios, baño de hombres con mingitorio, baño de mujeres y un
+              Cuenta con amplios espacios, baño de hombres con mingitorios, baño de mujeres y un
               cuarto bodega. Su distribución es funcional y adaptable a diferentes giros comerciales.
             </p>
 
@@ -245,17 +245,24 @@ export default function RuizCortinesBajos() {
 
             <PropertyRequirements />
 
-            {/* Video */}
-            <h2 className="mt-14 text-2xl md:text-3xl font-extrabold text-foreground">Video del local</h2>
-            <div className="mt-5 relative w-full overflow-hidden rounded-2xl border bg-muted aspect-video">
-              <iframe
-                src="https://www.youtube.com/embed/jxsB3vtD82Y"
-                title="Recorrido en video del local comercial Ruiz Cortines Bajos, Boca del Río"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowFullScreen
-                loading="lazy"
-                className="absolute inset-0 h-full w-full"
-              />
+            {/* Videos */}
+            <h2 className="mt-14 text-2xl md:text-3xl font-extrabold text-foreground">Videos del local</h2>
+            <div className="mt-5 grid gap-4 lg:grid-cols-2">
+              {[
+                { id: "jxsB3vtD82Y", title: "Recorrido en video del local comercial Ruiz Cortines Bajos, Boca del Río" },
+                { id: "6jbQ63InA1U", title: "Segundo recorrido en video del local comercial Ruiz Cortines Bajos, Boca del Río" },
+              ].map((v) => (
+                <div key={v.id} className="relative w-full overflow-hidden rounded-2xl border bg-muted aspect-video">
+                  <iframe
+                    src={`https://www.youtube.com/embed/${v.id}`}
+                    title={v.title}
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowFullScreen
+                    loading="lazy"
+                    className="absolute inset-0 h-full w-full"
+                  />
+                </div>
+              ))}
             </div>
 
             {/* Gallery */}
