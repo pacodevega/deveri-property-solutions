@@ -260,15 +260,15 @@ export default function DeveriMatch() {
     const c = r.e.canal;
     const href = c.href || (c.mail ? `mailto:${c.mail}` : null);
     return (
-      <article className="mb-3.5 rounded-2xl border bg-card p-5 shadow-sm">
-        <div className="flex flex-wrap items-start justify-between gap-3">
-          <div>
+      <article className="mb-3.5 rounded-2xl border bg-card p-4 shadow-sm sm:p-5">
+        <div className="flex items-start justify-between gap-3">
+          <div className="min-w-0">
             <h4 className="text-base font-bold text-primary">
               {i + 1}. {r.e.n}
             </h4>
             <p className="mt-0.5 text-[11px] font-semibold uppercase tracking-wider text-muted-foreground">{r.e.sec}</p>
           </div>
-          <div className="text-right">
+          <div className="shrink-0 text-right">
             <div className="text-2xl font-extrabold leading-none text-primary">{r.pct}%</div>
             <div className="mt-1 text-[10px] font-semibold uppercase tracking-wider text-muted-foreground">Probabilidad</div>
           </div>
