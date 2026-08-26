@@ -27,6 +27,10 @@ import bodega from "@/assets/propiedades/bajos-bodega.jpg";
 import banoHombres from "@/assets/propiedades/bajos-bano-hombres.jpg";
 import banoMujeres from "@/assets/propiedades/bajos-bano-mujeres.jpg";
 import bano2 from "@/assets/propiedades/bajos-bano-2.jpg";
+import interior4 from "@/assets/propiedades/bajos-interior-4.jpg";
+import interior5 from "@/assets/propiedades/bajos-interior-5.jpg";
+import interior6 from "@/assets/propiedades/bajos-interior-6.jpg";
+import interior7 from "@/assets/propiedades/bajos-interior-7.jpg";
 
 const PHONE = "522296840727";
 const wa = (text: string) => `https://wa.me/${PHONE}?text=${encodeURIComponent(text)}`;
