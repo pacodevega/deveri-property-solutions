@@ -69,7 +69,7 @@ const App = () => (
             <Route path="/mantenimiento-de-propiedades-veracruz" element={<MantenimientoSEO />} />
             <Route path="/como-funciona" element={<ComoFunciona />} />
             <Route path="/deveri-match" element={<DeveriMatch />} />
-            <Route path="/mcp" element={<MCP />} />
+            <Route path="/propiedades/yanez-d" element={<YanezD />} />
             
             <Route path="/blog" element={<Blog />} />
             <Route path="/blog/como-administrar-una-propiedad-en-veracruz" element={<ComoAdministrar />} />
