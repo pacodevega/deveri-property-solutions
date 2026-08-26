@@ -2,11 +2,11 @@ import { clients } from "@/data/clients";
 
 export default function ClientGrid() {
   return (
-    <div className="flex flex-wrap justify-center gap-6 md:gap-8">
+    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-6 md:gap-8">
       {clients.map((c) => (
         <div
           key={c.name}
-          className="bg-card border rounded-lg px-6 py-4 flex items-center justify-center min-w-[160px] h-24"
+          className="bg-card border rounded-lg px-4 py-4 flex items-center justify-center h-24"
         >
           {c.logo ? (
             <img
