@@ -15,6 +15,7 @@ import MantenimientoSEO from "./pages/MantenimientoSEO";
 import ComoFunciona from "./pages/ComoFunciona";
 import MCP from "./pages/MCP";
 import DeveriMatch from "./pages/DeveriMatch";
+import YanezD from "./pages/propiedades/YanezD";
 
 import Blog from "./pages/Blog";
 import Contacto from "./pages/Contacto";
