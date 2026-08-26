@@ -1,5 +1,6 @@
 import { useState } from "react";
 import SEOHead from "@/components/SEOHead";
+import PropertyRequirements from "@/components/PropertyRequirements";
 import SharePropertyButton from "@/components/SharePropertyButton";
 import { Button } from "@/components/ui/button";
 import {
@@ -166,6 +167,8 @@ export default function YanezD() {
             </ul>
 
             {/* Gallery */}
+            <PropertyRequirements />
+
             <h2 className="mt-14 text-2xl md:text-3xl font-extrabold text-foreground">Fotos</h2>
             <div className="mt-5 grid grid-cols-2 md:grid-cols-3 gap-3">
               {photos.map((p, idx) => (
