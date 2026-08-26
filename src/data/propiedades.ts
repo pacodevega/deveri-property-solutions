@@ -1,5 +1,6 @@
 import fachada from "@/assets/propiedades/yanez-fachada.jpg";
 import ruizCortines from "@/assets/propiedades/ruiz-cortines-fachada.jpg";
+import ruizCortinesBajos from "@/assets/propiedades/bajos-fachada.jpg";
 
 
 export type Propiedad = {
@@ -68,7 +69,7 @@ export const propiedades: Propiedad[] = [
     resumen:
       "Planta baja de 200 m² con acceso a pie de calle sobre la principal avenida comercial de Boca del Río. Baños de hombres y mujeres y cuarto bodega. Opción de rentar 380 m² con la planta alta.",
     destacados: ["Planta baja", "Pie de calle", "Alto flujo vehicular"],
-    imagen: ruizCortines,
+    imagen: ruizCortinesBajos,
     imagenAlt:
       "Fachada del local comercial en planta baja en renta sobre Avenida Ruiz Cortines, Boca del Río",
     disponible: true,
