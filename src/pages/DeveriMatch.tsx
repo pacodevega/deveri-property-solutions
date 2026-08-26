@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { MessageCircle, Printer, RotateCcw, ArrowRight, ArrowLeft, Check, X, MapPin, Ruler, Building2, Coins } from "lucide-react";
 import { toast } from "sonner";
 import { Button } from "@/components/ui/button";
