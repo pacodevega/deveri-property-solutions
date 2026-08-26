@@ -112,7 +112,7 @@ export default function Propiedades() {
                         ))}
                       </div>
 
-                      <div className="mt-auto pt-4 border-t flex items-end justify-between gap-3">
+                      <div className="mt-auto pt-4 border-t">
                         <div>
                           <p className="text-2xl font-extrabold text-foreground leading-none">
                             {p.precio}
@@ -121,12 +121,13 @@ export default function Propiedades() {
                             <p className="text-xs text-muted-foreground mt-1">{p.precioNota}</p>
                           )}
                         </div>
+
                         <Link
                           to={`/propiedades/${p.slug}`}
-                          className="inline-flex items-center gap-1 text-sm font-semibold text-accent"
+                          className="mt-4 w-full min-h-12 inline-flex items-center justify-center gap-2 rounded-lg bg-accent px-4 py-3 text-base font-bold text-accent-foreground shadow-md transition-all hover:brightness-110 hover:shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2"
                         >
                           Ver detalles
-                          <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
+                          <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
                         </Link>
                       </div>
 
@@ -136,9 +137,10 @@ export default function Propiedades() {
                         text={`Mira esta propiedad en ${p.ciudad}: ${p.nombre}`}
                         variant="outline"
                         size="sm"
-                        className="w-full mt-4"
+                        className="w-full mt-3"
                         label="Compartir propiedad"
                       />
+
                     </div>
                   </div>
                 ))}
