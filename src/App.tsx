@@ -15,6 +15,7 @@ import MantenimientoSEO from "./pages/MantenimientoSEO";
 import ComoFunciona from "./pages/ComoFunciona";
 import MCP from "./pages/MCP";
 import DeveriMatch from "./pages/DeveriMatch";
+import Propiedades from "./pages/Propiedades";
 import YanezD from "./pages/propiedades/YanezD";
 
 import Blog from "./pages/Blog";
@@ -70,6 +71,7 @@ const App = () => (
             <Route path="/como-funciona" element={<ComoFunciona />} />
             <Route path="/deveri-match" element={<DeveriMatch />} />
             <Route path="/mcp" element={<MCP />} />
+            <Route path="/propiedades" element={<Propiedades />} />
             <Route path="/propiedades/yanez-d" element={<YanezD />} />
 
             

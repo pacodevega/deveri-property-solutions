@@ -15,6 +15,8 @@ const entries = [
   { path: "/servicios/administracion", changefreq: "monthly", priority: "0.8" },
   { path: "/servicios/renta", changefreq: "monthly", priority: "0.8" },
   { path: "/servicios/mantenimiento", changefreq: "monthly", priority: "0.8" },
+  { path: "/propiedades", changefreq: "weekly", priority: "0.9" },
+  { path: "/propiedades/yanez-d", changefreq: "weekly", priority: "0.7" },
   { path: "/administracion-de-propiedades-veracruz", changefreq: "monthly", priority: "0.9" },
   { path: "/renta-de-propiedades-veracruz", changefreq: "monthly", priority: "0.9" },
   { path: "/mantenimiento-de-propiedades-veracruz", changefreq: "monthly", priority: "0.9" },
