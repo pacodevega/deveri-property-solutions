@@ -32,7 +32,7 @@ const PHONE = "522296840727";
 const wa = (text: string) => `https://wa.me/${PHONE}?text=${encodeURIComponent(text)}`;
 
 const WHATSAPP_ALTOS = wa(
-  "Hola, estoy interesado en el local comercial en renta Ruiz Cortines Altos (planta alta, 180 m², $32,000 MXN mensuales) en Boca del Río. ¿Me pueden dar más información?"
+  "Hola, estoy interesado en el local comercial en renta Ruiz Cortines Altos (planta alta, 180 m², $30,900 MXN mensuales más $1,100 de agua) en Boca del Río. ¿Me pueden dar más información?"
 );
 const WHATSAPP_JUNTOS = wa(
   "Hola, me interesa rentar Ruiz Cortines Altos y Ruiz Cortines Bajos juntos (planta alta de 180 m² + planta baja de 212 m² = 392 m², precio especial de $76,000 MXN mensuales) en Av. Ruiz Cortines, Boca del Río. ¿Me pueden dar más información?"
@@ -105,7 +105,7 @@ export default function RuizCortinesAltos() {
     <>
       <SEOHead
         title="Local comercial en renta Av. Ruiz Cortines, Boca del Río | 180 m² | DEVERI"
-        description="Local comercial en renta en planta alta sobre Av. Ruiz Cortines, Boca del Río. 180 m², baños, privado, bodega y terraza. $32,000 MXN mensuales. Opción de 392 m² con planta baja."
+        description="Local comercial en renta en planta alta sobre Av. Ruiz Cortines, Boca del Río. 180 m², baños, privado, bodega y terraza. $30,900 MXN mensuales más $1,100 de agua (total $32,000). Opción de 392 m² con planta baja."
         jsonLd={{
           "@context": "https://schema.org",
           "@type": "RealEstateListing",
@@ -146,9 +146,9 @@ export default function RuizCortinesAltos() {
                 <MapPin className="w-4 h-4 shrink-0" /> Av. Ruiz Cortines, Boca del Río, Veracruz
               </p>
               <div className="mt-5 flex flex-wrap items-end gap-x-3 gap-y-1">
-                <span className="text-3xl md:text-4xl font-extrabold text-accent">$32,000</span>
+                <span className="text-3xl md:text-4xl font-extrabold text-accent">$30,900</span>
                 <span className="text-primary-foreground/80 text-sm md:text-base pb-1">
-                  MXN / mes · 180 m² · planta alta
+                  MXN / mes + $1,100 de agua · total $32,000 · 180 m² · planta alta
                 </span>
                 <SharePropertyButton
                   title="Ruiz Cortines Altos — Local comercial en renta | DEVERI"
@@ -317,7 +317,10 @@ export default function RuizCortinesAltos() {
             <div className="rounded-2xl border bg-card p-6 shadow-lg">
               <p className="text-sm text-muted-foreground">Renta mensual (planta alta)</p>
               <p className="text-3xl font-extrabold text-foreground">
-                $32,000 <span className="text-base font-medium text-muted-foreground">MXN</span>
+                $30,900 <span className="text-base font-medium text-muted-foreground">MXN</span>
+              </p>
+              <p className="mt-1 text-sm text-muted-foreground">
+                + $1,100 MXN de agua · total $32,000 MXN / mes
               </p>
               <p className="mt-1 text-sm text-muted-foreground">
                 Ambas plantas (392 m²): $76,000 MXN / mes
