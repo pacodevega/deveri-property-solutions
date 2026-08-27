@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import {
   MessageCircle,
   MapPin,
+  ArrowUpRight,
   Ruler,
   Bath,
   Snowflake,
@@ -29,6 +30,7 @@ const PHONE = "522296840727";
 const WHATSAPP_URL = `https://wa.me/${PHONE}?text=${encodeURIComponent(
   "Hola, vi la oficina de Avenida de las Américas, colonia Reforma (ya rentada). ¿Tienen otras propiedades disponibles similares?"
 )}`;
+const MAPS_URL = "https://maps.app.goo.gl/EwrkM657rbaxdZZL6";
 
 const photos = [
   { src: area1, alt: "Área principal de la oficina en Avenida de las Américas, climatizada y con piso laminado" },
@@ -220,6 +222,11 @@ export default function AmericasReforma() {
               Avenida de las Américas, colonia Reforma, Veracruz. Zona consolidada, de fácil acceso y cercana a una de las
               áreas más activas de la ciudad.
             </p>
+            <a href={MAPS_URL} target="_blank" rel="noopener noreferrer" className="block sm:inline-block mt-4">
+              <Button variant="outline" size="lg" className="w-full sm:w-auto h-auto min-h-12 whitespace-normal py-3">
+                <MapPin className="w-5 h-5" /> Ver en Google Maps <ArrowUpRight className="w-4 h-4" />
+              </Button>
+            </a>
           </div>
 
           {/* Sticky card */}

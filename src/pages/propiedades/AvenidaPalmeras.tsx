@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import {
   MessageCircle,
   MapPin,
+  ArrowUpRight,
   Ruler,
   Bath,
   Building2,
@@ -30,6 +31,7 @@ const PHONE = "522296840727";
 const WHATSAPP_URL = `https://wa.me/${PHONE}?text=${encodeURIComponent(
   "Hola, vi el local de Avenida Palmeras (ya rentado). ¿Tienen otras propiedades disponibles similares?"
 )}`;
+const MAPS_URL = "https://maps.app.goo.gl/t8BRVoqAypP4N5no9";
 
 const photos = [
   { src: fachada, alt: "Fachada del local comercial sobre Avenida Palmeras, Veracruz" },
@@ -224,6 +226,11 @@ export default function AvenidaPalmeras() {
               Avenida Palmeras, a pocos pasos de Walmart, Veracruz. Zona comercial activa con buena exposición y
               fácil acceso.
             </p>
+            <a href={MAPS_URL} target="_blank" rel="noopener noreferrer" className="block sm:inline-block mt-4">
+              <Button variant="outline" size="lg" className="w-full sm:w-auto h-auto min-h-12 whitespace-normal py-3">
+                <MapPin className="w-5 h-5" /> Ver en Google Maps <ArrowUpRight className="w-4 h-4" />
+              </Button>
+            </a>
           </div>
 
           {/* Sticky card */}
