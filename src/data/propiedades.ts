@@ -8,6 +8,7 @@ import ponienteFachada from "@/assets/propiedades/poniente-1.jpg";
 import americasFachada from "@/assets/propiedades/americas-1.jpg";
 import maestroFachada from "@/assets/propiedades/maestro-1.jpg";
 import orizabaFachada from "@/assets/propiedades/orizaba-1.jpg";
+import casaOrizabaFachada from "@/assets/propiedades/casa-orizaba-1.jpg";
 
 
 
@@ -207,6 +208,23 @@ export const propiedades: Propiedad[] = [
     imagen: orizabaFachada,
     imagenAlt:
       "Sala y comedor amueblados del departamento en calle Orizaba, Boca del Río",
+    disponible: false,
+  },
+  {
+    slug: "casa-orizaba",
+    nombre: "Casa en calle Orizaba, Boca del Río",
+    tipo: "Casa",
+    operacion: "Renta",
+    precio: "$12,300 MXN",
+    precioNota: "mensuales + $600 de agua · total $12,900",
+    superficie: "3 recámaras · 1.5 baños",
+    ubicacion: "Calle Orizaba, a unas cuadras de La Tampiquera",
+    ciudad: "Boca del Río",
+    resumen:
+      "Casa de 3 recámaras con 1 baño completo, 1 medio baño, cuarto de lavado y 2 aires acondicionados, a unas cuadras de La Tampiquera.",
+    destacados: ["3 recámaras", "Cuarto de lavado", "2 aires acondicionados"],
+    imagen: casaOrizabaFachada,
+    imagenAlt: "Fachada de la casa en renta sobre calle Orizaba, Boca del Río",
     disponible: false,
   },
 ];
