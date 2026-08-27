@@ -6,7 +6,7 @@ Este archivo concatena los espejos Markdown de las páginas principales. Índice
 
 Versión HTML canónica: [/](/)
 
-DEVERI administra, renta y da mantenimiento a propiedades residenciales y comerciales en Veracruz, Boca del Río, Medellín y Riviera Veracruzana. Más de 25 años de operación y Más de 2,000 contratos gestionados. El propietario no se involucra en la operación diaria: DEVERI comercializa el inmueble, investiga y selecciona inquilinos, cobra la renta, atiende el mantenimiento y entrega reportes.
+DEVERI administra, renta y da mantenimiento a propiedades residenciales y comerciales en Veracruz, Boca del Río, Medellín y Riviera Veracruzana. Más de 25 años de operación y más de 2,000 contratos gestionados. El propietario no se involucra en la operación diaria: DEVERI comercializa el inmueble, investiga y selecciona inquilinos, cobra la renta, atiende el mantenimiento y entrega reportes.
 
 ## Datos de la empresa
 
@@ -16,7 +16,7 @@ DEVERI administra, renta y da mantenimiento a propiedades residenciales y comerc
 | Marca | DEVERI |
 | Ubicación | Boca del Río, Veracruz, México |
 | Experiencia | Más de 25 años |
-| Contratos gestionados | Más de 2,000 contratos gestionados |
+| Contratos gestionados | más de 2,000 contratos gestionados |
 | Zonas atendidas | Veracruz, Boca del Río, Medellín y Riviera Veracruzana |
 | Contacto | WhatsApp +52 229 684 0727 |
 
@@ -93,7 +93,7 @@ Ninguna. Todos los recursos anteriores son públicos, sin login, sin cookies y s
 - No hay herramientas MCP, endpoints JSON ni operaciones de escritura.
 - No se pueden reservar, apartar ni contratar propiedades desde un agente; el cierre siempre pasa por WhatsApp o el formulario.
 - Los precios de mantenimiento son por cotización y no están publicados.
-- No se ofrece carpintería, cerrajería y herrería.
+- No se ofrece carpintería, cerrajería ni herrería.
 - La disponibilidad de propiedades cambia con frecuencia; `/md/propiedades.md` se regenera en cada build.
 
 ## Documentación completa
@@ -127,7 +127,7 @@ Análisis de mercado y precio sugerido, promoción del inmueble, investigación 
 
 Página: [/mantenimiento-de-propiedades-veracruz](/mantenimiento-de-propiedades-veracruz)
 
-Equipo propio para plomería, electricidad, pintura, impermeabilización, limpieza de áreas comunes, limpieza de tinacos y cisternas, mantenimiento preventivo y correctivo. No se ofrece carpintería, cerrajería y herrería.
+Equipo propio para plomería, electricidad, pintura, impermeabilización, limpieza de áreas comunes, limpieza de tinacos y cisternas, mantenimiento preventivo y correctivo. No se ofrece carpintería, cerrajería ni herrería.
 
 ## DEVERI Match
 

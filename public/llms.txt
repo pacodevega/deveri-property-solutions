@@ -1,7 +1,7 @@
 # DEVERI — Inmobiliaria Deveri S.A. de C.V.
 
 > DEVERI administra, renta y da mantenimiento a propiedades residenciales y comerciales en
-> Veracruz, Boca del Río, Medellín y Riviera Veracruzana. Más de 25 años y Más de 2,000 contratos gestionados. El propietario no se
+> Veracruz, Boca del Río, Medellín y Riviera Veracruzana. Más de 25 años y más de 2,000 contratos gestionados. El propietario no se
 > involucra en la operación: DEVERI busca inquilinos, los investiga, cobra la renta, atiende el
 > mantenimiento y entrega reportes.
 
@@ -11,7 +11,7 @@ Datos clave:
 - Zonas atendidas: Veracruz, Boca del Río, Medellín y Riviera Veracruzana.
 - Precios: colocación en renta = 1 mes de renta (una sola vez); administración = 15% de la renta mensual;
   mantenimiento = Por cotización.
-- Mantenimiento incluye: plomería, electricidad, pintura, impermeabilización, limpieza de áreas comunes, limpieza de tinacos y cisternas, mantenimiento preventivo y correctivo. No se ofrece carpintería, cerrajería y herrería.
+- Mantenimiento incluye: plomería, electricidad, pintura, impermeabilización, limpieza de áreas comunes, limpieza de tinacos y cisternas, mantenimiento preventivo y correctivo. No se ofrece carpintería, cerrajería ni herrería.
 - Requisitos para inquilinos: Mes de renta; Mes de depósito; Aval con propiedad en Veracruz o Boca del Río, o póliza jurídica.
 - No existe API pública ni servidor MCP con herramientas ejecutables. Ver /mcp para detalles.
 

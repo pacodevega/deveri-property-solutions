@@ -63,3 +63,8 @@ Allow: /
 
 User-agent: *
 Allow: /
+
+# Recursos para agentes de IA
+# Índice legible por máquinas: /llms.txt · Contenido completo: /llms-full.txt
+# Espejos Markdown: /md/*.md · Página para agentes: /mcp
+Sitemap: /sitemap.xml

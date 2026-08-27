@@ -11,8 +11,8 @@
     "preview": "vite preview",
     "test": "vitest run",
     "test:watch": "vitest",
-    "predev": "node scripts/generate-sitemap.mjs || true",
-    "prebuild": "node scripts/generate-sitemap.mjs || true"
+    "predev": "node scripts/generate-sitemap.mjs && node scripts/generate-ai-surfaces.mjs || true",
+    "prebuild": "node scripts/generate-sitemap.mjs && node scripts/generate-ai-surfaces.mjs || true"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",

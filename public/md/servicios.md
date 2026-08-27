@@ -18,7 +18,7 @@ Análisis de mercado y precio sugerido, promoción del inmueble, investigación 
 
 Página: [/mantenimiento-de-propiedades-veracruz](/mantenimiento-de-propiedades-veracruz)
 
-Equipo propio para plomería, electricidad, pintura, impermeabilización, limpieza de áreas comunes, limpieza de tinacos y cisternas, mantenimiento preventivo y correctivo. No se ofrece carpintería, cerrajería y herrería.
+Equipo propio para plomería, electricidad, pintura, impermeabilización, limpieza de áreas comunes, limpieza de tinacos y cisternas, mantenimiento preventivo y correctivo. No se ofrece carpintería, cerrajería ni herrería.
 
 ## DEVERI Match
 

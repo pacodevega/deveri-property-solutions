@@ -51,7 +51,7 @@ Ninguna. Todos los recursos anteriores son públicos, sin login, sin cookies y s
 - No hay herramientas MCP, endpoints JSON ni operaciones de escritura.
 - No se pueden reservar, apartar ni contratar propiedades desde un agente; el cierre siempre pasa por WhatsApp o el formulario.
 - Los precios de mantenimiento son por cotización y no están publicados.
-- No se ofrece carpintería, cerrajería y herrería.
+- No se ofrece carpintería, cerrajería ni herrería.
 - La disponibilidad de propiedades cambia con frecuencia; `/md/propiedades.md` se regenera en cada build.
 
 ## Documentación completa

@@ -19,7 +19,7 @@ const facts = {
   marca: "DEVERI",
   ubicacion: "Boca del Río, Veracruz, México",
   experiencia: "Más de 25 años",
-  contratos: "Más de 2,000 contratos gestionados",
+  contratos: "más de 2,000 contratos gestionados",
   zonas: "Veracruz, Boca del Río, Medellín y Riviera Veracruzana",
   whatsapp: WHATSAPP,
   precios: {
@@ -29,7 +29,7 @@ const facts = {
   },
   mantenimientoIncluye:
     "plomería, electricidad, pintura, impermeabilización, limpieza de áreas comunes, limpieza de tinacos y cisternas, mantenimiento preventivo y correctivo",
-  mantenimientoExcluye: "carpintería, cerrajería y herrería",
+  mantenimientoExcluye: "carpintería, cerrajería ni herrería",
   requisitosInquilino: [
     "Mes de renta",
     "Mes de depósito",
