@@ -42,24 +42,24 @@ import foto22 from "@/assets/propiedades/maestro-22.jpg";
 
 const PHONE = "522296840727";
 const WHATSAPP_URL = `https://wa.me/${PHONE}?text=${encodeURIComponent(
-  "Hola, vi el departamento de Callejón del Maestro (ya rentado). ¿Tienen otras propiedades disponibles similares?"
+  "Hola, vi el departamento 3 de Avenida Victoria esquina con Callejón del Maestro (ya rentado). ¿Tienen otras propiedades disponibles similares?"
 )}`;
 
 const photos = [
-  { src: foto1, alt: "Área principal del departamento en Callejón del Maestro con acceso a escaleras" },
+  { src: foto1, alt: "Área principal del departamento 3 en Avenida Victoria esquina con Callejón del Maestro con acceso a escaleras" },
   { src: foto2, alt: "Recámara con clóset de entrepaños en el departamento de Callejón del Maestro" },
-  { src: foto3, alt: "Baño completo con regadera del departamento en Callejón del Maestro" },
-  { src: foto4, alt: "Sala comedor amplia del departamento en Callejón del Maestro" },
+  { src: foto3, alt: "Baño completo con regadera del departamento 3 en Avenida Victoria esquina con Callejón del Maestro" },
+  { src: foto4, alt: "Sala comedor amplia del departamento 3 en Avenida Victoria esquina con Callejón del Maestro" },
   { src: foto5, alt: "Área de estar con ventanas y buena iluminación natural" },
   { src: foto6, alt: "Recámara con clóset amplio y ventana del departamento" },
   { src: foto7, alt: "Segunda recámara con clóset y vista a la calle" },
   { src: foto8, alt: "Recámara con clóset de puertas corredizas y entrepaños" },
   { src: foto9, alt: "Vista desde el acceso hacia el pasillo y recámaras del departamento" },
-  { src: foto10, alt: "Puerta de acceso principal al departamento en Callejón del Maestro" },
+  { src: foto10, alt: "Puerta de acceso principal al departamento 3 en Avenida Victoria esquina con Callejón del Maestro" },
   { src: foto11, alt: "Cocina con tarja y área para estufa del departamento" },
-  { src: foto12, alt: "Estacionamiento techado del edificio en Callejón del Maestro" },
-  { src: foto13, alt: "Acceso vehicular con portón del edificio en Callejón del Maestro" },
-  { src: foto14, alt: "Fachada del edificio en esquina sobre Callejón del Maestro, Veracruz" },
+  { src: foto12, alt: "Estacionamiento techado del edificio en Avenida Victoria esquina con Callejón del Maestro" },
+  { src: foto13, alt: "Acceso vehicular con portón del edificio en Avenida Victoria esquina con Callejón del Maestro" },
+  { src: foto14, alt: "Fachada del edificio en esquina de Avenida Victoria y Callejón del Maestro, Veracruz" },
   { src: foto15, alt: "Recámara con ventana amplia y acceso al pasillo del departamento" },
   { src: foto16, alt: "Recámara con clóset de entrepaños y puerta al pasillo" },
   { src: foto17, alt: "Recámara con clóset corredizo y ventana con vista a la calle" },
@@ -93,20 +93,20 @@ const includes = [
   "Ideal para familias o estudiantes",
 ];
 
-export default function CallejonMaestro() {
+export default function AvenidaVictoria() {
   const [lightbox, setLightbox] = useState<number | null>(null);
 
   return (
     <>
       <SEOHead
-        title="Departamento en Callejón del Maestro | 90 m² | Rentado | DEVERI"
-        description="Departamento de 90 m² en segundo piso sobre Callejón del Maestro, Veracruz: 3 recámaras, cocina, 1 baño completo y 1 estacionamiento. Propiedad ya rentada por DEVERI."
+        title="Departamento 3 en Avenida Victoria | 90 m² | Rentado | DEVERI"
+        description="Departamento de 90 m² en segundo piso sobre Avenida Victoria esquina con Callejón del Maestro, Veracruz: 3 recámaras, cocina, 1 baño completo y 1 estacionamiento. Propiedad ya rentada por DEVERI."
         jsonLd={{
           "@context": "https://schema.org",
           "@type": "RealEstateListing",
-          name: "Departamento en Callejón del Maestro",
+          name: "Departamento 3 en Avenida Victoria",
           description:
-            "Departamento de 90 m² en segundo piso sobre Callejón del Maestro. 3 recámaras, cocina, 1 baño completo y 1 cajón de estacionamiento.",
+            "Departamento de 90 m² en segundo piso sobre Avenida Victoria esquina con Callejón del Maestro. 3 recámaras, cocina, 1 baño completo y 1 cajón de estacionamiento.",
           floorSize: { "@type": "QuantitativeValue", value: 60, unitCode: "MTK" },
           offers: {
             "@type": "Offer",
@@ -116,7 +116,7 @@ export default function CallejonMaestro() {
           },
           address: {
             "@type": "PostalAddress",
-            streetAddress: "Callejón del Maestro",
+            streetAddress: "Avenida Victoria esquina con Callejón del Maestro, Depto. 3",
             addressLocality: "Veracruz",
             addressRegion: "Veracruz",
             addressCountry: "MX",
@@ -134,10 +134,10 @@ export default function CallejonMaestro() {
                 Rentada
               </span>
               <h1 className="mt-4 text-3xl md:text-5xl font-extrabold leading-tight max-w-2xl">
-                Departamento en Callejón del Maestro
+                Departamento 3 en Avenida Victoria
               </h1>
               <p className="mt-3 flex items-center gap-2 text-primary-foreground/85 text-sm md:text-base">
-                <MapPin className="w-4 h-4 shrink-0" /> Callejón del Maestro · Veracruz
+                <MapPin className="w-4 h-4 shrink-0" /> Av. Victoria esq. Callejón del Maestro · Depto. 3 · Veracruz
               </p>
               <div className="mt-5 flex flex-wrap items-end gap-x-3 gap-y-1">
                 <span className="text-3xl md:text-4xl font-extrabold text-accent">$7,000</span>
@@ -145,8 +145,8 @@ export default function CallejonMaestro() {
                   MXN / mes + $650 de agua · 90 m²
                 </span>
                 <SharePropertyButton
-                  title="Departamento en Callejón del Maestro | DEVERI"
-                  text="Mira este departamento de 90 m² en Callejón del Maestro, colocado por DEVERI."
+                  title="Departamento 3 en Avenida Victoria | DEVERI"
+                  text="Mira este departamento de 90 m² en Avenida Victoria esq. Callejón del Maestro, colocado por DEVERI."
                   variant="outline-light"
                   size="sm"
                   className="ml-auto md:ml-0"
@@ -185,7 +185,7 @@ export default function CallejonMaestro() {
 
             <h2 className="mt-10 text-2xl md:text-3xl font-extrabold text-foreground">Sobre esta propiedad</h2>
             <p className="mt-4 text-muted-foreground leading-relaxed">
-              Departamento sobre <strong className="text-foreground">Callejón del Maestro</strong>, ubicado en
+              Departamento número 3 sobre <strong className="text-foreground">Avenida Victoria esquina con Callejón del Maestro</strong>, ubicado en
               segundo piso, ideal para quienes buscan un espacio funcional y bien distribuido. Cuenta con{" "}
               <strong className="text-foreground">90 m²</strong> y ofrece 3 recámaras, cocina, 1 baño completo y 1 cajón de estacionamiento.
             </p>
@@ -244,7 +244,7 @@ export default function CallejonMaestro() {
 
             <h2 className="mt-14 text-2xl md:text-3xl font-extrabold text-foreground">Ubicación</h2>
             <p className="mt-3 text-muted-foreground">
-              Callejón del Maestro, Veracruz. Zona habitacional con servicios y transporte cercanos.
+              Avenida Victoria esquina con Callejón del Maestro, Veracruz. Zona habitacional con servicios y transporte cercanos.
             </p>
           </div>
 
