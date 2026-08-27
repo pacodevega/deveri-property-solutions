@@ -7,6 +7,7 @@ import grijalvaFachada from "@/assets/propiedades/grijalva-2.jpg";
 import ponienteFachada from "@/assets/propiedades/poniente-1.jpg";
 import americasFachada from "@/assets/propiedades/americas-1.jpg";
 import maestroFachada from "@/assets/propiedades/maestro-1.jpg";
+import orizabaFachada from "@/assets/propiedades/orizaba-1.jpg";
 
 
 
@@ -188,6 +189,24 @@ export const propiedades: Propiedad[] = [
     destacados: ["3 recámaras", "1 estacionamiento", "Segundo piso"],
     imagen: maestroFachada,
     imagenAlt: "Interior del departamento en renta en Callejón del Maestro, Veracruz",
+    disponible: false,
+  },
+  {
+    slug: "orizaba-tampiquera",
+    nombre: "Departamento amueblado en calle Orizaba, Boca del Río",
+    tipo: "Departamento",
+    operacion: "Renta",
+    precio: "$8,400 MXN",
+    precioNota: "mensuales + $500 de agua · total $8,900",
+    superficie: "2 recámaras · 2 baños",
+    ubicacion: "Calle Orizaba, junto a La Tampiquera",
+    ciudad: "Boca del Río",
+    resumen:
+      "Departamento completamente amueblado y climatizado junto a La Tampiquera, con 2 recámaras y 2 baños. Listo para habitar.",
+    destacados: ["Amueblado", "2 recámaras", "Climatizado"],
+    imagen: orizabaFachada,
+    imagenAlt:
+      "Sala y comedor amueblados del departamento en calle Orizaba, Boca del Río",
     disponible: false,
   },
 ];

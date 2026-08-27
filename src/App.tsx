@@ -25,6 +25,7 @@ import GrijalvaReforma from "./pages/propiedades/GrijalvaReforma";
 import PonienteTres from "./pages/propiedades/PonienteTres";
 import AmericasReforma from "./pages/propiedades/AmericasReforma";
 import CallejonMaestro from "./pages/propiedades/CallejonMaestro";
+import OrizabaTampiquera from "./pages/propiedades/OrizabaTampiquera";
 
 
 import Blog from "./pages/Blog";
@@ -90,6 +91,7 @@ const App = () => (
             <Route path="/propiedades/poniente-3" element={<PonienteTres />} />
             <Route path="/propiedades/americas-reforma" element={<AmericasReforma />} />
             <Route path="/propiedades/callejon-del-maestro" element={<CallejonMaestro />} />
+            <Route path="/propiedades/orizaba-tampiquera" element={<OrizabaTampiquera />} />
 
 
             
