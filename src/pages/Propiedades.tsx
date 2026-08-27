@@ -1,3 +1,4 @@
+import { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import SEOHead from "@/components/SEOHead";
 import SharePropertyButton from "@/components/SharePropertyButton";
@@ -11,8 +12,20 @@ const WHATSAPP_URL = `https://wa.me/${PHONE}?text=${encodeURIComponent(
 )}`;
 
 export default function Propiedades() {
-  const disponibles = propiedades.filter((p) => p.disponible);
-  const rentadas = propiedades.filter((p) => !p.disponible);
+  const [tipo, setTipo] = useState<string>("Todas");
+
+  const tipos = useMemo(
+    () => ["Todas", ...Array.from(new Set(propiedades.map((p) => p.tipo)))],
+    []
+  );
+
+  const filtradas = useMemo(
+    () => (tipo === "Todas" ? propiedades : propiedades.filter((p) => p.tipo === tipo)),
+    [tipo]
+  );
+
+  const disponibles = filtradas.filter((p) => p.disponible);
+  const rentadas = filtradas.filter((p) => !p.disponible);
 
   const PropertyCard = ({ p }: { p: (typeof propiedades)[number] }) => (
     <div
@@ -129,10 +142,42 @@ export default function Propiedades() {
 
       <section className="section-padding">
         <div className="container-narrow">
+          <div className="mb-10">
+            <p className="text-sm font-semibold text-foreground mb-3">Filtrar por tipo</p>
+            <div className="flex flex-wrap gap-2" role="group" aria-label="Filtrar propiedades por tipo">
+              {tipos.map((t) => {
+                const activo = t === tipo;
+                const total =
+                  t === "Todas"
+                    ? propiedades.length
+                    : propiedades.filter((p) => p.tipo === t).length;
+                return (
+                  <button
+                    key={t}
+                    type="button"
+                    onClick={() => setTipo(t)}
+                    aria-pressed={activo}
+                    className={`min-h-11 rounded-full border px-4 py-2 text-sm font-semibold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 ${
+                      activo
+                        ? "bg-accent text-accent-foreground border-accent"
+                        : "bg-card text-foreground/80 hover:bg-muted"
+                    }`}
+                  >
+                    {t} <span className="opacity-70">({total})</span>
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+
           {disponibles.length === 0 ? (
             <div className="text-center border rounded-2xl p-12 bg-card">
               <Building2 className="w-10 h-10 mx-auto text-accent mb-4" />
-              <h2 className="text-xl font-bold mb-2">Sin propiedades disponibles por ahora</h2>
+              <h2 className="text-xl font-bold mb-2">
+                {tipo === "Todas"
+                  ? "Sin propiedades disponibles por ahora"
+                  : `Sin ${tipo.toLowerCase()} disponible por ahora`}
+              </h2>
               <p className="text-muted-foreground mb-6">
                 Escríbenos y te avisamos en cuanto se libere un espacio.
               </p>
