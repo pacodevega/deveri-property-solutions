@@ -94,7 +94,9 @@ export const propiedades: Propiedad[] = [
     imagenAlt:
       "Fachada del local comercial en renta en Plaza Hípico, junto al Súper Carranza, Veracruz",
     disponible: true,
+  },
   {
+
     slug: "avenida-palmeras",
     nombre: "Local comercial Avenida Palmeras",
     tipo: "Local comercial",
