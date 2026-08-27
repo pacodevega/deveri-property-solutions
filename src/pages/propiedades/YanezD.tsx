@@ -27,7 +27,7 @@ import bano from "@/assets/propiedades/yanez-bano.jpg";
 
 const PHONE = "522296840727";
 const WHATSAPP_URL = `https://wa.me/${PHONE}?text=${encodeURIComponent(
-  "Hola, estoy interesado en el local comercial en renta de Avenida Yáñez (Propiedad Yáñez D, 40 m², $7,500 MXN). ¿Me pueden dar más información?"
+  "Hola, estoy interesado en el local comercial en renta de Avenida Yáñez (Propiedad Yáñez D, 40 m², $7,320 MXN). ¿Me pueden dar más información?"
 )}`;
 const MAPS_URL = "https://maps.app.goo.gl/UGDyDFVXLCerXVh57?g_st=ac";
 
@@ -44,7 +44,7 @@ const specs = [
   { icon: MoveHorizontal, label: "Frente", value: "5 m" },
   { icon: Zap, label: "Instalación eléctrica", value: "Conexión 220V" },
   { icon: Bath, label: "Baño privado", value: "1" },
-  { icon: Droplets, label: "Agua", value: "$400 MXN / mes" },
+  { icon: Droplets, label: "Agua", value: "$580 MXN / mes" },
   { icon: MapPin, label: "Ubicación", value: "Esquina, Av. Yáñez" },
 ];
 
@@ -72,7 +72,7 @@ export default function YanezD() {
     <>
       <SEOHead
         title="Local comercial en renta en Av. Yáñez, Veracruz | 40 m² | DEVERI"
-        description="Local comercial en renta sobre Avenida Yáñez, Veracruz. 40 m², baño privado, ubicación en esquina, alto flujo vehicular y peatonal. $7,500 MXN mensuales."
+        description="Local comercial en renta sobre Avenida Yáñez, Veracruz. 40 m², baño privado, ubicación en esquina, alto flujo vehicular y peatonal. $7,320 MXN mensuales."
         jsonLd={{
           "@context": "https://schema.org",
           "@type": "RealEstateListing",
@@ -80,7 +80,7 @@ export default function YanezD() {
           description:
             "Local comercial de 40 m² en esquina sobre Avenida Yáñez, Veracruz. Baño privado, alto flujo vehicular y peatonal.",
           floorSize: { "@type": "QuantitativeValue", value: 40, unitCode: "MTK" },
-          offers: { "@type": "Offer", price: 7500, priceCurrency: "MXN", availability: "https://schema.org/SoldOut" },
+          offers: { "@type": "Offer", price: 7320, priceCurrency: "MXN", availability: "https://schema.org/SoldOut" },
           address: { "@type": "PostalAddress", streetAddress: "Avenida Yáñez", addressLocality: "Veracruz", addressRegion: "Veracruz", addressCountry: "MX" },
         }}
       />
@@ -102,7 +102,7 @@ export default function YanezD() {
                 <MapPin className="w-4 h-4 shrink-0" /> Esquina sobre Av. Yáñez, Veracruz
               </p>
               <div className="mt-5 flex flex-wrap items-end gap-x-3 gap-y-1">
-                <span className="text-3xl md:text-4xl font-extrabold text-accent">$7,500</span>
+                <span className="text-3xl md:text-4xl font-extrabold text-accent">$7,320</span>
                 <span className="text-primary-foreground/80 text-sm md:text-base pb-1">MXN / mes · 40 m²</span>
                 <SharePropertyButton
                   title="Local comercial en renta — Avenida Yáñez | DEVERI"
@@ -228,9 +228,9 @@ export default function YanezD() {
             <div className="rounded-2xl border bg-card p-6 shadow-lg">
               <p className="text-sm text-muted-foreground">Renta mensual</p>
               <p className="text-3xl font-extrabold text-foreground">
-                $7,500 <span className="text-base font-medium text-muted-foreground">MXN</span>
+                $7,320 <span className="text-base font-medium text-muted-foreground">MXN</span>
               </p>
-              <p className="mt-1 text-sm text-muted-foreground">+ $400 MXN de agua al mes</p>
+              <p className="mt-1 text-sm text-muted-foreground">+ $580 MXN de agua al mes</p>
 
               <div className="mt-5 space-y-2 text-sm text-muted-foreground border-t pt-5">
                 <div className="flex justify-between gap-3"><span>Superficie</span><span className="font-medium text-foreground">40 m²</span></div>
