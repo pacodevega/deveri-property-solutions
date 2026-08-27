@@ -37,7 +37,7 @@ export const propiedades: Propiedad[] = [
     destacados: ["Esquina", "Alto flujo vehicular", "Baño privado"],
     imagen: fachada,
     imagenAlt: "Fachada del local comercial en renta sobre Avenida Yáñez, Veracruz",
-    disponible: true,
+    disponible: false,
   },
   {
     slug: "ruiz-cortines-altos",
