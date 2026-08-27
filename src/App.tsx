@@ -20,6 +20,8 @@ import YanezD from "./pages/propiedades/YanezD";
 import RuizCortinesAltos from "./pages/propiedades/RuizCortinesAltos";
 import RuizCortinesBajos from "./pages/propiedades/RuizCortinesBajos";
 import HipicoLocal3 from "./pages/propiedades/HipicoLocal3";
+import AvenidaPalmeras from "./pages/propiedades/AvenidaPalmeras";
+
 
 import Blog from "./pages/Blog";
 import Contacto from "./pages/Contacto";
