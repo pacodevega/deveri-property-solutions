@@ -29,6 +29,15 @@ import foto10 from "@/assets/propiedades/maestro-10.jpg";
 import foto11 from "@/assets/propiedades/maestro-11.jpg";
 import foto12 from "@/assets/propiedades/maestro-12.jpg";
 import foto13 from "@/assets/propiedades/maestro-13.jpg";
+import foto14 from "@/assets/propiedades/maestro-14.jpg";
+import foto15 from "@/assets/propiedades/maestro-15.jpg";
+import foto16 from "@/assets/propiedades/maestro-16.jpg";
+import foto17 from "@/assets/propiedades/maestro-17.jpg";
+import foto18 from "@/assets/propiedades/maestro-18.jpg";
+import foto19 from "@/assets/propiedades/maestro-19.jpg";
+import foto20 from "@/assets/propiedades/maestro-20.jpg";
+import foto21 from "@/assets/propiedades/maestro-21.jpg";
+import foto22 from "@/assets/propiedades/maestro-22.jpg";
 
 const PHONE = "522296840727";
 const WHATSAPP_URL = `https://wa.me/${PHONE}?text=${encodeURIComponent(
@@ -49,6 +58,15 @@ const photos = [
   { src: foto11, alt: "Cocina con tarja y área para estufa del departamento" },
   { src: foto12, alt: "Estacionamiento techado del edificio en Callejón del Maestro" },
   { src: foto13, alt: "Acceso vehicular con portón del edificio en Callejón del Maestro" },
+  { src: foto14, alt: "Fachada del edificio en esquina sobre Callejón del Maestro, Veracruz" },
+  { src: foto15, alt: "Recámara con ventana amplia y acceso al pasillo del departamento" },
+  { src: foto16, alt: "Recámara con clóset de entrepaños y puerta al pasillo" },
+  { src: foto17, alt: "Recámara con clóset corredizo y ventana con vista a la calle" },
+  { src: foto18, alt: "Habitación luminosa con ventanal y vista panorámica de la ciudad" },
+  { src: foto19, alt: "Recámara con ventana y acabados en buen estado" },
+  { src: foto20, alt: "Pasillo interior con clóset y acceso a la sala del departamento" },
+  { src: foto21, alt: "Distribución interior del departamento con acceso a recámaras" },
+  { src: foto22, alt: "Sala amplia con paso hacia el pasillo y recámaras" },
 ];
 
 const specs = [
