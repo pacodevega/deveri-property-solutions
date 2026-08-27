@@ -1,0 +1,335 @@
+# DEVERI — Inmobiliaria Deveri S.A. de C.V. — contenido completo para LLMs
+
+Este archivo concatena los espejos Markdown de las páginas principales. Índice: /llms.txt
+
+# DEVERI — Inmobiliaria Deveri S.A. de C.V.
+
+Versión HTML canónica: [/](/)
+
+DEVERI administra, renta y da mantenimiento a propiedades residenciales y comerciales en Veracruz, Boca del Río, Medellín y Riviera Veracruzana. Más de 25 años de operación y más de 2,000 contratos gestionados. El propietario no se involucra en la operación diaria: DEVERI comercializa el inmueble, investiga y selecciona inquilinos, cobra la renta, atiende el mantenimiento y entrega reportes.
+
+## Datos de la empresa
+
+| Dato | Valor |
+| --- | --- |
+| Razón social | Inmobiliaria Deveri S.A. de C.V. |
+| Marca | DEVERI |
+| Ubicación | Boca del Río, Veracruz, México |
+| Experiencia | Más de 25 años |
+| Contratos gestionados | más de 2,000 contratos gestionados |
+| Zonas atendidas | Veracruz, Boca del Río, Medellín y Riviera Veracruzana |
+| Contacto | WhatsApp +52 229 684 0727 |
+
+## Servicios y precios
+
+| Servicio | Precio | Página |
+| --- | --- | --- |
+| Colocación en renta | 1 mes de renta (una sola vez) | [/renta-de-propiedades-veracruz](/renta-de-propiedades-veracruz) |
+| Administración de propiedades | 15% de la renta mensual | [/administracion-de-propiedades-veracruz](/administracion-de-propiedades-veracruz) |
+| Mantenimiento | Por cotización | [/mantenimiento-de-propiedades-veracruz](/mantenimiento-de-propiedades-veracruz) |
+
+## Requisitos para inquilinos
+
+- Mes de renta
+- Mes de depósito
+- Aval con propiedad en Veracruz o Boca del Río, o póliza jurídica
+
+## Cómo contactar
+
+WhatsApp +52 229 684 0727 · Formulario en [/contacto](/contacto). No hay proceso de alta ni registro: el contacto inicial es directo por WhatsApp.
+
+---
+
+# DEVERI para agentes de IA
+
+Versión HTML canónica: [/mcp](/mcp)
+
+## Qué hace DEVERI
+
+Inmobiliaria Deveri S.A. de C.V. (marca DEVERI) es una empresa de administración inmobiliaria en Veracruz, Boca del Río, Medellín y Riviera Veracruzana. Servicios: administración integral de propiedades en renta, colocación de inquilinos y mantenimiento con equipo propio.
+
+## Superficies legibles por máquina
+
+| Recurso | URL | Formato | Autenticación |
+| --- | --- | --- | --- |
+| Índice para LLMs | [/llms.txt](/llms.txt) | texto | Ninguna |
+| Contenido completo para LLMs | [/llms-full.txt](/llms-full.txt) | texto | Ninguna |
+| Mirrors Markdown | `/md/<pagina>.md` | Markdown | Ninguna |
+| Mapa del sitio | [/sitemap.xml](/sitemap.xml) | XML | Ninguna |
+| Datos estructurados | JSON-LD embebido en cada página HTML (`RealEstateAgent`, `Offer`, `BlogPosting`, `Product`) | JSON-LD | Ninguna |
+
+## Capacidades disponibles para un agente
+
+DEVERI **no expone un servidor MCP con herramientas ejecutables ni una API transaccional**. Lo que un agente puede hacer hoy:
+
+1. **Leer** cualquier página pública en HTML o en su equivalente Markdown (`/md/...`).
+2. **Consultar el catálogo de propiedades** en [/md/propiedades.md](/md/propiedades.md), con precio, superficie, ubicación y disponibilidad.
+3. **Consultar precios y alcance de servicios** en [/md/index.md](/md/index.md).
+4. **Derivar al usuario al contacto**: WhatsApp +52 229 684 0727 o [/contacto](/contacto).
+
+## Ejemplo de solicitud
+
+```bash
+curl -sL https://<dominio>/llms.txt
+curl -sL https://<dominio>/md/propiedades.md
+```
+
+Respuesta esperada de `/md/propiedades.md` (extracto):
+
+```markdown
+### Local comercial Av. Yáñez
+
+- URL: /propiedades/yanez-d
+- Estado: Rentada recientemente (no disponible)
+- Precio: $7,320 MXN
+```
+
+## Autenticación
+
+Ninguna. Todos los recursos anteriores son públicos, sin login, sin cookies y sin límites de tasa aplicados a crawlers aprobados. `robots.txt` permite explícitamente a GPTBot, OAI-SearchBot, ChatGPT-User, ClaudeBot, Claude-User, Claude-SearchBot, PerplexityBot, Google-Extended, Applebot y otros.
+
+## Limitaciones
+
+- No hay herramientas MCP, endpoints JSON ni operaciones de escritura.
+- No se pueden reservar, apartar ni contratar propiedades desde un agente; el cierre siempre pasa por WhatsApp o el formulario.
+- Los precios de mantenimiento son por cotización y no están publicados.
+- No se ofrece carpintería, cerrajería ni herrería.
+- La disponibilidad de propiedades cambia con frecuencia; `/md/propiedades.md` se regenera en cada build.
+
+## Documentación completa
+
+- [/llms.txt](/llms.txt) — índice de todo el sitio
+- [/md/index.md](/md/index.md) — resumen de empresa, servicios y precios
+- [/md/servicios.md](/md/servicios.md) — detalle de los tres servicios
+- [/md/propiedades.md](/md/propiedades.md) — catálogo
+- [/md/como-funciona.md](/md/como-funciona.md) — proceso
+- [/md/contacto.md](/md/contacto.md) — contacto
+
+---
+
+# Servicios de DEVERI
+
+Versión HTML canónica: [/servicios](/servicios)
+
+## Administración de propiedades — 15% de la renta mensual
+
+Página: [/administracion-de-propiedades-veracruz](/administracion-de-propiedades-veracruz)
+
+Cobranza y seguimiento de pagos, atención al inquilino, coordinación de mantenimiento, reportes periódicos al propietario y control de contratos. El propietario no interviene en la operación diaria.
+
+## Renta y colocación de inmuebles — 1 mes de renta (una sola vez)
+
+Página: [/renta-de-propiedades-veracruz](/renta-de-propiedades-veracruz)
+
+Análisis de mercado y precio sugerido, promoción del inmueble, investigación de candidatos (referencias, estabilidad, opinión de cumplimiento del SAT e IMSS para empresas y revisión de propiedad en garantía), presentación de candidatos calificados para que el propietario decida y elaboración del contrato.
+
+## Mantenimiento — Por cotización
+
+Página: [/mantenimiento-de-propiedades-veracruz](/mantenimiento-de-propiedades-veracruz)
+
+Equipo propio para plomería, electricidad, pintura, impermeabilización, limpieza de áreas comunes, limpieza de tinacos y cisternas, mantenimiento preventivo y correctivo. No se ofrece carpintería, cerrajería ni herrería.
+
+## DEVERI Match
+
+Página: [/deveri-match](/deveri-match)
+
+Herramienta gratuita que evalúa un local, terreno o bodega y devuelve qué cadenas nacionales y franquicias en expansión hacen match con la propiedad. Requiere completar un formulario en el navegador.
+
+---
+
+# Propiedades
+
+Versión HTML canónica: [/propiedades](/propiedades)
+
+Requisitos aplicables a todas las propiedades:
+
+- Mes de renta
+- Mes de depósito
+- Aval con propiedad en Veracruz o Boca del Río, o póliza jurídica
+
+## Disponibles
+
+### Ruiz Cortines Altos — Local comercial
+
+- URL: /propiedades/ruiz-cortines-altos
+- Estado: Disponible
+- Tipo: Local comercial · Operación: Renta
+- Precio: $30,900 MXN (mensuales + $1,100 de agua · total $32,000 · ambas plantas $76,000)
+- Superficie: 180 m²
+- Ubicación: Av. Ruiz Cortines, Boca del Río
+
+Planta alta de 180 m² sobre la principal avenida comercial de Boca del Río. Amplios espacios, baños, privado, bodega y terraza. Opción de rentar 400 m² con la planta baja.
+
+### Ruiz Cortines Bajos — Local comercial
+
+- URL: /propiedades/ruiz-cortines-bajos
+- Estado: Disponible
+- Tipo: Local comercial · Operación: Renta
+- Precio: $53,500 MXN (mensuales + $1,500 de agua · total $55,000 · ambas plantas $76,000)
+- Superficie: 220 m²
+- Ubicación: Av. Ruiz Cortines, Boca del Río
+
+Planta baja de 220 m² con acceso a pie de calle sobre la principal avenida comercial de Boca del Río. Baño de hombres con mingitorios, baño de mujeres, zona de caja, privado climatizado, 4 aires acondicionados y cuarto bodega. Opción de rentar 400 m² con la planta alta.
+
+### Plaza Hípico — Local 3
+
+- URL: /propiedades/hipico-local-3
+- Estado: Disponible
+- Tipo: Local comercial · Operación: Renta
+- Precio: $11,400 MXN (mensuales + $600 de agua · total $12,000)
+- Superficie: 50 m²
+- Ubicación: Plaza Hípico, junto al Súper Carranza, Veracruz
+
+Local de 50 m² en Plaza Hípico, junto al Súper Carranza. Baño privado y espacio funcional adaptable a diferentes giros comerciales.
+
+
+## Rentadas recientemente
+
+### Local comercial Av. Yáñez
+
+- URL: /propiedades/yanez-d
+- Estado: Rentada recientemente (no disponible)
+- Tipo: Local comercial · Operación: Renta
+- Precio: $7,320 MXN (mensuales + $580 de agua · total $7,900)
+- Superficie: 40 m²
+- Ubicación: Esquina sobre Avenida Yáñez, Veracruz
+
+Local en esquina con alto flujo vehicular y peatonal, excelente visibilidad y baño privado. Listo para operar.
+
+### Local comercial Avenida Palmeras
+
+- URL: /propiedades/avenida-palmeras
+- Estado: Rentada recientemente (no disponible)
+- Tipo: Local comercial · Operación: Renta
+- Precio: $28,100 MXN (mensuales + $900 de agua · total $29,000)
+- Superficie: 180 m²
+- Ubicación: Avenida Palmeras, cerca de Walmart, Veracruz
+
+Local de 180 m² en planta baja y alta sobre Avenida Palmeras, a pasos de Walmart. 3 cubículos, sala de juntas, cocina, bodega, 3 baños y 5 aires acondicionados.
+
+### Local comercial en Grijalva, Reforma
+
+- URL: /propiedades/grijalva-reforma
+- Estado: Rentada recientemente (no disponible)
+- Tipo: Local comercial · Operación: Renta
+- Precio: $12,000 MXN (mensuales + $900 de agua · total $12,900)
+- Superficie: 40 m²
+- Ubicación: Grijalva, casi esquina con Colón, Reforma, Veracruz
+
+Local de 40 m² sobre Grijalva, casi esquina con Colón, en Reforma. 2 baños privados, tarja y distribución funcional adaptable a distintos giros.
+
+### Local comercial en Poniente 3
+
+- URL: /propiedades/poniente-3
+- Estado: Rentada recientemente (no disponible)
+- Tipo: Local comercial · Operación: Renta
+- Precio: $9,000 MXN (mensuales + $900 de agua · total $9,900)
+- Superficie: 90 m²
+- Ubicación: Poniente 3, a pasos de Avenida Sugasti, Veracruz
+
+Local comercial de 90 m² en Poniente 3, a pasos de Avenida Sugasti. 2 baños, espacio amplio y versátil en zona de alto movimiento peatonal.
+
+### Oficina en Avenida de las Américas, Reforma
+
+- URL: /propiedades/americas-reforma
+- Estado: Rentada recientemente (no disponible)
+- Tipo: Oficina · Operación: Renta
+- Precio: $14,000 MXN (mensuales + $900 de agua · total $14,900)
+- Superficie: 110 m²
+- Ubicación: Avenida de las Américas, colonia Reforma, Veracruz
+
+Oficina de 110 m² en segundo piso, totalmente climatizada: 2 privados, zona de cocina, bodega, 2 medios baños y 4 aires acondicionados.
+
+### Departamento 3 en Avenida Victoria
+
+- URL: /propiedades/avenida-victoria-depto-3
+- Estado: Rentada recientemente (no disponible)
+- Tipo: Departamento · Operación: Renta
+- Precio: $7,000 MXN (mensuales + $650 de agua · total $7,650)
+- Superficie: 90 m²
+- Ubicación: Av. Victoria esq. Callejón del Maestro, Veracruz
+
+Departamento de 90 m² en segundo piso con 3 recámaras, cocina, 1 baño completo y 1 cajón de estacionamiento.
+
+### Departamento amueblado en calle Orizaba, Boca del Río
+
+- URL: /propiedades/orizaba-tampiquera
+- Estado: Rentada recientemente (no disponible)
+- Tipo: Departamento · Operación: Renta
+- Precio: $8,400 MXN (mensuales + $500 de agua · total $8,900)
+- Superficie: 70 m²
+- Ubicación: Calle Orizaba, junto a La Tampiquera, Boca del Río
+
+Departamento completamente amueblado y climatizado junto a La Tampiquera, con 2 recámaras y 2 baños. Listo para habitar.
+
+### Casa en calle Orizaba, Boca del Río
+
+- URL: /propiedades/casa-orizaba
+- Estado: Rentada recientemente (no disponible)
+- Tipo: Casa · Operación: Renta
+- Precio: $12,300 MXN (mensuales + $600 de agua · total $12,900)
+- Superficie: 190 m² construidos
+- Ubicación: Calle Orizaba, a unas cuadras de La Tampiquera, Boca del Río
+
+Casa de 3 recámaras con 1 baño completo, 1 medio baño, cuarto de lavado y 2 aires acondicionados, a unas cuadras de La Tampiquera.
+
+
+Contacto para agendar visita: WhatsApp +52 229 684 0727.
+
+---
+
+# Cómo funciona
+
+Versión HTML canónica: [/como-funciona](/como-funciona)
+
+1. **Contacto.** El propietario escribe por WhatsApp (+52 229 684 0727) o desde [/contacto](/contacto).
+2. **Visita y valuación.** DEVERI evalúa el inmueble y propone un precio de renta de mercado.
+3. **Comercialización.** Publicación, atención de prospectos y visitas. Costo: 1 mes de renta (una sola vez).
+4. **Investigación del candidato.** Referencias, estabilidad económica, opinión de cumplimiento SAT/IMSS en empresas y revisión de la propiedad en garantía.
+5. **Decisión del propietario.** DEVERI presenta candidatos calificados; el propietario elige.
+6. **Contrato y entrega.** Firma, inventario y entrega del inmueble.
+7. **Administración mensual.** Cobranza, atención al inquilino, mantenimiento y reportes. Costo: 15% de la renta mensual.
+
+---
+
+# Contacto
+
+Versión HTML canónica: [/contacto](/contacto)
+
+- WhatsApp: +52 229 684 0727 (canal principal, respuesta directa)
+- Formulario: [/contacto](/contacto) — envía la solicitud por WhatsApp
+- Ubicación: Boca del Río, Veracruz, México
+- Zonas atendidas: Veracruz, Boca del Río, Medellín y Riviera Veracruzana
+
+No hay correo de soporte automatizado, API ni portal de clientes públicos.
+
+---
+
+# Blog
+
+Versión HTML canónica: [/blog](/blog)
+
+- [Cómo administrar una propiedad en Veracruz](/blog/como-administrar-una-propiedad-en-veracruz)
+- [Errores al rentar un local comercial](/blog/errores-al-rentar-un-local-comercial-veracruz)
+- [Cuánto cobrar de renta en Veracruz](/blog/cuanto-cobrar-de-renta-en-veracruz)
+- [Cómo encontrar inquilinos confiables](/blog/como-encontrar-inquilinos-confiables)
+- [¿Vale la pena la administración de propiedades?](/blog/administracion-de-propiedades-vale-la-pena)
+- [Problemas comunes con inquilinos](/blog/problemas-comunes-con-inquilinos)
+- [Mantenimiento preventivo de propiedades](/blog/mantenimiento-preventivo-propiedades)
+- [Cómo rentar si no vives en Veracruz](/blog/como-rentar-si-no-vives-en-veracruz)
+- [Tiempo promedio para rentar una propiedad](/blog/tiempo-promedio-para-rentar-propiedad)
+- [Cómo aumentar el valor de una propiedad en renta](/blog/como-aumentar-el-valor-de-una-propiedad-en-renta)
+- [Terrenos más caros de Veracruz y Boca del Río](/blog/terrenos-mas-caros-veracruz-boca-del-rio)
+- [Terrenos más baratos de Veracruz y Boca del Río](/blog/terrenos-mas-baratos-veracruz-boca-del-rio)
+- [¿Es la renta una buena inversión?](/blog/renta-buena-inversion)
+- [Limpieza de cisternas y tinacos](/blog/limpieza-de-cisternas-y-tinacos-veracruz)
+- [Impermeabilización en Veracruz](/blog/impermeabilizacion-en-veracruz)
+- [Problemas de plomería más comunes](/blog/problemas-de-plomeria-mas-comunes)
+- [Renovar instalaciones eléctricas viejas](/blog/renovar-instalaciones-electricas-viejas)
+- [Administración de condominios y áreas comunes](/blog/administracion-de-condominios-areas-comunes)
+- [Mantenimiento correctivo de propiedades](/blog/mantenimiento-correctivo-propiedades)
+- [Cómo eliminar y prevenir el salitre](/blog/como-eliminar-y-prevenir-salitre)
+- [Airbnb vs. renta a largo plazo en Veracruz](/blog/airbnb-vs-renta-largo-plazo-veracruz)
+- [Rentar una propiedad a OXXO, Six o cadenas nacionales](/blog/rentar-propiedad-a-oxxo-six-cadenas-nacionales)
+
+---

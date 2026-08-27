@@ -84,6 +84,21 @@ const resources = [
   { href: "/aviso-de-privacidad", label: "Aviso de privacidad", note: "Tratamiento de datos personales." },
 ];
 
+const machineResources = [
+  { href: "/llms.txt", note: "índice legible por máquinas de todo el sitio." },
+  { href: "/llms-full.txt", note: "contenido completo de las páginas principales en un solo archivo." },
+  { href: "/md/index.md", note: "espejo Markdown del inicio: empresa, servicios y precios." },
+  { href: "/md/mcp.md", note: "espejo Markdown de esta página." },
+  { href: "/md/servicios.md", note: "espejo Markdown de los servicios y sus precios." },
+  { href: "/md/propiedades.md", note: "espejo Markdown del catálogo de propiedades." },
+  { href: "/md/como-funciona.md", note: "espejo Markdown del proceso paso a paso." },
+  { href: "/md/blog.md", note: "espejo Markdown del índice del blog." },
+  { href: "/md/contacto.md", note: "espejo Markdown de la información de contacto." },
+  { href: "/sitemap.xml", note: "mapa del sitio con todas las URLs canónicas." },
+  { href: "/robots.txt", note: "reglas de crawling; agentes de IA permitidos explícitamente." },
+];
+
+
 export default function MCP() {
   return (
     <>
@@ -166,6 +181,58 @@ export default function MCP() {
 
       <section className="section-padding pt-0">
         <div className="container-narrow max-w-4xl">
+          <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-6">
+            Capacidades disponibles para un agente
+          </h2>
+          <p className="text-muted-foreground">
+            DEVERI <strong>no expone un servidor MCP con herramientas ejecutables ni una API transaccional</strong>.
+            Todo el contenido es de lectura pública. Un agente puede:
+          </p>
+          <ol className="mt-4 space-y-2 text-muted-foreground list-decimal pl-5">
+            <li>Leer cualquier página pública en HTML o en su espejo Markdown (<code>/md/…</code>).</li>
+            <li>
+              Consultar el catálogo con precio, superficie, ubicación y disponibilidad en{" "}
+              <a href="/md/propiedades.md" className="text-accent hover:underline">/md/propiedades.md</a>.
+            </li>
+            <li>
+              Consultar servicios y precios en{" "}
+              <a href="/md/servicios.md" className="text-accent hover:underline">/md/servicios.md</a>.
+            </li>
+            <li>Derivar al usuario al contacto: WhatsApp +52 229 684 0727 o /contacto.</li>
+          </ol>
+
+          <h3 className="text-xl font-bold text-foreground mt-10 mb-3">Autenticación</h3>
+          <p className="text-muted-foreground">
+            Ninguna. Todos los recursos son públicos: sin login, sin cookies y sin bloqueo de bots.
+            <code className="mx-1">robots.txt</code> permite explícitamente a GPTBot, OAI-SearchBot, ChatGPT-User,
+            ClaudeBot, Claude-User, Claude-SearchBot, PerplexityBot, Google-Extended y Applebot, entre otros.
+          </p>
+
+          <h3 className="text-xl font-bold text-foreground mt-10 mb-3">Ejemplo de solicitud y respuesta</h3>
+          <pre className="bg-card border rounded-xl p-4 overflow-x-auto text-sm text-foreground">
+{`GET /llms.txt            → índice de todos los recursos
+GET /md/propiedades.md   → catálogo en Markdown
+
+### Ruiz Cortines Bajos — Local comercial
+- URL: /propiedades/ruiz-cortines-bajos
+- Estado: Disponible
+- Precio: $53,500 MXN (+ $1,500 de agua · total $55,000)
+- Superficie: 220 m²`}
+          </pre>
+
+          <h3 className="text-xl font-bold text-foreground mt-10 mb-3">Limitaciones</h3>
+          <ul className="space-y-2 text-muted-foreground list-disc pl-5">
+            <li>No hay herramientas MCP, endpoints JSON ni operaciones de escritura.</li>
+            <li>No es posible apartar, reservar ni contratar desde un agente; el cierre pasa por WhatsApp.</li>
+            <li>El mantenimiento se cotiza caso por caso; no hay tarifas publicadas.</li>
+            <li>No se ofrece carpintería, cerrajería ni herrería.</li>
+            <li>La disponibilidad cambia con frecuencia; los archivos Markdown se regeneran en cada build.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section className="section-padding pt-0">
+        <div className="container-narrow max-w-4xl">
           <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-6">Recursos e índice del sitio</h2>
           <ul className="space-y-3">
             {resources.map((r) => (
@@ -176,21 +243,18 @@ export default function MCP() {
                 <span className="text-muted-foreground"> — {r.note}</span>
               </li>
             ))}
-            <li className="border-b pb-3">
-              <a href="/llms.txt" className="font-semibold text-foreground hover:text-accent transition-colors">
-                /llms.txt
-              </a>
-              <span className="text-muted-foreground"> — índice legible por máquinas de todas las páginas del sitio.</span>
-            </li>
-            <li>
-              <a href="/sitemap.xml" className="font-semibold text-foreground hover:text-accent transition-colors">
-                /sitemap.xml
-              </a>
-              <span className="text-muted-foreground"> — mapa del sitio con todas las URLs canónicas.</span>
-            </li>
+            {machineResources.map((r) => (
+              <li key={r.href} className="border-b pb-3">
+                <a href={r.href} className="font-semibold text-foreground hover:text-accent transition-colors">
+                  {r.href}
+                </a>
+                <span className="text-muted-foreground"> — {r.note}</span>
+              </li>
+            ))}
           </ul>
         </div>
       </section>
+
     </>
   );
 }

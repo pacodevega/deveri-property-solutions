@@ -1,35 +1,57 @@
-# DEVERI — Administración, renta y mantenimiento de propiedades en Veracruz
+# DEVERI — Inmobiliaria Deveri S.A. de C.V.
 
-> DEVERI (Inmobiliaria Deveri S.A. de C.V.) es una empresa con más de 25 años de
-> experiencia en administración integral, renta y mantenimiento de propiedades en
-> Veracruz, Boca del Río, Medellín y la Riviera Veracruzana. Más de 2,000 contratos
-> gestionados. El propietario no se involucra en la operación: DEVERI busca inquilinos,
-> los investiga, cobra la renta, atiende el mantenimiento y entrega reportes.
+> DEVERI administra, renta y da mantenimiento a propiedades residenciales y comerciales en
+> Veracruz, Boca del Río, Medellín y Riviera Veracruzana. Más de 25 años y más de 2,000 contratos gestionados. El propietario no se
+> involucra en la operación: DEVERI busca inquilinos, los investiga, cobra la renta, atiende el
+> mantenimiento y entrega reportes.
 
 Datos clave:
 - Empresa: Inmobiliaria Deveri S.A. de C.V., Boca del Río, Veracruz, México.
 - Contacto principal: WhatsApp +52 229 684 0727.
 - Zonas atendidas: Veracruz, Boca del Río, Medellín y Riviera Veracruzana.
-- Precios: colocación en renta = 1 mes de renta; administración = 15% mensual;
-  mantenimiento = por cotización.
-- Servicios de mantenimiento: plomería, electricidad, pintura, impermeabilización,
-  limpieza de áreas comunes, limpieza de tinacos y cisternas, mantenimiento correctivo.
-  No se ofrece carpintería, cerrajería ni herrería.
+- Precios: colocación en renta = 1 mes de renta (una sola vez); administración = 15% de la renta mensual;
+  mantenimiento = Por cotización.
+- Mantenimiento incluye: plomería, electricidad, pintura, impermeabilización, limpieza de áreas comunes, limpieza de tinacos y cisternas, mantenimiento preventivo y correctivo. No se ofrece carpintería, cerrajería ni herrería.
+- Requisitos para inquilinos: Mes de renta; Mes de depósito; Aval con propiedad en Veracruz o Boca del Río, o póliza jurídica.
+- No existe API pública ni servidor MCP con herramientas ejecutables. Ver /mcp para detalles.
 
-## Páginas principales
+## Superficies para agentes de IA
+
+- [DEVERI — Administración, renta y mantenimiento de propiedades en Veracruz](/md/index.md): Qué hace DEVERI, para quién, proceso, precios y contacto. HTML equivalente: /.
+- [DEVERI para agentes de IA](/md/mcp.md): Resumen estructurado de DEVERI y de las superficies legibles por máquina. HTML equivalente: /mcp.
+- [Servicios de DEVERI](/md/servicios.md): Administración, renta y mantenimiento: alcance y precios. HTML equivalente: /servicios.
+- [Propiedades DEVERI](/md/propiedades.md): Catálogo de propiedades disponibles y rentadas recientemente. HTML equivalente: /propiedades.
+- [Cómo funciona DEVERI](/md/como-funciona.md): Proceso paso a paso de trabajo con DEVERI. HTML equivalente: /como-funciona.
+- [Contacto DEVERI](/md/contacto.md): Cómo contactar a DEVERI. HTML equivalente: /contacto.
+- [Blog DEVERI](/md/blog.md): Guías sobre renta, administración, mantenimiento e inversión inmobiliaria en Veracruz. HTML equivalente: /blog.
+- [Contenido completo en un archivo](/llms-full.txt): concatenación de todos los Markdown anteriores.
+- [Sitemap](/sitemap.xml): todas las URLs canónicas.
+
+## Páginas principales (HTML)
 
 - [Inicio](/): qué hace DEVERI, problema que resuelve, proceso, precios y preguntas frecuentes.
-- [Para agentes de IA (/mcp)](/mcp): resumen estructurado de la empresa, servicios, cobertura, precios y contacto.
+- [Para agentes de IA (/mcp)](/mcp): capacidades, autenticación, ejemplos y limitaciones.
 - [Servicios](/servicios): índice de los tres servicios principales.
-- [Propiedades disponibles en renta](/propiedades): listado de locales y espacios disponibles.
-- [Administración de propiedades en Veracruz](/administracion-de-propiedades-veracruz): administración integral, cobranza, reportes, tarifa 15%.
+- [Propiedades](/propiedades): disponibles y rentadas recientemente.
+  - [Local comercial Av. Yáñez](/propiedades/yanez-d): Local comercial, $7,320 MXN, rentada.
+  - [Ruiz Cortines Altos — Local comercial](/propiedades/ruiz-cortines-altos): Local comercial, $30,900 MXN, disponible.
+  - [Ruiz Cortines Bajos — Local comercial](/propiedades/ruiz-cortines-bajos): Local comercial, $53,500 MXN, disponible.
+  - [Plaza Hípico — Local 3](/propiedades/hipico-local-3): Local comercial, $11,400 MXN, disponible.
+  - [Local comercial Avenida Palmeras](/propiedades/avenida-palmeras): Local comercial, $28,100 MXN, rentada.
+  - [Local comercial en Grijalva, Reforma](/propiedades/grijalva-reforma): Local comercial, $12,000 MXN, rentada.
+  - [Local comercial en Poniente 3](/propiedades/poniente-3): Local comercial, $9,000 MXN, rentada.
+  - [Oficina en Avenida de las Américas, Reforma](/propiedades/americas-reforma): Oficina, $14,000 MXN, rentada.
+  - [Departamento 3 en Avenida Victoria](/propiedades/avenida-victoria-depto-3): Departamento, $7,000 MXN, rentada.
+  - [Departamento amueblado en calle Orizaba, Boca del Río](/propiedades/orizaba-tampiquera): Departamento, $8,400 MXN, rentada.
+  - [Casa en calle Orizaba, Boca del Río](/propiedades/casa-orizaba): Casa, $12,300 MXN, rentada.
+- [Administración de propiedades en Veracruz](/administracion-de-propiedades-veracruz): administración integral, cobranza, reportes, tarifa 15% de la renta mensual.
 - [Renta de propiedades en Veracruz](/renta-de-propiedades-veracruz): comercialización, investigación y selección de inquilinos, contratos.
 - [Mantenimiento de propiedades en Veracruz](/mantenimiento-de-propiedades-veracruz): mantenimiento preventivo y correctivo con equipo propio.
-- [DEVERI Match](/deveri-match): herramienta gratuita que evalúa un local, terreno o bodega y devuelve qué cadenas nacionales y franquicias en expansión hacen match con la propiedad.
-- [Cómo funciona](/como-funciona): proceso paso a paso de trabajo con DEVERI.
+- [DEVERI Match](/deveri-match): evalúa un local, terreno o bodega y devuelve qué cadenas nacionales y franquicias hacen match.
+- [Cómo funciona](/como-funciona): proceso paso a paso.
 - [Contacto](/contacto): formulario que envía la solicitud por WhatsApp.
 
-## Blog (contenido informativo para propietarios e inversionistas)
+## Blog
 
 - [Cómo administrar una propiedad en Veracruz](/blog/como-administrar-una-propiedad-en-veracruz)
 - [Errores al rentar un local comercial](/blog/errores-al-rentar-un-local-comercial-veracruz)
@@ -61,5 +83,6 @@ Datos clave:
 
 ## Notas
 
-- Todas las páginas están disponibles en HTML en su URL canónica; este archivo es un índice, no un reemplazo.
-- Sitemap: /sitemap.xml
+- Todas las páginas están disponibles en HTML en su URL canónica; los archivos Markdown son espejos, no reemplazos.
+- HTML y Markdown contienen la misma información canónica; ante cualquier diferencia, la página HTML es la autoridad.
+- Crawling permitido para agentes de IA en /robots.txt. Sin autenticación ni bloqueos.
