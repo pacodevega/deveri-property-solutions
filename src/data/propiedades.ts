@@ -5,6 +5,7 @@ import hipicoFachada from "@/assets/propiedades/hipico-fachada.jpg";
 import palmerasFachada from "@/assets/propiedades/palmeras-1.jpg";
 import grijalvaFachada from "@/assets/propiedades/grijalva-2.jpg";
 import ponienteFachada from "@/assets/propiedades/poniente-1.jpg";
+import americasFachada from "@/assets/propiedades/americas-1.jpg";
 
 
 
@@ -151,6 +152,24 @@ export const propiedades: Propiedad[] = [
     imagen: ponienteFachada,
     imagenAlt:
       "Fachada del local comercial en Poniente 3, a pasos de Avenida Sugasti, Veracruz",
+    disponible: false,
+  },
+  {
+    slug: "americas-reforma",
+    nombre: "Oficina en calle Américas, Reforma",
+    tipo: "Oficina",
+    operacion: "Renta",
+    precio: "$14,000 MXN",
+    precioNota: "mensuales + $900 de agua · total $14,900",
+    superficie: "150 m²",
+    ubicacion: "Calle Américas, colonia Reforma",
+    ciudad: "Veracruz",
+    resumen:
+      "Oficina de 150 m² en segundo piso, totalmente climatizada: 2 privados, zona de cocina, bodega, 2 medios baños y 4 aires acondicionados.",
+    destacados: ["2 privados", "4 aires acondicionados", "Cocina y bodega"],
+    imagen: americasFachada,
+    imagenAlt:
+      "Área principal de la oficina en calle Américas, colonia Reforma, Veracruz",
     disponible: false,
   },
 ];
