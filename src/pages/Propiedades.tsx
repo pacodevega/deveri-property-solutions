@@ -210,7 +210,9 @@ export default function Propiedades() {
               <div className="flex items-baseline justify-between mb-8 gap-4 flex-wrap">
                 <h2 className="text-2xl font-bold">
                   {rentadas.length}{" "}
-                  {rentadas.length === 1 ? "propiedad rentada" : "propiedades rentadas"}
+                  {rentadas.length === 1
+                    ? "propiedad rentada recientemente"
+                    : "propiedades rentadas recientemente"}
                 </h2>
                 <p className="text-sm text-muted-foreground">
                   Espacios ya colocados por DEVERI
