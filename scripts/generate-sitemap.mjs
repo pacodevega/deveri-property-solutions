@@ -21,6 +21,7 @@ const entries = [
   { path: "/propiedades/ruiz-cortines-bajos", changefreq: "weekly", priority: "0.7" },
   { path: "/propiedades/hipico-local-3", changefreq: "weekly", priority: "0.7" },
   { path: "/propiedades/avenida-palmeras", changefreq: "monthly", priority: "0.5" },
+  { path: "/propiedades/grijalva-reforma", changefreq: "monthly", priority: "0.5" },
   { path: "/administracion-de-propiedades-veracruz", changefreq: "monthly", priority: "0.9" },
   { path: "/renta-de-propiedades-veracruz", changefreq: "monthly", priority: "0.9" },
   { path: "/mantenimiento-de-propiedades-veracruz", changefreq: "monthly", priority: "0.9" },

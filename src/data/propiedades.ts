@@ -3,6 +3,8 @@ import ruizCortines from "@/assets/propiedades/ruiz-cortines-fachada.jpg";
 import ruizCortinesBajos from "@/assets/propiedades/bajos-fachada.jpg";
 import hipicoFachada from "@/assets/propiedades/hipico-fachada.jpg";
 import palmerasFachada from "@/assets/propiedades/palmeras-1.jpg";
+import grijalvaFachada from "@/assets/propiedades/grijalva-2.jpg";
+
 
 
 
@@ -114,6 +116,25 @@ export const propiedades: Propiedad[] = [
       "Fachada del local comercial sobre Avenida Palmeras, cerca de Walmart, Veracruz",
     disponible: false,
   },
+  {
+    slug: "grijalva-reforma",
+    nombre: "Local comercial en Reforma",
+    tipo: "Local comercial",
+    operacion: "Renta",
+    precio: "$12,000 MXN",
+    precioNota: "mensuales + $900 de agua · total $12,900",
+    superficie: "Aprox. 40 m²",
+    ubicacion: "Grijalva, casi esquina con Colón, Reforma",
+    ciudad: "Veracruz",
+    resumen:
+      "Local de aproximadamente 40 m² sobre Grijalva, casi esquina con Colón, en Reforma. 2 baños privados, tarja y distribución funcional adaptable a distintos giros.",
+    destacados: ["2 baños privados", "Tarja", "Zona comercial activa"],
+    imagen: grijalvaFachada,
+    imagenAlt:
+      "Fachada del local comercial sobre Grijalva, casi esquina con Colón, Reforma, Veracruz",
+    disponible: false,
+  },
 ];
+
 
 
