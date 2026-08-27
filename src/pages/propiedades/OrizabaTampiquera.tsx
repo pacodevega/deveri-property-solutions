@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import {
   MessageCircle,
   MapPin,
+  ArrowUpRight,
   Sofa,
   Bath,
   BedDouble,
@@ -27,6 +28,7 @@ const PHONE = "522296840727";
 const WHATSAPP_URL = `https://wa.me/${PHONE}?text=${encodeURIComponent(
   "Hola, vi el departamento amueblado de calle Orizaba, Boca del Río (ya rentado). ¿Tienen otras propiedades disponibles similares?"
 )}`;
+const MAPS_URL = "https://maps.app.goo.gl/aNcHqtFQ7qNcZP55A";
 
 const photos = [
   { src: foto1, alt: "Sala y comedor amueblados del departamento en calle Orizaba, Boca del Río" },
@@ -217,6 +219,11 @@ export default function OrizabaTampiquera() {
               Calle Orizaba, junto a La Tampiquera, Boca del Río. Zona bien conectada con comercios, escuelas y
               servicios a corta distancia.
             </p>
+            <a href={MAPS_URL} target="_blank" rel="noopener noreferrer" className="block sm:inline-block mt-4">
+              <Button variant="outline" size="lg" className="w-full sm:w-auto h-auto min-h-12 whitespace-normal py-3">
+                <MapPin className="w-5 h-5" /> Ver en Google Maps <ArrowUpRight className="w-4 h-4" />
+              </Button>
+            </a>
           </div>
 
           <aside className="lg:sticky lg:top-24 w-full min-w-0">
