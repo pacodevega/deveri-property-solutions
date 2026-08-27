@@ -184,8 +184,8 @@ export const propiedades: Propiedad[] = [
     ubicacion: "Callejón del Maestro",
     ciudad: "Veracruz",
     resumen:
-      "Departamento de 60 m² en segundo piso con 3 recámaras, cocina y 1 baño completo. Distribución práctica y accesible.",
-    destacados: ["3 recámaras", "Segundo piso", "Cocina"],
+      "Departamento de 60 m² en segundo piso con 3 recámaras, cocina, 1 baño completo y 1 cajón de estacionamiento.",
+    destacados: ["3 recámaras", "1 estacionamiento", "Segundo piso"],
     imagen: maestroFachada,
     imagenAlt: "Interior del departamento en renta en Callejón del Maestro, Veracruz",
     disponible: false,

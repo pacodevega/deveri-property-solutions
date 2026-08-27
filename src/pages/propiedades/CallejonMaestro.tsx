@@ -11,6 +11,7 @@ import {
   Bath,
   BedDouble,
   Building2,
+  Car,
   UtensilsCrossed,
   CheckCircle2,
   X,
@@ -73,13 +74,13 @@ const specs = [
   { icon: Ruler, label: "Superficie", value: "60 m²" },
   { icon: Building2, label: "Nivel", value: "Segundo piso" },
   { icon: BedDouble, label: "Recámaras", value: "3" },
-  { icon: Bath, label: "Baño", value: "1 completo" },
+  { icon: Car, label: "Estacionamiento", value: "1 cajón" },
 ];
 
 const highlights = [
   { icon: BedDouble, title: "3 recámaras", text: "Distribución práctica que aprovecha cada área del departamento." },
   { icon: UtensilsCrossed, title: "Cocina", text: "Área de cocina independiente lista para usarse." },
-  { icon: Building2, title: "Segundo piso", text: "Mayor privacidad y ventilación en la vivienda." },
+  { icon: Car, title: "1 estacionamiento", text: "Cajón de estacionamiento techado dentro del edificio." },
 ];
 
 const includes = [
@@ -88,6 +89,7 @@ const includes = [
   "3 recámaras",
   "Cocina",
   "1 baño completo",
+  "1 cajón de estacionamiento",
   "Ideal para familias o estudiantes",
 ];
 
@@ -98,13 +100,13 @@ export default function CallejonMaestro() {
     <>
       <SEOHead
         title="Departamento en Callejón del Maestro | 60 m² | Rentado | DEVERI"
-        description="Departamento de 60 m² en segundo piso sobre Callejón del Maestro, Veracruz: 3 recámaras, cocina y 1 baño completo. Propiedad ya rentada por DEVERI."
+        description="Departamento de 60 m² en segundo piso sobre Callejón del Maestro, Veracruz: 3 recámaras, cocina, 1 baño completo y 1 estacionamiento. Propiedad ya rentada por DEVERI."
         jsonLd={{
           "@context": "https://schema.org",
           "@type": "RealEstateListing",
           name: "Departamento en Callejón del Maestro",
           description:
-            "Departamento de 60 m² en segundo piso sobre Callejón del Maestro. 3 recámaras, cocina y 1 baño completo.",
+            "Departamento de 60 m² en segundo piso sobre Callejón del Maestro. 3 recámaras, cocina, 1 baño completo y 1 cajón de estacionamiento.",
           floorSize: { "@type": "QuantitativeValue", value: 60, unitCode: "MTK" },
           offers: {
             "@type": "Offer",
@@ -185,7 +187,7 @@ export default function CallejonMaestro() {
             <p className="mt-4 text-muted-foreground leading-relaxed">
               Departamento sobre <strong className="text-foreground">Callejón del Maestro</strong>, ubicado en
               segundo piso, ideal para quienes buscan un espacio funcional y bien distribuido. Cuenta con{" "}
-              <strong className="text-foreground">60 m²</strong> y ofrece 3 recámaras, cocina y 1 baño completo.
+              <strong className="text-foreground">60 m²</strong> y ofrece 3 recámaras, cocina, 1 baño completo y 1 cajón de estacionamiento.
             </p>
             <p className="mt-4 text-muted-foreground leading-relaxed">
               Es una opción adecuada para familias, estudiantes o personas que buscan una vivienda cómoda y
@@ -262,6 +264,7 @@ export default function CallejonMaestro() {
                 <div className="flex justify-between gap-3"><span>Nivel</span><span className="font-medium text-foreground">Segundo piso</span></div>
                 <div className="flex justify-between gap-3"><span>Recámaras</span><span className="font-medium text-foreground">3</span></div>
                 <div className="flex justify-between gap-3"><span>Baño</span><span className="font-medium text-foreground">1 completo</span></div>
+                <div className="flex justify-between gap-3"><span>Estacionamiento</span><span className="font-medium text-foreground">1 cajón</span></div>
                 <div className="flex justify-between gap-3"><span>Ubicación</span><span className="font-medium text-foreground text-right">Veracruz</span></div>
               </div>
 
