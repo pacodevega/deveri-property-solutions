@@ -69,12 +69,12 @@ export default function GrijalvaReforma() {
   return (
     <>
       <SEOHead
-        title="Local comercial en Reforma, Veracruz | 40 m² | Rentado | DEVERI"
+        title="Local comercial en Grijalva, Reforma, Veracruz | 40 m² | Rentado | DEVERI"
         description="Local comercial de aprox. 40 m² sobre Grijalva, casi esquina con Colón, en Reforma: 2 baños privados, tarja y buena visibilidad. Propiedad ya rentada por DEVERI."
         jsonLd={{
           "@context": "https://schema.org",
           "@type": "RealEstateListing",
-          name: "Local comercial en Reforma — Grijalva casi esquina con Colón",
+          name: "Local comercial en Grijalva, Reforma — Grijalva casi esquina con Colón",
           description:
             "Local comercial de aproximadamente 40 m² sobre Grijalva, casi esquina con Colón, en Reforma. 2 baños privados, tarja y distribución funcional.",
           floorSize: { "@type": "QuantitativeValue", value: 40, unitCode: "MTK" },
@@ -105,7 +105,7 @@ export default function GrijalvaReforma() {
                 Rentada
               </span>
               <h1 className="mt-4 text-3xl md:text-5xl font-extrabold leading-tight max-w-2xl">
-                Local comercial en Reforma
+                Local comercial en Grijalva, Reforma
               </h1>
               <p className="mt-3 flex items-center gap-2 text-primary-foreground/85 text-sm md:text-base">
                 <MapPin className="w-4 h-4 shrink-0" /> Grijalva, casi esquina con Colón · Reforma, Veracruz
@@ -116,7 +116,7 @@ export default function GrijalvaReforma() {
                   MXN / mes + $900 de agua · aprox. 40 m²
                 </span>
                 <SharePropertyButton
-                  title="Local comercial en Reforma | DEVERI"
+                  title="Local comercial en Grijalva, Reforma | DEVERI"
                   text="Mira este local comercial sobre Grijalva, casi esquina con Colón, colocado por DEVERI."
                   variant="outline-light"
                   size="sm"

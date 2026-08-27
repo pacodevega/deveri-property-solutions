@@ -118,7 +118,7 @@ export const propiedades: Propiedad[] = [
   },
   {
     slug: "grijalva-reforma",
-    nombre: "Local comercial en Reforma",
+    nombre: "Local comercial en Grijalva, Reforma",
     tipo: "Local comercial",
     operacion: "Renta",
     precio: "$12,000 MXN",
