@@ -74,7 +74,7 @@ export default function YanezD() {
           description:
             "Local comercial de 40 m² en esquina sobre Avenida Yáñez, Veracruz. Baño privado, alto flujo vehicular y peatonal.",
           floorSize: { "@type": "QuantitativeValue", value: 40, unitCode: "MTK" },
-          offers: { "@type": "Offer", price: 7500, priceCurrency: "MXN", availability: "https://schema.org/InStock" },
+          offers: { "@type": "Offer", price: 7500, priceCurrency: "MXN", availability: "https://schema.org/SoldOut" },
           address: { "@type": "PostalAddress", streetAddress: "Avenida Yáñez", addressLocality: "Veracruz", addressRegion: "Veracruz", addressCountry: "MX" },
         }}
       />
@@ -234,7 +234,7 @@ export default function YanezD() {
 
               <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="block mt-6">
                 <Button variant="cta" size="lg" className="w-full h-auto min-h-12 whitespace-normal py-3">
-                  <MessageCircle className="w-5 h-5" /> Me interesa esta propiedad
+                  <MessageCircle className="w-5 h-5" /> Ver otras propiedades disponibles
                 </Button>
               </a>
               <SharePropertyButton
@@ -246,7 +246,7 @@ export default function YanezD() {
                 label="Compartir propiedad"
               />
               <p className="mt-3 text-xs text-muted-foreground text-center">
-                Te respondemos por WhatsApp y agendamos tu visita.
+                Esta propiedad ya fue rentada. Escríbenos para ver opciones similares.
               </p>
             </div>
           </aside>
@@ -262,7 +262,7 @@ export default function YanezD() {
           </p>
           <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="block sm:inline-block mt-7">
             <Button variant="cta" size="lg" className="w-full sm:w-auto h-auto min-h-12 whitespace-normal py-3">
-              <MessageCircle className="w-5 h-5" /> Me interesa esta propiedad
+              <MessageCircle className="w-5 h-5" /> Ver otras propiedades disponibles
             </Button>
           </a>
         </div>
