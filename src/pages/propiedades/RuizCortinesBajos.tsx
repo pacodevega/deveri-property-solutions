@@ -37,10 +37,10 @@ const PHONE = "522296840727";
 const wa = (text: string) => `https://wa.me/${PHONE}?text=${encodeURIComponent(text)}`;
 
 const WHATSAPP_BAJOS = wa(
-  "Hola, estoy interesado en el local comercial en renta Ruiz Cortines Bajos (planta baja, 212 m², $53,500 MXN mensuales más $1,500 de agua) sobre Av. Ruiz Cortines, Boca del Río. ¿Me pueden dar más información?"
+  "Hola, estoy interesado en el local comercial en renta Ruiz Cortines Bajos (planta baja, 220 m², $53,500 MXN mensuales más $1,500 de agua) sobre Av. Ruiz Cortines, Boca del Río. ¿Me pueden dar más información?"
 );
 const WHATSAPP_JUNTOS = wa(
-  "Hola, me interesa rentar Ruiz Cortines Bajos y Ruiz Cortines Altos juntos (planta baja de 212 m² + planta alta de 180 m² = 392 m², precio especial de $76,000 MXN mensuales) en Av. Ruiz Cortines, Boca del Río. ¿Me pueden dar más información?"
+  "Hola, me interesa rentar Ruiz Cortines Bajos y Ruiz Cortines Altos juntos (planta baja de 220 m² + planta alta de 180 m² = 400 m², precio especial de $76,000 MXN mensuales) en Av. Ruiz Cortines, Boca del Río. ¿Me pueden dar más información?"
 );
 const MAPS_URL = "https://maps.app.goo.gl/dFTJ4uaSY8tGbQX99?g_st=ac";
 
@@ -61,7 +61,7 @@ const photos = [
 ];
 
 const specs = [
-  { icon: Ruler, label: "Superficie", value: "212 m²" },
+  { icon: Ruler, label: "Superficie", value: "220 m²" },
   { icon: Layers, label: "Nivel", value: "Planta baja" },
   { icon: Bath, label: "Baños", value: "Hombres y mujeres" },
   { icon: Building2, label: "Clima", value: "4 aires acondicionados" },
@@ -87,7 +87,7 @@ const highlights = [
 ];
 
 const includes = [
-  "212 m² en planta baja con amplios espacios",
+  "220 m² en planta baja con amplios espacios",
   "Acceso directo desde la avenida",
   "Baño de hombres con mingitorios",
   "Baño de mujeres",
@@ -114,15 +114,15 @@ export default function RuizCortinesBajos() {
   return (
     <>
       <SEOHead
-        title="Local comercial en renta planta baja Av. Ruiz Cortines, Boca del Río | 212 m² | DEVERI"
-        description="Local comercial en renta en planta baja sobre Av. Ruiz Cortines, Boca del Río. 212 m² por $53,500 MXN mensuales más $1,500 de agua (total $55,000), baños de hombres y mujeres, zona de caja, privado climatizado, 4 aires acondicionados y bodega, con acceso a pie de calle. Opción de 392 m² con la planta alta por $76,000 MXN."
+        title="Local comercial en renta planta baja Av. Ruiz Cortines, Boca del Río | 220 m² | DEVERI"
+        description="Local comercial en renta en planta baja sobre Av. Ruiz Cortines, Boca del Río. 220 m² por $53,500 MXN mensuales más $1,500 de agua (total $55,000), baños de hombres y mujeres, zona de caja, privado climatizado, 4 aires acondicionados y bodega, con acceso a pie de calle. Opción de 400 m² con la planta alta por $76,000 MXN."
         jsonLd={{
           "@context": "https://schema.org",
           "@type": "RealEstateListing",
           name: "Ruiz Cortines Bajos — Local comercial en renta",
           description:
-            "Local comercial de 212 m² en planta baja sobre Avenida Ruiz Cortines, Boca del Río. Renta $53,500 MXN mensuales más $1,500 de agua (total $55,000). Baño de hombres con mingitorios, baño de mujeres, zona de caja, privado climatizado, 4 aires acondicionados y cuarto bodega, con acceso a pie de calle.",
-          floorSize: { "@type": "QuantitativeValue", value: 200, unitCode: "MTK" },
+            "Local comercial de 220 m² en planta baja sobre Avenida Ruiz Cortines, Boca del Río. Renta $53,500 MXN mensuales más $1,500 de agua (total $55,000). Baño de hombres con mingitorios, baño de mujeres, zona de caja, privado climatizado, 4 aires acondicionados y cuarto bodega, con acceso a pie de calle.",
+          floorSize: { "@type": "QuantitativeValue", value: 220, unitCode: "MTK" },
           address: {
             "@type": "PostalAddress",
             streetAddress: "Avenida Ruiz Cortines",
@@ -151,7 +151,7 @@ export default function RuizCortinesBajos() {
               </p>
               <div className="mt-5 flex flex-wrap items-end gap-x-3 gap-y-1">
                 <span className="text-xl sm:text-2xl md:text-3xl font-extrabold text-accent">
-                  212 m² · planta baja
+                  220 m² · planta baja
                 </span>
                 <span className="text-primary-foreground/80 text-sm md:text-base pb-1">
                   Renta: $53,500 MXN / mes + $1,500 de agua · total $55,000 · ambas plantas $76,000
@@ -196,7 +196,7 @@ export default function RuizCortinesBajos() {
               Sobre esta propiedad
             </h2>
             <p className="mt-4 text-muted-foreground leading-relaxed">
-              Local comercial de <strong className="text-foreground">212 m² en planta baja</strong>{" "}
+              Local comercial de <strong className="text-foreground">220 m² en planta baja</strong>{" "}
               sobre Avenida Ruiz Cortines, la principal avenida comercial de Boca del Río. Acceso a
               pie de calle, gran visibilidad y alto flujo vehicular y peatonal.
             </p>
@@ -312,7 +312,7 @@ export default function RuizCortinesBajos() {
               <p className="mt-3 text-muted-foreground leading-relaxed">
                 Esta planta baja también puede rentarse en conjunto con la planta alta de{" "}
                 <strong className="text-foreground">180 m²</strong>, sumando un total de{" "}
-                <strong className="text-foreground">392 m²</strong>. Ideal para negocios que
+                <strong className="text-foreground">400 m²</strong>. Ideal para negocios que
                 requieren mayor espacio y presencia comercial sobre la principal avenida de Boca del
                 Río.
               </p>
@@ -325,7 +325,7 @@ export default function RuizCortinesBajos() {
               <div className="mt-6 flex flex-col sm:flex-row gap-3">
                 <a href={WHATSAPP_JUNTOS} target="_blank" rel="noopener noreferrer">
                   <Button variant="cta" size="lg" className="w-full sm:w-auto h-auto min-h-12 whitespace-normal py-3">
-                    <MessageCircle className="w-5 h-5" /> Me interesan ambas plantas (392 m²)
+                    <MessageCircle className="w-5 h-5" /> Me interesan ambas plantas (400 m²)
                   </Button>
                 </a>
                 <Link to="/propiedades/ruiz-cortines-altos">
@@ -349,13 +349,13 @@ export default function RuizCortinesBajos() {
                 + $1,500 MXN de agua · total $55,000 MXN / mes
               </p>
               <p className="mt-1 text-sm text-muted-foreground">
-                Ambas plantas (392 m²): $76,000 MXN / mes
+                Ambas plantas (400 m²): $76,000 MXN / mes
               </p>
 
               <div className="mt-5 space-y-2 text-sm text-muted-foreground border-t pt-5">
                 <div className="flex justify-between gap-3">
                   <span>Superficie</span>
-                  <span className="font-medium text-foreground">212 m²</span>
+                  <span className="font-medium text-foreground">220 m²</span>
                 </div>
                 <div className="flex justify-between gap-3">
                   <span>Nivel</span>
