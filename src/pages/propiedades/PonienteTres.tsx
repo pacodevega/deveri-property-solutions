@@ -31,36 +31,35 @@ const WHATSAPP_URL = `https://wa.me/${PHONE}?text=${encodeURIComponent(
 )}`;
 
 const photos = [
-  { src: fachada, alt: "Fachada del local comercial sobre Grijalva, casi esquina con Colón, Reforma" },
-  { src: calle, alt: "Vista de la calle Grijalva con el local comercial y comercios cercanos" },
-  { src: interior1, alt: "Interior del local comercial con ventanales hacia la calle" },
-  { src: interior2, alt: "Área interior del local con puertas de acceso" },
-  { src: interior3, alt: "Espacio interior iluminado con vista a la avenida" },
-  { src: interior4, alt: "Área de acceso del local comercial en Reforma" },
-  { src: interior5, alt: "Interior del local con ventana y espacio adaptable" },
-  { src: bano, alt: "Baño privado dentro del local comercial en Reforma" },
+  { src: fachada, alt: "Fachada del local comercial en Poniente 3, a pasos de Avenida Sugasti" },
+  { src: calle, alt: "Interior del local con cortina de acceso hacia la calle Poniente 3" },
+  { src: interior1, alt: "Espacio interior amplio del local comercial en Poniente 3" },
+  { src: interior2, alt: "Área interior del local con muros blancos y piso de loseta" },
+  { src: interior3, alt: "Zona interior conectada con el área posterior del local" },
+  { src: interior4, alt: "Área posterior del local comercial en Poniente 3" },
+  { src: interior5, alt: "Interior del local comercial con distribución adaptable" },
+  { src: bano, alt: "Baño dentro del local comercial en Poniente 3" },
 ];
 
 const specs = [
-  { icon: Ruler, label: "Superficie", value: "Aprox. 40 m²" },
-  { icon: Bath, label: "Baños privados", value: "2" },
+  { icon: Ruler, label: "Superficie", value: "Aprox. 90 m²" },
+  { icon: Bath, label: "Baños", value: "2" },
   { icon: Droplets, label: "Agua", value: "$900 MXN / mes" },
-  { icon: MapPin, label: "Ubicación", value: "Reforma, Veracruz" },
+  { icon: MapPin, label: "Ubicación", value: "Poniente 3, Veracruz" },
 ];
 
 const highlights = [
-  { icon: Store, title: "Zona comercial activa", text: "Grijalva casi esquina con Colón, con movimiento constante." },
-  { icon: Eye, title: "Buena visibilidad", text: "Fachada a pie de calle con ventanales hacia la avenida." },
-  { icon: Users, title: "Flujo de personas", text: "Colonia consolidada, de fácil acceso para clientes." },
+  { icon: Store, title: "Zona comercial activa", text: "A pasos de Avenida Sugasti, con alto movimiento peatonal." },
+  { icon: Eye, title: "Buena visibilidad", text: "Fachada a pie de calle con acceso amplio y directo." },
+  { icon: Users, title: "Flujo de personas", text: "Alto flujo peatonal y fácil acceso para clientes." },
 ];
 
 const includes = [
-  "Aproximadamente 40 m² de superficie",
+  "Aproximadamente 90 m² de superficie",
   "Un solo local comercial",
-  "2 baños privados",
-  "Tarja",
+  "2 baños",
   "Distribución funcional y adaptable",
-  "Ideal para atención al público, oficina, exhibición o servicios",
+  "Ideal para atención al público, exhibición, oficina, servicios o almacenamiento",
 ];
 
 export default function PonienteTres() {
@@ -69,24 +68,24 @@ export default function PonienteTres() {
   return (
     <>
       <SEOHead
-        title="Local comercial en Poniente 3, Veracruz | 40 m² | Rentado | DEVERI"
-        description="Local comercial de aprox. 40 m² sobre Grijalva, casi esquina con Colón, en Reforma: 2 baños privados, tarja y buena visibilidad. Propiedad ya rentada por DEVERI."
+        title="Local comercial en Poniente 3, Veracruz | 90 m² | Rentado | DEVERI"
+        description="Local comercial de aprox. 90 m² en Poniente 3, a pasos de Avenida Sugasti: 2 baños, espacio amplio y excelente zona comercial. Propiedad ya rentada por DEVERI."
         jsonLd={{
           "@context": "https://schema.org",
           "@type": "RealEstateListing",
-          name: "Local comercial en Poniente 3 — casi esquina con Colón",
+          name: "Local comercial en Poniente 3 — a pasos de Avenida Sugasti",
           description:
-            "Local comercial de aproximadamente 40 m² sobre Grijalva, casi esquina con Colón, en Reforma. 2 baños privados, tarja y distribución funcional.",
-          floorSize: { "@type": "QuantitativeValue", value: 40, unitCode: "MTK" },
+            "Local comercial de aproximadamente 90 m² en Poniente 3, a pasos de Avenida Sugasti. 2 baños y distribución funcional adaptable.",
+          floorSize: { "@type": "QuantitativeValue", value: 90, unitCode: "MTK" },
           offers: {
             "@type": "Offer",
-            price: 12000,
+            price: 9000,
             priceCurrency: "MXN",
             availability: "https://schema.org/SoldOut",
           },
           address: {
             "@type": "PostalAddress",
-            streetAddress: "Grijalva, casi esquina con Colón, Col. Reforma",
+            streetAddress: "Poniente 3, a pasos de Avenida Sugasti",
             addressLocality: "Veracruz",
             addressRegion: "Veracruz",
             addressCountry: "MX",
@@ -111,13 +110,13 @@ export default function PonienteTres() {
                 <MapPin className="w-4 h-4 shrink-0" /> Poniente 3, a pasos de Avenida Sugasti
               </p>
               <div className="mt-5 flex flex-wrap items-end gap-x-3 gap-y-1">
-                <span className="text-3xl md:text-4xl font-extrabold text-accent">$12,000</span>
+                <span className="text-3xl md:text-4xl font-extrabold text-accent">$9,000</span>
                 <span className="text-primary-foreground/80 text-sm md:text-base pb-1">
-                  MXN / mes + $900 de agua · aprox. 40 m²
+                  MXN / mes + $900 de agua · aprox. 90 m²
                 </span>
                 <SharePropertyButton
                   title="Local comercial en Poniente 3 | DEVERI"
-                  text="Mira este local comercial sobre Grijalva, casi esquina con Colón, colocado por DEVERI."
+                  text="Mira este local comercial en Poniente 3, a pasos de Avenida Sugasti, colocado por DEVERI."
                   variant="outline-light"
                   size="sm"
                   className="ml-auto md:ml-0"
@@ -159,16 +158,16 @@ export default function PonienteTres() {
 
             <h2 className="mt-10 text-2xl md:text-3xl font-extrabold text-foreground">Sobre esta propiedad</h2>
             <p className="mt-4 text-muted-foreground leading-relaxed">
-              Local comercial en <strong className="text-foreground">Reforma</strong>, ubicado sobre Grijalva, casi
-              esquina con Colón, en una zona con excelente movimiento, visibilidad y flujo constante de personas.
-              Funciona como un solo local de{" "}
-              <strong className="text-foreground">aproximadamente 40 m²</strong>, práctico y adaptable para distintos
-              tipos de negocio.
+              Local comercial en <strong className="text-foreground">Poniente 3</strong>, a unos pasos de Avenida
+              Sugasti, dentro de una zona con alto movimiento peatonal y fácil acceso. Se renta como un solo local de{" "}
+              <strong className="text-foreground">aproximadamente 90 m²</strong>, un espacio amplio y versátil para
+              adaptarse a diferentes tipos de negocio.
             </p>
             <p className="mt-4 text-muted-foreground leading-relaxed">
-              Cuenta con 2 baños privados, tarja y una distribución funcional que permite aprovechar el espacio para
-              atención al público, área de trabajo, exhibición de productos, oficina o servicios. Excelente opción
-              para emprendedores y negocios que buscan presencia en una zona comercial activa y de fácil acceso.
+              Cuenta con 2 baños y una distribución funcional que puede aprovecharse para área de atención al
+              público, exhibición, oficina, servicios, almacenamiento o distintas áreas de trabajo. Por su cercanía
+              con Avenida Sugasti, es una ubicación estratégica para negocios que buscan visibilidad y flujo
+              constante de personas.
             </p>
 
             <div className="mt-10 grid sm:grid-cols-3 gap-4">
@@ -217,8 +216,8 @@ export default function PonienteTres() {
 
             <h2 className="mt-14 text-2xl md:text-3xl font-extrabold text-foreground">Ubicación</h2>
             <p className="mt-3 text-muted-foreground">
-              Grijalva, casi esquina con Colón, colonia Reforma, Veracruz. Zona comercial consolidada con buen
-              movimiento y fácil acceso.
+              Poniente 3, a unos pasos de Avenida Sugasti, Veracruz. Zona comercial con alto movimiento peatonal y
+              fácil acceso.
             </p>
           </div>
 
@@ -227,18 +226,17 @@ export default function PonienteTres() {
             <div className="rounded-2xl border bg-card p-6 shadow-lg">
               <p className="text-sm text-muted-foreground">Renta mensual (referencia)</p>
               <p className="text-3xl font-extrabold text-foreground">
-                $12,000 <span className="text-base font-medium text-muted-foreground">MXN</span>
+                $9,000 <span className="text-base font-medium text-muted-foreground">MXN</span>
               </p>
               <p className="mt-1 text-sm text-muted-foreground">
-                + $900 MXN de agua · total $12,900 MXN al mes
+                + $900 MXN de agua · total $9,900 MXN al mes
               </p>
               <p className="mt-2 text-sm font-semibold text-foreground">Propiedad rentada</p>
 
               <div className="mt-5 space-y-2 text-sm text-muted-foreground border-t pt-5">
-                <div className="flex justify-between gap-3"><span>Superficie</span><span className="font-medium text-foreground">Aprox. 40 m²</span></div>
-                <div className="flex justify-between gap-3"><span>Baños</span><span className="font-medium text-foreground">2 privados</span></div>
-                <div className="flex justify-between gap-3"><span>Tarja</span><span className="font-medium text-foreground">Sí</span></div>
-                <div className="flex justify-between gap-3"><span>Ubicación</span><span className="font-medium text-foreground text-right">Reforma, Veracruz</span></div>
+                <div className="flex justify-between gap-3"><span>Superficie</span><span className="font-medium text-foreground">Aprox. 90 m²</span></div>
+                <div className="flex justify-between gap-3"><span>Baños</span><span className="font-medium text-foreground">2</span></div>
+                                <div className="flex justify-between gap-3"><span>Ubicación</span><span className="font-medium text-foreground text-right">Poniente 3, Veracruz</span></div>
               </div>
 
               <Link to="/propiedades" className="block mt-6">
