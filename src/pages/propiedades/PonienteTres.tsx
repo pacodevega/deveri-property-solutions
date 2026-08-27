@@ -44,7 +44,7 @@ const photos = [
 ];
 
 const specs = [
-  { icon: Ruler, label: "Superficie", value: "Aprox. 90 m²" },
+  { icon: Ruler, label: "Superficie", value: "90 m²" },
   { icon: Bath, label: "Baños", value: "2" },
   { icon: Droplets, label: "Agua", value: "$900 MXN / mes" },
   { icon: MapPin, label: "Ubicación", value: "Poniente 3, Veracruz" },
@@ -57,7 +57,7 @@ const highlights = [
 ];
 
 const includes = [
-  "Aproximadamente 90 m² de superficie",
+  "90 m² de superficie",
   "Un solo local comercial",
   "2 baños",
   "Distribución funcional y adaptable",
@@ -71,13 +71,13 @@ export default function PonienteTres() {
     <>
       <SEOHead
         title="Local comercial en Poniente 3, Veracruz | 90 m² | Rentado | DEVERI"
-        description="Local comercial de aprox. 90 m² en Poniente 3, a pasos de Avenida Sugasti: 2 baños, espacio amplio y excelente zona comercial. Propiedad ya rentada por DEVERI."
+        description="Local comercial de 90 m² en Poniente 3, a pasos de Avenida Sugasti: 2 baños, espacio amplio y excelente zona comercial. Propiedad ya rentada por DEVERI."
         jsonLd={{
           "@context": "https://schema.org",
           "@type": "RealEstateListing",
           name: "Local comercial en Poniente 3 — a pasos de Avenida Sugasti",
           description:
-            "Local comercial de aproximadamente 90 m² en Poniente 3, a pasos de Avenida Sugasti. 2 baños y distribución funcional adaptable.",
+            "Local comercial de 90 m² en Poniente 3, a pasos de Avenida Sugasti. 2 baños y distribución funcional adaptable.",
           floorSize: { "@type": "QuantitativeValue", value: 90, unitCode: "MTK" },
           offers: {
             "@type": "Offer",
@@ -114,7 +114,7 @@ export default function PonienteTres() {
               <div className="mt-5 flex flex-wrap items-end gap-x-3 gap-y-1">
                 <span className="text-3xl md:text-4xl font-extrabold text-accent">$9,000</span>
                 <span className="text-primary-foreground/80 text-sm md:text-base pb-1">
-                  MXN / mes + $900 de agua · aprox. 90 m²
+                  MXN / mes + $900 de agua · 90 m²
                 </span>
                 <SharePropertyButton
                   title="Local comercial en Poniente 3 | DEVERI"
@@ -162,7 +162,7 @@ export default function PonienteTres() {
             <p className="mt-4 text-muted-foreground leading-relaxed">
               Local comercial en <strong className="text-foreground">Poniente 3</strong>, a unos pasos de Avenida
               Sugasti, dentro de una zona con alto movimiento peatonal y fácil acceso. Se renta como un solo local de{" "}
-              <strong className="text-foreground">aproximadamente 90 m²</strong>, un espacio amplio y versátil para
+              <strong className="text-foreground">90 m²</strong>, un espacio amplio y versátil para
               adaptarse a diferentes tipos de negocio.
             </p>
             <p className="mt-4 text-muted-foreground leading-relaxed">
@@ -241,7 +241,7 @@ export default function PonienteTres() {
               <p className="mt-2 text-sm font-semibold text-foreground">Propiedad rentada</p>
 
               <div className="mt-5 space-y-2 text-sm text-muted-foreground border-t pt-5">
-                <div className="flex justify-between gap-3"><span>Superficie</span><span className="font-medium text-foreground">Aprox. 90 m²</span></div>
+                <div className="flex justify-between gap-3"><span>Superficie</span><span className="font-medium text-foreground">90 m²</span></div>
                 <div className="flex justify-between gap-3"><span>Baños</span><span className="font-medium text-foreground">2</span></div>
                                 <div className="flex justify-between gap-3"><span>Ubicación</span><span className="font-medium text-foreground text-right">Poniente 3, Veracruz</span></div>
               </div>

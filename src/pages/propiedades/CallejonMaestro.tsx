@@ -71,7 +71,7 @@ const photos = [
 ];
 
 const specs = [
-  { icon: Ruler, label: "Superficie", value: "60 m²" },
+  { icon: Ruler, label: "Superficie", value: "90 m²" },
   { icon: Building2, label: "Nivel", value: "Segundo piso" },
   { icon: BedDouble, label: "Recámaras", value: "3" },
   { icon: Car, label: "Estacionamiento", value: "1 cajón" },
@@ -84,7 +84,7 @@ const highlights = [
 ];
 
 const includes = [
-  "60 m² de superficie",
+  "90 m² de superficie",
   "Segundo piso",
   "3 recámaras",
   "Cocina",
@@ -99,14 +99,14 @@ export default function CallejonMaestro() {
   return (
     <>
       <SEOHead
-        title="Departamento en Callejón del Maestro | 60 m² | Rentado | DEVERI"
-        description="Departamento de 60 m² en segundo piso sobre Callejón del Maestro, Veracruz: 3 recámaras, cocina, 1 baño completo y 1 estacionamiento. Propiedad ya rentada por DEVERI."
+        title="Departamento en Callejón del Maestro | 90 m² | Rentado | DEVERI"
+        description="Departamento de 90 m² en segundo piso sobre Callejón del Maestro, Veracruz: 3 recámaras, cocina, 1 baño completo y 1 estacionamiento. Propiedad ya rentada por DEVERI."
         jsonLd={{
           "@context": "https://schema.org",
           "@type": "RealEstateListing",
           name: "Departamento en Callejón del Maestro",
           description:
-            "Departamento de 60 m² en segundo piso sobre Callejón del Maestro. 3 recámaras, cocina, 1 baño completo y 1 cajón de estacionamiento.",
+            "Departamento de 90 m² en segundo piso sobre Callejón del Maestro. 3 recámaras, cocina, 1 baño completo y 1 cajón de estacionamiento.",
           floorSize: { "@type": "QuantitativeValue", value: 60, unitCode: "MTK" },
           offers: {
             "@type": "Offer",
@@ -142,11 +142,11 @@ export default function CallejonMaestro() {
               <div className="mt-5 flex flex-wrap items-end gap-x-3 gap-y-1">
                 <span className="text-3xl md:text-4xl font-extrabold text-accent">$7,000</span>
                 <span className="text-primary-foreground/80 text-sm md:text-base pb-1">
-                  MXN / mes + $650 de agua · 60 m²
+                  MXN / mes + $650 de agua · 90 m²
                 </span>
                 <SharePropertyButton
                   title="Departamento en Callejón del Maestro | DEVERI"
-                  text="Mira este departamento de 60 m² en Callejón del Maestro, colocado por DEVERI."
+                  text="Mira este departamento de 90 m² en Callejón del Maestro, colocado por DEVERI."
                   variant="outline-light"
                   size="sm"
                   className="ml-auto md:ml-0"
@@ -187,7 +187,7 @@ export default function CallejonMaestro() {
             <p className="mt-4 text-muted-foreground leading-relaxed">
               Departamento sobre <strong className="text-foreground">Callejón del Maestro</strong>, ubicado en
               segundo piso, ideal para quienes buscan un espacio funcional y bien distribuido. Cuenta con{" "}
-              <strong className="text-foreground">60 m²</strong> y ofrece 3 recámaras, cocina, 1 baño completo y 1 cajón de estacionamiento.
+              <strong className="text-foreground">90 m²</strong> y ofrece 3 recámaras, cocina, 1 baño completo y 1 cajón de estacionamiento.
             </p>
             <p className="mt-4 text-muted-foreground leading-relaxed">
               Es una opción adecuada para familias, estudiantes o personas que buscan una vivienda cómoda y
@@ -260,7 +260,7 @@ export default function CallejonMaestro() {
               <p className="mt-2 text-sm font-semibold text-foreground">Propiedad rentada</p>
 
               <div className="mt-5 space-y-2 text-sm text-muted-foreground border-t pt-5">
-                <div className="flex justify-between gap-3"><span>Superficie</span><span className="font-medium text-foreground">60 m²</span></div>
+                <div className="flex justify-between gap-3"><span>Superficie</span><span className="font-medium text-foreground">90 m²</span></div>
                 <div className="flex justify-between gap-3"><span>Nivel</span><span className="font-medium text-foreground">Segundo piso</span></div>
                 <div className="flex justify-between gap-3"><span>Recámaras</span><span className="font-medium text-foreground">3</span></div>
                 <div className="flex justify-between gap-3"><span>Baño</span><span className="font-medium text-foreground">1 completo</span></div>
