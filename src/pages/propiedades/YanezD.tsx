@@ -86,8 +86,8 @@ export default function YanezD() {
           <div className="absolute inset-0 bg-gradient-to-t from-primary/95 via-primary/50 to-primary/20" />
           <div className="absolute inset-x-0 bottom-0">
             <div className="container-narrow px-4 pb-8 md:pb-12 text-primary-foreground">
-              <span className="inline-flex items-center gap-2 rounded-full bg-accent px-3 py-1 text-xs font-semibold uppercase tracking-wide text-accent-foreground">
-                En renta
+              <span className="inline-flex items-center gap-2 rounded-full bg-destructive px-3 py-1 text-xs font-semibold uppercase tracking-wide text-destructive-foreground">
+                Rentada
               </span>
               <h1 className="mt-4 text-3xl md:text-5xl font-extrabold leading-tight max-w-2xl">
                 Local comercial en Avenida Yáñez
