@@ -12,6 +12,99 @@ const WHATSAPP_URL = `https://wa.me/${PHONE}?text=${encodeURIComponent(
 
 export default function Propiedades() {
   const disponibles = propiedades.filter((p) => p.disponible);
+  const rentadas = propiedades.filter((p) => !p.disponible);
+
+  const PropertyCard = ({ p }: { p: (typeof propiedades)[number] }) => (
+    <div
+      className="group bg-card border rounded-2xl overflow-hidden flex flex-col transition-all duration-300 hover:shadow-xl hover:-translate-y-1 focus-within:ring-2 focus-within:ring-accent"
+    >
+      <Link
+        to={`/propiedades/${p.slug}`}
+        className="relative aspect-[4/3] overflow-hidden bg-muted block"
+      >
+        <img
+          src={p.imagen}
+          alt={p.imagenAlt}
+          loading="lazy"
+          className={`w-full h-full object-cover transition-transform duration-500 group-hover:scale-105 ${
+            p.disponible ? "" : "grayscale"
+          }`}
+        />
+        <span
+          className={`absolute top-3 left-3 text-xs font-semibold px-3 py-1 rounded-full ${
+            p.disponible
+              ? "bg-accent text-accent-foreground"
+              : "bg-foreground text-background"
+          }`}
+        >
+          {p.disponible ? p.operacion : "Rentada"}
+        </span>
+      </Link>
+
+      <div className="p-6 flex flex-col flex-1">
+        <p className="text-xs uppercase tracking-wide text-muted-foreground mb-1">
+          {p.tipo} · {p.ciudad}
+        </p>
+        <Link to={`/propiedades/${p.slug}`}>
+          <h3 className="text-lg font-bold mb-2 group-hover:text-accent transition-colors">
+            {p.nombre}
+          </h3>
+        </Link>
+
+        <div className="flex flex-wrap gap-x-4 gap-y-1 text-sm text-muted-foreground mb-3">
+          <span className="inline-flex items-center gap-1">
+            <Ruler className="w-4 h-4 text-accent" /> {p.superficie}
+          </span>
+          <span className="inline-flex items-center gap-1">
+            <MapPin className="w-4 h-4 text-accent" /> {p.ubicacion}
+          </span>
+        </div>
+
+        <p className="text-sm text-muted-foreground mb-4 flex-1">{p.resumen}</p>
+
+        <div className="flex flex-wrap gap-2 mb-5">
+          {p.destacados.map((d) => (
+            <span key={d} className="text-xs bg-muted text-foreground/70 px-2.5 py-1 rounded-full">
+              {d}
+            </span>
+          ))}
+        </div>
+
+        <div className="mt-auto pt-4 border-t">
+          <div>
+            <p className="text-2xl font-extrabold text-foreground leading-none">{p.precio}</p>
+            {p.precioNota && (
+              <p className="text-xs text-muted-foreground mt-1">{p.precioNota}</p>
+            )}
+          </div>
+
+          <Link
+            to={`/propiedades/${p.slug}`}
+            className={`mt-4 w-full min-h-12 inline-flex items-center justify-center gap-2 rounded-lg px-4 py-3 text-base font-bold shadow-md transition-all hover:brightness-110 hover:shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 ${
+              p.disponible
+                ? "bg-accent text-accent-foreground"
+                : "bg-muted text-foreground"
+            }`}
+          >
+            Ver detalles
+            <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
+          </Link>
+        </div>
+
+        {p.disponible && (
+          <SharePropertyButton
+            url={`${typeof window !== "undefined" ? window.location.origin : ""}/propiedades/${p.slug}`}
+            title={`${p.nombre} en ${p.operacion.toLowerCase()} | DEVERI`}
+            text={`Mira esta propiedad en ${p.ciudad}: ${p.nombre}`}
+            variant="outline"
+            size="sm"
+            className="w-full mt-3"
+            label="Compartir propiedad"
+          />
+        )}
+      </div>
+    </div>
+  );
 
   return (
     <>
