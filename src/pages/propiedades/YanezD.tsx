@@ -12,6 +12,8 @@ import {
   Car,
   Footprints,
   Eye,
+  Zap,
+  MoveHorizontal,
   CheckCircle2,
   X,
   ArrowUpRight,
@@ -39,6 +41,8 @@ const photos = [
 
 const specs = [
   { icon: Ruler, label: "Superficie", value: "40 m²" },
+  { icon: MoveHorizontal, label: "Frente", value: "5 m" },
+  { icon: Zap, label: "Instalación eléctrica", value: "Conexión 220V" },
   { icon: Bath, label: "Baño privado", value: "1" },
   { icon: Droplets, label: "Agua", value: "$400 MXN / mes" },
   { icon: MapPin, label: "Ubicación", value: "Esquina, Av. Yáñez" },
@@ -55,6 +59,8 @@ const includes = [
   "Espacio diáfano, listo para adaptar",
   "Cortina metálica y acceso de cristal",
   "Baño privado dentro del local",
+  "Conexión eléctrica de 220V",
+  "5 m de frente sobre la avenida",
   "Piso de loseta en buen estado",
   "Zona consolidada de comercio y abarrotes",
 ];
@@ -135,7 +141,7 @@ export default function YanezD() {
             <h2 className="text-2xl md:text-3xl font-extrabold text-foreground">Sobre esta propiedad</h2>
             <p className="mt-4 text-muted-foreground leading-relaxed">
               Local comercial de <strong className="text-foreground">40 m²</strong> ubicado en esquina sobre Avenida
-              Yáñez, una de las vialidades con mayor movimiento de la zona. Cuenta con baño privado, espacio diáfano
+              Yáñez, una de las vialidades con mayor movimiento de la zona. Cuenta con 5 m de frente, conexión eléctrica de 220V, baño privado, espacio diáfano
               listo para adaptar al giro que necesites y una exposición difícil de igualar: tránsito vehicular
               constante, paso peatonal durante todo el día y visibilidad directa desde la avenida.
             </p>
@@ -228,6 +234,8 @@ export default function YanezD() {
 
               <div className="mt-5 space-y-2 text-sm text-muted-foreground border-t pt-5">
                 <div className="flex justify-between gap-3"><span>Superficie</span><span className="font-medium text-foreground">40 m²</span></div>
+                <div className="flex justify-between gap-3"><span>Frente</span><span className="font-medium text-foreground">5 m</span></div>
+                <div className="flex justify-between gap-3"><span>Corriente</span><span className="font-medium text-foreground">220V</span></div>
                 <div className="flex justify-between gap-3"><span>Baño</span><span className="font-medium text-foreground">1 privado</span></div>
                 <div className="flex justify-between gap-3"><span>Ubicación</span><span className="font-medium text-foreground text-right">Esquina, Av. Yáñez</span></div>
               </div>
