@@ -6,6 +6,7 @@ import palmerasFachada from "@/assets/propiedades/palmeras-1.jpg";
 import grijalvaFachada from "@/assets/propiedades/grijalva-2.jpg";
 import ponienteFachada from "@/assets/propiedades/poniente-1.jpg";
 import americasFachada from "@/assets/propiedades/americas-1.jpg";
+import maestroFachada from "@/assets/propiedades/maestro-1.jpg";
 
 
 
@@ -170,6 +171,23 @@ export const propiedades: Propiedad[] = [
     imagen: americasFachada,
     imagenAlt:
       "Área principal de la oficina en calle Américas, colonia Reforma, Veracruz",
+    disponible: false,
+  },
+  {
+    slug: "callejon-del-maestro",
+    nombre: "Departamento en Callejón del Maestro",
+    tipo: "Departamento",
+    operacion: "Renta",
+    precio: "$7,000 MXN",
+    precioNota: "mensuales + $650 de agua · total $7,650",
+    superficie: "60 m²",
+    ubicacion: "Callejón del Maestro",
+    ciudad: "Veracruz",
+    resumen:
+      "Departamento de 60 m² en segundo piso con 3 recámaras, cocina y 1 baño completo. Distribución práctica y accesible.",
+    destacados: ["3 recámaras", "Segundo piso", "Cocina"],
+    imagen: maestroFachada,
+    imagenAlt: "Interior del departamento en renta en Callejón del Maestro, Veracruz",
     disponible: false,
   },
 ];
