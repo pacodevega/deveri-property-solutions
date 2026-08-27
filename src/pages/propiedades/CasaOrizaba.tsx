@@ -9,6 +9,7 @@ import {
   MapPin,
   ArrowUpRight,
   Bath,
+  Ruler,
   BedDouble,
   Snowflake,
   WashingMachine,
@@ -47,6 +48,7 @@ const photos = [
 ];
 
 const specs = [
+  { icon: Ruler, label: "Superficie", value: "190 m² construidos" },
   { icon: BedDouble, label: "Recámaras", value: "3" },
   { icon: Bath, label: "Baños", value: "1 completo y 1 medio" },
   { icon: WashingMachine, label: "Cuarto de lavado", value: "Sí" },
@@ -60,6 +62,7 @@ const highlights = [
 ];
 
 const includes = [
+  "190 m² construidos",
   "3 recámaras",
   "1 baño completo",
   "1 medio baño",
@@ -246,6 +249,7 @@ export default function CasaOrizaba() {
               <p className="mt-2 text-sm font-semibold text-foreground">Propiedad rentada</p>
 
               <div className="mt-5 space-y-2 text-sm text-muted-foreground border-t pt-5">
+                <div className="flex justify-between gap-3"><span>Superficie</span><span className="font-medium text-foreground">190 m² construidos</span></div>
                 <div className="flex justify-between gap-3"><span>Recámaras</span><span className="font-medium text-foreground">3</span></div>
                 <div className="flex justify-between gap-3"><span>Baño completo</span><span className="font-medium text-foreground">1</span></div>
                 <div className="flex justify-between gap-3"><span>Medio baño</span><span className="font-medium text-foreground">1</span></div>

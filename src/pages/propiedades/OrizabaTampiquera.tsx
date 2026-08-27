@@ -10,6 +10,7 @@ import {
   ArrowUpRight,
   Sofa,
   Bath,
+  Ruler,
   BedDouble,
   Snowflake,
   CheckCircle2,
@@ -41,6 +42,7 @@ const photos = [
 ];
 
 const specs = [
+  { icon: Ruler, label: "Superficie", value: "70 m²" },
   { icon: BedDouble, label: "Recámaras", value: "2" },
   { icon: Bath, label: "Baños", value: "2" },
   { icon: Sofa, label: "Mobiliario", value: "Amueblado" },
@@ -54,6 +56,7 @@ const highlights = [
 ];
 
 const includes = [
+  "70 m² de superficie",
   "Departamento amueblado",
   "2 recámaras",
   "2 baños",
@@ -238,6 +241,7 @@ export default function OrizabaTampiquera() {
               <p className="mt-2 text-sm font-semibold text-foreground">Propiedad rentada</p>
 
               <div className="mt-5 space-y-2 text-sm text-muted-foreground border-t pt-5">
+                <div className="flex justify-between gap-3"><span>Superficie</span><span className="font-medium text-foreground">70 m²</span></div>
                 <div className="flex justify-between gap-3"><span>Recámaras</span><span className="font-medium text-foreground">2</span></div>
                 <div className="flex justify-between gap-3"><span>Baños</span><span className="font-medium text-foreground">2</span></div>
                 <div className="flex justify-between gap-3"><span>Mobiliario</span><span className="font-medium text-foreground">Amueblado</span></div>
