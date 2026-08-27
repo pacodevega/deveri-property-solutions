@@ -19,6 +19,16 @@ import {
 import foto1 from "@/assets/propiedades/maestro-1.jpg";
 import foto2 from "@/assets/propiedades/maestro-2.jpg";
 import foto3 from "@/assets/propiedades/maestro-3.jpg";
+import foto4 from "@/assets/propiedades/maestro-4.jpg";
+import foto5 from "@/assets/propiedades/maestro-5.jpg";
+import foto6 from "@/assets/propiedades/maestro-6.jpg";
+import foto7 from "@/assets/propiedades/maestro-7.jpg";
+import foto8 from "@/assets/propiedades/maestro-8.jpg";
+import foto9 from "@/assets/propiedades/maestro-9.jpg";
+import foto10 from "@/assets/propiedades/maestro-10.jpg";
+import foto11 from "@/assets/propiedades/maestro-11.jpg";
+import foto12 from "@/assets/propiedades/maestro-12.jpg";
+import foto13 from "@/assets/propiedades/maestro-13.jpg";
 
 const PHONE = "522296840727";
 const WHATSAPP_URL = `https://wa.me/${PHONE}?text=${encodeURIComponent(
@@ -29,6 +39,16 @@ const photos = [
   { src: foto1, alt: "Área principal del departamento en Callejón del Maestro con acceso a escaleras" },
   { src: foto2, alt: "Recámara con clóset de entrepaños en el departamento de Callejón del Maestro" },
   { src: foto3, alt: "Baño completo con regadera del departamento en Callejón del Maestro" },
+  { src: foto4, alt: "Sala comedor amplia del departamento en Callejón del Maestro" },
+  { src: foto5, alt: "Área de estar con ventanas y buena iluminación natural" },
+  { src: foto6, alt: "Recámara con clóset amplio y ventana del departamento" },
+  { src: foto7, alt: "Segunda recámara con clóset y vista a la calle" },
+  { src: foto8, alt: "Recámara con clóset de puertas corredizas y entrepaños" },
+  { src: foto9, alt: "Vista desde el acceso hacia el pasillo y recámaras del departamento" },
+  { src: foto10, alt: "Puerta de acceso principal al departamento en Callejón del Maestro" },
+  { src: foto11, alt: "Cocina con tarja y área para estufa del departamento" },
+  { src: foto12, alt: "Estacionamiento techado del edificio en Callejón del Maestro" },
+  { src: foto13, alt: "Acceso vehicular con portón del edificio en Callejón del Maestro" },
 ];
 
 const specs = [
