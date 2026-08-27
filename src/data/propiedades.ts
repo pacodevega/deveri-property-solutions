@@ -2,6 +2,8 @@ import fachada from "@/assets/propiedades/yanez-fachada.jpg";
 import ruizCortines from "@/assets/propiedades/ruiz-cortines-fachada.jpg";
 import ruizCortinesBajos from "@/assets/propiedades/bajos-fachada.jpg";
 import hipicoFachada from "@/assets/propiedades/hipico-fachada.jpg";
+import palmerasFachada from "@/assets/propiedades/palmeras-1.jpg";
+
 
 
 export type Propiedad = {
@@ -93,5 +95,25 @@ export const propiedades: Propiedad[] = [
       "Fachada del local comercial en renta en Plaza Hípico, junto al Súper Carranza, Veracruz",
     disponible: true,
   },
+  {
+
+    slug: "avenida-palmeras",
+    nombre: "Local comercial Avenida Palmeras",
+    tipo: "Local comercial",
+    operacion: "Renta",
+    precio: "$30,000 MXN",
+    precioNota: "mensuales",
+    superficie: "180 m²",
+    ubicacion: "Avenida Palmeras, cerca de Walmart",
+    ciudad: "Veracruz",
+    resumen:
+      "Local de 180 m² en planta baja y alta sobre Avenida Palmeras, a pasos de Walmart. 3 cubículos, sala de juntas, cocina, bodega, 3 baños y 5 aires acondicionados.",
+    destacados: ["Dos plantas", "Cerca de Walmart", "Sala de juntas"],
+    imagen: palmerasFachada,
+    imagenAlt:
+      "Fachada del local comercial sobre Avenida Palmeras, cerca de Walmart, Veracruz",
+    disponible: false,
+  },
 ];
+
 
