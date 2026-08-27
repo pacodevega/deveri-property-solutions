@@ -86,7 +86,7 @@ export default function AvenidaPalmeras() {
           floorSize: { "@type": "QuantitativeValue", value: 180, unitCode: "MTK" },
           offers: {
             "@type": "Offer",
-            price: 30000,
+            price: 28100,
             priceCurrency: "MXN",
             availability: "https://schema.org/SoldOut",
           },
@@ -117,8 +117,8 @@ export default function AvenidaPalmeras() {
                 <MapPin className="w-4 h-4 shrink-0" /> Avenida Palmeras, cerca de Walmart · Veracruz
               </p>
               <div className="mt-5 flex flex-wrap items-end gap-x-3 gap-y-1">
-                <span className="text-3xl md:text-4xl font-extrabold text-accent">$30,000</span>
-                <span className="text-primary-foreground/80 text-sm md:text-base pb-1">MXN / mes · 180 m²</span>
+                <span className="text-3xl md:text-4xl font-extrabold text-accent">$28,100</span>
+                <span className="text-primary-foreground/80 text-sm md:text-base pb-1">MXN / mes + $900 de agua · 180 m²</span>
                 <SharePropertyButton
                   title="Local comercial Avenida Palmeras | DEVERI"
                   text="Mira este local comercial de 180 m² sobre Avenida Palmeras, colocado por DEVERI."
@@ -231,9 +231,10 @@ export default function AvenidaPalmeras() {
             <div className="rounded-2xl border bg-card p-6 shadow-lg">
               <p className="text-sm text-muted-foreground">Renta mensual (referencia)</p>
               <p className="text-3xl font-extrabold text-foreground">
-                $30,000 <span className="text-base font-medium text-muted-foreground">MXN</span>
+                $28,100 <span className="text-base font-medium text-muted-foreground">MXN</span>
               </p>
-              <p className="mt-1 text-sm font-semibold text-foreground">Propiedad rentada</p>
+              <p className="mt-1 text-sm text-muted-foreground">+ $900 MXN de agua · total $29,000 MXN al mes</p>
+              <p className="mt-2 text-sm font-semibold text-foreground">Propiedad rentada</p>
 
               <div className="mt-5 space-y-2 text-sm text-muted-foreground border-t pt-5">
                 <div className="flex justify-between gap-3"><span>Superficie</span><span className="font-medium text-foreground">180 m²</span></div>
