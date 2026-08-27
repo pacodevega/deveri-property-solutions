@@ -84,6 +84,21 @@ const resources = [
   { href: "/aviso-de-privacidad", label: "Aviso de privacidad", note: "Tratamiento de datos personales." },
 ];
 
+const machineResources = [
+  { href: "/llms.txt", note: "índice legible por máquinas de todo el sitio." },
+  { href: "/llms-full.txt", note: "contenido completo de las páginas principales en un solo archivo." },
+  { href: "/md/index.md", note: "espejo Markdown del inicio: empresa, servicios y precios." },
+  { href: "/md/mcp.md", note: "espejo Markdown de esta página." },
+  { href: "/md/servicios.md", note: "espejo Markdown de los servicios y sus precios." },
+  { href: "/md/propiedades.md", note: "espejo Markdown del catálogo de propiedades." },
+  { href: "/md/como-funciona.md", note: "espejo Markdown del proceso paso a paso." },
+  { href: "/md/blog.md", note: "espejo Markdown del índice del blog." },
+  { href: "/md/contacto.md", note: "espejo Markdown de la información de contacto." },
+  { href: "/sitemap.xml", note: "mapa del sitio con todas las URLs canónicas." },
+  { href: "/robots.txt", note: "reglas de crawling; agentes de IA permitidos explícitamente." },
+];
+
+
 export default function MCP() {
   return (
     <>
