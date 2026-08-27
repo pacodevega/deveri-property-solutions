@@ -2,6 +2,8 @@ import fachada from "@/assets/propiedades/yanez-fachada.jpg";
 import ruizCortines from "@/assets/propiedades/ruiz-cortines-fachada.jpg";
 import ruizCortinesBajos from "@/assets/propiedades/bajos-fachada.jpg";
 import hipicoFachada from "@/assets/propiedades/hipico-fachada.jpg";
+import palmerasFachada from "@/assets/propiedades/palmeras-1.jpg";
+
 
 
 export type Propiedad = {
