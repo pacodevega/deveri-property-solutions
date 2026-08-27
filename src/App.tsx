@@ -22,6 +22,7 @@ import RuizCortinesBajos from "./pages/propiedades/RuizCortinesBajos";
 import HipicoLocal3 from "./pages/propiedades/HipicoLocal3";
 import AvenidaPalmeras from "./pages/propiedades/AvenidaPalmeras";
 import GrijalvaReforma from "./pages/propiedades/GrijalvaReforma";
+import PonienteTres from "./pages/propiedades/PonienteTres";
 
 
 import Blog from "./pages/Blog";
@@ -84,6 +85,7 @@ const App = () => (
             <Route path="/propiedades/hipico-local-3" element={<HipicoLocal3 />} />
             <Route path="/propiedades/avenida-palmeras" element={<AvenidaPalmeras />} />
             <Route path="/propiedades/grijalva-reforma" element={<GrijalvaReforma />} />
+            <Route path="/propiedades/poniente-3" element={<PonienteTres />} />
 
 
             

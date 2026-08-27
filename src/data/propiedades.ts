@@ -4,6 +4,7 @@ import ruizCortinesBajos from "@/assets/propiedades/bajos-fachada.jpg";
 import hipicoFachada from "@/assets/propiedades/hipico-fachada.jpg";
 import palmerasFachada from "@/assets/propiedades/palmeras-1.jpg";
 import grijalvaFachada from "@/assets/propiedades/grijalva-2.jpg";
+import ponienteFachada from "@/assets/propiedades/poniente-1.jpg";
 
 
 
@@ -134,7 +135,22 @@ export const propiedades: Propiedad[] = [
       "Fachada del local comercial sobre Grijalva, casi esquina con Colón, Reforma, Veracruz",
     disponible: false,
   },
+  {
+    slug: "poniente-3",
+    nombre: "Local comercial en Poniente 3",
+    tipo: "Local comercial",
+    operacion: "Renta",
+    precio: "$9,000 MXN",
+    precioNota: "mensuales + $900 de agua · total $9,900",
+    superficie: "Aprox. 90 m²",
+    ubicacion: "Poniente 3, a pasos de Avenida Sugasti",
+    ciudad: "Veracruz",
+    resumen:
+      "Local comercial de aproximadamente 90 m² en Poniente 3, a pasos de Avenida Sugasti. 2 baños, espacio amplio y versátil en zona de alto movimiento peatonal.",
+    destacados: ["2 baños", "90 m² amplios", "Alto flujo peatonal"],
+    imagen: ponienteFachada,
+    imagenAlt:
+      "Fachada del local comercial en Poniente 3, a pasos de Avenida Sugasti, Veracruz",
+    disponible: false,
+  },
 ];
-
-
-
