@@ -154,91 +154,30 @@ export default function Propiedades() {
 
               <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
                 {disponibles.map((p) => (
-                  <div
-                    key={p.slug}
-                    className="group bg-card border rounded-2xl overflow-hidden flex flex-col transition-all duration-300 hover:shadow-xl hover:-translate-y-1 focus-within:ring-2 focus-within:ring-accent"
-                  >
-                    <Link
-                      to={`/propiedades/${p.slug}`}
-                      className="relative aspect-[4/3] overflow-hidden bg-muted block"
-                    >
-                      <img
-                        src={p.imagen}
-                        alt={p.imagenAlt}
-                        loading="lazy"
-                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                      />
-                      <span className="absolute top-3 left-3 bg-accent text-accent-foreground text-xs font-semibold px-3 py-1 rounded-full">
-                        {p.operacion}
-                      </span>
-                    </Link>
-
-                    <div className="p-6 flex flex-col flex-1">
-                      <p className="text-xs uppercase tracking-wide text-muted-foreground mb-1">
-                        {p.tipo} · {p.ciudad}
-                      </p>
-                      <Link to={`/propiedades/${p.slug}`}>
-                        <h3 className="text-lg font-bold mb-2 group-hover:text-accent transition-colors">
-                          {p.nombre}
-                        </h3>
-                      </Link>
-
-                      <div className="flex flex-wrap gap-x-4 gap-y-1 text-sm text-muted-foreground mb-3">
-                        <span className="inline-flex items-center gap-1">
-                          <Ruler className="w-4 h-4 text-accent" /> {p.superficie}
-                        </span>
-                        <span className="inline-flex items-center gap-1">
-                          <MapPin className="w-4 h-4 text-accent" /> {p.ubicacion}
-                        </span>
-                      </div>
-
-                      <p className="text-sm text-muted-foreground mb-4 flex-1">{p.resumen}</p>
-
-                      <div className="flex flex-wrap gap-2 mb-5">
-                        {p.destacados.map((d) => (
-                          <span
-                            key={d}
-                            className="text-xs bg-muted text-foreground/70 px-2.5 py-1 rounded-full"
-                          >
-                            {d}
-                          </span>
-                        ))}
-                      </div>
-
-                      <div className="mt-auto pt-4 border-t">
-                        <div>
-                          <p className="text-2xl font-extrabold text-foreground leading-none">
-                            {p.precio}
-                          </p>
-                          {p.precioNota && (
-                            <p className="text-xs text-muted-foreground mt-1">{p.precioNota}</p>
-                          )}
-                        </div>
-
-                        <Link
-                          to={`/propiedades/${p.slug}`}
-                          className="mt-4 w-full min-h-12 inline-flex items-center justify-center gap-2 rounded-lg bg-accent px-4 py-3 text-base font-bold text-accent-foreground shadow-md transition-all hover:brightness-110 hover:shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2"
-                        >
-                          Ver detalles
-                          <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
-                        </Link>
-                      </div>
-
-                      <SharePropertyButton
-                        url={`${typeof window !== "undefined" ? window.location.origin : ""}/propiedades/${p.slug}`}
-                        title={`${p.nombre} en ${p.operacion.toLowerCase()} | DEVERI`}
-                        text={`Mira esta propiedad en ${p.ciudad}: ${p.nombre}`}
-                        variant="outline"
-                        size="sm"
-                        className="w-full mt-3"
-                        label="Compartir propiedad"
-                      />
-
-                    </div>
-                  </div>
+                  <PropertyCard key={p.slug} p={p} />
                 ))}
               </div>
             </>
+          )}
+
+          {rentadas.length > 0 && (
+            <div className="mt-20">
+              <div className="flex items-baseline justify-between mb-8 gap-4 flex-wrap">
+                <h2 className="text-2xl font-bold">
+                  {rentadas.length}{" "}
+                  {rentadas.length === 1 ? "propiedad rentada" : "propiedades rentadas"}
+                </h2>
+                <p className="text-sm text-muted-foreground">
+                  Espacios ya colocados por DEVERI
+                </p>
+              </div>
+
+              <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+                {rentadas.map((p) => (
+                  <PropertyCard key={p.slug} p={p} />
+                ))}
+              </div>
+            </div>
           )}
 
           <div className="mt-16 bg-card border rounded-2xl p-8 md:p-10 text-center">
