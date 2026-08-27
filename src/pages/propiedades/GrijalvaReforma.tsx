@@ -74,7 +74,7 @@ export default function GrijalvaReforma() {
         jsonLd={{
           "@context": "https://schema.org",
           "@type": "RealEstateListing",
-          name: "Local comercial en Grijalva, Reforma — Grijalva casi esquina con Colón",
+          name: "Local comercial en Grijalva, Reforma — casi esquina con Colón",
           description:
             "Local comercial de aproximadamente 40 m² sobre Grijalva, casi esquina con Colón, en Reforma. 2 baños privados, tarja y distribución funcional.",
           floorSize: { "@type": "QuantitativeValue", value: 40, unitCode: "MTK" },
