@@ -157,20 +157,20 @@ export const propiedades: Propiedad[] = [
   },
   {
     slug: "americas-reforma",
-    nombre: "Oficina en calle Américas, Reforma",
+    nombre: "Oficina en Avenida de las Américas, Reforma",
     tipo: "Oficina",
     operacion: "Renta",
     precio: "$14,000 MXN",
     precioNota: "mensuales + $900 de agua · total $14,900",
     superficie: "150 m²",
-    ubicacion: "Calle Américas, colonia Reforma",
+    ubicacion: "Avenida de las Américas, colonia Reforma",
     ciudad: "Veracruz",
     resumen:
       "Oficina de 150 m² en segundo piso, totalmente climatizada: 2 privados, zona de cocina, bodega, 2 medios baños y 4 aires acondicionados.",
     destacados: ["2 privados", "4 aires acondicionados", "Cocina y bodega"],
     imagen: americasFachada,
     imagenAlt:
-      "Área principal de la oficina en calle Américas, colonia Reforma, Veracruz",
+      "Área principal de la oficina en Avenida de las Américas, colonia Reforma, Veracruz",
     disponible: false,
   },
   {

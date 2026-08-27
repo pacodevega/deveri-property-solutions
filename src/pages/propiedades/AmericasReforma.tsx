@@ -27,17 +27,17 @@ import area3 from "@/assets/propiedades/americas-8.jpg";
 
 const PHONE = "522296840727";
 const WHATSAPP_URL = `https://wa.me/${PHONE}?text=${encodeURIComponent(
-  "Hola, vi la oficina de calle Américas, colonia Reforma (ya rentada). ¿Tienen otras propiedades disponibles similares?"
+  "Hola, vi la oficina de Avenida de las Américas, colonia Reforma (ya rentada). ¿Tienen otras propiedades disponibles similares?"
 )}`;
 
 const photos = [
-  { src: area1, alt: "Área principal de la oficina en calle Américas, climatizada y con piso laminado" },
+  { src: area1, alt: "Área principal de la oficina en Avenida de las Américas, climatizada y con piso laminado" },
   { src: area2, alt: "Área abierta de trabajo de la oficina con acceso a privados" },
   { src: area3, alt: "Zona de trabajo con acceso a la zona de cocina de la oficina" },
   { src: privado1, alt: "Privado climatizado con ventana y persianas" },
   { src: privado2, alt: "Segundo privado con muro decorativo de ladrillo" },
   { src: cocina, alt: "Zona de cocina con tarja y área de bodega de la oficina" },
-  { src: bano1, alt: "Medio baño de la oficina en calle Américas" },
+  { src: bano1, alt: "Medio baño de la oficina en Avenida de las Américas" },
   { src: bano2, alt: "Segundo medio baño con acabados en mosaico azul" },
 ];
 
@@ -70,14 +70,14 @@ export default function AmericasReforma() {
   return (
     <>
       <SEOHead
-        title="Oficina en calle Américas, Reforma | 150 m² | Rentada | DEVERI"
-        description="Oficina de 150 m² en segundo piso sobre calle Américas, colonia Reforma, Veracruz: 2 privados, cocina, bodega, 2 medios baños y 4 aires acondicionados. Propiedad ya rentada por DEVERI."
+        title="Oficina en Avenida de las Américas, Reforma | 150 m² | Rentada | DEVERI"
+        description="Oficina de 150 m² en segundo piso sobre Avenida de las Américas, colonia Reforma, Veracruz: 2 privados, cocina, bodega, 2 medios baños y 4 aires acondicionados. Propiedad ya rentada por DEVERI."
         jsonLd={{
           "@context": "https://schema.org",
           "@type": "RealEstateListing",
-          name: "Oficina en calle Américas, colonia Reforma",
+          name: "Oficina en Avenida de las Américas, colonia Reforma",
           description:
-            "Oficina de 150 m² en segundo piso sobre calle Américas, colonia Reforma. 2 privados, zona de cocina, bodega, 2 medios baños y 4 aires acondicionados.",
+            "Oficina de 150 m² en segundo piso sobre Avenida de las Américas, colonia Reforma. 2 privados, zona de cocina, bodega, 2 medios baños y 4 aires acondicionados.",
           floorSize: { "@type": "QuantitativeValue", value: 150, unitCode: "MTK" },
           offers: {
             "@type": "Offer",
@@ -87,7 +87,7 @@ export default function AmericasReforma() {
           },
           address: {
             "@type": "PostalAddress",
-            streetAddress: "Calle Américas, Col. Reforma",
+            streetAddress: "Avenida de las Américas, Col. Reforma",
             addressLocality: "Veracruz",
             addressRegion: "Veracruz",
             addressCountry: "MX",
@@ -106,10 +106,10 @@ export default function AmericasReforma() {
                 Rentada
               </span>
               <h1 className="mt-4 text-3xl md:text-5xl font-extrabold leading-tight max-w-2xl">
-                Oficina en calle Américas, Reforma
+                Oficina en Avenida de las Américas, Reforma
               </h1>
               <p className="mt-3 flex items-center gap-2 text-primary-foreground/85 text-sm md:text-base">
-                <MapPin className="w-4 h-4 shrink-0" /> Calle Américas, colonia Reforma · Veracruz
+                <MapPin className="w-4 h-4 shrink-0" /> Avenida de las Américas, colonia Reforma · Veracruz
               </p>
               <div className="mt-5 flex flex-wrap items-end gap-x-3 gap-y-1">
                 <span className="text-3xl md:text-4xl font-extrabold text-accent">$14,000</span>
@@ -117,8 +117,8 @@ export default function AmericasReforma() {
                   MXN / mes + $900 de agua · 150 m²
                 </span>
                 <SharePropertyButton
-                  title="Oficina en calle Américas, Reforma | DEVERI"
-                  text="Mira esta oficina de 150 m² en calle Américas, colonia Reforma, colocada por DEVERI."
+                  title="Oficina en Avenida de las Américas, Reforma | DEVERI"
+                  text="Mira esta oficina de 150 m² en Avenida de las Américas, colonia Reforma, colocada por DEVERI."
                   variant="outline-light"
                   size="sm"
                   className="ml-auto md:ml-0"
@@ -160,7 +160,7 @@ export default function AmericasReforma() {
 
             <h2 className="mt-10 text-2xl md:text-3xl font-extrabold text-foreground">Sobre esta propiedad</h2>
             <p className="mt-4 text-muted-foreground leading-relaxed">
-              Amplia oficina sobre <strong className="text-foreground">calle Américas</strong>, en la colonia
+              Amplia oficina sobre <strong className="text-foreground">Avenida de las Américas</strong>, en la colonia
               Reforma, ubicada en segundo piso y totalmente climatizada. Cuenta con{" "}
               <strong className="text-foreground">150 m²</strong> distribuidos de manera funcional para oficinas,
               despachos, consultorios o empresas que necesitan espacios privados y áreas de trabajo cómodas.
@@ -217,7 +217,7 @@ export default function AmericasReforma() {
 
             <h2 className="mt-14 text-2xl md:text-3xl font-extrabold text-foreground">Ubicación</h2>
             <p className="mt-3 text-muted-foreground">
-              Calle Américas, colonia Reforma, Veracruz. Zona consolidada, de fácil acceso y cercana a una de las
+              Avenida de las Américas, colonia Reforma, Veracruz. Zona consolidada, de fácil acceso y cercana a una de las
               áreas más activas de la ciudad.
             </p>
           </div>
