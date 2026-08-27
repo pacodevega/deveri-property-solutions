@@ -44,7 +44,7 @@ const photos = [
 ];
 
 const specs = [
-  { icon: Ruler, label: "Superficie", value: "150 m²" },
+  { icon: Ruler, label: "Superficie", value: "110 m²" },
   { icon: Building2, label: "Nivel", value: "Segundo piso" },
   { icon: Bath, label: "Baños", value: "2 medios baños" },
   { icon: Snowflake, label: "Clima", value: "4 aires acondicionados" },
@@ -57,7 +57,7 @@ const highlights = [
 ];
 
 const includes = [
-  "150 m² en segundo piso",
+  "110 m² en segundo piso",
   "2 privados",
   "Zona de cocina",
   "Bodega",
@@ -72,14 +72,14 @@ export default function AmericasReforma() {
   return (
     <>
       <SEOHead
-        title="Oficina en Avenida de las Américas, Reforma | 150 m² | Rentada | DEVERI"
-        description="Oficina de 150 m² en segundo piso sobre Avenida de las Américas, colonia Reforma, Veracruz: 2 privados, cocina, bodega, 2 medios baños y 4 aires acondicionados. Propiedad ya rentada por DEVERI."
+        title="Oficina en Avenida de las Américas, Reforma | 110 m² | Rentada | DEVERI"
+        description="Oficina de 110 m² en segundo piso sobre Avenida de las Américas, colonia Reforma, Veracruz: 2 privados, cocina, bodega, 2 medios baños y 4 aires acondicionados. Propiedad ya rentada por DEVERI."
         jsonLd={{
           "@context": "https://schema.org",
           "@type": "RealEstateListing",
           name: "Oficina en Avenida de las Américas, colonia Reforma",
           description:
-            "Oficina de 150 m² en segundo piso sobre Avenida de las Américas, colonia Reforma. 2 privados, zona de cocina, bodega, 2 medios baños y 4 aires acondicionados.",
+            "Oficina de 110 m² en segundo piso sobre Avenida de las Américas, colonia Reforma. 2 privados, zona de cocina, bodega, 2 medios baños y 4 aires acondicionados.",
           floorSize: { "@type": "QuantitativeValue", value: 150, unitCode: "MTK" },
           offers: {
             "@type": "Offer",
@@ -116,11 +116,11 @@ export default function AmericasReforma() {
               <div className="mt-5 flex flex-wrap items-end gap-x-3 gap-y-1">
                 <span className="text-3xl md:text-4xl font-extrabold text-accent">$14,000</span>
                 <span className="text-primary-foreground/80 text-sm md:text-base pb-1">
-                  MXN / mes + $900 de agua · 150 m²
+                  MXN / mes + $900 de agua · 110 m²
                 </span>
                 <SharePropertyButton
                   title="Oficina en Avenida de las Américas, Reforma | DEVERI"
-                  text="Mira esta oficina de 150 m² en Avenida de las Américas, colonia Reforma, colocada por DEVERI."
+                  text="Mira esta oficina de 110 m² en Avenida de las Américas, colonia Reforma, colocada por DEVERI."
                   variant="outline-light"
                   size="sm"
                   className="ml-auto md:ml-0"
@@ -164,7 +164,7 @@ export default function AmericasReforma() {
             <p className="mt-4 text-muted-foreground leading-relaxed">
               Amplia oficina sobre <strong className="text-foreground">Avenida de las Américas</strong>, en la colonia
               Reforma, ubicada en segundo piso y totalmente climatizada. Cuenta con{" "}
-              <strong className="text-foreground">150 m²</strong> distribuidos de manera funcional para oficinas,
+              <strong className="text-foreground">110 m²</strong> distribuidos de manera funcional para oficinas,
               despachos, consultorios o empresas que necesitan espacios privados y áreas de trabajo cómodas.
             </p>
             <p className="mt-4 text-muted-foreground leading-relaxed">
@@ -242,7 +242,7 @@ export default function AmericasReforma() {
               <p className="mt-2 text-sm font-semibold text-foreground">Propiedad rentada</p>
 
               <div className="mt-5 space-y-2 text-sm text-muted-foreground border-t pt-5">
-                <div className="flex justify-between gap-3"><span>Superficie</span><span className="font-medium text-foreground">150 m²</span></div>
+                <div className="flex justify-between gap-3"><span>Superficie</span><span className="font-medium text-foreground">110 m²</span></div>
                 <div className="flex justify-between gap-3"><span>Nivel</span><span className="font-medium text-foreground">Segundo piso</span></div>
                 <div className="flex justify-between gap-3"><span>Privados</span><span className="font-medium text-foreground">2</span></div>
                 <div className="flex justify-between gap-3"><span>Baños</span><span className="font-medium text-foreground">2 medios baños</span></div>

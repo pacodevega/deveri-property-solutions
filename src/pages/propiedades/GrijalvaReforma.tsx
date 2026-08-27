@@ -44,7 +44,7 @@ const photos = [
 ];
 
 const specs = [
-  { icon: Ruler, label: "Superficie", value: "Aprox. 40 m²" },
+  { icon: Ruler, label: "Superficie", value: "40 m²" },
   { icon: Bath, label: "Baños privados", value: "2" },
   { icon: Droplets, label: "Agua", value: "$900 MXN / mes" },
   { icon: MapPin, label: "Ubicación", value: "Reforma, Veracruz" },
@@ -57,7 +57,7 @@ const highlights = [
 ];
 
 const includes = [
-  "Aproximadamente 40 m² de superficie",
+  "40 m² de superficie",
   "Un solo local comercial",
   "2 baños privados",
   "Tarja",
@@ -72,13 +72,13 @@ export default function GrijalvaReforma() {
     <>
       <SEOHead
         title="Local comercial en Grijalva, Reforma, Veracruz | 40 m² | Rentado | DEVERI"
-        description="Local comercial de aprox. 40 m² sobre Grijalva, casi esquina con Colón, en Reforma: 2 baños privados, tarja y buena visibilidad. Propiedad ya rentada por DEVERI."
+        description="Local comercial de 40 m² sobre Grijalva, casi esquina con Colón, en Reforma: 2 baños privados, tarja y buena visibilidad. Propiedad ya rentada por DEVERI."
         jsonLd={{
           "@context": "https://schema.org",
           "@type": "RealEstateListing",
           name: "Local comercial en Grijalva, Reforma — casi esquina con Colón",
           description:
-            "Local comercial de aproximadamente 40 m² sobre Grijalva, casi esquina con Colón, en Reforma. 2 baños privados, tarja y distribución funcional.",
+            "Local comercial de 40 m² sobre Grijalva, casi esquina con Colón, en Reforma. 2 baños privados, tarja y distribución funcional.",
           floorSize: { "@type": "QuantitativeValue", value: 40, unitCode: "MTK" },
           offers: {
             "@type": "Offer",
@@ -115,7 +115,7 @@ export default function GrijalvaReforma() {
               <div className="mt-5 flex flex-wrap items-end gap-x-3 gap-y-1">
                 <span className="text-3xl md:text-4xl font-extrabold text-accent">$12,000</span>
                 <span className="text-primary-foreground/80 text-sm md:text-base pb-1">
-                  MXN / mes + $900 de agua · aprox. 40 m²
+                  MXN / mes + $900 de agua · 40 m²
                 </span>
                 <SharePropertyButton
                   title="Local comercial en Grijalva, Reforma | DEVERI"
@@ -164,7 +164,7 @@ export default function GrijalvaReforma() {
               Local comercial en <strong className="text-foreground">Reforma</strong>, ubicado sobre Grijalva, casi
               esquina con Colón, en una zona con excelente movimiento, visibilidad y flujo constante de personas.
               Funciona como un solo local de{" "}
-              <strong className="text-foreground">aproximadamente 40 m²</strong>, práctico y adaptable para distintos
+              <strong className="text-foreground">40 m²</strong>, práctico y adaptable para distintos
               tipos de negocio.
             </p>
             <p className="mt-4 text-muted-foreground leading-relaxed">
@@ -242,7 +242,7 @@ export default function GrijalvaReforma() {
               <p className="mt-2 text-sm font-semibold text-foreground">Propiedad rentada</p>
 
               <div className="mt-5 space-y-2 text-sm text-muted-foreground border-t pt-5">
-                <div className="flex justify-between gap-3"><span>Superficie</span><span className="font-medium text-foreground">Aprox. 40 m²</span></div>
+                <div className="flex justify-between gap-3"><span>Superficie</span><span className="font-medium text-foreground">40 m²</span></div>
                 <div className="flex justify-between gap-3"><span>Baños</span><span className="font-medium text-foreground">2 privados</span></div>
                 <div className="flex justify-between gap-3"><span>Tarja</span><span className="font-medium text-foreground">Sí</span></div>
                 <div className="flex justify-between gap-3"><span>Ubicación</span><span className="font-medium text-foreground text-right">Reforma, Veracruz</span></div>

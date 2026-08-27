@@ -128,11 +128,11 @@ export const propiedades: Propiedad[] = [
     operacion: "Renta",
     precio: "$12,000 MXN",
     precioNota: "mensuales + $900 de agua · total $12,900",
-    superficie: "Aprox. 40 m²",
+    superficie: "40 m²",
     ubicacion: "Grijalva, casi esquina con Colón, Reforma",
     ciudad: "Veracruz",
     resumen:
-      "Local de aproximadamente 40 m² sobre Grijalva, casi esquina con Colón, en Reforma. 2 baños privados, tarja y distribución funcional adaptable a distintos giros.",
+      "Local de 40 m² sobre Grijalva, casi esquina con Colón, en Reforma. 2 baños privados, tarja y distribución funcional adaptable a distintos giros.",
     destacados: ["2 baños privados", "Tarja", "Zona comercial activa"],
     imagen: grijalvaFachada,
     imagenAlt:
@@ -146,11 +146,11 @@ export const propiedades: Propiedad[] = [
     operacion: "Renta",
     precio: "$9,000 MXN",
     precioNota: "mensuales + $900 de agua · total $9,900",
-    superficie: "Aprox. 90 m²",
+    superficie: "90 m²",
     ubicacion: "Poniente 3, a pasos de Avenida Sugasti",
     ciudad: "Veracruz",
     resumen:
-      "Local comercial de aproximadamente 90 m² en Poniente 3, a pasos de Avenida Sugasti. 2 baños, espacio amplio y versátil en zona de alto movimiento peatonal.",
+      "Local comercial de 90 m² en Poniente 3, a pasos de Avenida Sugasti. 2 baños, espacio amplio y versátil en zona de alto movimiento peatonal.",
     destacados: ["2 baños", "90 m² amplios", "Alto flujo peatonal"],
     imagen: ponienteFachada,
     imagenAlt:
@@ -164,11 +164,11 @@ export const propiedades: Propiedad[] = [
     operacion: "Renta",
     precio: "$14,000 MXN",
     precioNota: "mensuales + $900 de agua · total $14,900",
-    superficie: "150 m²",
+    superficie: "110 m²",
     ubicacion: "Avenida de las Américas, colonia Reforma",
     ciudad: "Veracruz",
     resumen:
-      "Oficina de 150 m² en segundo piso, totalmente climatizada: 2 privados, zona de cocina, bodega, 2 medios baños y 4 aires acondicionados.",
+      "Oficina de 110 m² en segundo piso, totalmente climatizada: 2 privados, zona de cocina, bodega, 2 medios baños y 4 aires acondicionados.",
     destacados: ["2 privados", "4 aires acondicionados", "Cocina y bodega"],
     imagen: americasFachada,
     imagenAlt:
@@ -182,11 +182,11 @@ export const propiedades: Propiedad[] = [
     operacion: "Renta",
     precio: "$7,000 MXN",
     precioNota: "mensuales + $650 de agua · total $7,650",
-    superficie: "60 m²",
+    superficie: "90 m²",
     ubicacion: "Callejón del Maestro",
     ciudad: "Veracruz",
     resumen:
-      "Departamento de 60 m² en segundo piso con 3 recámaras, cocina, 1 baño completo y 1 cajón de estacionamiento.",
+      "Departamento de 90 m² en segundo piso con 3 recámaras, cocina, 1 baño completo y 1 cajón de estacionamiento.",
     destacados: ["3 recámaras", "1 estacionamiento", "Segundo piso"],
     imagen: maestroFachada,
     imagenAlt: "Interior del departamento en renta en Callejón del Maestro, Veracruz",
@@ -199,7 +199,7 @@ export const propiedades: Propiedad[] = [
     operacion: "Renta",
     precio: "$8,400 MXN",
     precioNota: "mensuales + $500 de agua · total $8,900",
-    superficie: "2 recámaras · 2 baños",
+    superficie: "70 m²",
     ubicacion: "Calle Orizaba, junto a La Tampiquera",
     ciudad: "Boca del Río",
     resumen:
@@ -217,7 +217,7 @@ export const propiedades: Propiedad[] = [
     operacion: "Renta",
     precio: "$12,300 MXN",
     precioNota: "mensuales + $600 de agua · total $12,900",
-    superficie: "3 recámaras · 1.5 baños",
+    superficie: "190 m² construidos",
     ubicacion: "Calle Orizaba, a unas cuadras de La Tampiquera",
     ciudad: "Boca del Río",
     resumen:
