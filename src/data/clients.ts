@@ -59,6 +59,6 @@ export const clients: Client[] = [
   { name: "AXA", logo: axa },
   { name: "Sesaba", logo: sesaba },
   { name: "El Jabalí", logo: elJabali, large: true },
-  { name: "Clamato", logo: clamato, large: true },
-  { name: "Yemanya", logo: yemanya, large: true },
+  { name: "Clamato", logo: clamato.url, large: true },
+  { name: "Yemanya", logo: yemanya.url, large: true },
 ];
