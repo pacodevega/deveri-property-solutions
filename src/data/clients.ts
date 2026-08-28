@@ -23,6 +23,7 @@ import panissimo from "@/assets/clients/panissimo.webp";
 import movistar from "@/assets/clients/movistar.png";
 import axa from "@/assets/clients/axa.png";
 import sesaba from "@/assets/clients/sesaba.png";
+import elJabali from "@/assets/clients/el-jabali.png";
 
 export interface Client {
   name: string;
