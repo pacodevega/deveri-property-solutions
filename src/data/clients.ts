@@ -22,6 +22,7 @@ import cosi from "@/assets/clients/cosi.png";
 import panissimo from "@/assets/clients/panissimo.webp";
 import movistar from "@/assets/clients/movistar.png";
 import axa from "@/assets/clients/axa.png";
+import sesaba from "@/assets/clients/sesaba.png";
 
 export interface Client {
   name: string;
