@@ -12,7 +12,11 @@ export default function ClientGrid() {
             <img
               src={c.logo}
               alt={c.name}
-              className={`object-contain ${c.large ? 'max-h-20 max-w-[170px]' : 'max-h-14 max-w-[130px]'}`}
+              className={`object-contain ${
+                c.large ? 'max-h-20 max-w-[170px]' :
+                c.small ? 'max-h-10 max-w-[100px]' :
+                'max-h-14 max-w-[130px]'
+              }`}
               loading="lazy"
             />
           ) : (
