@@ -23,6 +23,7 @@ import panissimo from "@/assets/clients/panissimo.webp";
 import movistar from "@/assets/clients/movistar.png";
 import axa from "@/assets/clients/axa.png";
 import sesaba from "@/assets/clients/sesaba.png";
+import elJabali from "@/assets/clients/el-jabali.png";
 
 export interface Client {
   name: string;
@@ -55,4 +56,5 @@ export const clients: Client[] = [
   { name: "Movistar", logo: movistar },
   { name: "AXA", logo: axa },
   { name: "Sesaba", logo: sesaba },
+  { name: "El Jabalí", logo: elJabali, large: true },
 ];
