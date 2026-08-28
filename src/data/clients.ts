@@ -24,6 +24,8 @@ import movistar from "@/assets/clients/movistar.png";
 import axa from "@/assets/clients/axa.png";
 import sesaba from "@/assets/clients/sesaba.png";
 import elJabali from "@/assets/clients/el-jabali.png";
+import clamato from "@/assets/clients/clamato.png.asset.json";
+import yemanya from "@/assets/clients/yemanya.png.asset.json";
 
 export interface Client {
   name: string;
@@ -57,4 +59,6 @@ export const clients: Client[] = [
   { name: "AXA", logo: axa },
   { name: "Sesaba", logo: sesaba },
   { name: "El Jabalí", logo: elJabali, large: true },
+  { name: "Clamato", logo: clamato, large: true },
+  { name: "Yemanya", logo: yemanya, large: true },
 ];
