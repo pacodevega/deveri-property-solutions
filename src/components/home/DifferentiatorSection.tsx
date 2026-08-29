@@ -32,8 +32,8 @@ export default function DifferentiatorSection() {
           <p className="text-5xl font-extrabold text-accent mb-2">+25</p>
           <p className="text-muted-foreground font-medium">años operando propiedades</p>
           <div className="my-6 border-t border-accent/20" />
-          <p className="text-5xl font-extrabold text-accent mb-2">+2,000</p>
-          <p className="text-muted-foreground font-medium">contratos gestionados</p>
+          <p className="text-5xl font-extrabold text-accent mb-2">Miles</p>
+          <p className="text-muted-foreground font-medium">de contratos gestionados</p>
         </div>
       </div>
     </section>

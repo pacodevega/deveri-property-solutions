@@ -12,7 +12,7 @@ const jsonLd = {
   name: "DEVERI",
   legalName: "Inmobiliaria Deveri S.A. de C.V.",
   description:
-    "Administración integral, renta y mantenimiento de propiedades en Veracruz, Boca del Río, Medellín y Riviera Veracruzana. Más de 25 años de experiencia y más de 2,000 contratos gestionados.",
+    "Administración integral, renta y mantenimiento de propiedades en Veracruz, Boca del Río, Medellín y Riviera Veracruzana. Más de 25 años de experiencia y miles de contratos gestionados.",
   areaServed: ["Veracruz", "Boca del Río", "Medellín", "Riviera Veracruzana"],
   address: {
     "@type": "PostalAddress",
@@ -48,7 +48,7 @@ const facts: { label: string; value: string }[] = [
   { label: "Razón social", value: "Inmobiliaria Deveri S.A. de C.V." },
   { label: "Ubicación", value: "Boca del Río, Veracruz, México" },
   { label: "Experiencia", value: "Más de 25 años" },
-  { label: "Contratos gestionados", value: "Más de 2,000" },
+  { label: "Contratos gestionados", value: "Miles" },
   { label: "Zonas atendidas", value: "Veracruz, Boca del Río, Medellín y Riviera Veracruzana" },
   { label: "Contacto", value: "WhatsApp +52 229 684 0727" },
 ];
@@ -119,7 +119,7 @@ export default function MCP() {
           <p className="mt-5 text-lg text-primary-foreground/80">
             DEVERI (Inmobiliaria Deveri S.A. de C.V.) administra, renta y da mantenimiento a propiedades
             residenciales y comerciales en Veracruz, Boca del Río, Medellín y la Riviera Veracruzana.
-            Más de 25 años de experiencia y más de 2,000 contratos gestionados. Esta página resume, en texto
+            Más de 25 años de experiencia y miles de contratos gestionados. Esta página resume, en texto
             plano y sin depender de contexto externo, qué ofrece la empresa y dónde encontrar cada recurso.
           </p>
           <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="inline-block mt-8">
