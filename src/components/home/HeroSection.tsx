@@ -32,7 +32,7 @@ export default function HeroSection() {
             ))}
           </div>
           <div className="flex flex-wrap gap-4 items-center mb-8">
-            {["+25 años de experiencia", "+2,000 contratos gestionados"].map((stat) => (
+            {["+25 años de experiencia", "Miles de contratos gestionados"].map((stat) => (
               <span key={stat} className="bg-primary-foreground/10 border border-primary-foreground/20 rounded-lg px-4 py-2 text-sm font-semibold text-primary-foreground/90">
                 {stat}
               </span>

@@ -193,7 +193,7 @@ export default function RentarACadenasNacionales() {
       </p>
 
       <p>
-        En <strong>DEVERI</strong> hemos gestionado más de 2,000 contratos de renta en Veracruz, Boca del Río, Medellín y la Riviera Veracruzana, incluyendo contratos comerciales con cadenas nacionales. Cuando trabajas con nosotros:
+        En <strong>DEVERI</strong> hemos gestionado miles de contratos de renta en Veracruz, Boca del Río, Medellín y la Riviera Veracruzana, incluyendo contratos comerciales con cadenas nacionales. Cuando trabajas con nosotros:
       </p>
 
       <FeatureList items={[
