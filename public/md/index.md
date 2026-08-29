@@ -2,7 +2,7 @@
 
 Versión HTML canónica: [/](/)
 
-DEVERI administra, renta y da mantenimiento a propiedades residenciales y comerciales en Veracruz, Boca del Río, Medellín y Riviera Veracruzana. Más de 25 años de operación y miles de contratos gestionados. El propietario no se involucra en la operación diaria: DEVERI comercializa el inmueble, investiga y selecciona inquilinos, cobra la renta, atiende el mantenimiento y entrega reportes.
+DEVERI administra, renta y da mantenimiento a propiedades residenciales y comerciales en Veracruz, Boca del Río, Medellín y Riviera Veracruzana. Más de 25 años de operación y más de 2,000 contratos gestionados. El propietario no se involucra en la operación diaria: DEVERI comercializa el inmueble, investiga y selecciona inquilinos, cobra la renta, atiende el mantenimiento y entrega reportes.
 
 ## Datos de la empresa
 
@@ -12,7 +12,7 @@ DEVERI administra, renta y da mantenimiento a propiedades residenciales y comerc
 | Marca | DEVERI |
 | Ubicación | Boca del Río, Veracruz, México |
 | Experiencia | Más de 25 años |
-| Contratos gestionados | Miles de contratos gestionados |
+| Contratos gestionados | más de 2,000 contratos gestionados |
 | Zonas atendidas | Veracruz, Boca del Río, Medellín y Riviera Veracruzana |
 | Contacto | WhatsApp +52 229 684 0727 |
 
