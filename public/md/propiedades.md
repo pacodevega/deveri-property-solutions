@@ -37,7 +37,7 @@ Planta baja de 220 m² con acceso a pie de calle sobre la principal avenida come
 - URL: /propiedades/hipico-local-3
 - Estado: Disponible
 - Tipo: Local comercial · Operación: Renta
-- Precio: $11,400 MXN (mensuales + $600 de agua · total $12,000)
+- Precio: $11,300 MXN (mensuales + $600 de agua · total $11,900)
 - Superficie: 50 m²
 - Ubicación: Plaza Hípico, junto al Súper Carranza, Veracruz
 
