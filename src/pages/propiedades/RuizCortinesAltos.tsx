@@ -21,12 +21,19 @@ import {
 
 import fachada from "@/assets/propiedades/ruiz-cortines-fachada.jpg";
 import avenida from "@/assets/propiedades/ruiz-cortines-avenida.jpg";
-import terraza from "@/assets/propiedades/ruiz-cortines-terraza.jpg";
-import interior1 from "@/assets/propiedades/ruiz-cortines-interior-1.jpg";
-import interior2 from "@/assets/propiedades/ruiz-cortines-interior-2.jpg";
-import interior3 from "@/assets/propiedades/ruiz-cortines-interior-3.jpg";
-import privado from "@/assets/propiedades/ruiz-cortines-privado.jpg";
-import privado2 from "@/assets/propiedades/ruiz-cortines-privado-2.jpg";
+import altos1 from "@/assets/propiedades/altos-1.jpg";
+import altos2 from "@/assets/propiedades/altos-2.jpg";
+import altos3 from "@/assets/propiedades/altos-3.jpg";
+import altos4 from "@/assets/propiedades/altos-4.jpg";
+import altos5 from "@/assets/propiedades/altos-5.jpg";
+import altos6 from "@/assets/propiedades/altos-6.jpg";
+import altos7 from "@/assets/propiedades/altos-7.jpg";
+import altos8 from "@/assets/propiedades/altos-8.jpg";
+import altos9 from "@/assets/propiedades/altos-9.jpg";
+import altos10 from "@/assets/propiedades/altos-10.jpg";
+import altos11 from "@/assets/propiedades/altos-11.jpg";
+import altos12 from "@/assets/propiedades/altos-12.jpg";
+import altos13 from "@/assets/propiedades/altos-13.jpg";
 
 const PHONE = "522296840727";
 const wa = (text: string) => `https://wa.me/${PHONE}?text=${encodeURIComponent(text)}`;
