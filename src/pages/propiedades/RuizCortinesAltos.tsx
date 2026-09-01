@@ -52,12 +52,19 @@ const MAPS_URL = "https://maps.app.goo.gl/dFTJ4uaSY8tGbQX99?g_st=ac";
 const photos = [
   { src: fachada, alt: "Fachada del local comercial en renta sobre Av. Ruiz Cortines, Boca del Río" },
   { src: avenida, alt: "Vista del inmueble sobre Avenida Ruiz Cortines con alto flujo vehicular" },
-  { src: terraza, alt: "Terraza de la planta alta del local comercial en Ruiz Cortines" },
-  { src: interior1, alt: "Interior amplio de la planta alta con acabados en buen estado" },
-  { src: interior2, alt: "Espacio interior diáfano de la planta alta, 180 m²" },
-  { src: interior3, alt: "Distribución interior adaptable de la planta alta" },
-  { src: privado, alt: "Área privada con ventanales y ventilación" },
-  { src: privado2, alt: "Privado adicional dentro de la planta alta" },
+  { src: altos1, alt: "Baño con acabados en madera y mingitorio en la planta alta de Ruiz Cortines" },
+  { src: altos2, alt: "Área diáfana de la planta alta con columnas decorativas en madera" },
+  { src: altos3, alt: "Amplio espacio interior remodelado de la planta alta" },
+  { src: altos4, alt: "Zona interior con ventanales y accesos a privados y baños" },
+  { src: altos5, alt: "Baño con lavabo de diseño y muro en madera" },
+  { src: altos6, alt: "Espacio interior iluminado con acceso a baños" },
+  { src: altos7, alt: "Área con muro azul y ventanales en la planta alta" },
+  { src: altos8, alt: "Módulo de baños de hombres y mujeres con acabados en madera" },
+  { src: altos9, alt: "Vista general del interior de 180 m² de la planta alta" },
+  { src: altos10, alt: "Baño interior con azulejo blanco y ventana" },
+  { src: altos11, alt: "Terraza de la planta alta con piso tipo madera" },
+  { src: altos12, alt: "Zona interior con acceso a escaleras y cancelería de cristal" },
+  { src: altos13, alt: "Terraza exterior amplia de la planta alta en Ruiz Cortines" },
 ];
 
 const specs = [
