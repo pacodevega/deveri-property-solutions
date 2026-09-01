@@ -21,12 +21,19 @@ import {
 
 import fachada from "@/assets/propiedades/ruiz-cortines-fachada.jpg";
 import avenida from "@/assets/propiedades/ruiz-cortines-avenida.jpg";
-import terraza from "@/assets/propiedades/ruiz-cortines-terraza.jpg";
-import interior1 from "@/assets/propiedades/ruiz-cortines-interior-1.jpg";
-import interior2 from "@/assets/propiedades/ruiz-cortines-interior-2.jpg";
-import interior3 from "@/assets/propiedades/ruiz-cortines-interior-3.jpg";
-import privado from "@/assets/propiedades/ruiz-cortines-privado.jpg";
-import privado2 from "@/assets/propiedades/ruiz-cortines-privado-2.jpg";
+import altos1 from "@/assets/propiedades/altos-1.jpg";
+import altos2 from "@/assets/propiedades/altos-2.jpg";
+import altos3 from "@/assets/propiedades/altos-3.jpg";
+import altos4 from "@/assets/propiedades/altos-4.jpg";
+import altos5 from "@/assets/propiedades/altos-5.jpg";
+import altos6 from "@/assets/propiedades/altos-6.jpg";
+import altos7 from "@/assets/propiedades/altos-7.jpg";
+import altos8 from "@/assets/propiedades/altos-8.jpg";
+import altos9 from "@/assets/propiedades/altos-9.jpg";
+import altos10 from "@/assets/propiedades/altos-10.jpg";
+import altos11 from "@/assets/propiedades/altos-11.jpg";
+import altos12 from "@/assets/propiedades/altos-12.jpg";
+import altos13 from "@/assets/propiedades/altos-13.jpg";
 
 const PHONE = "522296840727";
 const wa = (text: string) => `https://wa.me/${PHONE}?text=${encodeURIComponent(text)}`;
@@ -45,12 +52,19 @@ const MAPS_URL = "https://maps.app.goo.gl/dFTJ4uaSY8tGbQX99?g_st=ac";
 const photos = [
   { src: fachada, alt: "Fachada del local comercial en renta sobre Av. Ruiz Cortines, Boca del Río" },
   { src: avenida, alt: "Vista del inmueble sobre Avenida Ruiz Cortines con alto flujo vehicular" },
-  { src: terraza, alt: "Terraza de la planta alta del local comercial en Ruiz Cortines" },
-  { src: interior1, alt: "Interior amplio de la planta alta con acabados en buen estado" },
-  { src: interior2, alt: "Espacio interior diáfano de la planta alta, 180 m²" },
-  { src: interior3, alt: "Distribución interior adaptable de la planta alta" },
-  { src: privado, alt: "Área privada con ventanales y ventilación" },
-  { src: privado2, alt: "Privado adicional dentro de la planta alta" },
+  { src: altos1, alt: "Baño con acabados en madera y mingitorio en la planta alta de Ruiz Cortines" },
+  { src: altos2, alt: "Área diáfana de la planta alta con columnas decorativas en madera" },
+  { src: altos3, alt: "Amplio espacio interior remodelado de la planta alta" },
+  { src: altos4, alt: "Zona interior con ventanales y accesos a privados y baños" },
+  { src: altos5, alt: "Baño con lavabo de diseño y muro en madera" },
+  { src: altos6, alt: "Espacio interior iluminado con acceso a baños" },
+  { src: altos7, alt: "Área con muro azul y ventanales en la planta alta" },
+  { src: altos8, alt: "Módulo de baños de hombres y mujeres con acabados en madera" },
+  { src: altos9, alt: "Vista general del interior de 180 m² de la planta alta" },
+  { src: altos10, alt: "Baño interior con azulejo blanco y ventana" },
+  { src: altos11, alt: "Terraza de la planta alta con piso tipo madera" },
+  { src: altos12, alt: "Zona interior con acceso a escaleras y cancelería de cristal" },
+  { src: altos13, alt: "Terraza exterior amplia de la planta alta en Ruiz Cortines" },
 ];
 
 const specs = [
@@ -236,6 +250,18 @@ export default function RuizCortinesAltos() {
               ))}
             </ul>
 
+            {/* Video */}
+            <h2 className="mt-14 text-2xl md:text-3xl font-extrabold text-foreground">Video</h2>
+            <div className="mt-5 relative w-full overflow-hidden rounded-2xl border bg-muted aspect-video">
+              <iframe
+                src="https://www.youtube.com/embed/XGx25wt9hmI"
+                title="Recorrido en video del local comercial Ruiz Cortines Altos, Boca del Río"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+                loading="lazy"
+                className="absolute inset-0 h-full w-full"
+              />
+            </div>
 
 
 

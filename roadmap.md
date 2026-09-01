@@ -1,0 +1,4 @@
+- [x] Hípico: reemplazar fotos
+- [ ] Ruiz Cortines Altos: video XGx25wt9hmI + nuevas fotos (dejar solo las 2 primeras)
+- [x] Ruiz Cortines Altos: video + fotos nuevas
+- [x] Hípico: video JS5HlMYnIWQ
