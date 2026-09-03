@@ -60,7 +60,7 @@ export const propiedades: Propiedad[] = [
     ciudad: "Boca del Río",
     resumen:
       "Planta alta de 180 m² sobre la principal avenida comercial de Boca del Río. Amplios espacios, baños, privado, bodega y terraza. Opción de rentar 400 m² con la planta baja.",
-    destacados: ["Planta alta", "Terraza", "Alto flujo vehicular"],
+    destacados: ["Planta alta", "Terraza", "Conexión 220V", "Alto flujo vehicular"],
     imagen: ruizCortines,
     imagenAlt:
       "Fachada del local comercial en renta sobre Avenida Ruiz Cortines, Boca del Río",
@@ -78,7 +78,7 @@ export const propiedades: Propiedad[] = [
     ciudad: "Boca del Río",
     resumen:
       "Planta baja de 220 m² con acceso a pie de calle sobre la principal avenida comercial de Boca del Río. Baño de hombres con mingitorios, baño de mujeres, zona de caja, privado climatizado, 4 aires acondicionados y cuarto bodega. Opción de rentar 400 m² con la planta alta.",
-    destacados: ["Planta baja", "Pie de calle", "Alto flujo vehicular"],
+    destacados: ["Planta baja", "Pie de calle", "Conexión 220V", "Alto flujo vehicular"],
     imagen: ruizCortinesBajos,
     imagenAlt:
       "Fachada del local comercial en planta baja en renta sobre Avenida Ruiz Cortines, Boca del Río",
