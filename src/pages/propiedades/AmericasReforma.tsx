@@ -13,6 +13,7 @@ import {
   Building2,
   DoorClosed,
   Package,
+  Zap,
   CheckCircle2,
   X,
 } from "lucide-react";
@@ -48,6 +49,7 @@ const specs = [
   { icon: Building2, label: "Nivel", value: "Segundo piso" },
   { icon: Bath, label: "Baños", value: "2 medios baños" },
   { icon: Snowflake, label: "Clima", value: "4 aires acondicionados" },
+  { icon: Zap, label: "Instalación eléctrica", value: "Conexión 220V" },
 ];
 
 const highlights = [
@@ -63,6 +65,7 @@ const includes = [
   "Bodega",
   "2 medios baños",
   "4 aires acondicionados",
+  "Conexión eléctrica de 220V",
   "Ideal para oficinas, despachos o consultorios",
 ];
 
@@ -246,6 +249,7 @@ export default function AmericasReforma() {
                 <div className="flex justify-between gap-3"><span>Nivel</span><span className="font-medium text-foreground">Segundo piso</span></div>
                 <div className="flex justify-between gap-3"><span>Privados</span><span className="font-medium text-foreground">2</span></div>
                 <div className="flex justify-between gap-3"><span>Baños</span><span className="font-medium text-foreground">2 medios baños</span></div>
+                <div className="flex justify-between gap-3"><span>Corriente</span><span className="font-medium text-foreground">220V</span></div>
                 <div className="flex justify-between gap-3"><span>Ubicación</span><span className="font-medium text-foreground text-right">Reforma, Veracruz</span></div>
               </div>
 
