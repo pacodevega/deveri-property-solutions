@@ -13,6 +13,7 @@ import {
   Eye,
   Building2,
   Sun,
+  Zap,
   CheckCircle2,
   X,
   ArrowUpRight,
@@ -71,6 +72,7 @@ const specs = [
   { icon: Ruler, label: "Superficie", value: "180 m²" },
   { icon: Layers, label: "Nivel", value: "Planta alta" },
   { icon: Bath, label: "Baños", value: "Hombres y mujeres" },
+  { icon: Zap, label: "Instalación eléctrica", value: "Conexión 220V" },
   { icon: MapPin, label: "Ubicación", value: "Av. Ruiz Cortines" },
 ];
 
@@ -99,6 +101,7 @@ const includes = [
   "1 privado",
   "1 cuarto bodega",
   "Terraza",
+  "Conexión eléctrica de 220V",
   "Distribución funcional y adaptable a distintos giros",
 ];
 
@@ -360,6 +363,10 @@ export default function RuizCortinesAltos() {
                 <div className="flex justify-between gap-3">
                   <span>Nivel</span>
                   <span className="font-medium text-foreground">Planta alta</span>
+                </div>
+                <div className="flex justify-between gap-3">
+                  <span>Corriente</span>
+                  <span className="font-medium text-foreground">220V</span>
                 </div>
                 <div className="flex justify-between gap-3">
                   <span>Extras</span>
