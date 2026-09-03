@@ -13,6 +13,7 @@ import {
   Eye,
   Building2,
   Layers,
+  Zap,
   CheckCircle2,
   X,
   ArrowUpRight,
@@ -65,6 +66,7 @@ const specs = [
   { icon: Layers, label: "Nivel", value: "Planta baja" },
   { icon: Bath, label: "Baños", value: "Hombres y mujeres" },
   { icon: Building2, label: "Clima", value: "4 aires acondicionados" },
+  { icon: Zap, label: "Instalación eléctrica", value: "Conexión 220V" },
   { icon: MapPin, label: "Ubicación", value: "Av. Ruiz Cortines" },
 ];
 
@@ -94,6 +96,7 @@ const includes = [
   "Zona de caja",
   "Privado climatizado",
   "4 aires acondicionados",
+  "Conexión eléctrica de 220V",
   "1 cuarto bodega",
   "Distribución funcional y adaptable a distintos giros",
 ];
@@ -360,6 +363,10 @@ export default function RuizCortinesBajos() {
                 <div className="flex justify-between gap-3">
                   <span>Nivel</span>
                   <span className="font-medium text-foreground">Planta baja</span>
+                </div>
+                <div className="flex justify-between gap-3">
+                  <span>Corriente</span>
+                  <span className="font-medium text-foreground">220V</span>
                 </div>
                 <div className="flex justify-between gap-3">
                   <span>Extras</span>
