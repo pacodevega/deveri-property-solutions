@@ -13,6 +13,7 @@ import {
   BedDouble,
   Snowflake,
   WashingMachine,
+  Zap,
   CheckCircle2,
   X,
 } from "lucide-react";
@@ -53,6 +54,7 @@ const specs = [
   { icon: Bath, label: "Baños", value: "1 completo y 1 medio" },
   { icon: WashingMachine, label: "Cuarto de lavado", value: "Sí" },
   { icon: Snowflake, label: "Aires acondicionados", value: "2" },
+  { icon: Zap, label: "Instalación eléctrica", value: "Conexión 220V" },
 ];
 
 const highlights = [
@@ -68,6 +70,7 @@ const includes = [
   "1 medio baño",
   "Cuarto de lavado",
   "2 aires acondicionados",
+  "Conexión eléctrica de 220V",
   "Sala y comedor amplios",
   "Cocina con alacena y tarja",
   "Zona bien conectada en Boca del Río",
@@ -255,6 +258,7 @@ export default function CasaOrizaba() {
                 <div className="flex justify-between gap-3"><span>Medio baño</span><span className="font-medium text-foreground">1</span></div>
                 <div className="flex justify-between gap-3"><span>Cuarto de lavado</span><span className="font-medium text-foreground">Sí</span></div>
                 <div className="flex justify-between gap-3"><span>Aires acondicionados</span><span className="font-medium text-foreground">2</span></div>
+                <div className="flex justify-between gap-3"><span>Corriente</span><span className="font-medium text-foreground">220V</span></div>
                 <div className="flex justify-between gap-3"><span>Ubicación</span><span className="font-medium text-foreground text-right">Boca del Río</span></div>
               </div>
 
