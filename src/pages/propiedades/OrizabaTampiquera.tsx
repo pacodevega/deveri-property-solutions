@@ -13,6 +13,7 @@ import {
   Ruler,
   BedDouble,
   Snowflake,
+  Zap,
   CheckCircle2,
   X,
 } from "lucide-react";
@@ -47,6 +48,7 @@ const specs = [
   { icon: Bath, label: "Baños", value: "2" },
   { icon: Sofa, label: "Mobiliario", value: "Amueblado" },
   { icon: Snowflake, label: "Clima", value: "Climatizado" },
+  { icon: Zap, label: "Instalación eléctrica", value: "Conexión 220V" },
 ];
 
 const highlights = [
@@ -61,6 +63,7 @@ const includes = [
   "2 recámaras",
   "2 baños",
   "Totalmente climatizado",
+  "Conexión eléctrica de 220V",
   "Sala y comedor equipados",
   "Cocina con tarja y estufa",
   "Zona bien conectada en Boca del Río",
@@ -246,6 +249,7 @@ export default function OrizabaTampiquera() {
                 <div className="flex justify-between gap-3"><span>Baños</span><span className="font-medium text-foreground">2</span></div>
                 <div className="flex justify-between gap-3"><span>Mobiliario</span><span className="font-medium text-foreground">Amueblado</span></div>
                 <div className="flex justify-between gap-3"><span>Clima</span><span className="font-medium text-foreground">Climatizado</span></div>
+                <div className="flex justify-between gap-3"><span>Corriente</span><span className="font-medium text-foreground">220V</span></div>
                 <div className="flex justify-between gap-3"><span>Ubicación</span><span className="font-medium text-foreground text-right">Boca del Río</span></div>
               </div>
 
