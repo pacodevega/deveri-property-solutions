@@ -151,7 +151,7 @@ export const propiedades: Propiedad[] = [
     ciudad: "Veracruz",
     resumen:
       "Local comercial de 90 m² en Poniente 3, a pasos de Avenida Sugasti. 2 baños, espacio amplio y versátil en zona de alto movimiento peatonal.",
-    destacados: ["2 baños", "90 m² amplios", "Alto flujo peatonal"],
+    destacados: ["2 baños", "90 m² amplios", "Conexión 110V", "Alto flujo peatonal"],
     imagen: ponienteFachada,
     imagenAlt:
       "Fachada del local comercial en Poniente 3, a pasos de Avenida Sugasti, Veracruz",

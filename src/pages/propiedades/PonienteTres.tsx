@@ -13,6 +13,7 @@ import {
   Store,
   Eye,
   Users,
+  Zap,
   CheckCircle2,
   X,
 } from "lucide-react";
@@ -46,6 +47,7 @@ const photos = [
 const specs = [
   { icon: Ruler, label: "Superficie", value: "90 m²" },
   { icon: Bath, label: "Baños", value: "2" },
+  { icon: Zap, label: "Instalación eléctrica", value: "Conexión 110V" },
   { icon: Droplets, label: "Agua", value: "$900 MXN / mes" },
   { icon: MapPin, label: "Ubicación", value: "Poniente 3, Veracruz" },
 ];
@@ -60,6 +62,7 @@ const includes = [
   "90 m² de superficie",
   "Un solo local comercial",
   "2 baños",
+  "Conexión eléctrica de 110V",
   "Distribución funcional y adaptable",
   "Ideal para atención al público, exhibición, oficina, servicios o almacenamiento",
 ];
@@ -243,7 +246,8 @@ export default function PonienteTres() {
               <div className="mt-5 space-y-2 text-sm text-muted-foreground border-t pt-5">
                 <div className="flex justify-between gap-3"><span>Superficie</span><span className="font-medium text-foreground">90 m²</span></div>
                 <div className="flex justify-between gap-3"><span>Baños</span><span className="font-medium text-foreground">2</span></div>
-                                <div className="flex justify-between gap-3"><span>Ubicación</span><span className="font-medium text-foreground text-right">Poniente 3, Veracruz</span></div>
+                <div className="flex justify-between gap-3"><span>Corriente</span><span className="font-medium text-foreground">110V</span></div>
+                <div className="flex justify-between gap-3"><span>Ubicación</span><span className="font-medium text-foreground text-right">Poniente 3, Veracruz</span></div>
               </div>
 
               <Link to="/propiedades" className="block mt-6">
