@@ -13,6 +13,7 @@ import {
   Store,
   Eye,
   Users,
+  Zap,
   CheckCircle2,
   X,
 } from "lucide-react";
@@ -46,6 +47,7 @@ const photos = [
 const specs = [
   { icon: Ruler, label: "Superficie", value: "40 m²" },
   { icon: Bath, label: "Baños privados", value: "2" },
+  { icon: Zap, label: "Instalación eléctrica", value: "Conexión 220V" },
   { icon: Droplets, label: "Agua", value: "$900 MXN / mes" },
   { icon: MapPin, label: "Ubicación", value: "Reforma, Veracruz" },
 ];
@@ -61,6 +63,7 @@ const includes = [
   "Un solo local comercial",
   "2 baños privados",
   "Tarja",
+  "Conexión eléctrica de 220V",
   "Distribución funcional y adaptable",
   "Ideal para atención al público, oficina, exhibición o servicios",
 ];
@@ -245,6 +248,7 @@ export default function GrijalvaReforma() {
                 <div className="flex justify-between gap-3"><span>Superficie</span><span className="font-medium text-foreground">40 m²</span></div>
                 <div className="flex justify-between gap-3"><span>Baños</span><span className="font-medium text-foreground">2 privados</span></div>
                 <div className="flex justify-between gap-3"><span>Tarja</span><span className="font-medium text-foreground">Sí</span></div>
+                <div className="flex justify-between gap-3"><span>Corriente</span><span className="font-medium text-foreground">220V</span></div>
                 <div className="flex justify-between gap-3"><span>Ubicación</span><span className="font-medium text-foreground text-right">Reforma, Veracruz</span></div>
               </div>
 
