@@ -96,7 +96,7 @@ export const propiedades: Propiedad[] = [
     ciudad: "Veracruz",
     resumen:
       "Local de 50 m² en Plaza Hípico, junto al Súper Carranza. Baño privado y espacio funcional adaptable a diferentes giros comerciales.",
-    destacados: ["Junto al Súper Carranza", "Baño privado", "Adaptable"],
+    destacados: ["Junto al Súper Carranza", "Baño privado", "Conexión 220V", "Adaptable"],
     imagen: hipicoFachada,
     imagenAlt:
       "Fachada del local comercial en renta en Plaza Hípico, junto al Súper Carranza, Veracruz",
@@ -133,7 +133,7 @@ export const propiedades: Propiedad[] = [
     ciudad: "Veracruz",
     resumen:
       "Local de 40 m² sobre Grijalva, casi esquina con Colón, en Reforma. 2 baños privados, tarja y distribución funcional adaptable a distintos giros.",
-    destacados: ["2 baños privados", "Tarja", "Zona comercial activa"],
+    destacados: ["2 baños privados", "Tarja", "Conexión 220V", "Zona comercial activa"],
     imagen: grijalvaFachada,
     imagenAlt:
       "Fachada del local comercial sobre Grijalva, casi esquina con Colón, Reforma, Veracruz",
@@ -169,7 +169,7 @@ export const propiedades: Propiedad[] = [
     ciudad: "Veracruz",
     resumen:
       "Oficina de 110 m² en segundo piso, totalmente climatizada: 2 privados, zona de cocina, bodega, 2 medios baños y 4 aires acondicionados.",
-    destacados: ["2 privados", "4 aires acondicionados", "Cocina y bodega"],
+    destacados: ["2 privados", "4 aires acondicionados", "Conexión 220V", "Cocina y bodega"],
     imagen: americasFachada,
     imagenAlt:
       "Área principal de la oficina en Avenida de las Américas, colonia Reforma, Veracruz",
@@ -204,7 +204,7 @@ export const propiedades: Propiedad[] = [
     ciudad: "Boca del Río",
     resumen:
       "Departamento completamente amueblado y climatizado junto a La Tampiquera, con 2 recámaras y 2 baños. Listo para habitar.",
-    destacados: ["Amueblado", "2 recámaras", "Climatizado"],
+    destacados: ["Amueblado", "2 recámaras", "Climatizado", "Conexión 220V"],
     imagen: orizabaFachada,
     imagenAlt:
       "Sala y comedor amueblados del departamento en calle Orizaba, Boca del Río",
@@ -222,7 +222,7 @@ export const propiedades: Propiedad[] = [
     ciudad: "Boca del Río",
     resumen:
       "Casa de 3 recámaras con 1 baño completo, 1 medio baño, cuarto de lavado y 2 aires acondicionados, a unas cuadras de La Tampiquera.",
-    destacados: ["3 recámaras", "Cuarto de lavado", "2 aires acondicionados"],
+    destacados: ["3 recámaras", "Cuarto de lavado", "2 aires acondicionados", "Conexión 220V"],
     imagen: casaOrizabaFachada,
     imagenAlt: "Fachada de la casa en renta sobre calle Orizaba, Boca del Río",
     disponible: false,
