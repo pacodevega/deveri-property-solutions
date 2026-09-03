@@ -12,6 +12,7 @@ import {
   Store,
   Users,
   Eye,
+  Zap,
   CheckCircle2,
   X,
   ArrowUpRight,
@@ -38,6 +39,7 @@ const photos = [
 const specs = [
   { icon: Ruler, label: "Superficie", value: "50 m²" },
   { icon: Bath, label: "Baño privado", value: "1" },
+  { icon: Zap, label: "Instalación eléctrica", value: "Conexión 220V" },
   { icon: Droplets, label: "Agua", value: "$600 MXN / mes" },
   { icon: MapPin, label: "Ubicación", value: "Plaza Hípico" },
 ];
@@ -51,6 +53,7 @@ const highlights = [
 const includes = [
   "50 m² de superficie útil",
   "Baño privado dentro del local",
+  "Conexión eléctrica de 220V",
   "Espacio funcional y adaptable a distintos giros",
   "Excelente ubicación dentro de la plaza",
   "Ideal para oficinas, consultorios, servicios o comercio",
@@ -231,6 +234,7 @@ export default function HipicoLocal3() {
               <div className="mt-5 space-y-2 text-sm text-muted-foreground border-t pt-5">
                 <div className="flex justify-between gap-3"><span>Superficie</span><span className="font-medium text-foreground">50 m²</span></div>
                 <div className="flex justify-between gap-3"><span>Baño</span><span className="font-medium text-foreground">1 privado</span></div>
+                <div className="flex justify-between gap-3"><span>Corriente</span><span className="font-medium text-foreground">220V</span></div>
                 <div className="flex justify-between gap-3"><span>Ubicación</span><span className="font-medium text-foreground text-right">Plaza Hípico</span></div>
               </div>
 
