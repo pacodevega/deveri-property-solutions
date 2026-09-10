@@ -65,7 +65,7 @@ const specs = [
   { icon: Ruler, label: "Superficie", value: "220 m²" },
   { icon: Layers, label: "Nivel", value: "Planta baja" },
   { icon: Bath, label: "Baños", value: "Hombres y mujeres" },
-  { icon: Building2, label: "Clima", value: "4 aires acondicionados" },
+  { icon: Building2, label: "Clima", value: "4 aires acondicionados (3×36k BTU + 1×18k BTU)" },
   { icon: Zap, label: "Instalación eléctrica", value: "Conexión 220V" },
   { icon: MapPin, label: "Ubicación", value: "Av. Ruiz Cortines" },
 ];
