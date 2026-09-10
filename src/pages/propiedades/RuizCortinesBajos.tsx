@@ -95,7 +95,7 @@ const includes = [
   "Baño de mujeres",
   "Zona de caja",
   "Privado climatizado",
-  "4 aires acondicionados",
+  "4 aires acondicionados: 3 de 36,000 BTU y 1 de 18,000 BTU",
   "Conexión eléctrica de 220V",
   "1 cuarto bodega",
   "Distribución funcional y adaptable a distintos giros",
