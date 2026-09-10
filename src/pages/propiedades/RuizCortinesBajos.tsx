@@ -369,9 +369,9 @@ export default function RuizCortinesBajos() {
                   <span className="font-medium text-foreground">220V</span>
                 </div>
                 <div className="flex justify-between gap-3">
-                  <span>Extras</span>
+                  <span>Clima</span>
                   <span className="font-medium text-foreground text-right">
-                    2 baños y 1 bodega
+                    4 aires: 3×36k BTU + 1×18k BTU
                   </span>
                 </div>
               </div>
