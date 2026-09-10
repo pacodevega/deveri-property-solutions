@@ -65,7 +65,7 @@ const specs = [
   { icon: Ruler, label: "Superficie", value: "220 m²" },
   { icon: Layers, label: "Nivel", value: "Planta baja" },
   { icon: Bath, label: "Baños", value: "Hombres y mujeres" },
-  { icon: Building2, label: "Clima", value: "4 aires acondicionados" },
+  { icon: Building2, label: "Clima", value: "4 aires acondicionados (3×36k BTU + 1×18k BTU)" },
   { icon: Zap, label: "Instalación eléctrica", value: "Conexión 220V" },
   { icon: MapPin, label: "Ubicación", value: "Av. Ruiz Cortines" },
 ];
@@ -95,7 +95,7 @@ const includes = [
   "Baño de mujeres",
   "Zona de caja",
   "Privado climatizado",
-  "4 aires acondicionados",
+  "4 aires acondicionados: 3 de 36,000 BTU y 1 de 18,000 BTU",
   "Conexión eléctrica de 220V",
   "1 cuarto bodega",
   "Distribución funcional y adaptable a distintos giros",
@@ -369,9 +369,9 @@ export default function RuizCortinesBajos() {
                   <span className="font-medium text-foreground">220V</span>
                 </div>
                 <div className="flex justify-between gap-3">
-                  <span>Extras</span>
+                  <span>Clima</span>
                   <span className="font-medium text-foreground text-right">
-                    2 baños y 1 bodega
+                    4 aires: 3×36k BTU + 1×18k BTU
                   </span>
                 </div>
               </div>
