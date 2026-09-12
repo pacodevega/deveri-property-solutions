@@ -26,7 +26,7 @@ import sesaba from "@/assets/clients/sesaba.png";
 import elJabali from "@/assets/clients/el-jabali.png";
 import clamato from "@/assets/clients/clamato.png";
 import yemanya from "@/assets/clients/yemanya.png";
-import arteDental from "@/assets/clients/arte-dental.png.asset.json";
+import arteDental from "@/assets/clients/arte-dental.png";
 
 export interface Client {
   name: string;
