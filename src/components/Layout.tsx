@@ -100,6 +100,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 <li><Link to="/administracion-de-propiedades-veracruz" className="hover:text-accent transition-colors">Administración</Link></li>
                 <li><Link to="/renta-de-propiedades-veracruz" className="hover:text-accent transition-colors">Renta</Link></li>
                 <li><Link to="/mantenimiento-de-propiedades-veracruz" className="hover:text-accent transition-colors">Mantenimiento</Link></li>
+                <li><Link to="/cobranza-extrajudicial-de-rentas" className="hover:text-accent transition-colors">Cobranza extrajudicial</Link></li>
               </ul>
             </div>
             <div>
