@@ -37,6 +37,9 @@ export default function CobranzaSEO() {
       <section className="section-padding relative overflow-hidden" style={{ background: "var(--hero-gradient)" }}>
         <div className="container-narrow grid md:grid-cols-2 gap-8 items-center">
           <div className="text-primary-foreground">
+            <div className="bg-white rounded-xl px-5 py-3 inline-block mb-6 shadow-lg">
+              <img src={gescobLogo} alt="GESCOB — Gestión Estratégica de Cobranza" className="h-10 md:h-12 w-auto" />
+            </div>
             <h1 className="text-3xl md:text-5xl font-extrabold mb-4 leading-tight">
               Cobranza extrajudicial de rentas en México
             </h1>
@@ -96,10 +99,10 @@ export default function CobranzaSEO() {
           <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-6 text-center">¿Por qué elegir este servicio?</h2>
           <div className="grid sm:grid-cols-2 gap-6">
             {[
-              { icon: TrendingUp, text: "Recupera rentas vencidas de forma ordenada" },
+              { icon: TrendingUp, text: "Experiencia especializada en cobranza de arrendamientos y pagos de mantenimiento" },
+              { icon: ShieldCheck, text: "Cumplimiento CONDUSEF y REDECO por diseño en cada gestión" },
               { icon: Building2, text: "Cobertura en todo México" },
-              { icon: ShieldCheck, text: "Confidencialidad en toda la gestión" },
-              { icon: CheckCircle2, text: "Respaldado por DEVERI y GESCOB" },
+              { icon: CheckCircle2, text: "Confidencialidad y respaldo de DEVERI y GESCOB" },
             ].map((b) => (
               <div key={b.text} className="flex items-start gap-4 bg-card border rounded-xl p-5">
                 <b.icon className="w-6 h-6 text-accent shrink-0 mt-0.5" />
