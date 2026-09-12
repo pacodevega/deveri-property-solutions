@@ -30,6 +30,7 @@ const entries = [
   { path: "/administracion-de-propiedades-veracruz", changefreq: "monthly", priority: "0.9" },
   { path: "/renta-de-propiedades-veracruz", changefreq: "monthly", priority: "0.9" },
   { path: "/mantenimiento-de-propiedades-veracruz", changefreq: "monthly", priority: "0.9" },
+  { path: "/cobranza-extrajudicial-de-rentas", changefreq: "monthly", priority: "0.9" },
   { path: "/como-funciona", changefreq: "monthly", priority: "0.7" },
   { path: "/blog", changefreq: "weekly", priority: "0.8" },
   { path: "/contacto", changefreq: "yearly", priority: "0.7" },
