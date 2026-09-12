@@ -11,7 +11,9 @@ const navItems = [
   { label: "Servicios", path: "/servicios" },
   { label: "Cómo funciona", path: "/como-funciona" },
   { label: "Propiedades", path: "/propiedades" },
+  { label: "Cobranza", path: "/cobranza-extrajudicial-de-rentas" },
   { label: "DEVERI Match", path: "/deveri-match" },
+  
   
   { label: "Blog", path: "/blog" },
   { label: "Contacto", path: "/contacto" },
