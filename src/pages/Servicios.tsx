@@ -10,7 +10,7 @@ const services = [
   { icon: Building2, title: "Administración completa", desc: "Supervisión total, cobros, reportes y control de tu propiedad.", link: "/administracion-de-propiedades-veracruz", img: serviceAdmin },
   { icon: Key, title: "Colocación de inquilinos", desc: "Encontramos inquilinos confiables con un proceso integral.", link: "/renta-de-propiedades-veracruz", img: serviceRenta },
   { icon: Wrench, title: "Mantenimiento integral", desc: "Reparaciones, supervisión y gestión de proveedores.", link: "/mantenimiento-de-propiedades-veracruz", img: serviceMantenimiento },
-  { icon: Scale, title: "Cobranza extrajudicial de rentas", desc: "Recupera rentas vencidas con GESCOB, con cobertura en todo México.", link: "/cobranza-extrajudicial-de-rentas", img: serviceCobranza },
+  { icon: Scale, title: "Cobranza Especializada de Rentas", desc: "Recupera tus rentas vencidas y mantenimientos, cobertura en todo México.", link: "/cobranza-extrajudicial-de-rentas", img: serviceCobranza },
 ];
 
 export default function Servicios() {
