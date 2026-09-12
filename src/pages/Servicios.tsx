@@ -4,7 +4,7 @@ import SEOHead from "@/components/SEOHead";
 import serviceAdmin from "@/assets/service-admin.webp";
 import serviceRenta from "@/assets/service-renta.webp";
 import serviceMantenimiento from "@/assets/service-mantenimiento.webp";
-import serviceCobranza from "@/assets/service-cobranza.webp";
+import serviceCobranza from "@/assets/service-cobranza.png.asset.json";
 
 const services = [
   { icon: Building2, title: "Administración completa", desc: "Supervisión total, cobros, reportes y control de tu propiedad.", link: "/administracion-de-propiedades-veracruz", img: serviceAdmin },
@@ -30,7 +30,7 @@ export default function Servicios() {
         <div className="container-narrow grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {services.map((s) => (
             <Link key={s.title} to={s.link} className="group bg-card border rounded-xl overflow-hidden hover:shadow-lg hover:border-accent/30 transition-all">
-              <img src={s.img} alt={s.title} width={1280} height={720} loading="lazy" className="w-full h-48 object-cover" />
+              <img src={typeof s.img === "string" ? s.img : s.img.url} alt={s.title} width={1280} height={720} loading="lazy" className="w-full h-48 object-cover" />
               <div className="p-6">
                 <s.icon className="w-10 h-10 text-accent mb-4" />
                 <h2 className="text-xl font-bold text-foreground mb-2">{s.title}</h2>
