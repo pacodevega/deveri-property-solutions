@@ -53,7 +53,7 @@ export default function CobranzaSEO() {
             </a>
           </div>
           <div className="hidden md:block">
-            <img src={heroImg} alt="Cobranza extrajudicial de rentas en México" width={1280} height={720} className="rounded-xl shadow-2xl" />
+            <img src={heroImg.url} alt="Cobranza extrajudicial de rentas en México" width={1280} height={720} className="rounded-xl shadow-2xl" />
           </div>
         </div>
       </section>
