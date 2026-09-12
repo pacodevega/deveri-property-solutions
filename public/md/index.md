@@ -23,6 +23,7 @@ DEVERI administra, renta y da mantenimiento a propiedades residenciales y comerc
 | Colocación en renta | 1 mes de renta (una sola vez) | [/renta-de-propiedades-veracruz](/renta-de-propiedades-veracruz) |
 | Administración de propiedades | 15% de la renta mensual | [/administracion-de-propiedades-veracruz](/administracion-de-propiedades-veracruz) |
 | Mantenimiento | Por cotización | [/mantenimiento-de-propiedades-veracruz](/mantenimiento-de-propiedades-veracruz) |
+| Cobranza extrajudicial de rentas | Por cotización según cartera | [/cobranza-extrajudicial-de-rentas](/cobranza-extrajudicial-de-rentas) |
 
 ## Requisitos para inquilinos
 

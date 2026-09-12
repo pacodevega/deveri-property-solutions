@@ -20,6 +20,12 @@ Página: [/mantenimiento-de-propiedades-veracruz](/mantenimiento-de-propiedades-
 
 Equipo propio para plomería, electricidad, pintura, impermeabilización, limpieza de áreas comunes, limpieza de tinacos y cisternas, mantenimiento preventivo y correctivo. No se ofrece carpintería, cerrajería ni herrería.
 
+## Cobranza extrajudicial de rentas — Por cotización según cartera
+
+Página: [/cobranza-extrajudicial-de-rentas](/cobranza-extrajudicial-de-rentas)
+
+Recuperación de rentas vencidas a través de GESCOB, empresa hermana especializada en gestión estratégica de cobranza. Cobertura nacional para arrendadores, inmobiliarias y administradoras de inmuebles residenciales y comerciales.
+
 ## DEVERI Match
 
 Página: [/deveri-match](/deveri-match)
