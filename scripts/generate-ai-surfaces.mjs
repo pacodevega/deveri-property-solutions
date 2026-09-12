@@ -26,6 +26,7 @@ const facts = {
     colocacion: "1 mes de renta (una sola vez)",
     administracion: "15% de la renta mensual",
     mantenimiento: "Por cotización",
+    cobranza: "Por cotización según cartera",
   },
   mantenimientoIncluye:
     "plomería, electricidad, pintura, impermeabilización, limpieza de áreas comunes, limpieza de tinacos y cisternas, mantenimiento preventivo y correctivo",
@@ -120,6 +121,7 @@ DEVERI administra, renta y da mantenimiento a propiedades residenciales y comerc
 | Colocación en renta | ${facts.precios.colocacion} | [/renta-de-propiedades-veracruz](/renta-de-propiedades-veracruz) |
 | Administración de propiedades | ${facts.precios.administracion} | [/administracion-de-propiedades-veracruz](/administracion-de-propiedades-veracruz) |
 | Mantenimiento | ${facts.precios.mantenimiento} | [/mantenimiento-de-propiedades-veracruz](/mantenimiento-de-propiedades-veracruz) |
+| Cobranza extrajudicial de rentas | ${facts.precios.cobranza} | [/cobranza-extrajudicial-de-rentas](/cobranza-extrajudicial-de-rentas) |
 
 ## Requisitos para inquilinos
 
@@ -227,6 +229,12 @@ Análisis de mercado y precio sugerido, promoción del inmueble, investigación 
 Página: [/mantenimiento-de-propiedades-veracruz](/mantenimiento-de-propiedades-veracruz)
 
 Equipo propio para ${facts.mantenimientoIncluye}. No se ofrece ${facts.mantenimientoExcluye}.
+
+## Cobranza extrajudicial de rentas — ${facts.precios.cobranza}
+
+Página: [/cobranza-extrajudicial-de-rentas](/cobranza-extrajudicial-de-rentas)
+
+Recuperación de rentas vencidas a través de GESCOB, empresa hermana especializada en gestión estratégica de cobranza. Cobertura nacional para arrendadores, inmobiliarias y administradoras de inmuebles residenciales y comerciales.
 
 ## DEVERI Match
 
@@ -357,7 +365,7 @@ Datos clave:
 - Contacto principal: WhatsApp ${facts.whatsapp}.
 - Zonas atendidas: ${facts.zonas}.
 - Precios: colocación en renta = ${facts.precios.colocacion}; administración = ${facts.precios.administracion};
-  mantenimiento = ${facts.precios.mantenimiento}.
+  mantenimiento = ${facts.precios.mantenimiento}; cobranza extrajudicial = ${facts.precios.cobranza}.
 - Mantenimiento incluye: ${facts.mantenimientoIncluye}. No se ofrece ${facts.mantenimientoExcluye}.
 - Requisitos para inquilinos: ${facts.requisitosInquilino.join("; ")}.
 - No existe API pública ni servidor MCP con herramientas ejecutables. Ver /mcp para detalles.
@@ -378,6 +386,7 @@ ${propiedades.map((p) => `  - [${p.nombre}](/propiedades/${p.slug}): ${p.tipo}, 
 - [Administración de propiedades en Veracruz](/administracion-de-propiedades-veracruz): administración integral, cobranza, reportes, tarifa ${facts.precios.administracion}.
 - [Renta de propiedades en Veracruz](/renta-de-propiedades-veracruz): comercialización, investigación y selección de inquilinos, contratos.
 - [Mantenimiento de propiedades en Veracruz](/mantenimiento-de-propiedades-veracruz): mantenimiento preventivo y correctivo con equipo propio.
+- [Cobranza extrajudicial de rentas](/cobranza-extrajudicial-de-rentas): recuperación de rentas vencidas con GESCOB, cobertura nacional.
 - [DEVERI Match](/deveri-match): evalúa un local, terreno o bodega y devuelve qué cadenas nacionales y franquicias hacen match.
 - [Cómo funciona](/como-funciona): proceso paso a paso.
 - [Contacto](/contacto): formulario que envía la solicitud por WhatsApp.
