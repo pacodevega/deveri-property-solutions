@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { MessageCircle } from "lucide-react";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import SEOHead from "@/components/SEOHead";
-import heroImg from "@/assets/service-cobranza.webp";
+import heroImg from "@/assets/service-cobranza.png.asset.json";
 import gescobLogo from "@/assets/clients/gescob.png";
 
 const WHATSAPP_URL = "https://wa.me/522296840727?text=Hola%2C%20quiero%20informes%20sobre%20cobranza%20extrajudicial%20de%20rentas%20con%20GESCOB";
