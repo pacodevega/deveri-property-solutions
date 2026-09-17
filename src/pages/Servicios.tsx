@@ -17,13 +17,15 @@ export default function Servicios() {
   return (
     <>
       <SEOHead
-        title="Servicios de Administración de Propiedades en Veracruz | DEVERI"
-        description="Servicios completos para propietarios en Veracruz: administración, renta y mantenimiento de propiedades."
+        title="Administración, renta y mantenimiento en Veracruz | DEVERI"
+        description="Administración, renta y mantenimiento de propiedades en Veracruz, más cobranza especializada de rentas con cobertura en todo México."
       />
       <section className="section-padding" style={{ background: "var(--hero-gradient)" }}>
         <div className="container-narrow text-primary-foreground">
           <h1 className="text-4xl md:text-5xl font-extrabold mb-4">Servicios completos para propietarios</h1>
-          <p className="text-lg text-primary-foreground/80 max-w-2xl">Todo lo que necesitas para delegar tu propiedad en un solo lugar.</p>
+          <p className="text-lg text-primary-foreground/80 max-w-2xl">
+            Administración, renta y mantenimiento en Veracruz y Boca del Río, y cobranza especializada de rentas con cobertura en todo México.
+          </p>
         </div>
       </section>
       <section className="section-padding">
