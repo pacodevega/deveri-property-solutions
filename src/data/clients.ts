@@ -26,7 +26,9 @@ import sesaba from "@/assets/clients/sesaba.png";
 import elJabali from "@/assets/clients/el-jabali.png";
 import clamato from "@/assets/clients/clamato.png";
 import yemanya from "@/assets/clients/yemanya.png";
+import coffeeLove from "@/assets/clients/coffee-love.png.asset.json";
 import monsterHouse from "@/assets/clients/monster-house.png.asset.json";
+
 
 export interface Client {
   name: string;
