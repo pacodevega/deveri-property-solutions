@@ -40,7 +40,7 @@ const WHATSAPP_BAJOS = wa(
   "Hola, vi el local comercial Ruiz Cortines Bajos en Av. Ruiz Cortines (planta baja, 220 m²) y veo que ya está rentado. ¿Tienen otra propiedad similar disponible en la zona?"
 );
 const WHATSAPP_ALTOS = wa(
-  "Hola, me interesa el local comercial en planta alta Ruiz Cortines Altos (180 m², $30,900 MXN mensuales más $1,100 de agua) sobre Av. Ruiz Cortines, Boca del Río. ¿Me pueden dar más información?"
+  "Hola, me interesa el local comercial en planta alta Ruiz Cortines Altos (180 m², $27,000 MXN mensuales más $1,000 de agua) sobre Av. Ruiz Cortines, Boca del Río. ¿Me pueden dar más información?"
 );
 const MAPS_URL = "https://maps.app.goo.gl/dFTJ4uaSY8tGbQX99?g_st=ac";
 
@@ -323,9 +323,9 @@ export default function RuizCortinesBajos() {
                 inmueble sigue disponible, con baños, privado, bodega y terraza.
               </p>
               <p className="mt-4 text-3xl font-extrabold text-foreground">
-                $30,900{" "}
+                $27,000{" "}
                 <span className="text-base font-medium text-muted-foreground">
-                  MXN / mes + $1,100 de agua · total $32,000
+                  MXN / mes + $1,000 de agua · total $28,000
                 </span>
               </p>
               <div className="mt-6 flex flex-col sm:flex-row gap-3">
