@@ -161,22 +161,11 @@ Requisitos aplicables a todas las propiedades:
 - URL: /propiedades/ruiz-cortines-altos
 - Estado: Disponible
 - Tipo: Local comercial · Operación: Renta
-- Precio: $30,900 MXN (mensuales + $1,100 de agua · total $32,000 · ambas plantas $76,000)
+- Precio: $30,900 MXN (mensuales + $1,100 de agua · total $32,000)
 - Superficie: 180 m²
 - Ubicación: Av. Ruiz Cortines, Boca del Río
 
-Planta alta de 180 m² sobre la principal avenida comercial de Boca del Río. Amplios espacios, baños, privado, bodega y terraza. Opción de rentar 400 m² con la planta baja.
-
-### Ruiz Cortines Bajos — Local comercial
-
-- URL: /propiedades/ruiz-cortines-bajos
-- Estado: Disponible
-- Tipo: Local comercial · Operación: Renta
-- Precio: $53,500 MXN (mensuales + $1,500 de agua · total $55,000 · ambas plantas $76,000)
-- Superficie: 220 m²
-- Ubicación: Av. Ruiz Cortines, Boca del Río
-
-Planta baja de 220 m² con acceso a pie de calle sobre la principal avenida comercial de Boca del Río. Baño de hombres con mingitorios, baño de mujeres, zona de caja, privado climatizado, 4 aires acondicionados (3 de 36,000 BTU y 1 de 18,000 BTU) y cuarto bodega. Opción de rentar 400 m² con la planta alta.
+Planta alta de 180 m² sobre la principal avenida comercial de Boca del Río. Amplios espacios, baños, privado, bodega y terraza.
 
 ### Plaza Hípico — Local 3
 
@@ -202,6 +191,17 @@ Local de 50 m² en Plaza Hípico, junto al Súper Carranza. Baño privado y espa
 - Ubicación: Esquina sobre Avenida Yáñez, Veracruz
 
 Local en esquina con alto flujo vehicular y peatonal, excelente visibilidad y baño privado. Listo para operar.
+
+### Ruiz Cortines Bajos — Local comercial
+
+- URL: /propiedades/ruiz-cortines-bajos
+- Estado: Rentada recientemente (no disponible)
+- Tipo: Local comercial · Operación: Renta
+- Precio: $53,500 MXN (mensuales + $1,500 de agua · total $55,000)
+- Superficie: 220 m²
+- Ubicación: Av. Ruiz Cortines, Boca del Río
+
+Planta baja de 220 m² con acceso a pie de calle sobre la principal avenida comercial de Boca del Río. Baño de hombres con mingitorios, baño de mujeres, zona de caja, privado climatizado, 4 aires acondicionados (3 de 36,000 BTU y 1 de 18,000 BTU) y cuarto bodega.
 
 ### Local comercial Avenida Palmeras
 
