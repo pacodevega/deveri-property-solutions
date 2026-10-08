@@ -215,7 +215,7 @@ GET /md/propiedades.md   → catálogo en Markdown
 
 ### Ruiz Cortines Bajos — Local comercial
 - URL: /propiedades/ruiz-cortines-bajos
-- Estado: Disponible
+- Estado: Rentada recientemente (no disponible)
 - Precio: $53,500 MXN (+ $1,500 de agua · total $55,000)
 - Superficie: 220 m²`}
           </pre>
