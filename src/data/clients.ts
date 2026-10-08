@@ -26,7 +26,7 @@ import sesaba from "@/assets/clients/sesaba.png";
 import elJabali from "@/assets/clients/el-jabali.png";
 import clamato from "@/assets/clients/clamato.png";
 import yemanya from "@/assets/clients/yemanya.png";
-import arteDental from "@/assets/clients/arte-dental.png";
+import monsterHouse from "@/assets/clients/monster-house.png.asset.json";
 
 export interface Client {
   name: string;
@@ -63,5 +63,5 @@ export const clients: Client[] = [
   { name: "El Jabalí", logo: elJabali, large: true },
   { name: "Clamato", logo: clamato, small: true },
   { name: "Yemanya", logo: yemanya, small: true },
-  { name: "Arte Dental", logo: arteDental },
+  { name: "Monster House", logo: monsterHouse.url },
 ];
