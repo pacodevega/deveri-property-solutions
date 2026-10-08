@@ -25,7 +25,7 @@ import bano from "@/assets/propiedades/hipico-bano.jpg";
 
 const PHONE = "522296840727";
 const WHATSAPP_URL = `https://wa.me/${PHONE}?text=${encodeURIComponent(
-  "Hola, estoy interesado en el Local 3 de Plaza Hípico (50 m², $11,300 MXN + $600 de agua). ¿Me pueden dar más información?"
+  "Hola, estoy interesado en el Local 3 de Plaza Hípico (50 m², $8,500 MXN + $600 de agua). ¿Me pueden dar más información?"
 )}`;
 const MAPS_URL = "https://maps.app.goo.gl/qqBjPFQHyDFdWEj46?g_st=ac";
 
@@ -67,7 +67,7 @@ export default function HipicoLocal3() {
     <>
       <SEOHead
         title="Local en renta en Plaza Hípico, Veracruz | 50 m² | DEVERI"
-        description="Local comercial en renta en Plaza Hípico, junto al Súper Carranza. 50 m², baño privado, adaptable a cualquier giro. $11,300 MXN + $600 de agua al mes."
+        description="Local comercial en renta en Plaza Hípico, junto al Súper Carranza. 50 m², baño privado, adaptable a cualquier giro. $8,500 MXN + $600 de agua al mes."
         jsonLd={{
           "@context": "https://schema.org",
           "@type": "RealEstateListing",
@@ -75,7 +75,7 @@ export default function HipicoLocal3() {
           description:
             "Local comercial de 50 m² en Plaza Hípico, junto al Súper Carranza. Baño privado y espacio adaptable a diferentes giros comerciales.",
           floorSize: { "@type": "QuantitativeValue", value: 50, unitCode: "MTK" },
-          offers: { "@type": "Offer", price: 11300, priceCurrency: "MXN", availability: "https://schema.org/InStock" },
+          offers: { "@type": "Offer", price: 8500, priceCurrency: "MXN", availability: "https://schema.org/InStock" },
           address: {
             "@type": "PostalAddress",
             streetAddress: "Plaza Hípico, junto al Súper Carranza",
@@ -103,7 +103,7 @@ export default function HipicoLocal3() {
                 <MapPin className="w-4 h-4 shrink-0" /> Plaza Hípico, junto al Súper Carranza · Veracruz
               </p>
               <div className="mt-5 flex flex-wrap items-end gap-x-3 gap-y-1">
-                <span className="text-3xl md:text-4xl font-extrabold text-accent">$11,300</span>
+                <span className="text-3xl md:text-4xl font-extrabold text-accent">$8,500</span>
                 <span className="text-primary-foreground/80 text-sm md:text-base pb-1">MXN / mes · 50 m²</span>
                 <SharePropertyButton
                   title="Local 3 en renta — Plaza Hípico | DEVERI"
@@ -225,10 +225,10 @@ export default function HipicoLocal3() {
             <div className="rounded-2xl border bg-card p-6 shadow-lg">
               <p className="text-sm text-muted-foreground">Renta mensual</p>
               <p className="text-3xl font-extrabold text-foreground">
-                $11,300 <span className="text-base font-medium text-muted-foreground">MXN</span>
+                $8,500 <span className="text-base font-medium text-muted-foreground">MXN</span>
               </p>
               <p className="mt-1 text-sm text-muted-foreground">
-                + $600 MXN de agua · total $11,900 MXN al mes
+                + $600 MXN de agua · total $9,100 MXN al mes
               </p>
 
               <div className="mt-5 space-y-2 text-sm text-muted-foreground border-t pt-5">
