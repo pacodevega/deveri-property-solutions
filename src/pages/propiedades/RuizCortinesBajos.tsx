@@ -17,7 +17,6 @@ import {
   CheckCircle2,
   X,
   ArrowUpRight,
-  Sun,
 } from "lucide-react";
 
 import fachada from "@/assets/propiedades/bajos-fachada.jpg";
@@ -38,10 +37,10 @@ const PHONE = "522296840727";
 const wa = (text: string) => `https://wa.me/${PHONE}?text=${encodeURIComponent(text)}`;
 
 const WHATSAPP_BAJOS = wa(
-  "Hola, estoy interesado en el local comercial en renta Ruiz Cortines Bajos (planta baja, 220 m², $53,500 MXN mensuales más $1,500 de agua) sobre Av. Ruiz Cortines, Boca del Río. ¿Me pueden dar más información?"
+  "Hola, vi el local comercial Ruiz Cortines Bajos en Av. Ruiz Cortines (planta baja, 220 m²) y veo que ya está rentado. ¿Tienen otra propiedad similar disponible en la zona?"
 );
-const WHATSAPP_JUNTOS = wa(
-  "Hola, me interesa rentar Ruiz Cortines Bajos y Ruiz Cortines Altos juntos (planta baja de 220 m² + planta alta de 180 m² = 400 m², precio especial de $76,000 MXN mensuales) en Av. Ruiz Cortines, Boca del Río. ¿Me pueden dar más información?"
+const WHATSAPP_ALTOS = wa(
+  "Hola, me interesa el local comercial en planta alta Ruiz Cortines Altos (180 m², $30,900 MXN mensuales más $1,100 de agua) sobre Av. Ruiz Cortines, Boca del Río. ¿Me pueden dar más información?"
 );
 const MAPS_URL = "https://maps.app.goo.gl/dFTJ4uaSY8tGbQX99?g_st=ac";
 
@@ -117,15 +116,21 @@ export default function RuizCortinesBajos() {
   return (
     <>
       <SEOHead
-        title="Local comercial en renta planta baja Av. Ruiz Cortines, Boca del Río | 220 m² | DEVERI"
-        description="Local comercial en renta en planta baja sobre Av. Ruiz Cortines, Boca del Río. 220 m² por $53,500 MXN mensuales más $1,500 de agua (total $55,000), baños de hombres y mujeres, zona de caja, privado climatizado, 4 aires acondicionados y bodega, con acceso a pie de calle. Opción de 400 m² con la planta alta por $76,000 MXN."
+        title="Local comercial en Av. Ruiz Cortines, Boca del Río | 220 m² | DEVERI"
+        description="Local comercial de 220 m² en planta baja sobre Av. Ruiz Cortines, Boca del Río, ya rentado. Baños de hombres y mujeres, zona de caja, privado climatizado, 4 aires acondicionados y bodega, con acceso a pie de calle. Escríbenos para ver opciones similares disponibles."
         jsonLd={{
           "@context": "https://schema.org",
           "@type": "RealEstateListing",
-          name: "Ruiz Cortines Bajos — Local comercial en renta",
+          name: "Ruiz Cortines Bajos — Local comercial",
           description:
-            "Local comercial de 220 m² en planta baja sobre Avenida Ruiz Cortines, Boca del Río. Renta $53,500 MXN mensuales más $1,500 de agua (total $55,000). Baño de hombres con mingitorios, baño de mujeres, zona de caja, privado climatizado, 4 aires acondicionados y cuarto bodega, con acceso a pie de calle.",
+            "Local comercial de 220 m² en planta baja sobre Avenida Ruiz Cortines, Boca del Río. Propiedad rentada recientemente. Baño de hombres con mingitorios, baño de mujeres, zona de caja, privado climatizado, 4 aires acondicionados y cuarto bodega, con acceso a pie de calle.",
           floorSize: { "@type": "QuantitativeValue", value: 220, unitCode: "MTK" },
+          offers: {
+            "@type": "Offer",
+            price: 55000,
+            priceCurrency: "MXN",
+            availability: "https://schema.org/SoldOut",
+          },
           address: {
             "@type": "PostalAddress",
             streetAddress: "Avenida Ruiz Cortines",
@@ -143,8 +148,8 @@ export default function RuizCortinesBajos() {
           <div className="absolute inset-0 bg-gradient-to-t from-primary/95 via-primary/50 to-primary/20" />
           <div className="absolute inset-x-0 bottom-0">
             <div className="container-narrow px-4 pb-8 md:pb-12 text-primary-foreground">
-              <span className="inline-flex items-center gap-2 rounded-full bg-accent px-3 py-1 text-xs font-semibold uppercase tracking-wide text-accent-foreground">
-                En renta
+              <span className="inline-flex items-center gap-2 rounded-full bg-destructive px-3 py-1 text-xs font-semibold uppercase tracking-wide text-destructive-foreground">
+                Rentada
               </span>
               <h1 className="mt-4 text-2xl sm:text-3xl md:text-5xl font-extrabold leading-tight max-w-3xl">
                 Ruiz Cortines Bajos — Local comercial en Boca del Río
@@ -157,7 +162,7 @@ export default function RuizCortinesBajos() {
                   220 m² · planta baja
                 </span>
                 <span className="text-primary-foreground/80 text-sm md:text-base pb-1">
-                  Renta: $53,500 MXN / mes + $1,500 de agua · total $55,000 · ambas plantas $76,000
+                  Renta: $53,500 MXN / mes + $1,500 de agua · total $55,000 · 220 m² · planta baja
                 </span>
                 <SharePropertyButton
                   title="Ruiz Cortines Bajos — Local comercial en renta | DEVERI"
@@ -304,31 +309,29 @@ export default function RuizCortinesBajos() {
               </Button>
             </a>
 
-            {/* Combo */}
+            {/* Planta alta disponible */}
             <div className="mt-14 rounded-2xl border-2 border-accent/40 bg-accent/5 p-6 md:p-8">
               <p className="text-xs font-semibold uppercase tracking-wide text-accent">
-                Opción recomendada
+                Disponible en el mismo inmueble
               </p>
               <h2 className="mt-2 text-2xl md:text-3xl font-extrabold text-foreground">
-                Rentar junto con Ruiz Cortines Altos
+                Ruiz Cortines Altos — planta alta de 180 m²
               </h2>
               <p className="mt-3 text-muted-foreground leading-relaxed">
-                Esta planta baja también puede rentarse en conjunto con la planta alta de{" "}
-                <strong className="text-foreground">180 m²</strong>, sumando un total de{" "}
-                <strong className="text-foreground">400 m²</strong>. Ideal para negocios que
-                requieren mayor espacio y presencia comercial sobre la principal avenida de Boca del
-                Río.
+                La planta baja ya está rentada, pero la{" "}
+                <strong className="text-foreground">planta alta de 180 m²</strong> sobre este mismo
+                inmueble sigue disponible, con baños, privado, bodega y terraza.
               </p>
               <p className="mt-4 text-3xl font-extrabold text-foreground">
-                $76,000{" "}
+                $30,900{" "}
                 <span className="text-base font-medium text-muted-foreground">
-                  MXN / mes por ambas plantas
+                  MXN / mes + $1,100 de agua · total $32,000
                 </span>
               </p>
               <div className="mt-6 flex flex-col sm:flex-row gap-3">
-                <a href={WHATSAPP_JUNTOS} target="_blank" rel="noopener noreferrer">
+                <a href={WHATSAPP_ALTOS} target="_blank" rel="noopener noreferrer">
                   <Button variant="cta" size="lg" className="w-full sm:w-auto h-auto min-h-12 whitespace-normal py-3">
-                    <MessageCircle className="w-5 h-5" /> Me interesan ambas plantas (400 m²)
+                    <MessageCircle className="w-5 h-5" /> Me interesa la planta alta
                   </Button>
                 </a>
                 <Link to="/propiedades/ruiz-cortines-altos">
@@ -351,8 +354,8 @@ export default function RuizCortinesBajos() {
               <p className="mt-1 text-sm text-muted-foreground">
                 + $1,500 MXN de agua · total $55,000 MXN / mes
               </p>
-              <p className="mt-1 text-sm text-muted-foreground">
-                Ambas plantas (400 m²): $76,000 MXN / mes
+              <p className="mt-4 inline-flex rounded-full bg-destructive/10 text-destructive text-xs font-semibold px-3 py-1">
+                Propiedad rentada
               </p>
 
               <div className="mt-5 space-y-2 text-sm text-muted-foreground border-t pt-5">
@@ -378,12 +381,7 @@ export default function RuizCortinesBajos() {
 
               <a href={WHATSAPP_BAJOS} target="_blank" rel="noopener noreferrer" className="block mt-6">
                 <Button variant="cta" size="lg" className="w-full h-auto min-h-12 whitespace-normal py-3">
-                  <MessageCircle className="w-5 h-5" /> Me interesa esta propiedad
-                </Button>
-              </a>
-              <a href={WHATSAPP_JUNTOS} target="_blank" rel="noopener noreferrer" className="block mt-3">
-                <Button variant="outline" size="lg" className="w-full h-auto min-h-12 whitespace-normal py-3">
-                  <Sun className="w-5 h-5" /> Rentar ambas plantas
+                  <MessageCircle className="w-5 h-5" /> Ver otras propiedades disponibles
                 </Button>
               </a>
               <Link to="/propiedades/ruiz-cortines-altos" className="block mt-3">
@@ -400,7 +398,7 @@ export default function RuizCortinesBajos() {
                 label="Compartir propiedad"
               />
               <p className="mt-3 text-xs text-muted-foreground text-center">
-                Te respondemos por WhatsApp y agendamos tu visita.
+                Esta propiedad ya fue rentada. Escríbenos para ver opciones similares.
               </p>
             </div>
           </aside>
@@ -410,14 +408,16 @@ export default function RuizCortinesBajos() {
       {/* Final CTA */}
       <section className="section-padding" style={{ background: "var(--hero-gradient)" }}>
         <div className="container-narrow text-center text-primary-foreground">
-          <h2 className="text-2xl md:text-4xl font-extrabold">¿Quieres agendar una visita?</h2>
+          <h2 className="text-2xl md:text-4xl font-extrabold">
+            ¿Buscas un local sobre Avenida Ruiz Cortines?
+          </h2>
           <p className="mt-3 text-primary-foreground/80 max-w-xl mx-auto">
-            Escríbenos y te damos disponibilidad, condiciones de contrato y todos los detalles del
-            local.
+            Esta planta baja ya está rentada. Escríbenos y te compartimos las opciones disponibles
+            en la zona, incluida la planta alta de este mismo inmueble.
           </p>
           <a href={WHATSAPP_BAJOS} target="_blank" rel="noopener noreferrer" className="block sm:inline-block mt-7">
             <Button variant="cta" size="lg" className="w-full sm:w-auto h-auto min-h-12 whitespace-normal py-3">
-              <MessageCircle className="w-5 h-5" /> Me interesa esta propiedad
+              <MessageCircle className="w-5 h-5" /> Ver otras propiedades disponibles
             </Button>
           </a>
         </div>
