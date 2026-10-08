@@ -15,7 +15,7 @@ Requisitos aplicables a todas las propiedades:
 - URL: /propiedades/ruiz-cortines-altos
 - Estado: Disponible
 - Tipo: Local comercial · Operación: Renta
-- Precio: $30,900 MXN (mensuales + $1,100 de agua · total $32,000)
+- Precio: $27,000 MXN (mensuales + $1,000 de agua · total $28,000)
 - Superficie: 180 m²
 - Ubicación: Av. Ruiz Cortines, Boca del Río
 
