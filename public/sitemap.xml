@@ -61,6 +61,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>/propiedades/hipico-local-6</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>/propiedades/avenida-palmeras</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
