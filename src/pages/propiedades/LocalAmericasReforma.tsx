@@ -63,7 +63,7 @@ export default function LocalAmericasReforma() {
               <div className="mt-5 flex flex-wrap items-center gap-3">
                 <span className="text-3xl md:text-4xl font-extrabold text-accent">$13,300</span>
                 <span className="text-primary-foreground/80 text-sm md:text-base">MXN / mes + $600 de agua · total $13,900 · 50 m²</span>
-                <SharePropertyButton title={`${NAME} | DEVERI`} text="Local de 50 m² con un baño en Reforma, ya rentado en $13,900 MXN." variant="outline-light" size="sm" />
+                <SharePropertyButton title={`${NAME} | DEVERI`} text="Local de 50 m² con un baño en Reforma, ya rentado en $13,300 de renta más $600 de agua." variant="outline-light" size="sm" />
               </div>
             </div>
           </div>
