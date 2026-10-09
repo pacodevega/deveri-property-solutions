@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { ArrowLeft, ArrowRight, ArrowUpRight, Bath, Building2, CheckCircle2, MapPin, MessageCircle, Ruler } from "lucide-react";
+import { ArrowLeft, ArrowRight, ArrowUpRight, Bath, Building2, CheckCircle2, Droplets, MapPin, MessageCircle, Ruler } from "lucide-react";
 import SEOHead from "@/components/SEOHead";
 import SharePropertyButton from "@/components/SharePropertyButton";
 import PropertyRequirements from "@/components/PropertyRequirements";
@@ -15,7 +15,7 @@ import interior4 from "@/assets/propiedades/local-americas-66.png.asset.json";
 const NAME = "Local en Avenida de las Américas, Reforma";
 const MAPS_URL = "https://maps.app.goo.gl/kSoWDYhm6JBi8Cp4A";
 const WHATSAPP_URL = `https://wa.me/522296840727?text=${encodeURIComponent(
-  "Hola, vi el local de 50 m² en Avenida de las Américas, Reforma, ya rentado en $13,900 MXN. ¿Tienen otros locales disponibles similares?"
+  "Hola, vi el local de 50 m² en Avenida de las Américas, Reforma, ya rentado en $13,300 MXN de renta más $600 de agua. ¿Tienen otros locales disponibles similares?"
 )}`;
 const photos = [
   { src: fachada.url, alt: "Fachada del local en Avenida de las Américas, Reforma, Veracruz" },
@@ -27,6 +27,7 @@ const photos = [
 const specs = [
   { icon: Ruler, label: "Superficie", value: "50 m²" },
   { icon: Bath, label: "Baños", value: "1 baño" },
+  { icon: Droplets, label: "Agua", value: "$600 MXN / mes" },
   { icon: Building2, label: "Tipo", value: "Local comercial" },
   { icon: MapPin, label: "Ubicación", value: "Reforma, Veracruz" },
 ];
@@ -39,14 +40,14 @@ export default function LocalAmericasReforma() {
     <>
       <SEOHead
         title={`${NAME} | 50 m² | Rentada | DEVERI`}
-        description="Local comercial en Avenida de las Américas, colonia Reforma, Veracruz: 50 m² y un baño. Ya rentado en $13,900 MXN mensuales. Consulta otras propiedades con DEVERI."
+        description="Local comercial en Avenida de las Américas, colonia Reforma, Veracruz: 50 m² y un baño. Ya rentado en $13,300 MXN de renta más $600 de agua. Consulta otras propiedades con DEVERI."
         image={fachada.url}
         jsonLd={{
           "@context": "https://schema.org", "@type": "RealEstateListing", name: NAME,
-          description: "Local comercial de 50 m² con un baño en Avenida de las Américas, Reforma, Veracruz. Propiedad ya rentada en $13,900 MXN mensuales.",
+          description: "Local comercial de 50 m² con un baño en Avenida de las Américas, Reforma, Veracruz. Propiedad ya rentada en $13,300 MXN de renta más $600 MXN de agua.",
           image: photos.map((photo) => photo.src),
           floorSize: { "@type": "QuantitativeValue", value: 50, unitCode: "MTK" },
-          offers: { "@type": "Offer", price: 13900, priceCurrency: "MXN", availability: "https://schema.org/SoldOut" },
+          offers: { "@type": "Offer", price: 13300, priceCurrency: "MXN", availability: "https://schema.org/SoldOut" },
           address: { "@type": "PostalAddress", streetAddress: "Avenida de las Américas, colonia Reforma", addressLocality: "Veracruz", addressRegion: "Veracruz", addressCountry: "MX" },
         }}
       />
@@ -60,8 +61,8 @@ export default function LocalAmericasReforma() {
               <h1 className="mt-4 text-3xl md:text-5xl font-extrabold leading-tight max-w-3xl">{NAME}</h1>
               <p className="mt-3 flex items-start gap-2 text-primary-foreground/85 text-sm md:text-base"><MapPin className="w-4 h-4 shrink-0 mt-1" /> Avenida de las Américas, colonia Reforma · Veracruz</p>
               <div className="mt-5 flex flex-wrap items-center gap-3">
-                <span className="text-3xl md:text-4xl font-extrabold text-accent">$13,900</span>
-                <span className="text-primary-foreground/80 text-sm md:text-base">MXN / mes · 50 m²</span>
+                <span className="text-3xl md:text-4xl font-extrabold text-accent">$13,300</span>
+                <span className="text-primary-foreground/80 text-sm md:text-base">MXN / mes + $600 de agua · total $13,900 · 50 m²</span>
                 <SharePropertyButton title={`${NAME} | DEVERI`} text="Local de 50 m² con un baño en Reforma, ya rentado en $13,900 MXN." variant="outline-light" size="sm" />
               </div>
             </div>
@@ -87,10 +88,10 @@ export default function LocalAmericasReforma() {
             </div>
             <h2 className="mt-10 text-2xl md:text-3xl font-extrabold text-foreground">Sobre esta propiedad</h2>
             <p className="mt-4 text-muted-foreground leading-relaxed">Local comercial sobre <strong className="text-foreground">Avenida de las Américas, colonia Reforma, Veracruz</strong>, con <strong className="text-foreground">50 m² y un baño</strong>. Sus fotografías muestran un espacio abierto con piso de loseta y ventanales hacia la calle.</p>
-            <p className="mt-4 text-muted-foreground leading-relaxed">Este local ya fue rentado en <strong className="text-foreground">$13,900 MXN mensuales</strong> y no está disponible actualmente.</p>
+            <p className="mt-4 text-muted-foreground leading-relaxed">Este local ya fue rentado en <strong className="text-foreground">$13,300 MXN de renta más $600 MXN de agua (total $13,900 MXN mensuales)</strong> y no está disponible actualmente.</p>
             <h2 className="mt-10 text-2xl md:text-3xl font-extrabold text-foreground">Características</h2>
             <ul className="mt-5 grid sm:grid-cols-2 gap-3">
-              {["50 m² de superficie", "Un baño", "Local comercial", "Avenida de las Américas, Reforma"].map((item) => <li key={item} className="flex items-start gap-3 text-muted-foreground"><CheckCircle2 className="w-5 h-5 text-accent shrink-0" /><span>{item}</span></li>)}
+              {["50 m² de superficie", "Un baño", "Agua: $600 MXN / mes", "Local comercial", "Avenida de las Américas, Reforma"].map((item) => <li key={item} className="flex items-start gap-3 text-muted-foreground"><CheckCircle2 className="w-5 h-5 text-accent shrink-0" /><span>{item}</span></li>)}
             </ul>
             <PropertyRequirements />
             <h2 className="mt-14 text-2xl md:text-3xl font-extrabold text-foreground">Video</h2>
@@ -119,7 +120,8 @@ export default function LocalAmericasReforma() {
           <aside className="lg:sticky lg:top-24 w-full min-w-0">
             <div className="rounded-lg border bg-card p-6 shadow-lg">
               <p className="text-sm text-muted-foreground">Rentado en</p>
-              <p className="text-3xl font-extrabold text-foreground">$13,900 <span className="text-base font-medium text-muted-foreground">MXN / mes</span></p>
+              <p className="text-3xl font-extrabold text-foreground">$13,300 <span className="text-base font-medium text-muted-foreground">MXN</span></p>
+              <p className="mt-1 text-sm text-muted-foreground">+ $600 MXN de agua · total $13,900 MXN al mes</p>
               <p className="mt-2 text-sm font-semibold text-destructive">Propiedad rentada</p>
               <div className="mt-5 space-y-3 text-sm text-muted-foreground border-t pt-5">
                 {specs.map((spec) => <div key={spec.label} className="flex justify-between gap-3"><span>{spec.label}</span><span className="font-medium text-foreground text-right">{spec.value}</span></div>)}
