@@ -46,6 +46,17 @@ Local de 45 m² en Plaza Hípico, junto al Súper Carranza. Baño privado y espa
 
 ## Rentadas recientemente
 
+### Local en Avenida de las Américas, Reforma
+
+- URL: /propiedades/local-americas-reforma
+- Estado: Rentada recientemente (no disponible)
+- Tipo: Local comercial · Operación: Renta
+- Precio: $13,900 MXN (mensuales · precio de renta de referencia)
+- Superficie: 50 m²
+- Ubicación: Avenida de las Américas, colonia Reforma, Veracruz
+
+Local comercial de 50 m² con un baño sobre Avenida de las Américas, colonia Reforma. Ya rentado en $13,900 MXN mensuales.
+
 ### Local comercial Av. Yáñez
 
 - URL: /propiedades/yanez-d

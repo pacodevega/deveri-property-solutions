@@ -25,6 +25,7 @@ const entries = [
   { path: "/propiedades/grijalva-reforma", changefreq: "monthly", priority: "0.5" },
   { path: "/propiedades/poniente-3", changefreq: "monthly", priority: "0.5" },
   { path: "/propiedades/americas-reforma", changefreq: "monthly", priority: "0.5" },
+  { path: "/propiedades/local-americas-reforma", changefreq: "monthly", priority: "0.5" },
   { path: "/propiedades/avenida-victoria-depto-3", changefreq: "monthly", priority: "0.5" },
   { path: "/propiedades/orizaba-tampiquera", changefreq: "monthly", priority: "0.5" },
   { path: "/propiedades/casa-orizaba", changefreq: "monthly", priority: "0.5" },

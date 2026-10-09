@@ -7,6 +7,7 @@ import palmerasFachada from "@/assets/propiedades/palmeras-1.jpg";
 import grijalvaFachada from "@/assets/propiedades/grijalva-2.jpg";
 import ponienteFachada from "@/assets/propiedades/poniente-1.jpg";
 import americasFachada from "@/assets/propiedades/americas-1.jpg";
+import localAmericasFachada from "@/assets/propiedades/local-americas-62.png.asset.json";
 import maestroFachada from "@/assets/propiedades/maestro-1.jpg";
 import orizabaFachada from "@/assets/propiedades/orizaba-1.jpg";
 import casaOrizabaFachada from "@/assets/propiedades/casa-orizaba-1.jpg";
@@ -32,6 +33,22 @@ export type Propiedad = {
 };
 
 export const propiedades: Propiedad[] = [
+  {
+    slug: "local-americas-reforma",
+    nombre: "Local en Avenida de las Américas, Reforma",
+    tipo: "Local comercial",
+    operacion: "Renta",
+    precio: "$13,900 MXN",
+    precioNota: "mensuales · precio de renta de referencia",
+    superficie: "50 m²",
+    ubicacion: "Avenida de las Américas, colonia Reforma",
+    ciudad: "Veracruz",
+    resumen: "Local comercial de 50 m² con un baño sobre Avenida de las Américas, colonia Reforma. Ya rentado en $13,900 MXN mensuales.",
+    destacados: ["50 m²", "Un baño", "Colonia Reforma"],
+    imagen: localAmericasFachada.url,
+    imagenAlt: "Fachada del local en Avenida de las Américas, Reforma, Veracruz",
+    disponible: false,
+  },
   {
     slug: "yanez-d",
     nombre: "Local comercial Av. Yáñez",
