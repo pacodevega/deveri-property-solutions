@@ -35,11 +35,11 @@ curl -sL https://<dominio>/md/propiedades.md
 Respuesta esperada de `/md/propiedades.md` (extracto):
 
 ```markdown
-### Local comercial Av. Yáñez
+### Local en Avenida de las Américas, Reforma
 
-- URL: /propiedades/yanez-d
+- URL: /propiedades/local-americas-reforma
 - Estado: Rentada recientemente (no disponible)
-- Precio: $7,320 MXN
+- Precio: $13,900 MXN
 ```
 
 ## Autenticación
