@@ -178,6 +178,18 @@ export default function HipicoLocal6() {
 
             <PropertyRequirements />
 
+            <h2 className="mt-14 text-2xl md:text-3xl font-extrabold text-foreground">Video</h2>
+            <div className="mt-5 relative w-full overflow-hidden rounded-2xl border bg-muted aspect-video">
+              <iframe
+                src="https://www.youtube.com/embed/jTU7kjrnMjo"
+                title="Recorrido en video del local 6 en Plaza Hípico, Veracruz"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+                loading="lazy"
+                className="absolute inset-0 h-full w-full"
+              />
+            </div>
+
             <h2 className="mt-14 text-2xl md:text-3xl font-extrabold text-foreground">Fotos</h2>
             <div className="mt-5 grid grid-cols-2 md:grid-cols-3 gap-3">
               {photos.map((p, idx) => (
