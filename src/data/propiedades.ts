@@ -2,6 +2,7 @@ import fachada from "@/assets/propiedades/yanez-fachada.jpg";
 import ruizCortines from "@/assets/propiedades/ruiz-cortines-fachada.jpg";
 import ruizCortinesBajos from "@/assets/propiedades/bajos-fachada.jpg";
 import hipicoFachada from "@/assets/propiedades/hipico-fachada.jpg";
+import hipicoLocal6Fachada from "@/assets/propiedades/hipico-local-6-60.png.asset.json";
 import palmerasFachada from "@/assets/propiedades/palmeras-1.jpg";
 import grijalvaFachada from "@/assets/propiedades/grijalva-2.jpg";
 import ponienteFachada from "@/assets/propiedades/poniente-1.jpg";
@@ -104,6 +105,23 @@ export const propiedades: Propiedad[] = [
   },
   {
 
+    slug: "hipico-local-6",
+    nombre: "Plaza Hípico — Local 6",
+    tipo: "Local comercial",
+    operacion: "Renta",
+    precio: "$8,500 MXN",
+    precioNota: "mensuales + $600 de agua · total $9,100",
+    superficie: "45 m²",
+    ubicacion: "Plaza Hípico, junto al Súper Carranza",
+    ciudad: "Veracruz",
+    resumen:
+      "Local de 45 m² en Plaza Hípico, junto al Súper Carranza. Baño privado y espacio funcional adaptable a diferentes giros comerciales.",
+    destacados: ["Junto al Súper Carranza", "Baño privado", "Conexión 220V", "Adaptable"],
+    imagen: hipicoLocal6Fachada.url,
+    imagenAlt: "Fachada del Local 6 en renta en Plaza Hípico, Veracruz",
+    disponible: true,
+  },
+  {
     slug: "avenida-palmeras",
     nombre: "Local comercial Avenida Palmeras",
     tipo: "Local comercial",
