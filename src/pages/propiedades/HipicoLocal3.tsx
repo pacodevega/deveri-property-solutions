@@ -74,7 +74,7 @@ export default function HipicoLocal3() {
           name: "Local 3 en renta — Plaza Hípico",
           description:
             "Local comercial de 48 m² en Plaza Hípico, junto al Súper Carranza. Baño privado y espacio adaptable a diferentes giros comerciales.",
-          floorSize: { "@type": "QuantitativeValue", value: 50, unitCode: "MTK" },
+          floorSize: { "@type": "QuantitativeValue", value: 48, unitCode: "MTK" },
           offers: { "@type": "Offer", price: 8500, priceCurrency: "MXN", availability: "https://schema.org/InStock" },
           address: {
             "@type": "PostalAddress",
