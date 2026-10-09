@@ -1,0 +1,2 @@
+## Property listings
+- Keep each property's detail page registered in `src/App.tsx` and its catalog entry in `src/data/propiedades.ts`; the static discovery generators derive published property links from these sources.
