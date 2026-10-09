@@ -91,11 +91,11 @@ export const propiedades: Propiedad[] = [
     operacion: "Renta",
     precio: "$8,500 MXN",
     precioNota: "mensuales + $600 de agua · total $9,100",
-    superficie: "50 m²",
+    superficie: "48 m²",
     ubicacion: "Plaza Hípico, junto al Súper Carranza",
     ciudad: "Veracruz",
     resumen:
-      "Local de 50 m² en Plaza Hípico, junto al Súper Carranza. Baño privado y espacio funcional adaptable a diferentes giros comerciales.",
+      "Local de 48 m² en Plaza Hípico, junto al Súper Carranza. Baño privado y espacio funcional adaptable a diferentes giros comerciales.",
     destacados: ["Junto al Súper Carranza", "Baño privado", "Conexión 220V", "Adaptable"],
     imagen: hipicoFachada,
     imagenAlt:

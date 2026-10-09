@@ -25,19 +25,19 @@ import bano from "@/assets/propiedades/hipico-bano.jpg";
 
 const PHONE = "522296840727";
 const WHATSAPP_URL = `https://wa.me/${PHONE}?text=${encodeURIComponent(
-  "Hola, estoy interesado en el Local 3 de Plaza Hípico (50 m², $8,500 MXN + $600 de agua). ¿Me pueden dar más información?"
+  "Hola, estoy interesado en el Local 3 de Plaza Hípico (48 m², $8,500 MXN + $600 de agua). ¿Me pueden dar más información?"
 )}`;
 const MAPS_URL = "https://maps.app.goo.gl/qqBjPFQHyDFdWEj46?g_st=ac";
 
 const photos = [
   { src: fachada, alt: "Fachada del local comercial en renta en Plaza Hípico, junto al Súper Carranza" },
   { src: interior1, alt: "Interior del local 3 de Plaza Hípico con ventanales hacia la calle" },
-  { src: interior2, alt: "Vista interior del local de 50 m² en Plaza Hípico" },
+  { src: interior2, alt: "Vista interior del local de 48 m² en Plaza Hípico" },
   { src: bano, alt: "Baño privado dentro del local comercial de Plaza Hípico" },
 ];
 
 const specs = [
-  { icon: Ruler, label: "Superficie", value: "50 m²" },
+  { icon: Ruler, label: "Superficie", value: "48 m²" },
   { icon: Bath, label: "Baño privado", value: "1" },
   { icon: Zap, label: "Instalación eléctrica", value: "Conexión 220V" },
   { icon: Droplets, label: "Agua", value: "$600 MXN / mes" },
@@ -51,7 +51,7 @@ const highlights = [
 ];
 
 const includes = [
-  "50 m² de superficie útil",
+  "48 m² de superficie útil",
   "Baño privado dentro del local",
   "Conexión eléctrica de 220V",
   "Espacio funcional y adaptable a distintos giros",
@@ -66,15 +66,15 @@ export default function HipicoLocal3() {
   return (
     <>
       <SEOHead
-        title="Local en renta en Plaza Hípico, Veracruz | 50 m² | DEVERI"
-        description="Local comercial en renta en Plaza Hípico, junto al Súper Carranza. 50 m², baño privado, adaptable a cualquier giro. $8,500 MXN + $600 de agua al mes."
+        title="Local en renta en Plaza Hípico, Veracruz | 48 m² | DEVERI"
+        description="Local comercial en renta en Plaza Hípico, junto al Súper Carranza. 48 m², baño privado, adaptable a cualquier giro. $8,500 MXN + $600 de agua al mes."
         jsonLd={{
           "@context": "https://schema.org",
           "@type": "RealEstateListing",
           name: "Local 3 en renta — Plaza Hípico",
           description:
-            "Local comercial de 50 m² en Plaza Hípico, junto al Súper Carranza. Baño privado y espacio adaptable a diferentes giros comerciales.",
-          floorSize: { "@type": "QuantitativeValue", value: 50, unitCode: "MTK" },
+            "Local comercial de 48 m² en Plaza Hípico, junto al Súper Carranza. Baño privado y espacio adaptable a diferentes giros comerciales.",
+          floorSize: { "@type": "QuantitativeValue", value: 48, unitCode: "MTK" },
           offers: { "@type": "Offer", price: 8500, priceCurrency: "MXN", availability: "https://schema.org/InStock" },
           address: {
             "@type": "PostalAddress",
@@ -104,7 +104,7 @@ export default function HipicoLocal3() {
               </p>
               <div className="mt-5 flex flex-wrap items-end gap-x-3 gap-y-1">
                 <span className="text-3xl md:text-4xl font-extrabold text-accent">$8,500</span>
-                <span className="text-primary-foreground/80 text-sm md:text-base pb-1">MXN / mes · 50 m²</span>
+                <span className="text-primary-foreground/80 text-sm md:text-base pb-1">MXN / mes · 48 m²</span>
                 <SharePropertyButton
                   title="Local 3 en renta — Plaza Hípico | DEVERI"
                   text="Mira este local comercial en renta en Plaza Hípico, junto al Súper Carranza."
@@ -141,7 +141,7 @@ export default function HipicoLocal3() {
           <div className="min-w-0">
             <h2 className="text-2xl md:text-3xl font-extrabold text-foreground">Sobre esta propiedad</h2>
             <p className="mt-4 text-muted-foreground leading-relaxed">
-              Local comercial de <strong className="text-foreground">50 m²</strong> en Plaza Hípico, con ubicación
+              Local comercial de <strong className="text-foreground">48 m²</strong> en Plaza Hípico, con ubicación
               estratégica junto al Súper Carranza. La cercanía con el supermercado genera buena visibilidad y un flujo
               constante de personas durante todo el día.
             </p>
@@ -232,7 +232,7 @@ export default function HipicoLocal3() {
               </p>
 
               <div className="mt-5 space-y-2 text-sm text-muted-foreground border-t pt-5">
-                <div className="flex justify-between gap-3"><span>Superficie</span><span className="font-medium text-foreground">50 m²</span></div>
+                <div className="flex justify-between gap-3"><span>Superficie</span><span className="font-medium text-foreground">48 m²</span></div>
                 <div className="flex justify-between gap-3"><span>Baño</span><span className="font-medium text-foreground">1 privado</span></div>
                 <div className="flex justify-between gap-3"><span>Corriente</span><span className="font-medium text-foreground">220V</span></div>
                 <div className="flex justify-between gap-3"><span>Ubicación</span><span className="font-medium text-foreground text-right">Plaza Hípico</span></div>
