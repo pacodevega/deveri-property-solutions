@@ -36,7 +36,7 @@ Datos clave:
   - [Local comercial Av. Yáñez](/propiedades/yanez-d): Local comercial, $7,320 MXN, rentada.
   - [Ruiz Cortines Altos — Local comercial](/propiedades/ruiz-cortines-altos): Local comercial, $27,000 MXN, disponible.
   - [Ruiz Cortines Bajos — Local comercial](/propiedades/ruiz-cortines-bajos): Local comercial, $53,500 MXN, rentada.
-  - [Plaza Hípico — Local 3](/propiedades/hipico-local-3): Local comercial, $11,300 MXN, disponible.
+  - [Plaza Hípico — Local 3](/propiedades/hipico-local-3): Local comercial, $8,500 MXN, disponible.
   - [Local comercial Avenida Palmeras](/propiedades/avenida-palmeras): Local comercial, $28,100 MXN, rentada.
   - [Local comercial en Grijalva, Reforma](/propiedades/grijalva-reforma): Local comercial, $12,000 MXN, rentada.
   - [Local comercial en Poniente 3](/propiedades/poniente-3): Local comercial, $9,000 MXN, rentada.
