@@ -1,0 +1,2 @@
+## Property listings
+- Register each property's detail page in `src/App.tsx`, its catalog entry in `src/data/propiedades.ts`, and its sitemap route in `scripts/generate-sitemap.mjs`; AI mirrors derive from catalog data while the sitemap uses an explicit route list.

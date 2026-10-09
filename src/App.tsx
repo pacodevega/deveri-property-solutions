@@ -21,6 +21,7 @@ import YanezD from "./pages/propiedades/YanezD";
 import RuizCortinesAltos from "./pages/propiedades/RuizCortinesAltos";
 import RuizCortinesBajos from "./pages/propiedades/RuizCortinesBajos";
 import HipicoLocal3 from "./pages/propiedades/HipicoLocal3";
+import HipicoLocal6 from "./pages/propiedades/HipicoLocal6";
 import AvenidaPalmeras from "./pages/propiedades/AvenidaPalmeras";
 import GrijalvaReforma from "./pages/propiedades/GrijalvaReforma";
 import PonienteTres from "./pages/propiedades/PonienteTres";
@@ -89,6 +90,7 @@ const App = () => (
             <Route path="/propiedades/ruiz-cortines-altos" element={<RuizCortinesAltos />} />
             <Route path="/propiedades/ruiz-cortines-bajos" element={<RuizCortinesBajos />} />
             <Route path="/propiedades/hipico-local-3" element={<HipicoLocal3 />} />
+            <Route path="/propiedades/hipico-local-6" element={<HipicoLocal6 />} />
             <Route path="/propiedades/avenida-palmeras" element={<AvenidaPalmeras />} />
             <Route path="/propiedades/grijalva-reforma" element={<GrijalvaReforma />} />
             <Route path="/propiedades/poniente-3" element={<PonienteTres />} />

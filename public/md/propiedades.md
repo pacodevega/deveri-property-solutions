@@ -32,6 +32,17 @@ Planta alta de 180 m² sobre la principal avenida comercial de Boca del Río. Am
 
 Local de 48 m² en Plaza Hípico, junto al Súper Carranza. Baño privado y espacio funcional adaptable a diferentes giros comerciales.
 
+### Plaza Hípico — Local 6
+
+- URL: /propiedades/hipico-local-6
+- Estado: Disponible
+- Tipo: Local comercial · Operación: Renta
+- Precio: $8,500 MXN (mensuales + $600 de agua · total $9,100)
+- Superficie: 45 m²
+- Ubicación: Plaza Hípico, junto al Súper Carranza, Veracruz
+
+Local de 45 m² en Plaza Hípico, junto al Súper Carranza. Baño privado y espacio funcional adaptable a diferentes giros comerciales.
+
 
 ## Rentadas recientemente
 
