@@ -175,7 +175,7 @@ export default function HipicoLocal3() {
             <h2 className="mt-14 text-2xl md:text-3xl font-extrabold text-foreground">Video</h2>
             <div className="mt-5 relative w-full overflow-hidden rounded-2xl border bg-muted aspect-video">
               <iframe
-                src="https://www.youtube.com/embed/JS5HlMYnIWQ"
+                src="https://www.youtube.com/embed/EjMCKEAY5Qs"
                 title="Recorrido en video del local 3 en Plaza Hípico, Veracruz"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowFullScreen
