@@ -39,7 +39,7 @@ Respuesta esperada de `/md/propiedades.md` (extracto):
 
 - URL: /propiedades/local-americas-reforma
 - Estado: Rentada recientemente (no disponible)
-- Precio: $13,900 MXN
+- Precio: $13,300 MXN
 ```
 
 ## Autenticación

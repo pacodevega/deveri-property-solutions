@@ -33,7 +33,7 @@ Datos clave:
 - [Para agentes de IA (/mcp)](/mcp): capacidades, autenticación, ejemplos y limitaciones.
 - [Servicios](/servicios): índice de los tres servicios principales.
 - [Propiedades](/propiedades): disponibles y rentadas recientemente.
-  - [Local en Avenida de las Américas, Reforma](/propiedades/local-americas-reforma): Local comercial, $13,900 MXN, rentada.
+  - [Local en Avenida de las Américas, Reforma](/propiedades/local-americas-reforma): Local comercial, $13,300 MXN, rentada.
   - [Local comercial Av. Yáñez](/propiedades/yanez-d): Local comercial, $7,320 MXN, rentada.
   - [Ruiz Cortines Altos — Local comercial](/propiedades/ruiz-cortines-altos): Local comercial, $27,000 MXN, disponible.
   - [Ruiz Cortines Bajos — Local comercial](/propiedades/ruiz-cortines-bajos): Local comercial, $53,500 MXN, rentada.
