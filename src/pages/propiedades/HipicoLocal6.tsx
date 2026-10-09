@@ -18,14 +18,14 @@ import {
   ArrowUpRight,
 } from "lucide-react";
 
-import fachadaAsset from "@/assets/propiedades/hipico-local-6-60.png.asset.json";
-import exteriorAsset from "@/assets/propiedades/hipico-local-6-61.png.asset.json";
-import interior1Asset from "@/assets/propiedades/hipico-local-6-56.png.asset.json";
-import interior2Asset from "@/assets/propiedades/hipico-local-6-57.png.asset.json";
-import interior3Asset from "@/assets/propiedades/hipico-local-6-58.png.asset.json";
-import banoAsset from "@/assets/propiedades/hipico-local-6-59.png.asset.json";
+import fachadaAsset from "@/assets/propiedades/hipico-local-6-60.png";
+import exteriorAsset from "@/assets/propiedades/hipico-local-6-61.png";
+import interior1Asset from "@/assets/propiedades/hipico-local-6-56.png";
+import interior2Asset from "@/assets/propiedades/hipico-local-6-57.png";
+import interior3Asset from "@/assets/propiedades/hipico-local-6-58.png";
+import banoAsset from "@/assets/propiedades/hipico-local-6-59.png";
 
-const fachada = fachadaAsset.url;
+const fachada = fachadaAsset;
 
 const PHONE = "522296840727";
 const WHATSAPP_URL = `https://wa.me/${PHONE}?text=${encodeURIComponent(
@@ -35,11 +35,11 @@ const MAPS_URL = "https://maps.app.goo.gl/qqBjPFQHyDFdWEj46?g_st=ac";
 
 const photos = [
   { src: fachada, alt: "Fachada del Local 6 en Plaza Hípico, Veracruz" },
-  { src: exteriorAsset.url, alt: "Vista exterior del Local 6 en Plaza Hípico" },
-  { src: interior1Asset.url, alt: "Interior del Local 6 con mostrador y acceso al baño privado" },
-  { src: interior2Asset.url, alt: "Mostrador y ventanales del Local 6 en Plaza Hípico" },
-  { src: interior3Asset.url, alt: "Espacio comercial de 45 m² del Local 6 en Plaza Hípico" },
-  { src: banoAsset.url, alt: "Baño privado del Local 6 en Plaza Hípico" },
+  { src: exteriorAsset, alt: "Vista exterior del Local 6 en Plaza Hípico" },
+  { src: interior1Asset, alt: "Interior del Local 6 con mostrador y acceso al baño privado" },
+  { src: interior2Asset, alt: "Mostrador y ventanales del Local 6 en Plaza Hípico" },
+  { src: interior3Asset, alt: "Espacio comercial de 45 m² del Local 6 en Plaza Hípico" },
+  { src: banoAsset, alt: "Baño privado del Local 6 en Plaza Hípico" },
 ];
 
 const specs = [

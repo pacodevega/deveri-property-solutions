@@ -2,12 +2,12 @@ import fachada from "@/assets/propiedades/yanez-fachada.jpg";
 import ruizCortines from "@/assets/propiedades/ruiz-cortines-fachada.jpg";
 import ruizCortinesBajos from "@/assets/propiedades/bajos-fachada.jpg";
 import hipicoFachada from "@/assets/propiedades/hipico-fachada.jpg";
-import hipicoLocal6Fachada from "@/assets/propiedades/hipico-local-6-60.png.asset.json";
+import hipicoLocal6Fachada from "@/assets/propiedades/hipico-local-6-60.png";
 import palmerasFachada from "@/assets/propiedades/palmeras-1.jpg";
 import grijalvaFachada from "@/assets/propiedades/grijalva-2.jpg";
 import ponienteFachada from "@/assets/propiedades/poniente-1.jpg";
 import americasFachada from "@/assets/propiedades/americas-1.jpg";
-import localAmericasFachada from "@/assets/propiedades/local-americas-62.png.asset.json";
+import localAmericasFachada from "@/assets/propiedades/local-americas-62.png";
 import maestroFachada from "@/assets/propiedades/maestro-1.jpg";
 import orizabaFachada from "@/assets/propiedades/orizaba-1.jpg";
 import casaOrizabaFachada from "@/assets/propiedades/casa-orizaba-1.jpg";
@@ -45,7 +45,7 @@ export const propiedades: Propiedad[] = [
     ciudad: "Veracruz",
     resumen: "Local comercial de 50 m² con un baño sobre Avenida de las Américas, colonia Reforma. Ya rentado en $13,300 MXN de renta más $600 de agua (total $13,900 mensuales).",
     destacados: ["50 m²", "Un baño", "Colonia Reforma"],
-    imagen: localAmericasFachada.url,
+    imagen: localAmericasFachada,
     imagenAlt: "Fachada del local en Avenida de las Américas, Reforma, Veracruz",
     disponible: false,
   },
@@ -134,7 +134,7 @@ export const propiedades: Propiedad[] = [
     resumen:
       "Local de 45 m² en Plaza Hípico, junto al Súper Carranza. Baño privado y espacio funcional adaptable a diferentes giros comerciales.",
     destacados: ["Junto al Súper Carranza", "Baño privado", "Conexión 220V", "Adaptable"],
-    imagen: hipicoLocal6Fachada.url,
+    imagen: hipicoLocal6Fachada,
     imagenAlt: "Fachada del Local 6 en renta en Plaza Hípico, Veracruz",
     disponible: true,
   },

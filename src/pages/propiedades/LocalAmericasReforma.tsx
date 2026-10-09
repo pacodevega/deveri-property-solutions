@@ -6,11 +6,11 @@ import SharePropertyButton from "@/components/SharePropertyButton";
 import PropertyRequirements from "@/components/PropertyRequirements";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogDescription, DialogTitle } from "@/components/ui/dialog";
-import fachada from "@/assets/propiedades/local-americas-62.png.asset.json";
-import interior1 from "@/assets/propiedades/local-americas-63.png.asset.json";
-import interior2 from "@/assets/propiedades/local-americas-64.png.asset.json";
-import interior3 from "@/assets/propiedades/local-americas-65.png.asset.json";
-import interior4 from "@/assets/propiedades/local-americas-66.png.asset.json";
+import fachada from "@/assets/propiedades/local-americas-62.png";
+import interior1 from "@/assets/propiedades/local-americas-63.png";
+import interior2 from "@/assets/propiedades/local-americas-64.png";
+import interior3 from "@/assets/propiedades/local-americas-65.png";
+import interior4 from "@/assets/propiedades/local-americas-66.png";
 
 const NAME = "Local en Avenida de las Américas, Reforma";
 const MAPS_URL = "https://maps.app.goo.gl/kSoWDYhm6JBi8Cp4A";
@@ -18,11 +18,11 @@ const WHATSAPP_URL = `https://wa.me/522296840727?text=${encodeURIComponent(
   "Hola, vi el local de 50 m² en Avenida de las Américas, Reforma, ya rentado en $13,300 MXN de renta más $600 de agua. ¿Tienen otros locales disponibles similares?"
 )}`;
 const photos = [
-  { src: fachada.url, alt: "Fachada del local en Avenida de las Américas, Reforma, Veracruz" },
-  { src: interior1.url, alt: "Interior del local con piso de loseta y acceso al baño" },
-  { src: interior2.url, alt: "Área interior del local de 50 m² en Avenida de las Américas" },
-  { src: interior3.url, alt: "Vista del espacio comercial y puerta interior" },
-  { src: interior4.url, alt: "Interior del local con ventanales hacia la calle" },
+  { src: fachada, alt: "Fachada del local en Avenida de las Américas, Reforma, Veracruz" },
+  { src: interior1, alt: "Interior del local con piso de loseta y acceso al baño" },
+  { src: interior2, alt: "Área interior del local de 50 m² en Avenida de las Américas" },
+  { src: interior3, alt: "Vista del espacio comercial y puerta interior" },
+  { src: interior4, alt: "Interior del local con ventanales hacia la calle" },
 ];
 const specs = [
   { icon: Ruler, label: "Superficie", value: "50 m²" },
@@ -41,7 +41,7 @@ export default function LocalAmericasReforma() {
       <SEOHead
         title={`${NAME} | 50 m² | Rentada | DEVERI`}
         description="Local comercial en Avenida de las Américas, colonia Reforma, Veracruz: 50 m² y un baño. Ya rentado en $13,300 MXN de renta más $600 de agua. Consulta otras propiedades con DEVERI."
-        image={fachada.url}
+        image={fachada}
         jsonLd={{
           "@context": "https://schema.org", "@type": "RealEstateListing", name: NAME,
           description: "Local comercial de 50 m² con un baño en Avenida de las Américas, Reforma, Veracruz. Propiedad ya rentada en $13,300 MXN de renta más $600 MXN de agua.",
@@ -53,7 +53,7 @@ export default function LocalAmericasReforma() {
       />
       <section className="relative">
         <div className="relative h-[52vh] min-h-[420px] md:h-[68vh] overflow-hidden">
-          <img src={fachada.url} alt={photos[0].alt} className="w-full h-full object-cover" />
+          <img src={fachada} alt={photos[0].alt} className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-t from-primary/95 via-primary/50 to-primary/20" />
           <div className="absolute inset-x-0 bottom-0">
             <div className="container-narrow px-4 pb-8 md:pb-12 text-primary-foreground">
