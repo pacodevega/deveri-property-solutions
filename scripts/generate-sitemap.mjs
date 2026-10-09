@@ -20,6 +20,7 @@ const entries = [
   { path: "/propiedades/ruiz-cortines-altos", changefreq: "weekly", priority: "0.7" },
   { path: "/propiedades/ruiz-cortines-bajos", changefreq: "weekly", priority: "0.7" },
   { path: "/propiedades/hipico-local-3", changefreq: "weekly", priority: "0.7" },
+  { path: "/propiedades/hipico-local-6", changefreq: "weekly", priority: "0.7" },
   { path: "/propiedades/avenida-palmeras", changefreq: "monthly", priority: "0.5" },
   { path: "/propiedades/grijalva-reforma", changefreq: "monthly", priority: "0.5" },
   { path: "/propiedades/poniente-3", changefreq: "monthly", priority: "0.5" },
