@@ -93,6 +93,17 @@ export default function LocalAmericasReforma() {
               {["50 m² de superficie", "Un baño", "Local comercial", "Avenida de las Américas, Reforma"].map((item) => <li key={item} className="flex items-start gap-3 text-muted-foreground"><CheckCircle2 className="w-5 h-5 text-accent shrink-0" /><span>{item}</span></li>)}
             </ul>
             <PropertyRequirements />
+            <h2 className="mt-14 text-2xl md:text-3xl font-extrabold text-foreground">Video</h2>
+            <div className="mt-5 relative w-full overflow-hidden rounded-2xl border bg-muted aspect-video">
+              <iframe
+                src="https://www.youtube.com/embed/NtczImBTL_4"
+                title="Recorrido en video del local en Avenida de las Américas, Reforma, Veracruz"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+                loading="lazy"
+                className="absolute inset-0 h-full w-full"
+              />
+            </div>
             <h2 className="mt-14 text-2xl md:text-3xl font-extrabold text-foreground">Fotos</h2>
             <div className="mt-5 grid grid-cols-2 gap-3">
               {photos.map((photo, index) => (
